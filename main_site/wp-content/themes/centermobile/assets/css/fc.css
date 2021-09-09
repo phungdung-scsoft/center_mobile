@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/*fc*/
+.img_fc{
+  padding-bottom: calc(100%*250/1186);
+  background: url(../img/fc_bg.png);
+}
+
+.partner img{
+  width: 100%;
+}
+
+.partner p{
+  font-size: 14px;
+}
+
+.about_cm{
+  font-size: 14px;
+  text-align: center;
+  margin: 40px;
+}
+
+.about_cm span{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.link_btns2 ul{
+  justify-content: center!important;
+}
+
+.link_btns2 li{
+  margin:0 10px;
+}
+
+.partner_inner{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+img.fc1{
+  width: 50%;
+}
+
+.partner_content{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.partner_txt{
+  padding: 0 20px;
+}
+
+.info_list{
+  display: flex;
+  flex-wrap: wrap;
+  margin:20px 0;
+}
+
+.info_list li{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  width: calc((100% - 40px) / 2);
+  box-sizing: border-box;
+}
+
+.pr_lists.mslider {
+  display: none;
+}
+
+.pr_lists {
+  display: flex;
+}
+
+.pr_lists li{
+  width: calc((100% - 80px) / 4);
+  box-shadow: 0 0 8px #ddd;
+  margin: 10px;
+  padding: 20px 15px;
+  background: #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.pr_lists img {
+  width: 70%!important;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+
+@media screen and (max-width: 1180px) {
+  /* 1024px以下に適用されるCSS（タブレット用） */
+
+  .img_fc {
+    padding-bottom: calc(100%*375/1186);
+    background-size: cover!important;
+  }
+
+  .pr_lists {
+    flex-wrap: wrap;
+  }
+
+  .pr_lists li{
+    width: calc((100% - 40px) / 2);
+  }
+
+}
+
+@media screen and (max-width: 599px) {
+  /* 599px以下に適用されるCSS（スマホ用） */
+
+  .partner_content{
+    display: block;
+  }
+
+  img.fc1{
+    width: 100%;
+  }
+
+  .pr_lists {
+    display: none;
+  }
+
+  .pr_lists.mslider {
+    display: block;
+  }
+
+  .pr_lists .slick-slide {
+    margin: 0 8px;
+  }
+
+  .pr_lists li {
+    margin: 0;
+  }
+
+  ul.slick-dots {
+    display: none!important;
+  }
+
+  .partner_txt{
+    padding: 10px 0;
+  }
+
+  .info_list {
+    display: block;
+  }
+
+  .info_list > li{
+    width: auto;
+    margin: 0 0 20px;
+    box-sizing: border-box;
+  }
+
+}

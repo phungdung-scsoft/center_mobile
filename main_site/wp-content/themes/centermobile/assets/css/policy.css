@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/*policy*/
+.img_policy{
+  padding-bottom: calc(100%*250/1186);
+  background: url(../img/policy_bg.png);
+}
+
+.policy div{
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.policy li {
+  list-style-type: disc;
+  margin-left: 24px;
+  font-size: 14px;
+}
+
+.li_none li{
+  list-style: none;
+  margin: 0;
+}
+
+.policy ol li {
+    list-style-type: decimal;
+    margin-left: 24px;
+    font-size: 14px;
+}
+
+.li_none div{
+  margin-bottom: 20px;
+}
+
+.li_none{
+  margin-top: 20px;
+}
+
+.policy th , .policy td{
+  padding: 2px;
+}
+
+.policy th{
+  text-align: left;
+  padding-right: 10px;
+}
+
+
+@media screen and (max-width: 1180px) {
+  /* 1024px以下に適用されるCSS（タブレット用） */
+  .img_policy {
+    padding-bottom: calc(100%*375/1186);
+    background-size: cover!important;
+  }
+
+  .policy h2{
+    font-size: 14px;
+  }
+
+  .policy th{
+    padding-right: 5px;
+  }
+
+  .policy .template_h3{
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 599px) {
+  /* 599px以下に適用されるCSS（スマホ用） */
+
+
+
+}

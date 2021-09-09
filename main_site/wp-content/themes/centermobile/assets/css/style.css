@@ -1,0 +1,759 @@
+@charset "UTF-8";
+/* A Modern CSS Reset */
+*{
+  margin: 0;
+  padding: 0;
+  color:#303030;
+  font-family: noto-sans-cjk-jp, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.mb-20{
+  margin-bottom: 20px !important;
+}
+.mb-25{
+  margin-bottom: 25px !important;
+}
+.mb-30{
+  margin-bottom: 30px !important;
+}
+
+body{
+  font-size: 16px;
+  background-color: #f3f3f3;
+  -webkit-text-size-adjust: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+section{
+  padding: 40px;
+}
+
+h2{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h3{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+h3 span{
+  font-size: 16px;
+  color: white;
+}
+
+.wrapper{
+  width: 980px;
+  margin:0 auto;
+}
+
+.login_btn{
+  background-color:#1f58a7;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  width: 148px;
+  height: 31px;
+}
+
+.login:before{
+  content:"";
+  background-image: url(../img/logo_maimo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 24px;
+  height: 14px;
+  vertical-align: middle;
+  margin: 0 2px 2px -8px;
+}
+
+.login{
+  position: relative;
+  line-height: 31px;
+  color: white;
+  font-size: 14px;
+}
+
+.login:after{
+  content:"";
+  background: url(../img/arrow_white.png) no-repeat;
+  display: inline-block;
+  height: 11px;
+  padding: 0 4px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+/*plan*/
+.plan_title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan_title img{
+  margin-right: 10px;
+}
+
+.plan_lists li{
+  width: 460px;
+  background-color:rgb(15,33,52,0.6);
+  padding-top: 20px;
+}
+
+.plan_hr{
+  display: block;
+  margin: 20px auto;
+  width: 135px;
+  border-top: 4px solid #fff;
+}
+
+.GB{
+  display: block;
+  width: 100px;
+  background-color: #1f58a7;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.GB span{
+  color: white;
+  font-size: 30px;
+}
+
+.price_list{
+  margin:0 auto 20px auto;
+  border-collapse: separate;
+  border-spacing: 0px 10px;
+}
+
+.price{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.price span{
+  color: white;
+  font-size: 30px;
+}
+
+.plan a{
+  background-color:#1f58a7;
+  display: block;
+  justify-content: center;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  padding: 0 40px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.plan a:after{
+  content:"";
+  background: url(../img/arrow_white.png) no-repeat;
+  display: inline-block;
+  height: 11px;
+  padding: 0 8px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.btn_area{
+  display: block;
+  text-align: center;
+  margin: 40px auto 0;
+}
+
+/*media*/
+.date{
+  font-size: 12px;
+}
+
+/*footer_banner*/
+.footer_banner{
+  padding: 40px;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+
+.footer_banner p{
+  font-size: 14px;
+}
+
+/*footer_menu*/
+.footer_menu{
+  padding: 40px 40px 20px 40px;
+  background-color: #303030;
+}
+
+.link_btns{
+  margin-bottom: 40px;
+}
+
+.link_btns ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.link_btns ul li{
+  width: 280px;
+}
+
+.link_btns a{
+  display: block;
+  color: white;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border:solid 2px #fff;
+  font-size: 18px;
+  position: relative;
+}
+
+
+.link_btns a:after{
+  content:"";
+  background: url(../img/arrow_white.png) no-repeat;
+  display: inline-block;
+  height: 11px;
+  padding: 0 8px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+footer nav ul li a{
+  color:white;
+  font-size:13px;
+}
+
+footer nav ul li:before{
+  content:"";
+  background: url(../img/arrow_white.png) no-repeat;
+  display: inline-block;
+  width: 9px;
+  height: 11px;
+  vertical-align: middle;
+  margin: 0 8px 2px 0;
+}
+
+.footer_menu p{
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.footer_nav{
+  width: 100%;
+  display: flex;
+}
+
+.footer_nav nav{
+  width: 50%;
+}
+
+.footer_nav ul{
+  display: flex;
+  width: 100%;
+}
+
+.footer_nav_m{
+  padding-right: 60px;
+}
+
+.footer_logo{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer_logo img{
+  margin-right: 60px;
+  align-self: center;
+}
+
+/* YouTbe */
+.youtube{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1180px) {
+  /* 1180px以下に適用されるCSS（スマホ・タブレット用） */
+
+  /*========= ナビゲーションのためのCSS ===============*/
+  #g-nav{
+    /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
+    position:fixed;
+    z-index: 999;
+    /*ナビのスタート位置と形状*/
+    top:0;
+    right: -120%;
+    width:100%;
+    height: 100vh;/*ナビの高さ*/
+    background:white;
+    /*動き*/
+    transition: all 0.6s;
+  }
+
+  /*アクティブクラスがついたら位置を0に*/
+  #g-nav.panelactive{
+    right: 0;
+  }
+
+  /*ナビゲーションの縦スクロール*/
+  #g-nav.panelactive #g-nav-list{
+    /*ナビの数が増えた場合縦スクロール*/
+    position: fixed;
+    margin-top: 60px;
+    z-index: 999;
+    width: 100%;
+    height: 100vh;/*表示する高さ*/
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /*ナビゲーション*/
+  #g-nav ul {
+    /*ナビゲーション天地中央揃え*/
+    position: absolute;
+    z-index: 999;
+    top:35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+
+  /*リストのレイアウト設定*/
+  #g-nav li{
+    list-style: none;
+    text-align: center;
+  }
+
+  #g-nav li a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: block;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+  }
+
+  /*========= ボタンのためのCSS ===============*/
+  .openbtn1{
+    position:fixed;
+    z-index: 9999;/*ボタンを最前面に*/
+    top:0px;
+    right: 10px;
+    cursor: pointer;
+    width: 50px;
+    height:50px;
+  }
+
+  /*×に変化*/
+  .openbtn1 span{
+    display: inline-block;
+    transition: all .4s;
+    position: absolute;
+    left: 14px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #f7f7f7;
+    width: 45%;
+  }
+
+  .openbtn1 span:nth-of-type(1) {
+    top:15px;
+  }
+
+  .openbtn1 span:nth-of-type(2) {
+    top:23px;
+  }
+
+  .openbtn1 span:nth-of-type(3) {
+    top:31px;
+  }
+
+  .openbtn1.active span:nth-of-type(1) {
+    top: 18px;
+    left: 18px;
+    transform: translateY(6px) rotate(-45deg);
+    width: 30%;
+  }
+
+  .openbtn1.active span:nth-of-type(2) {
+    opacity: 0;
+  }
+
+  .openbtn1.active span:nth-of-type(3){
+    top: 30px;
+    left: 18px;
+    transform: translateY(-6px) rotate(45deg);
+    width: 30%;
+  }
+
+  .login_btn{
+    width: 180px;
+  }
+
+  .btn_area_nav{
+    margin: 0 auto;
+  }
+
+  /*========= レイアウトのためのCSS ===============*/
+  section{
+    padding: 20px;
+  }
+
+  h1{
+    font-size:1.2rem;
+    text-align: left;
+  }
+
+  h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  h3 span{
+    font-size: 12px;
+  }
+
+  #header{
+    width:100%;
+    height: 52px;
+    background:#1f58a7;
+    color:#fff;
+    text-align: center;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+  }
+
+  header img{
+    height: 42px;
+    padding: 5px 0 5px 10px;
+  }
+
+  .wrapper,
+  .wrapper2 {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  /*plan*/
+  .plan_lists li {
+    width: 100%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  .plan h3:before{
+    background-image: url(../img/icon1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 40px;
+    height: 51px;
+    position: absolute;
+    top: 50%;
+    left: 40px!Important;
+    transform: translateY(-50%);
+  }
+
+  .price{
+    font-size: 14px;
+  }
+
+  .price span{
+    font-size: 20px;
+  }
+
+  .GB{
+    font-size: 14px;
+    width: 70px;
+  }
+
+  .GB span{
+    font-size: 20px;
+  }
+
+  .plan a{
+    width: 235px;
+    padding: 0;
+    font-size: 14px;
+  }
+
+  /*media*/
+  .media_left img{
+    margin: 0 auto 5px;
+  }
+
+  /*footer*/
+  .footer_banner{
+    padding: 40px 20px;
+  }
+
+  .footer_banner img{
+    width: 100%;
+    max-width: 563px;
+  }
+
+  .footer_menu {
+    padding: 40px 20px 20px 20px;
+    background-color: #303030;
+  }
+
+  .footer_nav nav{
+    width: 60%;
+  }
+
+  .footer_logo{
+    width: 40%;
+  }
+
+  .footer_logo img{
+    margin-right: 20px;
+  }
+
+  .footer_logo img:last-child{
+    margin-right: 0;
+  }
+
+  .nav_btn {
+    padding: 0 20px;
+  }
+
+  .link_btns ul {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .link_btns ul li {
+    width: 230px;
+    max-width: calc((100% - 20px) / 3);
+  }
+
+  .link_btns a {
+    color: white;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border: solid 2px #fff;
+    box-sizing: border-box;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .youtube {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  .youtube iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1181px) {
+  /* 1181px以上に適用されるCSS（PC用） */
+  .sp_tab_only,
+  .sp_only{
+    display: none!important;
+  }
+
+  .container{
+    margin-left: 180px;
+  }
+
+  img.menu_logo {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .side_menu{
+    width:180px;
+    height: 100%;
+    padding-top: 20px;
+    background-color: white;
+    border-right: solid 1px #e2e2e2;
+    position: fixed;
+    top:0;
+    left: 0;
+  }
+
+  .side_menu nav{
+    width: 100%;
+    background-color: white;
+  }
+
+  .menu_logo{
+    margin-bottom: 40px;
+  }
+
+  .side_menu nav ul li{
+    padding: 8px 10px;
+  }
+
+  .side_menu nav ul li a{
+    font-size: 14px;
+  }
+
+  nav ul li:before{
+    content:"";
+    background: url(../img/arrow_gray.png) no-repeat;
+    display: inline-block;
+    width: 9px;
+    height: 11px;
+    vertical-align: middle;
+    margin: 0 8px 2px 0;
+  }
+
+  .side_menu .btn_area{
+    margin-top: 20px;
+  }
+
+  /*plan*/
+  .plan_lists{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /*link*/
+  .link ul{
+    display: flex;
+    justify-content:center;
+  }
+
+  /*media*/
+  .media ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .media li {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .media_right {
+    padding: 5px 0 5px 20px;
+  }
+}
+
+@media screen and (min-width:600px) and (max-width:1180px) {
+  /* 1180px以下〜600px以上に適用されるCSS（タブレット用） */
+
+  .pc_only,
+  .sp_only {
+    display: none!important;
+  }
+
+}
+
+@media screen and (max-width: 599px) {
+  /* 480px以下に適用されるCSS（スマホ用） */
+
+  .pc_only{
+    display: none!important;
+  }
+
+  .wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .wrapper2 {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .link_btns ul{
+    display: block;
+  }
+
+  .link_btns ul li{
+    margin: 0px auto 11px auto;
+    text-align: center;
+    max-width: none;
+  }
+
+  /*footer*/
+  .footer_nav{
+    display: block;
+  }
+
+  .footer_nav nav{
+    width: auto;
+  }
+
+  .footer_nav ul{
+    display: flex;
+    width: 100%;
+  }
+
+  .footer_nav_m{
+    width: 285px;
+    margin: 0 auto 40px;
+    padding-right: 0;
+  }
+
+  .footer_logo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .footer_logo img{
+    margin-right: 0;
+    align-self: auto;
+    height: 65px;
+  }
+}

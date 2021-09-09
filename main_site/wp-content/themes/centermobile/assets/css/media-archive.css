@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*media-archive*/
+.wp-show-posts-columns#wpsp-538 .wp-show-posts-inner {
+  margin: 0 0 2em 2em;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 8px #ddd;
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width: 1180px) {
+  /* 1024px以下に適用されるCSS（タブレット用） */
+  h3.wp-show-posts-entry-title a{
+    font-size: 14px!important;
+  }
+
+  h3.wp-show-posts-entry-title {
+    font-size: 14px!important;
+  }
+
+  .wp-show-posts-inner {
+    font-size: 12px!important;
+  }
+
+  .wp-show-posts-columns#wpsp-538 .wp-show-posts-inner{
+    padding: 10px;
+  }
+
+}
+
+@media screen and (max-width: 599px) {
+  /* 599px以下に適用されるCSS（スマホ用） */
+
+
+
+}

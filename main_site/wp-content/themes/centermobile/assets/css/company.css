@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/*company*/
+.img_company{
+  padding-bottom: calc(100%*250/1186);
+  background: url(../img/company_bg.png);
+}
+
+.content_txt p{
+  font-size: 12px;
+}
+
+.content ul li{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.content ul li img{
+  max-width: 50%;
+  margin-right: 20px;
+}
+
+.mission_txt{
+  padding: 20px 0;
+  background: url(../img/mission.png) no-repeat center top / cover;
+}
+
+.mission ol{
+  margin-bottom: 20px;
+}
+
+.mission ol li{
+  text-align: center;
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-top: 10px;
+  font-size: 20px;
+  text-shadow: 2px 2px 3px #000000;
+  color: white;
+}
+
+.mission_txt p{
+  font-size: 14px;
+  text-shadow: 2px 2px 3px #000000;
+  color: white;
+  text-align: center;
+}
+
+.about table{
+  border:1px solid #e2e2e2;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.about th{
+  background-color:#e3f0fb;
+  padding:5px;
+}
+
+.about td{
+  padding:5px;
+}
+
+.about tr{
+  background-color: white;
+}
+
+
+@media screen and (max-width: 1180px) {
+  /* 1024px以下に適用されるCSS（タブレット用） */
+  .img_company {
+    padding-bottom: calc(100%*375/1186);
+    background-size: cover!important;
+  }
+
+  .mission_txt{
+    padding: 20px 10px;
+  }
+
+  .mission ol li{
+    font-size: 16px;
+  }
+
+  .mission_txt p{
+    font-size: 12px;
+  }
+
+  .mission ol li{
+  }
+
+  .about table{
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width: 599px) {
+  /* 599px以下に適用されるCSS（スマホ用） */
+
+  .content ul li{
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .content ul li img{
+    width: 100%;
+    max-width: none;
+    margin: 0 0 10px;
+  }
+
+  .about table{
+    width: 100%;
+  }
+
+  .about table th{
+    display: block;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .about table td{
+    display: block;
+    font-size: 12px;
+  }
+
+}

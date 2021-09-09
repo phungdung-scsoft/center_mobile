@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*coverage*/
+
+
+
+@media screen and (max-width: 1180px) {
+  /* 1024px以下に適用されるCSS（タブレット用） */
+
+}
+
+@media screen and (max-width: 599px) {
+  /* 599px以下に適用されるCSS（スマホ用） */
+
+
+
+}

@@ -1,0 +1,445 @@
+@charset "UTF-8";
+
+.mv_wrapper img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.login_btn_top{
+  background-color:#88bce6;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  width: 264px;
+  height: 60px;
+  position: absolute;
+  top:0;
+  right: 0;
+  z-index: 1000;
+}
+
+.login_top{
+  position: relative;
+  color: white;
+  line-height: 60px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.login_top:before{
+  content:"";
+  background-image: url(../img/logo_maimo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 48px;
+  height: 36px;
+  vertical-align: middle;
+  margin: 0 8px 2px 16px;
+}
+
+/*point*/
+.point{
+  background-color: #0F2134;
+}
+
+.point h2 span{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.point_lists{
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+
+/*news*/
+.news_h2{
+  font-size: 16px;
+  font-weight: normal;
+  background-color: black;
+  text-align: left;
+  margin-bottom: 0;
+  padding: 5px 10px;
+}
+
+.news li{
+  font-size: 12px;
+  padding: 10px;
+  background: white;
+  margin: 2px 0;
+}
+
+.news a{
+  font-size: 14px;
+  display: block;
+  text-decoration-line: underline;
+}
+
+/*plan*/
+.plan{
+  background-image: url(../img/plan2.jpg);
+  background-size: cover;
+}
+
+.plan h2{
+  text-shadow: 1px 1px 6px #808080, 1px 1px 6px #808080, 1px 1px 6px #808080, 1px 1px 6px #808080;
+}
+
+/*link*/
+.link{
+  background-color: #88bce6;
+}
+
+.link ul li{
+  display: table;
+  background-color: #3870aa;
+  width: 235px;
+  height: 235px;
+  margin: 10px;
+}
+
+.link ul li img{
+  display: block;
+  margin:20px auto;
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.link ul li a{
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  display:table-cell;
+  vertical-align:middle;
+}
+
+/*media*/
+.media{
+  background-color: white;
+}
+.media h2{
+  color: #3870aa;
+}
+
+.media h2 a{
+  color: #3870aa;
+  font-weight: bold;
+}
+
+.media p{
+  font-size: 14px;
+}
+
+.media_tlt{
+  color: #1f58a7;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/*apply*/
+.apply_w{
+  background:#1f58a7;
+  background-size: 100%;
+  padding: 50px 0;
+}
+
+.apply_w .apply_txt{
+  background-color:white;
+}
+
+.apply_w .apply_txt p{
+  color:#1f58a7;
+}
+
+.apply_w a{
+  display: inline-block;
+  color: white;
+  width: 281px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  color:#1f58a7;
+  border:solid 2px #1f58a7;
+}
+
+.apply_w a:after{
+  content:"";
+  background: url(../img/arrow_blue.png) no-repeat;
+  display: inline-block;
+  height: 11px;
+  padding: 0 8px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.apply_w .btn_area{
+  margin-top:20px;
+}
+
+.apply{
+  background-image: url(../img/apply.png);
+  background-size: 100%;
+  padding: 50px 0;
+}
+.apply h2{
+  text-shadow: 2px 2px 3px #808080;
+}
+
+.apply_txt{
+  padding: 20px 0;
+  width: 650px;
+  margin:0 auto;
+  background-color: rgb(31,88,167,0.5);
+}
+
+.apply_txt p{
+  text-align: center;
+  color: white;
+}
+
+.apply a{
+  display: inline-block;
+  color: white;
+  width: 281px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border:solid 2px #fff;
+  font-size: 18px;
+  position: relative;
+}
+
+.apply a:after{
+  content:"";
+  background: url(../img/arrow_white.png) no-repeat;
+  display: inline-block;
+  height: 11px;
+  padding: 0 8px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.apply .btn_area{
+  margin-top:20px;
+}
+
+/*maimo*/
+.maimo{
+  background-color: white;
+}
+
+.maimo h2{
+  color: #3870aa;
+}
+
+.maimo h2 span{
+  color: #3870aa;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.maimo_dl{
+  display: flex;
+  justify-content: center;
+}
+
+.maimo_dl img{
+  margin-right: 20px;
+}
+
+.dl_btns{
+  margin-left: 20px;
+}
+
+.maimo .btn_area a{
+  background-color:#1f58a7;
+  display: block;
+  justify-content: center;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  padding: 0 40px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.maimo .btn_area a:after{
+  content:"";
+  background: url(../img/arrow_white.png) no-repeat;
+  display: inline-block;
+  height: 11px;
+  padding: 0 8px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+/* YouTbe */
+.youtube_wrapper h2{
+  color: #3870aa;
+}
+
+
+@media screen and (max-width: 1180px) {
+  /* 1024px以下に適用されるCSS（タブレット用） */
+  .mv_wrapper{
+    margin-top: 52px!important;
+  }
+
+  .wrapper,
+  .wrapper2 {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  /*point*/
+  .point{
+    padding: 20px 10px;
+  }
+
+  .point h2 span{
+    font-size: 30px;
+  }
+
+  .point_lists li{
+    width: calc(100% / 3);
+  }
+
+  .point_lists li img {
+    width: 95%;
+    display: block;
+    margin:0 auto 20px;
+  }
+
+  /*plan*/
+  .plan {
+    background-size:cover;
+    background-position: center;
+  }
+
+  .plan_lists {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .plan_lists li {
+    width: 48%;
+  }
+
+  /*link*/
+  .link ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .link ul li {
+    width: 45%;
+    height: 150px;
+    margin:  10px auto;
+    text-align: center;
+    display: table;
+  }
+
+  .link ul li img{
+    height: 40px;
+    margin: 0 auto 20px;
+  }
+
+  .link ul li a {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    display: table-cell;
+  }
+
+  /*media*/
+  .media .wrapper {
+    width: 60%;
+  }
+
+  /*apply*/
+  .apply_w{
+    padding: 20px 0 50px;
+  }
+  .apply_txt{
+    width: 100%;
+  }
+
+  .apply_txt p{
+    font-size: 14px;
+  }
+
+  .apply a{
+    font-size: 14px;
+    width: 235px;
+    box-sizing: border-box;
+  }
+
+  .apply_w a{
+    font-size: 14px;
+    width: 235px;
+    box-sizing: border-box;
+  }
+
+  .apply {
+    background-image: url(../img/apply.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+  }
+
+  /*maimo*/
+  .maimo_dl {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .maimo_dl img {
+    margin-right: 20px;
+    width: 40%;
+  }
+
+  ul.dl_btns img {
+    width: 100%;
+  }
+
+  .maimo .btn_area a{
+    width: 235px;
+    font-size: 14px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  /* 599px以下に適用されるCSS（スマホ用） */
+
+  /*point*/
+  .point_lists li{
+    width: 50%;
+  }
+
+  /*plan*/
+  .plan_lists {
+    display: block;
+  }
+  .plan_lists li {
+    width: 100%;
+  }
+}
