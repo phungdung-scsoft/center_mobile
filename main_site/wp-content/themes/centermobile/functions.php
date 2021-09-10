@@ -18,18 +18,4 @@ function is404_redirect_home() {
     exit();
   }
 }
-
-/*********************************
- 親のスラッグを取得
-**********************************/
-function ps_get_root_page( $cur_post, $cnt = 0 ) {
-	if ( $cnt > 100 ) { return false; }
-	$cnt++;
-	if ( $cur_post->post_parent == 0 ) {
-		$root_page = $cur_post;
-	} else {
-		$root_page = ps_get_root_page( get_post( $cur_post->post_parent ), $cnt );
-	}
-	return $root_page;
-}
 ?>
