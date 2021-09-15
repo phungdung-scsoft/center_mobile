@@ -442,4 +442,9 @@
   .plan_lists li {
     width: 100%;
   }
+
+  /*media*/
+  .media .wrapper {
+    width: 100%;
+  }
 }
