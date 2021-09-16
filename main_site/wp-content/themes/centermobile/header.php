@@ -26,6 +26,7 @@
         $slug = 'faq';
       endif;
     ?>
+    <link rel="preload" as="style" href="<?php echo get_template_directory_uri(); ?>/assets/css/lower.css?<?php echo date('Ymd-Hi'); ?>" onload="this.rel='stylesheet'">
     <link rel="preload" as="style" href="<?php echo get_template_directory_uri(); ?>/assets/css/<?php echo $slug; ?>.css?<?php echo date('Ymd-Hi'); ?>" onload="this.rel='stylesheet'">
   <?php endif; ?>
   <!-- フォント -->

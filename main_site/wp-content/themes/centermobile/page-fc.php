@@ -7,7 +7,6 @@
 
 <!--ここから共通部分-->
 <?php get_template_part('inc/header'); ?>
-<link rel="preload" as="style" href="<?php echo get_template_directory_uri(); ?>/assets/css/lower.css?<?php echo date('Ymd-Hi'); ?>" onload="this.rel='stylesheet'">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
 <link rel="preload" as="style" href="<?php echo get_template_directory_uri(); ?>/assets/css/mv_slider.css?<?php echo date('Ymd-Hi'); ?>" onload="this.rel='stylesheet'">

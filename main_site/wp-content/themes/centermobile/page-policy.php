@@ -7,7 +7,6 @@
 
 <!--ここから共通部分-->
 <?php get_template_part('inc/header'); ?>
-<link rel="preload" as="style" href="<?php echo get_template_directory_uri(); ?>/assets/css/lower.css?<?php echo date('Ymd-Hi'); ?>" onload="this.rel='stylesheet'">
 <!--ここまで共通部分-->
 
       <!-- ここからコンテンツ -->
