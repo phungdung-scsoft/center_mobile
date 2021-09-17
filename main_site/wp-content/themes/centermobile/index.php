@@ -57,15 +57,15 @@
             <table class="price_list">
               <tr>
                 <td class="GB"><span>3</span>GB</td>
-                <td class="price"><span>1,280</span>円/月(税込 1,408円)</td>
+                <td class="price"><span>0〜1,280</span>円/月(税込 1,408円)</td>
               </tr>
               <tr>
                 <td class="GB"><span>20</span>GB</td>
-                <td class="price"><span>2,480</span>円/月(税込 2,728円)</td>
+                <td class="price"><span>0〜2,480</span>円/月(税込 2,728円)</td>
               </tr>
               <tr>
                 <td class="GB"><span>50</span>GB</td>
-                <td class="price"><span>3,980</span>円/月(税込 4,378円)</td>
+                <td class="price"><span>0〜3,980</span>円/月(税込 4,378円)</td>
               </tr>
             </table>
           </li>
@@ -77,15 +77,15 @@
             <table class="price_list">
               <tr>
                 <td class="GB"><span>3</span>GB</td>
-                <td class="price"><span>1,180</span>円/月(税込 1,298円)</td>
+                <td class="price"><span>0〜1,180</span>円/月(税込 1,298円)</td>
               </tr>
               <tr>
                 <td class="GB"><span>20</span>GB</td>
-                <td class="price"><span>2,280</span>円/月(税込 2,508円)</td>
+                <td class="price"><span>0〜2,280</span>円/月(税込 2,508円)</td>
               </tr>
               <tr>
                 <td class="GB"><span>50</span>GB</td>
-                <td class="price"><span>3,780</span>円/月(税込 4,158円)</td>
+                <td class="price"><span>0〜3,780</span>円/月(税込 4,158円)</td>
               </tr>
             </table>
           </li>
