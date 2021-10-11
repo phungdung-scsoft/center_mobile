@@ -25,6 +25,10 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_mv_cm_sp.png" alt="">
       </div>
 
+      <div class="award_wrapper">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_award.png" alt="">
+      </div>
+
       <a class="login_btn_top pc_only" href="//maimo.app/login"><p class="login_top">Maimo Login</p></a>
 
       <section class="point">

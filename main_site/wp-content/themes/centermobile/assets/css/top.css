@@ -5,6 +5,17 @@
   vertical-align: bottom;
 }
 
+.award_wrapper {
+  text-align: center;
+  background: #000;
+}
+
+.award_wrapper img {
+  max-width: 980px;
+  width: 100%;
+  height: auto;
+}
+
 .login_btn_top{
   background-color:#88bce6;
   display: block;
