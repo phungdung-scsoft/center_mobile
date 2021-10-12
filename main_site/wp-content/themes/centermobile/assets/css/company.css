@@ -51,12 +51,17 @@
 .about table{
   border:1px solid #e2e2e2;
   width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
+}
+
+.about table:last-child{
+  margin-bottom: 0;
 }
 
 .about th{
   background-color:#e3f0fb;
   padding:5px;
+  width: 25%;
 }
 
 .about td{
@@ -118,6 +123,7 @@
     display: block;
     font-size: 12px;
     text-align: left;
+    width: auto;
   }
 
   .about table td{
