@@ -41,7 +41,7 @@
             <div class="partner_txt">
               <p>フランチャイズ加盟店様が独立した経営者として店舗の運営をし、本部が経営をサポートします。<br><br>共同事業のパートナーとして同じ目線に立ち、ともに成長できる企業でありたいと考えています。</p>
               <div class="btn_outer btn_blue btn_pd">
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>documentrequest/">資料請求</a>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>documentrequest/">FCのお問い合わせ</a>
               </div>
             </div>
             </div>
@@ -127,7 +127,7 @@
                 </li>
               </ul>
               <div class="btn_outer btn_blue btn_pd">
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>documentrequest/">資料請求</a>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>documentrequest/">FCのお問い合わせ</a>
               </div>
             </div>
             </div>
@@ -146,7 +146,7 @@
               <p>センターモバイルのOEMは、日本で初の［広告×格安SIM］の通信インフラ事業として新世代の格安SIMを自社のサービスとして販売していただけます。<br><br>
               ユーザー様、契約企業様、弊社に関わる全ての人が一様にメリットを享受し、理念でもある［関わった人全てを幸せにする］を体現する会社でありたいと考えています。</p>
               <div class="btn_outer btn_blue btn_pd">
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>documentrequest/">資料請求</a>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>documentrequest/">OEMのお問い合わせ</a>
             </div>
               </div>
 
@@ -189,7 +189,7 @@
           </div> -->
 
           <div class="btn_outer btn_blue btn_pd">
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>documentrequest/">資料請求</a>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>documentrequest/">OEMのお問い合わせ</a>
             </div>
 
             </div>
