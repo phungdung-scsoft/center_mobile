@@ -63,6 +63,15 @@ h3 span{
   color: white;
 }
 
+.anchor {
+  color: #00f;
+  text-decoration: underline;
+}
+
+.anchor:hover {
+  text-decoration: none;
+}
+
 .wrapper{
   width: 980px;
   margin:0 auto;
@@ -230,7 +239,7 @@ h3 span{
 }
 
 .link_btns ul li{
-  width: 280px;
+  width: 230px;
 }
 
 .link_btns a{
@@ -253,7 +262,7 @@ h3 span{
   padding: 0 8px;
   position: absolute;
   top: 50%;
-  right: 10px;
+  right: 5px;
   transform: translateY(-50%);
 }
 
@@ -294,7 +303,7 @@ footer nav ul li:before{
 }
 
 .footer_nav_m{
-  padding-right: 60px;
+  padding-right: 20px;
 }
 
 .footer_logo{
@@ -738,12 +747,14 @@ footer nav ul li:before{
 
   .footer_nav ul{
     display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     width: 100%;
   }
 
   .footer_nav_m{
-    width: 285px;
-    margin: 0 auto 40px;
+    width: 50%;
+    margin: 0 0 40px;
     padding-right: 0;
   }
 
