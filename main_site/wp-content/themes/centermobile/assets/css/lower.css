@@ -310,6 +310,10 @@ img.attachment-full.size-full.wp-post-image {
   text-align: center;
 }
 
+.wpsp-load-more .page-numbers {
+  margin: 0 10px;
+}
+
 @media screen and (max-width: 1180px) {
 
   .top_image2{
