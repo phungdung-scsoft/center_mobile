@@ -11,8 +11,13 @@
             <ul>
               <li><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2">WEB申し込み</a></li>
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>coverage/">メディア取材について</a></li>
+            </ul>
+          </div>
+          <div class="link_btns">
+            <ul>
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-2/">お問い合わせ（個人）</a></li>
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-business/">お問い合わせ（法人）</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-contractor/">お問い合わせ（ご契約者）</a></li>
             </ul>
           </div>
           <div class="footer_nav">
@@ -36,6 +41,7 @@
                 <div class="footer_nav_m">
                   <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-2/">お問い合わせ（個人）</a></li>
                   <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-business/">お問い合わせ（法人）</a></li>
+                  <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-contractor/">お問い合わせ（ご契約者）</a></li>
                 </div>
               </ul>
             </nav>

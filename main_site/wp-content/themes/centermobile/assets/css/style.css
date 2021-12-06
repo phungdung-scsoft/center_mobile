@@ -230,16 +230,21 @@ h3 span{
 }
 
 .link_btns{
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .link_btns ul{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .link_btns ul li{
-  width: 230px;
+  width: 100%;
+  margin: 0 40px 0 0;
+}
+
+.link_btns ul li:last-child{
+  margin: 0;
 }
 
 .link_btns a{
@@ -264,6 +269,10 @@ h3 span{
   top: 50%;
   right: 5px;
   transform: translateY(-50%);
+}
+
+.footer_nav{
+  margin: 40px 0 0;
 }
 
 footer nav ul li a{
@@ -291,10 +300,7 @@ footer nav ul li:before{
 .footer_nav{
   width: 100%;
   display: flex;
-}
-
-.footer_nav nav{
-  width: 50%;
+  justify-content: space-between;
 }
 
 .footer_nav ul{
@@ -307,7 +313,6 @@ footer nav ul li:before{
 }
 
 .footer_logo{
-  width: 50%;
   display: flex;
   justify-content: flex-end;
 }
@@ -554,14 +559,6 @@ footer nav ul li:before{
     background-color: #303030;
   }
 
-  .footer_nav nav{
-    width: 60%;
-  }
-
-  .footer_logo{
-    width: 40%;
-  }
-
   .footer_logo img{
     margin-right: 20px;
   }
@@ -577,11 +574,6 @@ footer nav ul li:before{
   .link_btns ul {
     max-width: 900px;
     margin: 0 auto;
-  }
-
-  .link_btns ul li {
-    width: 230px;
-    max-width: calc((100% - 20px) / 3);
   }
 
   .link_btns a {
@@ -726,11 +718,17 @@ footer nav ul li:before{
     margin: 0 auto;
   }
 
-  .link_btns ul{
-    display: block;
+  .link_btns{
+    margin-bottom: 15px;
   }
 
-  .link_btns ul li{
+  .link_btns ul{
+    display: block;
+    padding: 0 30px;
+  }
+
+  .link_btns ul li,
+  .link_btns ul li:last-child {
     margin: 0px auto 15px auto;
     text-align: center;
     max-width: none;
@@ -739,6 +737,7 @@ footer nav ul li:before{
   /*footer*/
   .footer_nav{
     display: block;
+    margin: 40px 0 0;
   }
 
   .footer_nav nav{
