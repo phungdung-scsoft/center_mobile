@@ -9,10 +9,7 @@
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">メディア掲載一覧</a></li>
             <!-- <li><a href="">広告出稿をご検討の方</a></li>
             <li><a href="">採用情報</a></li> -->
-            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>coverage/">メディア取材について</a></li>
-            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-2/">お問い合わせ（個人）</a></li>
-            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-business/">お問い合わせ（法人）</a></li>
-            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-contractor/">お問い合わせ（ご契約者）</a></li>
+            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
           </ul>
           <div class="btn_area">
           <a class="login_btn" href="//maimo.app/login"><p class="login">Maimo Login</p></a>
@@ -41,10 +38,7 @@
               <!--
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">広告出稿をご検討の方</a></li>
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">採用情報</a></li> -->
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>coverage/">メディア取材について</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-2/">お問い合わせ（個人）</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-business/">お問い合わせ（法人）</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-contractor/">お問い合わせ（ご契約者）</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
               <div class="btn_area btn_area_nav">
                 <a class="login_btn" href="//maimo.app/login"><p class="login">Maimo Login</p></a>
               </div>
