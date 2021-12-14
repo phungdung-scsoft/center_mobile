@@ -13,8 +13,8 @@
       <div class="img_oem top_image2">
         <div class="top_tlt">
         <div class="top_tlt_inner">
-        <h1 class="company_h1">メディア掲載一覧</h1>
-        <p>Media</p>
+        <h1 class="company_h1">トピックス</h1>
+        <p>Topics</p>
         </div>
         </div>
       </div>

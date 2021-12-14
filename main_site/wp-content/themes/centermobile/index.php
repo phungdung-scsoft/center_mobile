@@ -127,7 +127,7 @@
           ?>
       <section class="media pc_only">
         <div class="wrapper">
-        <h2><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">メディア・掲載情報</a></h2>
+        <h2><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></h2>
         <ul>
           <?php
           foreach ( $posts as $post ): // ループの開始
@@ -162,7 +162,7 @@
           ?>
       <section class="media sp_tab_only">
         <div class="wrapper">
-        <h2><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">メディア・掲載情報</a></h2>
+        <h2><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></h2>
         <ul class="mslider">
           <?php
           foreach ( $posts as $post ): // ループの開始

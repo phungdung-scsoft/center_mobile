@@ -6,8 +6,9 @@
             <li><a href="//maimo.app/summary/f0d11b60c874bd4c4ee2">WEB申し込み</a></li>
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
-            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">メディア掲載一覧</a></li>
-            <!-- <li><a href="">広告出稿をご検討の方</a></li>
+            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
+            <!-- <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
+            <li><a href="">広告出稿をご検討の方</a></li>
             <li><a href="">採用情報</a></li> -->
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
           </ul>
@@ -34,8 +35,9 @@
               <li><a href="//maimo.app/summary/f0d11b60c874bd4c4ee2">WEB申し込み</a></li>
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">メディア掲載一覧</a></li>
+              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
               <!--
+              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">広告出稿をご検討の方</a></li>
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">採用情報</a></li> -->
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
