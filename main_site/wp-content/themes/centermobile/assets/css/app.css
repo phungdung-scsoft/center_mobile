@@ -1,0 +1,515 @@
+@charset "UTF-8";
+
+/*plan*/
+.img_discount{
+  padding-bottom: calc(100%*250/1186);
+  background: url(../img/plan_bg.png);
+}
+
+.systemWrap .textWrap {
+    margin: 0 0 35px;
+    padding: 0 15px;
+}
+
+.systemWrap .textWrap .heading {
+    margin: 0 0 15px;
+    padding-left: 0;
+    color: #303030;
+    font-size: 25px;
+    font-weight: bold;
+    background: none;
+}
+
+.systemWrap .imageWrap img {
+    display: block;
+    margin: 0 auto;
+    width: 59.4vw;
+    max-width: 812px;
+    height: auto;
+}
+
+.systemWrap .imageWrap .pointEx {
+    position: relative;
+    margin: -58px auto 0;
+    padding: 10px 24px;
+    max-width: 608px;
+    background: rgba(31, 86, 167, 0.4);
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.systemWrap .imageWrap .pointEx .heading {
+    margin: 0 0 5px;
+    color: #fff;
+}
+
+.systemWrap .imageWrap .pointEx p {
+    margin: 0 0 5px;
+    color: #fff;
+}
+
+.systemWrap .imageWrap .pointEx .pointCalc {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.systemWrap .imageWrap .pointEx .pointCalc .cell {
+    padding: 0 5px;
+    text-align: center;
+}
+
+.systemWrap .imageWrap .pointEx .pointCalc .cell p {
+    color: #fff;
+}
+
+.systemWrap .imageWrap .pointEx .pointCalc .cell .low {
+    font-size: 35px;
+}
+
+.capList {
+  display: flex;
+  /*justify-content: space-between;*/
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.capList > li {
+  width: 32%;
+  margin: 0 1% 0 0;
+  background: #fff;
+  box-sizing: border-box;
+    /*display: flex;
+    width: 100%;
+    margin: 0 0 10px;*/
+}
+
+.capList > li .cap {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: #5893ce;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.capList > li .cap img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+.capList > li .detail {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.maimo h2 {
+  font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #3870aa;
+    background: none;
+    padding-left: 0;
+}
+
+.maimo h2 span {
+    color: #3870aa;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.maimo .maimo_dl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maimo .maimo_dl img {
+    margin-right: 20px;
+}
+
+.maimo .dl_btns {
+    margin-left: 20px;
+}
+
+.pointSampleList .sampleList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pointSampleList .sampleList .sampleListItem {
+  width: 32%;
+  margin: 0;
+  background: #dcefff;
+}
+
+.pointSampleList .sampleList .sampleListItem .title {
+  font-size: 1.2em;
+  background: #5893ce;
+  padding: 4px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.pointSampleList .sampleList .sampleListItem p {
+  padding: 15px 20px;
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
+
+
+.h3_1{
+  color: #1f58a7;
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.h3_1 span{
+  color: #1f58a7;
+}
+
+.h3_1:before{
+  content: none;
+}
+
+.h4_1{
+  font-size: 12px;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.h4_1:before{
+  content: none;
+}
+
+.price span , .price{
+  color:#1f58a7;
+}
+
+.plan_hr{
+  border-color: #1f58a7;
+}
+
+.plan_lists{
+  flex-wrap: wrap;
+}
+
+.plan_lists:after {
+    content: "";
+    display: block;
+    width:460px;
+    height: 0;
+}
+
+.plan_lists li{
+  background-color: white;
+}
+
+.option .plan_lists li{
+  padding-bottom: 20px;
+}
+
+.option h3 {
+  text-align: left;
+}
+
+.option_lists {
+  display: flex;
+  justify-content: center;
+}
+
+.option_lists li {
+  width: 100px;
+  text-align: center;
+  background-color: #5893ce;
+  padding: 10px 0;
+  margin:0px 4px;
+}
+
+.option_lists img{
+  display: block;
+  margin:0 auto 10px auto;
+}
+
+.option_lists p{
+  font-size: 12px;
+  color: white;
+}
+
+.option_lists p span{
+  font-size: 10px;
+  color: white;
+}
+
+.option_list {
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.sub{
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.option_list2{
+  padding: 0!important;
+  margin-top: 20px;
+}
+
+.option_list2 table{
+  height: 51px;
+}
+
+.option_list2 td{
+  width: 134px;
+  text-align: center;
+}
+
+/*.name{
+  height: 51px;
+  width: 174px;
+  color: white;
+  background-color:#5893ce;
+}*/
+
+.price_reason img{
+  width: 100%;
+  margin:0 auto;
+  display: block;
+}
+
+.price_reason p {
+    font-size: 14px;
+    padding: 40px 0 20px 0;
+}
+
+.attention_inner{
+  width: 800px;
+  background-color: #dedede;
+  padding: 20px;
+  margin:0 auto;
+}
+
+.attention li{
+  list-style-type: disc;
+  margin-left: 24px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.attention_inner h4{
+  font-weight: bold;
+}
+
+.mgr-10{
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1180px) {
+  /* 1024px以下に適用されるCSS（タブレット用） */
+
+  .systemWrap .imageWrap img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+  }
+
+  .systemWrap .imageWrap .pointEx {
+    position: relative;
+    margin: -4.2vw auto 0;
+    padding: 1vw 1.7vw;
+    width: 68.5vw;
+  }
+
+  .systemWrap .imageWrap .pointEx .heading {
+    margin: 0 0 0.3vw;
+  }
+
+  .systemWrap .imageWrap .pointEx .pointCalc .cell {
+    padding: 0 0.3vw;
+  }
+
+  .systemWrap .imageWrap .pointEx .pointCalc .cell .low {
+    font-size: 4.4vw;
+  }
+
+  .capList > li {
+    margin: 0 0 0.7vw;
+  }
+
+  .capList > li .cap {
+    padding: 0.8vw;
+  }
+
+  .capList > li .detail {
+    padding: 0.8vw;
+  }
+
+  .maimo h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .maimo .maimo_dl {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .maimo .maimo_dl img {
+    margin-right: 20px;
+    width: 40%;
+  }
+
+  .maimo .dl_btns img {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+  .h3_1{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .img_discount {
+    padding-bottom: calc(100%*375/1186);
+    background-size: cover!important;
+  }
+
+  .plan_lists{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .plan_lists:after {
+      content: "";
+      display: block;
+      width: 48%;
+      height: 0;
+  }
+
+  .plan_lists > li{
+    width: 48%;
+  }
+
+  .sub{
+    margin-left: 0;
+  }
+
+  .attention_inner{
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .option_lists{
+    max-width: 500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .option_lists li{
+    width: calc((100% - 16px ) / 2);
+  }
+
+  .option .plan_lists li{
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  /* 599px以下に適用されるCSS（スマホ用） */
+
+  .systemWrap .imageWrap img {
+    width: 100%;
+  }
+
+  .systemWrap .imageWrap .pointEx {
+    padding: 2vw 2.7vw;
+    width: 100%;
+  }
+
+  .systemWrap .imageWrap .pointEx .heading {
+    margin: 0 0 1vw;
+  }
+
+  .systemWrap .imageWrap .pointEx .pointCalc .cell {
+    padding: 0 1vw;
+  }
+
+  .systemWrap .imageWrap .pointEx .pointCalc .cell .low {
+    font-size: 5.4vw;
+  }
+
+  .capList > li {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 0 30px;
+  }
+
+  .capList > li .cap {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .capList > li .detail {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .pointSampleList .sampleList {
+    width: 100%;
+  }
+
+  .pointSampleList .sampleList .sampleListItem {
+    width: 100%;
+  }
+
+  .pointSampleList .sampleList .sampleListItem:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+
+
+
+
+
+
+  .plan_lists{
+    display: block;
+  }
+
+  .plan_lists > li{
+    width: auto;
+  }
+
+}
