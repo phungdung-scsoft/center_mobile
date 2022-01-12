@@ -85,7 +85,7 @@
                 <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option1.png" alt="">
                 15分かけ放題</h4>
                 <p>1,200円<br>
-                  <span>(税込 1.320円)</span></p>
+                  <span>(税込 1,320円)</span></p>
               </li>
               <li>
                 <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option2.png" alt="">
