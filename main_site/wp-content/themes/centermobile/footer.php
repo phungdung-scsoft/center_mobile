@@ -30,7 +30,7 @@
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEMをご検討の方</a></li>
                     <!-- <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">広告出稿をご検討の方</a></li> -->
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
-                    <!--<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>-->
+                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>policy/">プライバシーポリシー</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
                   </div>
@@ -126,3 +126,10 @@
     </script>
 
     <script src="assets/js/scrollreveal.min.js"></script>
+
+    <?php
+    /*
+    <!--  ad tags Size: 320x100 ZoneId:1506853-->
+    <script type="text/javascript" src="https://js.gsspcln.jp/t/506/853/a1506853.js"></script>
+    */
+    ?>

@@ -18,4 +18,20 @@ function is404_redirect_home() {
     exit();
   }
 }
+
+/*********************************
+ タクソノミーの説明の番号順にソート
+**********************************/
+function taxonomy_orderby_description( $orderby, $args ) {
+  if ( $args['orderby'] == 'description' ) {
+    $orderby = 'tt.description';
+  }
+  return $orderby;
+}
+add_filter( 'get_terms_orderby', 'taxonomy_orderby_description', 10, 2 );
+
+/*********************************
+ 店舗の詳細ページを404に（現状アーカイブでしか記事項目を使用していないため）
+**********************************/
+//add_filter( 'store_rewrite_rules', '__return_empty_array' );
 ?>

@@ -24,6 +24,8 @@
       $url = $_SERVER['REQUEST_URI'];
       if( strstr($url,'ufaq')==true ) :
         $slug = 'faq';
+      elseif( strstr($url,'store')==true ) :
+        $slug = 'store';
       endif;
     ?>
     <link rel="preload" as="style" href="<?php echo get_template_directory_uri(); ?>/assets/css/lower.css?<?php echo date('Ymd-Hi'); ?>" onload="this.rel='stylesheet'">
