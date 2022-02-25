@@ -6,8 +6,6 @@
   <?php if(get_post_meta($post->ID, 'noindex',true) == 'true'): ?>
     <meta name="robots" content="noindex">
   <?php endif; ?>
-  <!--ファビコン -->
-  <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/f.png">
   <!--cssの読み込み-->
   <link rel="preload" as="style" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css?<?php echo date('Ymd-Hi'); ?>" onload="this.rel='stylesheet'">
   <?php if ( is_home() || is_front_page() ) : ?>
