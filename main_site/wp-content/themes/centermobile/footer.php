@@ -125,8 +125,6 @@
     });
     </script>
 
-    <script src="assets/js/scrollreveal.min.js"></script>
-
     <?php
     /*
     <!--  ad tags Size: 320x100 ZoneId:1506853-->
