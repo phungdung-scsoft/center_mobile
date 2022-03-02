@@ -34,7 +34,9 @@
       <section class="point">
         <div class="wrapper wrapper2 mb-30">
           <h2>CM公開中!!</h2>
-          <?php echo do_shortcode('[video id=639]'); ?>
+          <div class="video_wrapper">
+            <?php echo do_shortcode('[video id=639]'); ?>
+          </div>
         </div>
         <div class="wrapper wrapper2">
         <h2>センターモバイルの強み</h2>
@@ -115,7 +117,9 @@
       <section class="youtube_wrapper">
         <h2>センターモバイル商品説明動画</h2>
       <div class="wrapper youtube">
+        <div class="video_wrapper">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZP7LCZBCbvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
               </div>
             </section>
 
