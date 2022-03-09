@@ -30,7 +30,7 @@
             </div>
           </section>
           <div class="imageWrap mb-30">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_system.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_system.png" alt="" width="812" height="453">
             <section class="pointEx">
               <h3 class="heading">ポイント利用例</h3>
               <p>音声SIM3GBプラン【¥1,408(税込)/月額】にお申込みの場合</p>
@@ -57,7 +57,7 @@
             </section>
           </div>
           <div class="imageWrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_1.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_1.png" alt="" width="812" height="268">
           </div>
         </div>
       </div>
@@ -70,10 +70,10 @@
           <div class="maimo">
             <h2>会員専用アプリ Maimo<span>(マイモ)</span></h2>
             <div class="maimo_dl mb-30">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/maimo.png" alt="">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/maimo.png" alt="" width="132" height="122">
               <ul class="dl_btns">
-                <li><a href="//apps.apple.com/us/app/maimo/id1554806667?itsct=apps_box_link&itscg=30200" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_apple.png" alt=""></a></li>
-                <li><a href="//play.google.com/store/apps/details?id=jp.co.Maimo&hl=ja" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_google.png" alt=""></a></li>
+                <li><a href="//apps.apple.com/us/app/maimo/id1554806667?itsct=apps_box_link&itscg=30200" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_apple.png" alt="" width="148" height="54"></a></li>
+                <li><a href="//play.google.com/store/apps/details?id=jp.co.Maimo&hl=ja" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_google.png" alt="" width="182" height="54"></a></li>
               </ul>
             </div>
           </div>
@@ -101,13 +101,13 @@
               </div>
             </li>*/ ?>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_2.png" alt=""></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_2.png" alt="" width="294" height="529"></div>
               <div class="detail">
                 <p>「CMを見る！」ボタンを押すと動画広告が再生されます。(※1)</p>
               </div>
             </li>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_3.png" alt=""></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_3.png" alt="" width="294" height="529"></div>
               <div class="detail">
                 <p>5〜30秒の動画広告がランダムで再生されます。</p>
                 <?php /*<p>動画広告の長さに関わらず1ポイント獲得できます。</p>
@@ -117,7 +117,7 @@
               </div>
             </li>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_4_2.png" alt=""></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_4_2.png" alt="" width="294" height="529"></div>
               <div class="detail">
                 <p>1ポイント獲得となります。</p>
                 <?php /*<p>画面に獲得ポイントが表示されます。</p>
@@ -154,7 +154,7 @@
               </div>
             </li>*/ ?>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_2.png" alt=""></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_2.png" alt="" width="294" height="529"></div>
               <div class="detail">
                 <p>「DL・登録で貯める」ボタンを押すとポイント対象のアプリ一覧が表示されます。</p>
                 <p>アプリごとに設定されている条件を達成すると、ポイントを獲得できるサービスです。</p>
@@ -165,7 +165,7 @@
           <h3>サービス申し込み</h3>
           <ul class="capList">
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_2.png" alt=""></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_2.png" alt="" width="294" height="147"></div>
               <div class="detail">
                 <h4>Maimoでんき</h4>
                 <p>導入費用0円！オリジナル電気に切替で毎月ご利用料金の6%分ポイント獲得</p>
@@ -175,7 +175,7 @@
               </div>
             </li>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_3.jpg" alt=""></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_3.jpg" alt="" width="294" height="147"></div>
               <div class="detail">
                 <h4>Maimoひかり</h4>
                 <p>NTTフレッツ光の回線環境は変わらず、お得に使える！切替後、毎月300ポイント獲得</p>
@@ -184,7 +184,7 @@
               </div>
             </li>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_4_2.png" alt=""></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_4_2.png" alt="" width="294" height="147"></div>
               <div class="detail">
                 <h4>Maimo Wi-Fi</h4>
                 <p>世界中のどこでも繋がるWi-Fi！毎月300ポイント獲得</p>
@@ -248,10 +248,10 @@
         <div class="wrapper">
           <h2>会員専用アプリ Maimo<span>(マイモ)</span></h2>
           <div class="maimo_dl mb-30">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/maimo.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/maimo.png" alt="" width="132" height="122">
             <ul class="dl_btns">
-              <li><a href="//apps.apple.com/us/app/maimo/id1554806667?itsct=apps_box_link&itscg=30200" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_apple.png" alt=""></a></li>
-              <li><a href="//play.google.com/store/apps/details?id=jp.co.Maimo&hl=ja" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_google.png" alt=""></a></li>
+              <li><a href="//apps.apple.com/us/app/maimo/id1554806667?itsct=apps_box_link&itscg=30200" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_apple.png" alt="" width="148" height="54"></a></li>
+              <li><a href="//play.google.com/store/apps/details?id=jp.co.Maimo&hl=ja" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_google.png" alt="" width="182" height="54"></a></li>
             </ul>
           </div>
           <div class="btn_outer btn_blue">

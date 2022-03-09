@@ -64,9 +64,9 @@
                   <a href="<?php the_permalink(); ?>" class="info-wrap">
                     <div class="image">
                       <?php if(has_post_thumbnail()): ?>
-                        <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php get_the_title(); ?>">
+                        <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php get_the_title(); ?>" width="154" height="103">
                       <?php else: ?>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_cm_pc.png" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_cm_pc.png" alt="" width="154" height="103">
                       <?php endif; ?>
                     </div>
                     <div class="text-wrap">

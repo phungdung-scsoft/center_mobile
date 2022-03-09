@@ -96,6 +96,7 @@
 
 .capList > li .cap img {
     width: 100%;
+    height: auto;
     margin: 0 auto;
     display: block;
     box-sizing: border-box;
@@ -382,10 +383,12 @@
   .maimo .maimo_dl img {
     margin-right: 20px;
     width: 40%;
+    height: auto;
   }
 
   .maimo .dl_btns img {
     width: 100%;
+    height: auto;
   }
 
 

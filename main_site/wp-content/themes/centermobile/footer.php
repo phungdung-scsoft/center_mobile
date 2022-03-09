@@ -1,7 +1,7 @@
 <?php wp_footer(); ?>
         <div class="footer_banner">
           <div class="wrapper">
-            <a href="https://nippon-smes-project.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_banner.png"></a>
+            <a href="https://nippon-smes-project.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_banner.png" alt="中小企業からニッポンを元気にプロジェクト" width="563" height="282"></a>
             <p>センターモバイルは『中小企業からニッポンを元気にプロジェクト』に参画しています。</p>
           </div>
         </div>
@@ -37,8 +37,8 @@
                 </ul>
               </nav>
               <div class="footer_logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo1.png" alt="センターモバイルのロゴ">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo2.png" alt="マイモのロゴ">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo1.png" alt="センターモバイルのロゴ" width="194" height="91">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo2.png" alt="マイモのロゴ" width="98" height="91">
               </div>
             </div>
             <p>Copyright (C) CENTER MOBILE All rights reserved.</p>

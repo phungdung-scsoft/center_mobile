@@ -25,7 +25,7 @@
         <ul class="plan_lists">
           <li>
             <div class="plan_title">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80">
             <h3 class="h3_1"><span>電話もインターネットも使える<br></span>音声SIMプラン</h3></div>
             <hr class="plan_hr">
             <table class="price_list">
@@ -45,7 +45,7 @@
           </li>
           <li>
             <div class="plan_title">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80">
             <h3 class="h3_1"><span>インターネットだけ利用<br></span>データSIMプラン</h3></div>
             <hr class="plan_hr">
             <table class="price_list">
@@ -77,30 +77,39 @@
         <ul class="plan_lists">
           <li>
             <div class="plan_title">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" alt="" width="57" height="80">
             <h3 class="h3_1">音声SIMプラン<br>オプション</h3></div>
             <hr class="plan_hr">
-            <ul class="option_lists">
+            <ul class="option_lists option_list">
               <li>
-                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option1.png" alt="">
+                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option1.png" alt="" width="61" height="61">
+                5分かけ放題</h4>
+                <p>900円<br>
+                  <span>(税込 990円)</span></p>
+              </li>
+              <li>
+                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option1.png" alt="" width="61" height="61">
                 15分かけ放題</h4>
                 <p>1,200円<br>
                   <span>(税込 1,320円)</span></p>
               </li>
               <li>
-                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option2.png" alt="">
+                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option2.png" alt="" width="61" height="61">
                 留守番電話</h4>
                 <p>300円<br>
                   <span>(税込 330円)</span></p>
               </li>
               <li>
-                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option3.png" alt="">
+                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option3.png" alt="" width="61" height="61">
                 割り込み通話</h4>
                 <p>300円<br>
                   <span>(税込 330円)</span></p>
               </li>
+            </ul>
+            <br class="pc_only">
+            <ul class="option_lists option_list">
               <li>
-                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option4.png" alt="">
+                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option4.png" alt="" width="61" height="61">
                 ギガ購入</h4>
                 <p>500円 / 1GB<br>
                   <span>(税込 550円)</span></p>
@@ -110,12 +119,12 @@
 
             <li>
             <div class="plan_title">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" alt="" width="57" height="80">
             <h3 class="h3_1">データSIMプラン<br>オプション</h3></div>
             <hr class="plan_hr">
             <ul class="option_lists option_list">
               <li>
-                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option4.png" alt="">
+                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option4.png" alt="" width="61" height="61">
                 ギガ購入</h4>
                 <p>500円 / 1GB<br>
                   <span>(税込 550円)</span></p>
@@ -161,9 +170,9 @@
       <section class="price_reason">
       <div class="wrapper">
         <h2>料金が下がる仕組み</h2>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan1.png" alt="">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan1.png" alt="" width="980" height="252">
       <p>センターモバイルは広告スポンサーからの収益をユーザーに還元することで、携帯料金を下げ、最大0円で使える携帯を実現</p>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan3.png" alt="">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan3.png" alt="" width="980" height="358">
     </div>
     </section>
 
@@ -176,8 +185,8 @@
         <div class="attention_inner">
         <h4>注意事項</h4>
         <ul>
-          <li>決済日を起算に料金が発生します。<br>手続きの不備でSIMが届いていない状態でも料金が発生します。</li>
-          <li>初月の月額基本料や通話定額オプションの月額料は日割りではなく、満額でかかります。</li>
+          <?php /*<li>決済日を起算に料金が発生します。<br>手続きの不備でSIMが届いていない状態でも料金が発生します。</li>
+          <li>初月の月額基本料や通話定額オプションの月額料は日割りではなく、満額でかかります。</li>*/ ?>
           <li>当日を含まない3日で合計5GBを超える通信をした場合、通信制限がかかり低速になります。</li>
           <li>通話料の請求には2ヶ月かかります。<br>＜例＞4月利用の通話料は、6月に請求が発生します。</li>
         </ul>

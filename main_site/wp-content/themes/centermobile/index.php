@@ -18,15 +18,15 @@
         <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_mv_maimo_cs.png" alt=""></li>
       </ul> -->
       <div class="mv_wrapper pc_only">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_mv_cm_cs.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_mv_cm_cs.png" alt="" width="1200" height="600">
       </div>
 
       <div class="mv_wrapper sp_tab_only">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_mv_cm_sp.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_mv_cm_sp.png" alt="" width="1200" height="1200">
       </div>
 
       <div class="award_wrapper">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_award.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_award.png" alt="" width="980" height="572">
       </div>
 
       <a class="login_btn_top pc_only" href="//maimo.app/login"><p class="login_top">Maimo Login</p></a>
@@ -41,12 +41,12 @@
         <div class="wrapper wrapper2">
         <h2>センターモバイルの強み</h2>
         <ul class="point_lists">
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point1.png" alt=""></li>
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point2.png" alt=""></li>
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point3.png" alt=""></li>
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point4.png" alt=""></li>
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point5.png" alt=""></li>
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point6.png" alt=""></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point1.png" alt="" width="320" height="150"></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point2.png" alt="" width="320" height="150"></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point3.png" alt="" width="320" height="150"></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point4.png" alt="" width="320" height="150"></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point5.png" alt="" width="320" height="150"></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point6.png" alt="" width="320" height="150"></li>
         </ul>
       </div>
       </section>
@@ -57,7 +57,7 @@
         <ul class="plan_lists">
           <li>
             <div class="plan_title">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon1.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon1.png" alt="" width="57" height="80">
             <h3><span>電話もインターネットも使える<br></span>音声SIMプラン</h3></div>
             <hr class="plan_hr">
             <table class="price_list">
@@ -77,7 +77,7 @@
           </li>
           <li>
             <div class="plan_title">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon1.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon1.png" alt="" width="57" height="80">
             <h3><span>インターネットだけ利用<br></span>データSIMプラン</h3></div>
             <hr class="plan_hr">
             <table class="price_list">
@@ -195,8 +195,8 @@
       <section class="link">
         <div class="wrapper">
         <ul>
-          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/link1.png" alt="">料金・サービス</a></li>
-          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/link2.png" alt="">FC・OEMをご検討の方</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/link1.png" alt="" width="106" height="85">料金・サービス</a></li>
+          <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/link2.png" alt="" width="83" height="71">FC・OEMをご検討の方</a></li>
           <!-- <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>oempartner/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/link3.png" alt="">OEMをご検討の方</a></li> -->
           <!-- <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/link4.png" alt="">広告出稿を<br class="sp_only">ご検討の方</a></li> -->
         </ul>
@@ -247,10 +247,10 @@
         <div class="wrapper">
         <h2>会員専用アプリ Maimo<span>(マイモ)</span></h2>
         <div class="maimo_dl">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/maimo.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/maimo.png" alt="" width="132" height="122">
           <ul class="dl_btns">
-            <li><a href="//apps.apple.com/us/app/maimo/id1554806667?itsct=apps_box_link&itscg=30200" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_apple.png" alt=""></a></li>
-            <li><a href="//play.google.com/store/apps/details?id=jp.co.Maimo&hl=ja" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_google.png" alt=""></a></li>
+            <li><a href="//apps.apple.com/us/app/maimo/id1554806667?itsct=apps_box_link&itscg=30200" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_apple.png" alt="" width="148" height="54"></a></li>
+            <li><a href="//play.google.com/store/apps/details?id=jp.co.Maimo&hl=ja" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_google.png" alt="" width="182" height="54"></a></li>
           </ul>
         </div>
         <div class="btn_area">

@@ -36,7 +36,7 @@
       <h2>事業内容</h2>
       <ul>
         <li>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/content1.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/content1.png" alt="" width="490" height="156">
           <div class="content_txt">
             <h3>格安SIM事業について</h3>
             <p>「広告が再生される事により得られる広告収益」をユーザーに還元し、月々の携帯料金を最大0円まで下げる事ができる格安SIMの販売事業。<br>
@@ -49,7 +49,7 @@
           </div>
         </li>
         <li>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/content2.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/content2.png" alt="" width="490" height="156">
           <div class="content_txt">
             <h3>FC（フランチャイズ）事業について</h3>
             <p>FC販売契約にて、センターモバイルの仕組みとSIMの販売権を提供します。<br>
@@ -59,7 +59,7 @@
           </div>
         </li>
         <li>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/content3.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/content3.png" alt="" width="490" height="156">
           <div class="content_txt">
             <h3>OEM事業について</h3>
             <p>OEM契約にて、センターモバイルの仕組みをリブランディングしていただき、自社ブランドとして展開していただけます。<br>
@@ -69,7 +69,7 @@
           </div>
         </li>
         <li>
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/content4.png" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/content4.png" alt="" width="490" height="156">
           <div class="content_txt">
             <h3>広告事業について</h3>
             <p>ブラウザでの検索から、アプリでの検索に移ろうとする時代の中で、全く新しい広告の形を提案します。<br>

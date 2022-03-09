@@ -30,9 +30,9 @@
             <div class="store_information_wrap">
               <div class="image">
                 <?php if(has_post_thumbnail()): ?>
-                  <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php get_the_title(); ?>">
+                  <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php get_the_title(); ?>" width="450" height="319">
                 <?php else: ?>
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_cm_pc.png" alt="" class="noimage">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_cm_pc.png" alt="" class="noimage" width="450" height="319">
                 <?php endif; ?>
               </div>
               <div class="information">

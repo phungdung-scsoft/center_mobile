@@ -37,7 +37,7 @@
         <div class="wrapper">
           <h2>フランチャイズパートナー</h2>
           <div class="partner_inner partner_content">
-            <img class="fc1" src="<?php echo get_template_directory_uri(); ?>/assets/img/fc1.png" alt="">
+            <img class="fc1" src="<?php echo get_template_directory_uri(); ?>/assets/img/fc1.png" alt="" width="490" height="165">
             <div class="partner_txt">
               <p>フランチャイズ加盟店様が独立した経営者として店舗の運営をし、本部が経営をサポートします。<br><br>共同事業のパートナーとして同じ目線に立ち、ともに成長できる企業でありたいと考えています。</p>
               <div class="btn_outer btn_blue btn_pd">
@@ -54,25 +54,25 @@
             <h4>センターモバイルの強み</h4>
             <ul class="pr_lists">
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_1.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_1.png" alt="" width="137" height="137">
                 <p>生活にかかせない携帯を事業とし、販売しやすく早い段階からの収入の獲得が見込めます。<br><br>
                 また高いリピート率を実現し、継続した収入として計画が立てやすくなっています。
                 </p>
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_2.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_2.png" alt="" width="137" height="137">
                 <p>スマホの使用感はユーザーのストレスに直結します。<br><br>
                 安心で快適な通信速度の為に、docomo回線を使用し、さらに独自帯域を採用することで、ストレスなく使用できる格安SIMを実現。
                 </p>
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_3.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_3.png" alt="" width="137" height="137">
                 <p>格安SIMの使用に特に重要な料金。<br><br>
                 センターモバイルは他社には真似できない技術で毎月携帯料金を最大0円まで下げる提案が可能。
                 </p>
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_4.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_4.png" alt="" width="137" height="137">
                 <p>センターモバイルのビジネスモデルは他社が真似できないように特許を出願しています。<br><br>
                 通信業界で他社が真似できない差別化を図る事ができるオンリーワンのビジネスです。
                 </p>
@@ -81,25 +81,25 @@
 
             <ul class="pr_lists mslider">
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_1.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_1.png" alt="" width="202" height="202">
                 <p>生活にかかせない携帯を事業とし、販売しやすく早い段階からの収入の獲得が見込めます。<br><br>
                 また高いリピート率を実現し、継続した収入として計画が立くなっています。
                 </p>
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_2.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_2.png" alt="" width="202" height="202">
                 <p>スマホの使用感はユーザーのストレスに直結します。<br><br>
                 安心で快適な通信速度の為に、docomo回線を使用し、さらに独自帯域を採用することで、ストレスなく使用できる格安SIMを実現。
                 </p>
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_3.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_3.png" alt="" width="202" height="202">
                 <p>格安SIMの使用に特に重要な料金。<br><br>
                 センターモバイルは他社には真似できない技術で毎月携帯料金を最大0円まで下げる提案が可能。
                 </p>
               </li>
               <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_4.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_4.png" alt="" width="202" height="202">
                 <p>センターモバイルのビジネスモデルは他社が真似できないように特許を出願しています。<br><br>
                 通信業界で他社が真似できない差別化を図る事ができるオンリーワンのビジネスです。
                 </p>
@@ -117,7 +117,7 @@
 
             <div class="partner_inner">
             <h3>加盟店オーナー様とのコミュニケーション</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc3.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc3.png" alt="" width="980" height="280">
             <ul class="info_list">
                 <li>
                   <h4>意見交換会</h4>
