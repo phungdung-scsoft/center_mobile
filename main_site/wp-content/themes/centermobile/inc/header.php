@@ -1,5 +1,5 @@
 <div class="side_menu pc_only">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="menu_logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_cm_pc.png" alt=""></a>
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="menu_logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_cm_pc.png" alt="" width="162" height="115"></a>
         <nav>
           <ul>
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/">割引の仕組み</a></li>
@@ -22,7 +22,7 @@
 
       <div class="sp_tab_only">
         <header id="header">
-          <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_cm_sp.png" alt="センターモバイル"></h1></a>
+          <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_cm_sp.png" alt="センターモバイル" width="221" height="42"></a></h1>
         </header>
 
         <div class="openbtn1">

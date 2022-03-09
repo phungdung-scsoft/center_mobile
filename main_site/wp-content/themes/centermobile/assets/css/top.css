@@ -2,6 +2,7 @@
 
 .mv_wrapper img{
   width: 100%;
+  height: auto;
   vertical-align: bottom;
 }
 
@@ -345,6 +346,7 @@
 
   .point_lists li img {
     width: 95%;
+    height: auto;
     display: block;
     margin:0 auto 20px;
   }
@@ -380,6 +382,7 @@
   }
 
   .link ul li img{
+    width: auto;
     height: 40px;
     margin: 0 auto 20px;
   }
@@ -439,10 +442,12 @@
   .maimo_dl img {
     margin-right: 20px;
     width: 40%;
+    height: auto;
   }
 
   ul.dl_btns img {
     width: 100%;
+    height: auto;
   }
 
   .maimo .btn_area a{

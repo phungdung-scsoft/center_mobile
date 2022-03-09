@@ -8,6 +8,7 @@
 
 .partner img{
   width: 100%;
+  height: auto;
 }
 
 .partner p{
@@ -40,6 +41,7 @@
 
 img.fc1{
   width: 50%;
+  height: auto;
 }
 
 .partner_content{
@@ -86,6 +88,7 @@ img.fc1{
 
 .pr_lists img {
   width: 70%!important;
+  height: auto;
   margin: 0 auto 20px;
   display: block;
 }

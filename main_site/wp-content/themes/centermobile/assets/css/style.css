@@ -500,6 +500,7 @@ footer nav ul li:before{
   }
 
   header img{
+    width: auto;
     height: 42px;
     padding: 5px 0 5px 10px;
   }
@@ -567,6 +568,7 @@ footer nav ul li:before{
 
   .footer_banner img{
     width: 100%;
+    height: auto;
     max-width: 563px;
   }
 
@@ -622,6 +624,7 @@ footer nav ul li:before{
   img.menu_logo {
     display: block;
     width: 90%;
+    height: auto;
     margin: 0 auto;
   }
 
@@ -773,6 +776,7 @@ footer nav ul li:before{
   .footer_logo img{
     margin-right: 0;
     align-self: auto;
+    width: auto;
     height: 65px;
   }
 }
