@@ -53,6 +53,10 @@
                   <dt class="tel"><i class="fas fa-phone"></i>電話番号</dt>
                   <dd><?php the_field('電話番号'); ?></dd>
                   <?php endif; ?>
+                  <?php if(get_field('その他店舗情報')) : ?>
+                  <dt class="tel"><i class="fas fa-info-circle"></i>その他</dt>
+                  <dd><?php the_field('その他店舗情報'); ?></dd>
+                  <?php endif; ?>
                 </dl>
                 <?php if(get_field('Twitter') || get_field('Instagram') || get_field('Facebook')) : ?>
                   <ul class="sns_list">
