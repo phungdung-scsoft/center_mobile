@@ -52,12 +52,12 @@
         <div class="wrapper wrapper2">
         <h2>センターモバイルの強み</h2>
         <ul class="point_lists">
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point1.png" alt="" width="320" height="150"></li>
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point2.png" alt="" width="320" height="150"></li>
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point3.png" alt="" width="320" height="150"></li>
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point4.png" alt="" width="320" height="150"></li>
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point5.png" alt="" width="320" height="150"></li>
-          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point6.png" alt="" width="320" height="150"></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point1_2.png" alt="毎月の携帯料金が最大割引で0円" width="320" height="150"></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point2_3.png" alt="快適な高速通信環境" width="320" height="150"></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point3_2.png" alt="お得な通話料 11円（税込）/30秒" width="320" height="150"></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point4.png" alt="安心のdocomo回線" width="320" height="150"></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point5.png" alt="業界初技術特許出願中" width="320" height="150"></li>
+          <li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/point6.png" alt="今のスマホをそのまま使える！" width="320" height="150"></li>
         </ul>
       </div>
       </section>
