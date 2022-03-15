@@ -49,9 +49,17 @@
                   <dt class="time"><i class="far fa-clock"></i>営業時間</dt>
                   <dd><?php the_field('営業時間'); ?></dd>
                   <?php endif; ?>
+                  <?php if(get_field('最寄駅')) : ?>
+                  <dt class="tel"><i class="fas fa-subway"></i>最寄駅</dt>
+                  <dd><?php the_field('最寄駅'); ?></dd>
+                  <?php endif; ?>
                   <?php if(get_field('電話番号')) : ?>
                   <dt class="tel"><i class="fas fa-phone"></i>電話番号</dt>
                   <dd><?php the_field('電話番号'); ?></dd>
+                  <?php endif; ?>
+                  <?php if(get_field('お取扱い商材')) : ?>
+                  <dt class="tel"><i class="fas fa-store-alt"></i>お取扱い商材</dt>
+                  <dd><?php the_field('お取扱い商材'); ?></dd>
                   <?php endif; ?>
                   <?php if(get_field('その他店舗情報')) : ?>
                   <dt class="tel"><i class="fas fa-info-circle"></i>その他</dt>
