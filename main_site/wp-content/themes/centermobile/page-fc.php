@@ -221,7 +221,7 @@
             var ePos = $(this).offset().top;
             var scroll = $(window).scrollTop();
             var windowHeight = $(window).height();
-            if (scroll > ePos - windowHeight + windowHeight/5){
+            if (scroll > ePos - windowHeight){
               var vimg = $('.videoDefer')[index];
               if(!$('.videoDefer').hasClass('show')){
                 if (vimg.getAttribute('data-src')) {
