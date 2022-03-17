@@ -2,17 +2,6 @@
 <html <?php language_attributes(); ?>>
 <head>
   <?php get_header(); ?>
-  <script>
-  function youtube_defer() {
-    var iframes = document.querySelectorAll('.youtube iframe');
-    iframes.forEach(function(iframe){
-      if(iframe.getAttribute('data-src')) {
-        iframe.setAttribute('src',iframe.getAttribute('data-src'));
-      }
-    });
-  }
-  window.addEventListener('load', youtube_defer);
-  </script>
 </head>
   <body>
 
@@ -129,7 +118,7 @@
         <h2>センターモバイル商品説明動画</h2>
       <div class="wrapper youtube">
         <div class="video_wrapper">
-                <iframe width="560" height="315" loading="lazy" data-src="https://www.youtube.com/embed/ZP7LCZBCbvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" loading="lazy" class="videoDefer" data-src="https://www.youtube.com/embed/ZP7LCZBCbvs?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
               </div>
             </section>
@@ -272,6 +261,35 @@
 
       <footer>
         <?php get_footer(); ?>
+
+        <script>
+        $(window).on('load',function(){
+          youtubeDef();
+        });
+
+        $(function(){
+          $(window).scroll(function (){
+            youtubeDef();
+          });
+        });
+
+        function youtubeDef(){
+          $('.videoDefer').each(function(index, element){
+            var ePos = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > ePos - windowHeight + windowHeight/5){
+              var vimg = $('.videoDefer')[index];
+              if(!$('.videoDefer').hasClass('show')){
+                if (vimg.getAttribute('data-src')) {
+                  vimg.setAttribute('src', vimg.getAttribute('data-src'));
+                }
+                $('.videoDefer').addClass('show');
+              }
+            }
+          });
+        }
+        </script>
       </footer>
 
     </div><!-- containerここまで -->

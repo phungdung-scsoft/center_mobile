@@ -110,7 +110,7 @@
 
               <div class="wrapper youtube">
                 <div class="video_wrapper">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/on62jfsUDnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="560" height="315" loading="lazy" class="videoDefer" data-src="https://www.youtube.com/embed/on62jfsUDnQ?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
               </div>
 
@@ -204,6 +204,35 @@
 
       <footer>
         <?php get_footer(); ?>
+
+        <script>
+        $(window).on('load',function(){
+          youtubeDef();
+        });
+
+        $(function(){
+          $(window).scroll(function (){
+            youtubeDef();
+          });
+        });
+
+        function youtubeDef(){
+          $('.videoDefer').each(function(index, element){
+            var ePos = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > ePos - windowHeight + windowHeight/5){
+              var vimg = $('.videoDefer')[index];
+              if(!$('.videoDefer').hasClass('show')){
+                if (vimg.getAttribute('data-src')) {
+                  vimg.setAttribute('src', vimg.getAttribute('data-src'));
+                }
+                $('.videoDefer').addClass('show');
+              }
+            }
+          });
+        }
+        </script>
       </footer>
 
 
