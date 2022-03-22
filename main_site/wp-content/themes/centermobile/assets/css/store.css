@@ -89,11 +89,15 @@
 }
 
 .store_list > li .info-wrap .text-wrap .text h2 {
-  margin: 0 0 10px;
+  margin: 0;
   padding: 0;
   font-size: 18px;
   background: none;
   color: #303030;
+}
+
+.store_list > li .info-wrap .text-wrap .text .address {
+  margin: 10px 0 0;
 }
 
 /*store information*/

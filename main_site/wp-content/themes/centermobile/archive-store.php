@@ -72,7 +72,9 @@
                     <div class="text-wrap">
                       <div class="text">
                         <h2><?php the_title(); ?></h2>
+                        <?php if(get_field('所在地')) : ?>
                         <p class="address"><?php the_field('所在地'); ?></p>
+                        <?php endif; ?>
                       </div>
                     </div>
                   </a>
