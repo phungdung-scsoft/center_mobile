@@ -67,13 +67,11 @@
   justify-content: center;
   align-items: center;
   width: 40%;
-  padding: 0 20px 0 0;
-  border-right: solid 2px #d9d9d9;
   box-sizing: border-box;
 }
 
 .store_list > li .info-wrap .image img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   object-fit: cover;
   aspect-ratio: 3 / 2;
