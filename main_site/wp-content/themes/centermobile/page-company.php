@@ -26,6 +26,7 @@
               <li><a href="#content">事業内容</a></li>
               <li><a href="#mission">企業理念</a></li>
               <li><a href="#about">会社概要</a></li>
+              <li><a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/businessplan_220521.pdf" target="_blank">事業計画</a></li>
             </ul>
       </div>
     </div>
@@ -156,7 +157,7 @@
 
         <table>
           <tr>
-            <th rowspan="2">顧問弁護士</th>
+            <th rowspan="3">顧問弁護士</th>
             <td>岩村・村本・山口法律事務所<br>
             〒530-0005<br>
             大阪府大阪市北区中之島二丁目3番18号<br>
@@ -169,6 +170,13 @@
             大阪府大阪市西区南堀江1-11-5<br>
             ナカムラビル6階<br>
             代表弁護士　山内 憲之</td>
+          </tr>
+          <tr>
+            <td>弁護士法人 淀屋橋・山上合同<br>
+            〒541-0046<br>
+            大阪府大阪市中央区平野町4丁目2番3号<br>
+            オービック御堂筋ビル9階<br>
+            弁護士　南 靖郎</td>
           </tr>
         </table>
       </div>
