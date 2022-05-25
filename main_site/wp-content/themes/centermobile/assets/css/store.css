@@ -139,6 +139,10 @@
   margin: 0 5px 0 0;
 }
 
+.store_information_wrap .information .info_list dt i.fa-phone {
+  transform: rotate(90deg);
+}
+
 .store_information_wrap .information .info_list dd {
   margin: 0 0 30px;
   clear: both;
