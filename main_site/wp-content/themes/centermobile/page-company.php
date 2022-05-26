@@ -26,7 +26,7 @@
               <li><a href="#content">事業内容</a></li>
               <li><a href="#mission">企業理念</a></li>
               <li><a href="#about">会社概要</a></li>
-              <li><a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/businessplan_220521.pdf" target="_blank">事業計画</a></li>
+              <li><a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/businessplan_220521.pdf" target="_blank">中期事業計画書</a></li>
             </ul>
       </div>
     </div>
