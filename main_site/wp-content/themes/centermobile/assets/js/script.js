@@ -36,8 +36,9 @@ $('.slider').slick({
 	autoplay: true,
 	arrows: false,
 	asNavFor: ".thumb",
-	slidesToShow: 3,
+	slidesToShow: 1,
 	centerMode: true,
+	centerPadding: "25%",
 	responsive: [
 		{
 		  breakpoint: 1921,
