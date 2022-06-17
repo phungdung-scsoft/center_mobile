@@ -283,22 +283,37 @@ input[type="radio"]:checked + .wpcf7-list-item-label:before{
   background: white;
   padding: 20px;
   box-sizing: border-box;
+  word-wrap : break-word;
+  overflow-wrap : break-word;
 }
 
 .date {
   margin-bottom: 20px;
 }
 
-.news_inner p{
+.news_inner .news_contents p {
+  margin-bottom: 1.5em;
   font-size: 14px;
 }
 
-.news_inner img{
+.news_inner .news_contents p:last-child {
+  margin-bottom: 0;
+}
+
+.news_inner .news_contents img {
   max-width: 100%;
   height: auto;
 }
 
-.wp-block-image img{
+.news_inner .news_contents a {
+  color: #0693e3;
+}
+
+.news_inner .news_contents a.wp-block-button__link {
+  color: #fff;
+}
+
+.wp-block-image img {
   height: auto;
 }
 
