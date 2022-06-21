@@ -48,7 +48,7 @@
                     <?php if(has_post_thumbnail()): ?>
                       <img src="<?php the_post_thumbnail_url("medium"); ?>" alt="">
                     <?php else: ?>
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/thumb_topics.png" alt="">
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/thumb_topics.png" alt="" width="240" height="240">
                     <?php endif; ?>
                   </div>
                 </a>
