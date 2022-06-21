@@ -26,7 +26,7 @@
               <li><a href="#content">事業内容</a></li>
               <li><a href="#mission">企業理念</a></li>
               <li><a href="#about">会社概要</a></li>
-              <li><a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/businessplan_220521.pdf" target="_blank">中期事業計画書</a></li>
+              <li><a href="#document">中期事業計画書</a></li>
             </ul>
       </div>
     </div>
@@ -40,7 +40,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/content1.png" alt="" width="490" height="156">
           <div class="content_txt">
             <h3>格安SIM事業について</h3>
-            <p>「広告が再生される事により得られる広告収益」をユーザーに還元し、月々の携帯料金を最大0円まで下げる事ができる格安SIMの販売事業。<br>
+            <p>「広告が再生される事により得られる広告収益」をユーザーに還元し、月々の携帯料金を最大割引で0円まで下げる事ができる格安SIMの販売事業。<br>
             <br>
             ユーザーからの通信収益だけに留まらず、広告スポンサー様からの広告収益を通信設備に大幅に費用投資する事で、高速通信環境を実現。<br>
             <br>
@@ -179,6 +179,16 @@
             弁護士　南 靖郎</td>
           </tr>
         </table>
+      </div>
+    </section>
+
+    <section class="document" id="document">
+      <div class="wrapper">
+        <h2>中期事業計画書</h2>
+        <p>中期事業計画書はこちらからご確認ください。</p>
+        <div class="btn_outer btn_blue btn_pd">
+          <a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/businessplan_220521.pdf" target="_blank">中期事業計画書（PDF）</a>
+        </div>
       </div>
     </section>
 
