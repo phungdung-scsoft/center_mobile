@@ -463,7 +463,11 @@
 				<li>
           <a href="<?php the_permalink(); ?>">
   					<dl>
-  						<dt><?php the_post_thumbnail(array(193,193), array('class' => 'left')); ?></dt>
+              <?php if ( has_post_thumbnail() ): ?><!-- if文による条件分岐 アイキャッチが有る時-->
+          			<dt><?php the_post_thumbnail(array(193,193), array('class' => 'left')); ?></dt>
+          			<?php else: ?><!-- アイキャッチが無い時-->
+          			<dt><img src="<?php echo get_template_directory_uri(); ?>/assets/img/thumb_topics.png" alt="" width="193" height="193"></dt>
+          		<?php endif; ?>
   						<dd>
   							<span class="date"><?php the_time('Y年m月d日') ?></span>
   							<p>
