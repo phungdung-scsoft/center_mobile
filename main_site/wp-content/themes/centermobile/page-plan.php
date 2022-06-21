@@ -171,7 +171,7 @@
       <div class="wrapper">
         <h2>料金が下がる仕組み</h2>
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan1.png" alt="" width="980" height="252">
-      <p>センターモバイルは広告スポンサーからの収益をユーザーに還元することで、携帯料金を下げ、最大0円で使える携帯を実現</p>
+      <p>センターモバイルは広告スポンサーからの収益をユーザーに還元することで、携帯料金を下げ、最大割引で0円で使える携帯を実現</p>
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan3.png" alt="" width="980" height="358">
     </div>
     </section>

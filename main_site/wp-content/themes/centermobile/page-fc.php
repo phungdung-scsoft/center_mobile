@@ -9,7 +9,7 @@
 <?php get_template_part('inc/header'); ?>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
-<link rel="preload" as="style" href="<?php echo get_template_directory_uri(); ?>/assets/css/mv_slider.css?<?php echo date('Ymd-Hi'); ?>" onload="this.rel='stylesheet'">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/mv_slider.css?<?php echo date('Ymd-Hi'); ?>">
 <!--ここまで共通部分-->
       <!-- ここからコンテンツ -->
     <div class="container">
@@ -68,7 +68,7 @@
               <li>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_3.png" alt="" width="137" height="137">
                 <p>格安SIMの使用に特に重要な料金。<br><br>
-                センターモバイルは他社には真似できない技術で毎月携帯料金を最大0円まで下げる提案が可能。
+                センターモバイルは他社には真似できない技術で毎月携帯料金を最大割引で0円まで下げる提案が可能。
                 </p>
               </li>
               <li>
@@ -95,7 +95,7 @@
               <li>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_3.png" alt="" width="202" height="202">
                 <p>格安SIMの使用に特に重要な料金。<br><br>
-                センターモバイルは他社には真似できない技術で毎月携帯料金を最大0円まで下げる提案が可能。
+                センターモバイルは他社には真似できない技術で毎月携帯料金を最大割引で0円まで下げる提案が可能。
                 </p>
               </li>
               <li>
@@ -138,7 +138,7 @@
         <section class="partner" id="oem">
           <div class="about_cm">
         <p><span>センターモバイルのOEMとは</span><br><br>センターモバイルのサービスを自社のサービスにリブランディングし販売する事を指します。<br>
-          <br>最大0円の通信事業を自社のサービスとして展開することができます。</p>
+          <br>最大割引で0円の通信事業を自社のサービスとして展開することができます。</p>
       </div>
 
         <div class="wrapper">
@@ -156,10 +156,10 @@
             <h3>センターモバイル×OEM</h3>
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan3.png" alt="">
             <p>
-              センターモバイルのビジネスモデルで携帯料金を最大0円に！<br><br>
+              センターモバイルのビジネスモデルで携帯料金を最大割引で0円に！<br><br>
               生活必需品の携帯は、あらゆる業種にマッチします。<br><br>
               既存顧客様を抱える企業様には、顧客様とのより強固な関係性を構築することが可能といえます。<br><br>
-              また広告活用で携帯料金が最大0円で使える強みを活かし、世間に新常識を浸透させていきます。
+              また広告活用で携帯料金が最大割引で0円で使える強みを活かし、世間に新常識を浸透させていきます。
             </p>
             </div>
 
