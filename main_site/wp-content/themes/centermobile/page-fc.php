@@ -205,6 +205,7 @@
       <footer>
         <?php get_footer(); ?>
 
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/slick.min.js?<?php echo date('Ymd-Hi'); ?>"></script>
         <script>
         $(window).on('load',function(){
           youtubeDef();
@@ -232,6 +233,14 @@
             }
           });
         }
+
+        $('.mslider').slick({
+          autoplay: true,
+          autoplaySpeed: 2500,
+          speed: 800,
+          dots: true,
+          arrows: false,
+        });
         </script>
       </footer>
 

@@ -45,89 +45,33 @@
           </div>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <!--自作のJS-->
         <script>
         $(".openbtn1").click(function () {//ボタンがクリックされたら
-        $(this).toggleClass('active');//ボタン自身に activeクラスを付与し
-        $("#g-nav").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
-      });
-
-      $("#g-nav a").click(function () {//ナビゲーションのリンクがクリックされたら
-      $(".openbtn1").removeClass('active');//ボタンの activeクラスを除去し
-      $("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
-    });
-      </script>
-      <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/jquery.bxslider.css">
-
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-
-  <script type="text/javascript">
-    $(function() {
-  $('.slider').slick({
-    autoplay: true,
-    autoplaySpeed: 2500,
-    speed: 800,
-    dots: true,
-    arrows: false,
-    centerMode: true,
-    centerPadding: '10%',
-    //レスポンシブでの動作を指定
-    responsive: [{
-      breakpoint: 1180,  //ブレイクポイントを指定
-      settings: {
-        centerPadding:'0',
-      }
-    }]
-  });
-});
-//  $('.slider').slick({
-//   autoplay: true,
-//     autoplaySpeed: 2500,
-//     speed: 800,
-//     dots: true,
-//     arrows: false,
-//     centerMode: true,
-//     centerPadding: '10%',
-// });
- $('.mslider').slick({
-  autoplay: true,
-    autoplaySpeed: 2500,
-    speed: 800,
-    dots: true,
-    arrows: false,
-});
-  </script>
-
-  <!-- ＃リンクのスムーズスクロール -->
-    <script>
-      $(function(){
-        // #で始まるリンクをクリックしたら実行されます
-        $('a[href^="#"]').click(function() {
-          // スクロールの速度
-          var speed = 400; // ミリ秒で記述
-          var href= $(this).attr("href");
-          var target = $(href == "#" || href == "" ? 'html' : href);
-          var position = target.offset().top;
-          if(window.matchMedia('(max-width: 1180px)').matches){
-            position = position - $('#header').height();
-          }
-          $('body,html').animate({scrollTop:position}, speed, 'swing');
-          return false;
+          $(this).toggleClass('active');//ボタン自身に activeクラスを付与し
+          $("#g-nav").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
         });
-      });
-    </script>
 
-    <script>
-      $('#manu a[href]').on('click', function(event) {
-        $('.navToggle').trigger('click');
-    });
-    </script>
+        $("#g-nav a").click(function () {//ナビゲーションのリンクがクリックされたら
+          $(".openbtn1").removeClass('active');//ボタンの activeクラスを除去し
+          $("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
+        });
+        </script>
 
-    <?php
-    /*
-    <!--  ad tags Size: 320x100 ZoneId:1506853-->
-    <script type="text/javascript" src="https://js.gsspcln.jp/t/506/853/a1506853.js"></script>
-    */
-    ?>
+        <!-- ＃リンクのスムーズスクロール -->
+        <script>
+        $(function(){
+          // #で始まるリンクをクリックしたら実行されます
+          $('a[href^="#"]').click(function() {
+            // スクロールの速度
+            var speed = 400; // ミリ秒で記述
+            var href= $(this).attr("href");
+            var target = $(href == "#" || href == "" ? 'html' : href);
+            var position = target.offset().top;
+            if(window.matchMedia('(max-width: 1180px)').matches){
+              position = position - $('#header').height();
+            }
+            $('body,html').animate({scrollTop:position}, speed, 'swing');
+            return false;
+          });
+        });
+        </script>
