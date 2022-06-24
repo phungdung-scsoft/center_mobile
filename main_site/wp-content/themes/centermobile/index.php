@@ -384,6 +384,8 @@
 		</div>
 	</section>
 
+  <?php
+  /*
 	<section class="content08">
 		<h2><span><img src="<?php echo get_template_directory_uri(); ?>/assets/img2/con8_tit.png" alt="動画でもっと詳しく"  width="618" height="80"></span></h2>
 		<div class="inner">
@@ -392,6 +394,8 @@
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img2/btn01.png" alt="もっと詳しく" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img2/btn01_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img2/btn01.png'" width="600" height="87"></a>
 		</div>
 	</section>
+  */
+  ?>
 
 	<section class="content09">
 		<div class="inner">
