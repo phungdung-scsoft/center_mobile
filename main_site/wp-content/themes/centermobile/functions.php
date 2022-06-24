@@ -31,6 +31,17 @@ function taxonomy_orderby_description( $orderby, $args ) {
 add_filter( 'get_terms_orderby', 'taxonomy_orderby_description', 10, 2 );
 
 /*********************************
+ トピックス一覧のみAll in one SEOのtitleタグ内容がおかしいので強制書き換え
+**********************************/
+function my_title($title){
+  if(is_page('media-archive')){
+    $title = 'トピックス | 株式会社センターモバイル';
+  }
+  return $title;
+}
+add_filter('aioseo_title', 'my_title');
+
+/*********************************
  店舗の詳細ページを404に（現状アーカイブでしか記事項目を使用していないため）
 **********************************/
 //add_filter( 'store_rewrite_rules', '__return_empty_array' );
