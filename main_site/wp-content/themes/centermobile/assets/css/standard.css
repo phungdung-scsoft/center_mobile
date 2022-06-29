@@ -2959,6 +2959,8 @@ nav li a {
 
 #cover .sp{
 	display: block;
+	width: 100vw;	/* CLS */
+	height: 100vw;	/* CLS */
 }
 
 #cover .pc{
