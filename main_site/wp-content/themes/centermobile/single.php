@@ -37,4 +37,6 @@
 
 
     </div><!-- containerここまで -->
+
+    <?php get_template_part('inc/chat'); ?>
   </body>

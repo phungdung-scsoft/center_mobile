@@ -109,4 +109,6 @@
         <?php get_footer(); ?>
       </footer>
     </div><!-- containerここまで -->
+
+    <?php get_template_part('inc/chat'); ?>
   </body>

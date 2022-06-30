@@ -41,4 +41,6 @@ if(have_posts()): while(have_posts()): the_post();?>
 
 
     </div><!-- containerここまで -->
+
+    <?php get_template_part('inc/chat'); ?>
   </body>
