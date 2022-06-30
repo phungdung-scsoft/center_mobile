@@ -115,8 +115,8 @@
 			<div class="titImg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img2/con01_tit02.png" alt="プランは簡単に大きく2つの料金プラン" width="826" height="154"></div>
 
 			<ul>
-				<li><img src="<?php echo get_template_directory_uri(); ?>/assets/img2/con01_img01.png" alt="電話もインターネットも使える音声SIMプラン　通話付きのプランです" width="535" height="308"></li>
-				<li><img src="<?php echo get_template_directory_uri(); ?>/assets/img2/con01_img02.png" alt="インターネットのみ使えるデータSIMプラン　連絡はLINE等のみ、電話番号は必要ないという方にオススメ！通話アプリによる通話は可能です" width="535" height="309"></li>
+				<li><img src="<?php echo get_template_directory_uri(); ?>/assets/img2/con01_img01.png" alt="電話もインターネットも使える音声SIMプラン　通話付きのプランです" width="516" height="297"></li>
+				<li><img src="<?php echo get_template_directory_uri(); ?>/assets/img2/con01_img02.png" alt="インターネットのみ使えるデータSIMプラン　連絡はLINE等のみ、電話番号は必要ないという方にオススメ！通話アプリによる通話は可能です" width="516" height="298"></li>
 			</ul>
 		</div>
 	</section>
