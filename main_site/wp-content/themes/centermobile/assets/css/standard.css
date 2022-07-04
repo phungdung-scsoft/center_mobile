@@ -2208,7 +2208,7 @@ body{flex-direction: column;}
 
 .mainArea{
 	width: 100%;
-	margin: 68px 0 0 0;
+	margin: 69px 0 0 0;
 }
 
 header {width: 100%;background: #fff;margin: 0;}
@@ -2240,17 +2240,18 @@ header {width: 100%;background: #fff;margin: 0;}
 
 .headerUl .sp{
 	display: block;
+	line-height: 1;
 }
 
 .menuBtn.sp{
 	display: block;
 	background: #3183c6;
 	padding: 19px;
+	line-height: 1.6;
 }
 
 .headerUl li:first-child{
-
-margin: 0 5% 0 0;
+	margin: 0 5% 0 0;
 }
 
 /*--- modal ---*/
@@ -3060,18 +3061,9 @@ th, td {
 }
 
 
-.mainArea{
-	margin: 13vw 0 0;
-}
-
-
 .content02 li {
     width: 100%;
     margin: 0 0 20px 0;
-}
-
-.headerUl li:first-child{
-    margin: 0 8% 0 0;
 }
 
 /*-- ページトップ --*/
@@ -3577,10 +3569,6 @@ footer .navArea .inner{
 	width: 49%;
 }
 
-.mainArea{
-	margin: 17vw 0 0;
-}
-
 .content07 .maimo h5{
 	font-size: 2rem;
 	margin: 0 0 20px 0;
@@ -3589,44 +3577,9 @@ footer .navArea .inner{
 	background-size: contain;
 }
 
-.hLogo{
-	width: 80%;
-	max-width: 230px;
-	padding: 19px 0 10px;
-}
-
 
 /* ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆ */
 
 } /* max-width: 414px ここまで */
-
-/* ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆ */
-
-@media screen and (max-width: 375px) {
-
-.mainArea{
-	margin: 17.5vw 0 0;
-}
-
-}
-
-
-
-/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
-/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
-
-@media screen and (max-width: 320px) {
-
-/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
-/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
-
-.telBtn a,
-.menuBtn a {
-	font-size: 200%;
-}
-
-/* ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆ */
-
-} /* max-width: 320px ここまで */
 
 /* ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆ */

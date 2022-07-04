@@ -33,7 +33,7 @@
               'post_status' => 'publish',
               'post_type' => 'post', //　ページの種類（例、page、post、カスタム投稿タイプ名）
               'paged' => $paged,
-              'posts_per_page' => 5, // 表示件数
+              'posts_per_page' => 6, // 表示件数
               'orderby' => 'date',
               'order' => 'DESC'
             ) );
