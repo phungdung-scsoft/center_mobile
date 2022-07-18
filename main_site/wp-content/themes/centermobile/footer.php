@@ -1,10 +1,4 @@
 <?php wp_footer(); ?>
-        <div class="footer_banner">
-          <div class="wrapper">
-            <a href="https://nippon-smes-project.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_banner.png" alt="中小企業からニッポンを元気にプロジェクト" width="563" height="282"></a>
-            <p>センターモバイルは『中小企業からニッポンを元気にプロジェクト』に参画しています。</p>
-          </div>
-        </div>
         <div class="footer_menu">
           <div class="wrapper">
             <div class="link_btns">
