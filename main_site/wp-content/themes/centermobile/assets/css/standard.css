@@ -128,9 +128,9 @@ header {
 	padding: 0;
 	width: 95%;
 	max-width: 1200px;
-	margin: 30px auto 28px;
+	margin: 38px auto 22px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -2210,7 +2210,7 @@ body{flex-direction: column;}
 	margin: 69px 0 0 0;
 }
 
-header {width: 100%;background: #fff;margin: 0;}
+header {width: 100%;background: #fff;margin: 0;justify-content: space-between;}
 
 .hLogo .sp{
     display: block;

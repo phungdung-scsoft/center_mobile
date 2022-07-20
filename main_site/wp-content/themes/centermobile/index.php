@@ -242,12 +242,6 @@
 		</a>
 	</section>
 
-	<div class="content03">
-		<div class="inner">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img2/con3_img01.png" alt="おかげさまで３冠達成！！" width="1101" height="642" loading="lazy">
-		</div>
-	</div>
-
 	<section class="content04">
 		<div class="inner">
 			<h2>
@@ -408,7 +402,7 @@
 							安心のdocomo回線ですので、docomoの電波が届く場所なら、問題なくご使用いただけます！
 						</div>
 						<div class="imgArea">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img2/con9_img03.png" alt="格安SIM業界速度ランキングNo.1　安心・安全のdocomo回線" width="420" height="386" loading="lazy">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img2/con9_img03.png" alt="安心・安全のdocomo回線" width="420" height="386" loading="lazy">
 						</div>
 					</div>
 				</li>
