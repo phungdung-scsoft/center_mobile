@@ -22,7 +22,7 @@
       <div class="systemWrap">
         <div class="wrapper">
           <section class="textWrap">
-            <h2 class="heading">なぜ、携帯電話が最大割引で0円になるのか</h2>
+            <h2 class="heading">なぜ、携帯電話の利用料金が最大割引で0円になるのか</h2>
             <div class="text">
               <p>広告スポンサーからの収益を利用者にポイントで還元。<br>
                 1ポイント/1円相当として扱います。<br>
