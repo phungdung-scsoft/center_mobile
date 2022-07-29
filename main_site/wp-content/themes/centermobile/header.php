@@ -19,8 +19,7 @@
   <!--cssの読み込み-->
   <?php if ( is_home() || is_front_page() ) : ?>
     <title>株式会社センターモバイル | 新世代格安SIMのセンターモバイル。ケータイ料金が最大割引で0円。通常利用でも3GB 1,280円/月〜でお得にご利用いただけます。</title>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/default.css?<?php echo date('Ymd-Hi'); ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/standard.css?<?php echo date('Ymd-Hi'); ?>" media="screen,print">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/top.css?<?php echo date('Ymd-Hi'); ?>" media="screen,print">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick-theme.css?<?php echo date('Ymd-Hi'); ?>" media="screen,print">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick.css?<?php echo date('Ymd-Hi'); ?>" media="screen,print">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js?<?php echo date('Ymd-Hi'); ?>"></script>
