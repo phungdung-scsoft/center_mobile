@@ -164,7 +164,7 @@
             </div>
 
             <div class="partner_inner oem_partner_inner">
-            <h4 class="template_h3">OEM販売の3つの自由</h3>
+            <h3 class="template_h3">OEM販売の3つの自由</h3>
             <ul class="info_list">
                 <li>
                   <h4>1. 販売の自由</h4>
