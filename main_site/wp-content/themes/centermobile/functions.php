@@ -42,6 +42,12 @@ function my_title($title){
 add_filter('aioseo_title', 'my_title');
 
 /*********************************
+ AIO SEOが出力する<link rel="prev/next">を削除
+**********************************/
+add_filter('aioseo_prev_link', '__return_empty_string');
+add_filter('aioseo_next_link', '__return_empty_string');
+
+/*********************************
  店舗の詳細ページを404に（現状アーカイブでしか記事項目を使用していないため）
 **********************************/
 //add_filter( 'store_rewrite_rules', '__return_empty_array' );
