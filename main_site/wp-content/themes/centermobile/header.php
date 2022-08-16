@@ -32,9 +32,11 @@
       $slug = $page->post_name;
       $url = $_SERVER['REQUEST_URI'];
       if( strstr($url,'ufaq')==true ) :
-        $slug = 'faq';
+        $slug = 'faq';  /* FAQ */
       elseif( strstr($url,'store')==true ) :
-        $slug = 'store';
+        $slug = 'store';  /* 店舗一覧、詳細 */
+      elseif( is_single() ) :
+        $slug = 'media-archive';  /* トピックス詳細 */
       endif;
     ?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/lower.css?<?php echo date('Ymd-Hi'); ?>">
