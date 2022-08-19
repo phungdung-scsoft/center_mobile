@@ -187,7 +187,7 @@
         <h2>中期事業計画書</h2>
         <p>中期事業計画書はこちらからご確認ください。</p>
         <div class="btn_outer btn_blue btn_pd">
-          <a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/businessplan_220521.pdf" target="_blank">中期事業計画書（PDF）</a>
+          <a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/businessplan.pdf" target="_blank">中期事業計画書（PDF）</a>
         </div>
       </div>
     </section>
