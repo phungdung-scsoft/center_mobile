@@ -142,6 +142,11 @@
           </tr>
         </table>
 
+        <?php
+        // 9月1日以降に解除予定
+        date_default_timezone_set('Asia/Tokyo');
+        if (strtotime(date('Y-m-d H:i')) < strtotime('2022-09-01 00:00')) :
+        ?>
         <table>
           <tr>
             <th>顧問</th>
@@ -154,6 +159,26 @@
             元 兵庫県暴力団対策課</td>
           </tr>
         </table>
+        <?php else : ?>
+        <table>
+          <tr>
+            <th rowspan="2">顧問</th>
+            <td>株式会社オーディン<br>
+            〒663-8166<br>
+            兵庫県西宮市甲子園高潮町1-25 甲子園ビル5F<br>
+            会長　箱崎 逸夫<br>
+            元 兵庫県葺合警察署長<br>
+            代表取締役　佐藤 満<br>
+            元 兵庫県暴力団対策課</td>
+          </tr>
+          <tr>
+            <td>株式会社T&amp;Aマネジメント<br>
+            〒102-0075<br>
+            東京都千代田区三番町5番地11パークハウス3番町1304<br>
+            代表取締役　長田 忠千代</td>
+          </tr>
+        </table>
+        <?php endif; ?>
 
         <table>
           <tr>
