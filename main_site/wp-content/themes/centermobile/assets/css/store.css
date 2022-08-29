@@ -52,6 +52,7 @@
 
 .store_list > li .info-wrap {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   padding: 20px;
   background: #fff;
@@ -96,6 +97,23 @@
 
 .store_list > li .info-wrap .text-wrap .text .address {
   margin: 10px 0 0;
+}
+
+.store_list > li .info-wrap .tagList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.store_list > li .info-wrap .tagList > li {
+  margin: 10px 10px 0 0;
+  padding: 1px 4px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid #bd1b1b;
+  background: #bd1b1b;
+  color: #fff;
 }
 
 /*store information*/

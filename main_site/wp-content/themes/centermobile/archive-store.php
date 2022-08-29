@@ -77,6 +77,19 @@
                         <?php endif; ?>
                       </div>
                     </div>
+                    <?php
+                      $product = get_field('お取扱い商材');
+                      if($product) :
+                    ?>
+                      <ul class="tagList">
+                        <?php
+                          rsort($product);
+                          foreach($product as $child){
+                            echo '<li class="'.$child['value'].'">'.$child['label'].'</li>';
+                          }
+                        ?>
+                      </ul>
+                    <?php endif; ?>
                   </a>
                 </li>
     	        <?php endwhile;?>

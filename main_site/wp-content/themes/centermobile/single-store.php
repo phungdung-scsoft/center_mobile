@@ -38,7 +38,7 @@
               <div class="information">
                 <dl class="info_list">
                   <?php if(get_field('お知らせ')) : ?>
-                  <dt class="address"><i class="fas fa-bullhorn"></i>お知らせ</dt>
+                  <dt class="news"><i class="fas fa-bullhorn"></i>お知らせ</dt>
                   <dd><?php the_field('お知らせ'); ?></dd>
                   <?php endif; ?>
                   <?php if(get_field('所在地')) : ?>
@@ -50,7 +50,7 @@
                   <dd><?php the_field('営業時間'); ?></dd>
                   <?php endif; ?>
                   <?php if(get_field('最寄駅')) : ?>
-                  <dt class="tel"><i class="fas fa-subway"></i>最寄駅</dt>
+                  <dt class="station"><i class="fas fa-subway"></i>最寄駅</dt>
                   <dd><?php the_field('最寄駅'); ?></dd>
                   <?php endif; ?>
                   <?php if(get_field('電話番号')) : ?>
@@ -58,11 +58,22 @@
                   <dd><?php the_field('電話番号'); ?></dd>
                   <?php endif; ?>
                   <?php if(get_field('お取扱い商材')) : ?>
-                  <dt class="tel"><i class="fas fa-store-alt"></i>お取扱い商材</dt>
-                  <dd><?php the_field('お取扱い商材'); ?></dd>
+                  <dt class="product"><i class="fas fa-store-alt"></i>お取扱い商材</dt>
+                  <dd>
+                    <?php
+                      $product = get_field('お取扱い商材');
+                      rsort($product);
+                      foreach($product as $child){
+                        echo $child['label'];
+                        if (next($product) !== false){
+                          echo '，';
+                        }
+                      }
+                    ?>
+                  </dd>
                   <?php endif; ?>
                   <?php if(get_field('その他店舗情報')) : ?>
-                  <dt class="tel"><i class="fas fa-info-circle"></i>その他</dt>
+                  <dt class="other"><i class="fas fa-info-circle"></i>その他</dt>
                   <dd><?php the_field('その他店舗情報'); ?></dd>
                   <?php endif; ?>
                 </dl>
