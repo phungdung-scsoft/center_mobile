@@ -60,16 +60,15 @@
                   <?php if(get_field('お取扱い商材')) : ?>
                   <dt class="product"><i class="fas fa-store-alt"></i>お取扱い商材</dt>
                   <dd>
-                    <?php
-                      $product = get_field('お取扱い商材');
-                      rsort($product);
-                      foreach($product as $child){
-                        echo $child['label'];
-                        if (next($product) !== false){
-                          echo '，';
+                    <ul class="productList">
+                      <?php
+                        $product = get_field('お取扱い商材');
+                        rsort($product);
+                        foreach($product as $child){
+                          echo '<li>'.$child['label'].'</li>';
                         }
-                      }
-                    ?>
+                      ?>
+                    </ul>
                   </dd>
                   <?php endif; ?>
                   <?php if(get_field('その他店舗情報')) : ?>
