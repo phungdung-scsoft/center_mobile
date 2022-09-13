@@ -16,7 +16,7 @@
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/">料金・サービス</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>app/">アプリの使い方</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
-                    <li><a href="//maimo.app/login">Maimo Login</a></li>
+                    <li><a href="//maimo.app/login"><?= $GLOBALS['gl_service']; ?> Login</a></li>
                     <!-- <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">採用情報</a></li> -->
                   </div>
                   <div class="footer_nav_m">
@@ -31,8 +31,8 @@
                 </ul>
               </nav>
               <div class="footer_logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo1.png" alt="センターモバイルのロゴ" width="194" height="91">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo2.png" alt="マイモのロゴ" width="98" height="91">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo1.png" alt="CENTER MOBILE" width="194" height="91">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo2_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?>" width="242" height="91">
               </div>
             </div>
             <p>Copyright (C) CENTER MOBILE All rights reserved.</p>

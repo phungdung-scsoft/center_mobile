@@ -4,7 +4,7 @@
   <?php get_header(); ?>
 </head>
 
-<body id="pTop" class="website">
+<body id="pTop" class="website type-<?= $GLOBALS['gl_path']; ?>">
 <div class="hArea">
 	<!-- header -->
 	<header>
@@ -13,7 +13,7 @@
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_logo_sp.png" alt="CENTER MOBILE" class="sp" width="292" height="28"></a>
 		</div>
 		<ul class="headerUl">
-			<li class="sp"><a href="https://maimo.app/login" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_bnr.png" alt="Maimo Login" width="151" height="38"></a></li>
+			<li class="sp"><a href="https://maimo.app/login" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_bnr_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?> Login" width="151" height="38"></a></li>
 			<li class="menuBtn sp">
 				<button class="menu-trigger" href="#">
 					<span></span>
@@ -34,7 +34,7 @@
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
 					</ul>
-					<!-- <a href="">maimo Login</a> -->
+					<!-- <a href=""><?= $GLOBALS['gl_service']; ?> Login</a> -->
 				</div><!--gnav-wrap-->
 			</nav>
 			</li>
@@ -56,7 +56,7 @@
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
 		</ul>
-		<a href="https://maimo.app/login" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_bnr.png" alt="Maimo Login" width="151" height="38"></a>
+		<a href="https://maimo.app/login" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_bnr_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?> Login" width="151" height="38"></a>
 	</nav>
 	<!-- /nav -->
 </div>
@@ -65,41 +65,90 @@
 <!-- <h1>CENTER MOBILE</h1> -->
 	<!-- cover -->
 <div id="cover">
-<ul class="slider pc">
-		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="1725" height="863">
-		</li>
-		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2.png" alt="オリジナルブランドの新電力 Maimoでんき" class="pc" width="1725" height="863">
-		</li>
-		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3.png" alt="Maimo Wi-Fi -世界中のどこでもつながる-" class="pc" width="1725" height="863">
-		</li>
-		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4.png" alt="インターネット無制限！新規も切り替えもとってもお得！Maimoひかり" class="pc" width="1725" height="863">
-		</li>
-	</ul>
+  <?php if($GLOBALS['gl_path'] != 'plaio'): ?>
+    <ul class="slider pc">
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="1725" height="863">
+  		</li>
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2.png" alt="オリジナルブランドの新電力 <?= $GLOBALS['gl_electric']; ?>" class="pc" width="1725" height="863">
+  		</li>
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="1725" height="863">
+  		</li>
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="1725" height="863">
+  		</li>
+  	</ul>
 
-	<ul class="thumb pc">
-		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="327" height="163">
-		</li>
-		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2.png" alt="オリジナルブランドの新電力 Maimoでんき" class="pc" width="327" height="163">
-		</li>
-		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3.png" alt="Maimo Wi-Fi -世界中のどこでもつながる-" class="pc" width="327" height="163">
-		</li>
-		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4.png" alt="インターネット無制限！新規も切り替えもとってもお得！Maimoひかり" class="pc" width="327" height="163">
-		</li>
-	</ul>
+  	<ul class="thumb pc">
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="327" height="163">
+  		</li>
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2.png" alt="オリジナルブランドの新電力 <?= $GLOBALS['gl_electric']; ?>" class="pc" width="327" height="163">
+  		</li>
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="327" height="163">
+  		</li>
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="327" height="163">
+  		</li>
+  	</ul>
+  <?php else: ?>
+    <ul class="slider pc">
+      <li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" width="1725" height="863">
+  		</li>
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="1725" height="863">
+  		</li>
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="1725" height="863">
+  		</li>
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="1725" height="863">
+  		</li>
+  	</ul>
 
-	<ul class="sp">
-		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_sp.png" alt="携帯料金は自分で決める時代へ！" width="780" height="780">
-		</li>
-	</ul>
+  	<ul class="thumb pc">
+      <li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" width="327" height="163">
+  		</li>
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="327" height="163">
+  		</li>
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="327" height="163">
+  		</li>
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="327" height="163">
+  		</li>
+  	</ul>
+  <?php endif; ?>
+
+  <?php if($GLOBALS['gl_path'] != 'plaio'): ?>
+  	<ul class="sp">
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_sp.png" alt="携帯料金は自分で決める時代へ！" width="780" height="780">
+  		</li>
+  	</ul>
+  <?php else: ?>
+    <ul class="slider sp">
+      <li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" width="780" height="780">
+  		</li>
+  		<li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_sp.png" alt="携帯料金は自分で決める時代へ！" width="780" height="780">
+  		</li>
+      <li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" width="780" height="780">
+  		</li>
+      <li>
+  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" width="780" height="780">
+  		</li>
+  	</ul>
+  <?php endif; ?>
 </div>
 <!-- /cover -->
 
@@ -329,7 +378,7 @@
 							センターモバイルはその仕組みを携帯業界に取り込みました。
 						</p>
 						<p>
-							<span>会員様専用アプリ「Maimo」</span>ではお客様のニーズに合わせた広告の配信を行います。<br>
+							<span>会員様専用アプリ「<?= $GLOBALS['gl_service']; ?>」</span>ではお客様のニーズに合わせた広告の配信を行います。<br>
 							この<span>広告を視聴する</span>ことによって<span>お客様にポイントが貯まり、携帯料金に</span>ご利用いただくことが可能になります。
 						</p>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>app/" class="btn03">アプリの使い方はこちら</a>
@@ -337,9 +386,9 @@
 				</dd>
 			</dl>
 			<div class="maimo">
-				<h4><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/maimo.png" alt="Maimo" width="228" height="212" loading="lazy"></h4>
+				<h4><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?>" width="228" height="212" loading="lazy"></h4>
 				<div class="txtArea">
-					<h5>会員専用アプリ  Maimo(マイモ)</h5>
+					<h5>会員専用アプリ <br class="sp"><?= $GLOBALS['gl_service']; ?>(<?= $GLOBALS['gl_service_jp']; ?>)</h5>
 					<p>■広告を見ることでポイントを貯めて、携帯料金を節約</p>
 					<p>■毎月の利用料金やデータ残量（ギガ）のチェック、ポイントの利用もアプリからできます。</p>
 					<div class="ap">
@@ -387,7 +436,7 @@
 					<div class="ans">
 						<div class="txtAera">
 							動画広告だけでなく、アプリダウンロードや商品の購入、電気・インターネットなどのサービス利用申し込みでもポイントが貯まります。<br>
-							毎月支払う電気代やインターネット費用をMaimoで申し込めば、効率よくポイントが貯まります。
+							毎月支払う電気代やインターネット費用を<?= $GLOBALS['gl_service']; ?>で申し込めば、効率よくポイントが貯まります。
 						</div>
 						<div class="imgArea">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con9_img02.png" alt="" width="370" height="369" loading="lazy">
@@ -482,7 +531,7 @@
 	<div class="bnrArea">
 		<ul class="inner">
 			<li><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02.png" alt="どれだけ使っても最大割引で0円 WEB申し込み"  onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02.png'" width="312" height="91" loading="lazy"></a></li>
-			<li><a href="https://maimo.app/login" target="_blank" class="maiBtn">Maimo Login</a></li>
+			<li><a href="https://maimo.app/login" target="_blank" class="maiBtn"><?= $GLOBALS['gl_service']; ?> Login</a></li>
 			<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/" class="conBtn">お問い合わせ</a></li>
 		</ul>
 	</div>
@@ -491,7 +540,7 @@
 <div class="bNav sp">
 	<ul>
 		<li><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_01.png" alt="WEB申し込み" width="117" height="66" loading="lazy"></a></li>
-		<li><a href="https://maimo.app/login"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_02.png" alt="MaimoLogin" width="129" height="72" loading="lazy"></a></li>
+		<li><a href="https://maimo.app/login"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_02_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?> Login" width="129" height="72" loading="lazy"></a></li>
 		<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_03.png" alt="お問い合わせ" width="111" height="62" loading="lazy"></a></li>
 	</ul>
 </div>
@@ -510,7 +559,7 @@
 				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/">料金・サービス</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>app/">アプリの使い方</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
-				<li><a href="https://maimo.app/login" target="_blank" >Maimo Login</a></li>
+				<li><a href="https://maimo.app/login" target="_blank" ><?= $GLOBALS['gl_service']; ?> Login</a></li>
 			</ul>
 
 			<ul>
@@ -527,7 +576,7 @@
 	<div class="logoArea">
 		<div class="inner">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/f_aicon01.png" alt="CENTER MOBILE" width="155" height="85" loading="lazy">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/f_aicon02.png" alt="Maimo" width="107" height="99" loading="lazy">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/f_aicon02_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?>" width="107" height="99" loading="lazy">
 		</div>
 	</div>
 </div>

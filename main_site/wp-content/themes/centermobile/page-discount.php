@@ -65,12 +65,12 @@
       <section class="point">
         <div class="wrapper">
           <h2>ポイントの貯め方</h2>
-          <p class="mb-20">動画広告の視聴にはご契約者様専用アプリ「Maimo(マイモ)」が必要です。</p>
+          <p class="mb-20">動画広告の視聴にはご契約者様専用アプリ「<?= $GLOBALS['gl_service']; ?>(<?= $GLOBALS['gl_service_jp']; ?>)」が必要です。</p>
 
           <div class="maimo">
-            <h2>会員専用アプリ Maimo<span>(マイモ)</span></h2>
+            <h2>会員専用アプリ <?= $GLOBALS['gl_service']; ?><span>(<?= $GLOBALS['gl_service_jp']; ?>)</span></h2>
             <div class="maimo_dl mb-30">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/maimo.png" alt="" width="132" height="122">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_app_<?= $GLOBALS['gl_path']; ?>.png" alt="" width="132" height="122">
               <ul class="dl_btns">
                 <li><a href="//apps.apple.com/us/app/maimo/id1554806667?itsct=apps_box_link&itscg=30200" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_apple.png" alt="" width="148" height="54"></a></li>
                 <li><a href="//play.google.com/store/apps/details?id=jp.co.Maimo&hl=ja" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_google.png" alt="" width="182" height="54"></a></li>
@@ -83,15 +83,15 @@
             <?php /*<li>
               <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_1.png" alt=""></div>
               <div class="detail">
-                <p>ご契約者様専用アプリ「Maimo(マイモ)」を利用します。</p>
+                <p>ご契約者様専用アプリ「<?= $GLOBALS['gl_service']; ?>(<?= $GLOBALS['gl_service_jp']; ?>)」を利用します。</p>
                 <p class="mb-20">アプリから動画広告を視聴することでポイントを貯めることができます。</p>
                 <p class="mb-20">まずはアプリをお使いの端末へインストールし、ログインしてください。</p>
                 <p class="mb-20">※ログインに必要な電話番号とパスワードはご契約時にご指定のメールアドレスへお送りしております。</p>
                 <p>まだアプリを端末へインストールされていない方は下記よりインストールをお願いいたします。</p>
                 <div class="maimo">
-                    <h2>会員専用アプリ Maimo<span>(マイモ)</span></h2>
+                    <h2>会員専用アプリ <?= $GLOBALS['gl_service']; ?><span>(<?= $GLOBALS['gl_service_jp']; ?>)</span></h2>
                     <div class="maimo_dl mb-30">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/maimo.png" alt="">
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/<?= $GLOBALS['gl_path']; ?>.png" alt="">
                       <ul class="dl_btns">
                         <li><a href="//apps.apple.com/us/app/maimo/id1554806667?itsct=apps_box_link&itscg=30200" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_apple.png" alt=""></a></li>
                         <li><a href="//play.google.com/store/apps/details?id=jp.co.Maimo&hl=ja" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_google.png" alt=""></a></li>
@@ -137,14 +137,14 @@
             <?php /*<li>
               <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_1.png" alt=""></div>
               <div class="detail">
-                <p>ご契約者様専用アプリ「Maimo(マイモ)」または、ご契約者様専用サイト「Maimo(マイモ)」を利用します。</p>
+                <p>ご契約者様専用アプリ「<?= $GLOBALS['gl_service']; ?>(<?= $GLOBALS['gl_service_jp']; ?>)」または、ご契約者様専用サイト「<?= $GLOBALS['gl_service']; ?>(<?= $GLOBALS['gl_service_jp']; ?>)」を利用します。</p>
                 <p class="mb-20">まずはアプリをお使いの端末へインストールまたは、ご契約者様専用サイトへログインしてください。</p>
                 <p class="mb-20">※ログインに必要な電話番号とパスワードはご契約時にご指定のメールアドレスへお送りしております。</p>
                 <p>まだアプリを端末へインストールされていない方は下記よりインストールをお願いいたします。</p>
                 <div class="maimo">
-                    <h2>会員専用アプリ Maimo<span>(マイモ)</span></h2>
+                    <h2>会員専用アプリ <?= $GLOBALS['gl_service']; ?><span>(<?= $GLOBALS['gl_service_jp']; ?>)</span></h2>
                     <div class="maimo_dl mb-30">
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/maimo.png" alt="">
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/<?= $GLOBALS['gl_path']; ?>.png" alt="">
                       <ul class="dl_btns">
                         <li><a href="//apps.apple.com/us/app/maimo/id1554806667?itsct=apps_box_link&itscg=30200" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_apple.png" alt=""></a></li>
                         <li><a href="//play.google.com/store/apps/details?id=jp.co.Maimo&hl=ja" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_google.png" alt=""></a></li>
@@ -164,29 +164,33 @@
 
           <h3>サービス申し込み</h3>
           <ul class="capList">
+            <?php
+            /*
             <li>
               <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_2.png" alt="" width="294" height="147"></div>
               <div class="detail">
-                <h4>Maimoでんき</h4>
+                <h4><?= $GLOBALS['gl_electric']; ?></h4>
                 <p>導入費用0円！オリジナル電気に切替で毎月ご利用料金の6%分ポイント獲得</p>
                 <p>例）10,000円の電気代で、毎月600ポイントを獲得。</p>
-                <?php /*<p>Maimoでんきなら、切替の工事や費用は不要で毎月の利用料金がオトクに！</p>
-                <p>導入費用は0円で、大手の地域電力と比較して従量料金が最大5％お安く利用いただけます。契約期間の縛りや最低利用期間もありません。</p>*/ ?>
+                //<!--p><?= $GLOBALS['gl_electric']; ?>なら、切替の工事や費用は不要で毎月の利用料金がオトクに！</p-->
+                //<!--p>導入費用は0円で、大手の地域電力と比較して従量料金が最大5％お安く利用いただけます。契約期間の縛りや最低利用期間もありません。</p-->
               </div>
             </li>
+            */
+            ?>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_3.jpg" alt="" width="294" height="147"></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_3_<?= $GLOBALS['gl_path']; ?>.jpg" alt="" width="294" height="147"></div>
               <div class="detail">
-                <h4>Maimoひかり</h4>
+                <h4><?= $GLOBALS['gl_light']; ?></h4>
                 <p>NTTフレッツ光の回線環境は変わらず、お得に使える！切替後、毎月300ポイント獲得</p>
-                <?php /*<p>Maimoひかりコラボレーションは、NTT 東日本・NTT 西日本の光ファイバー回線を使ってお安く提供する、インターネットサービスです。</p>
+                <?php /*<p><?= $GLOBALS['gl_light']; ?>コラボレーションは、NTT 東日本・NTT 西日本の光ファイバー回線を使ってお安く提供する、インターネットサービスです。</p>
                 <p>光ファイバー回線とプロバイダーがひとつになって、お得に使えます。</p>*/ ?>
               </div>
             </li>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_4_2.png" alt="" width="294" height="147"></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_4_2_<?= $GLOBALS['gl_path']; ?>.png" alt="" width="294" height="147"></div>
               <div class="detail">
-                <h4>Maimo Wi-Fi</h4>
+                <h4><?= $GLOBALS['gl_wifi']; ?></h4>
                 <p>世界中のどこでも繋がるWi-Fi！毎月300ポイント獲得</p>
                 <?php /*<p>超軽量で持ち運びの負担が気にならない！</p>
                 <p>快適に繋がる回線をすぐに見つけて自動接続！</p>
@@ -246,16 +250,16 @@
 
       <section class="maimo">
         <div class="wrapper">
-          <h2>会員専用アプリ Maimo<span>(マイモ)</span></h2>
+          <h2>会員専用アプリ <?= $GLOBALS['gl_service']; ?><span>(<?= $GLOBALS['gl_service_jp']; ?>)</span></h2>
           <div class="maimo_dl mb-30">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/maimo.png" alt="" width="132" height="122">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_app_<?= $GLOBALS['gl_path']; ?>.png" alt="" width="132" height="122">
             <ul class="dl_btns">
               <li><a href="//apps.apple.com/us/app/maimo/id1554806667?itsct=apps_box_link&itscg=30200" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_apple.png" alt="" width="148" height="54"></a></li>
               <li><a href="//play.google.com/store/apps/details?id=jp.co.Maimo&hl=ja" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_google.png" alt="" width="182" height="54"></a></li>
             </ul>
           </div>
           <div class="btn_outer btn_blue">
-            <a href="//maimo.app/login">Maimo(WEB) Login</a>
+            <a href="//maimo.app/login"><?= $GLOBALS['gl_service']; ?>(WEB) Login</a>
           </div>
         </div>
       </section>

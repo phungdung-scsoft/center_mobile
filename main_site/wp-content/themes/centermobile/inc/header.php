@@ -1,4 +1,4 @@
-<div class="side_menu pc_only">
+<div class="side_menu pc_only type-<?= $GLOBALS['gl_path']; ?>">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="menu_logo" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_cm_pc.png" alt="" width="162" height="115"></a>
         <nav>
           <ul>
@@ -15,7 +15,7 @@
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
           </ul>
           <div class="btn_area">
-            <a class="login_btn" href="//maimo.app/login"><p class="login">Maimo Login</p></a>
+            <a class="login_btn" href="//maimo.app/login"><p class="login"><?= $GLOBALS['gl_service']; ?> Login</p></a>
           </div>
         </nav>
       </div>
@@ -46,7 +46,7 @@
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">採用情報</a></li> -->
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
               <div class="btn_area btn_area_nav">
-                <a class="login_btn" href="//maimo.app/login"><p class="login">Maimo Login</p></a>
+                <a class="login_btn" href="//maimo.app/login"><p class="login"><?= $GLOBALS['gl_service']; ?> Login</p></a>
               </div>
             </ul>
           </div>

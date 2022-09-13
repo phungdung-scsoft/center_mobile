@@ -1484,6 +1484,10 @@ margin: 15px 0 35px 0;
 	mix-blend-mode: darken;
 }
 
+.type-plaio .bnrArea li .maiBtn:before{
+	background-image: url(../img/btn_plaio.png);
+}
+
 .bnrArea li .maiBtn:hover{
 	background: #f7d4e7;
 }
@@ -1592,11 +1596,16 @@ footer .navArea a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 	margin: 32px auto;
 }
 
 .logoArea .inner img{
-	margin: 0 1%;
+	margin: 0 30px 0 0;
+}
+
+.logoArea .inner img:last-child {
+	margin: 0;
 }
 
 /* 全ページ共通クラス
@@ -2478,6 +2487,11 @@ header {width: 100%;background: #fff;margin: 0;justify-content: space-between;}
 	background: url(../img/btn_maimo.png) 2vw center no-repeat;
 	mix-blend-mode: darken;
 	transition: .3s;
+}
+
+.type-plaio .gnav__wrap > a{
+	background-image: url(../img/btn_plaio.png);
+	background-size: contain;
 }
 
 .gnav__wrap > a:hover{
@@ -3507,6 +3521,10 @@ margin: 10vw 0 45px 0;
 	background-size: contain;
 }
 
+.type-plaio .content07 .maimo h5{
+	background-image: url(../img/plaio.png);
+}
+
 .content07 .maimo .txtArea p{
 	font-size: 1.6rem;
 }
@@ -3601,8 +3619,14 @@ margin: 10vw 0 45px 0;
 	padding: 3px 0 0 0;
 }
 
+.logoArea .inner {
+	justify-content: space-around;
+}
+
 .logoArea .inner img{
-	margin: 0 3%;
+	margin: 0;
+	width: auto;
+	height: 65px;
 }
 
 footer .navArea ul{
@@ -3689,6 +3713,10 @@ footer .navArea .inner{
 	padding: 0 0 0 22vw;
 	background: url(../img/maimo.png) left center no-repeat;
 	background-size: contain;
+}
+
+.type-plaio .content07 .maimo h5{
+	background-image: url(../img/plaio.png);
 }
 
 

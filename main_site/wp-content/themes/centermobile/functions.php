@@ -51,4 +51,38 @@ add_filter('aioseo_next_link', '__return_empty_string');
  店舗の詳細ページを404に（現状アーカイブでしか記事項目を使用していないため）
 **********************************/
 //add_filter( 'store_rewrite_rules', '__return_empty_array' );
+
+/*********************************
+ サービス名変更に伴うグローバル変数設定
+**********************************/
+function gl_setup() {
+  global $gl_path;
+  global $gl_service;
+  global $gl_service_jp;
+  global $gl_light;
+  global $gl_electric;
+  global $gl_id;
+  global $gl_wifi;
+
+  // 9月5日以降に解除予定
+  date_default_timezone_set('Asia/Tokyo');
+  if (strtotime(date('Y-m-d H:i')) < strtotime('2022-09-04 12:00')) :
+    $gl_path = "maimo";
+    $gl_service = "Maimo";
+    $gl_service_jp = "マイモ";
+    $gl_light = "Maimoひかり";
+    $gl_electric = "Maimoでんき";
+    $gl_id = "Maimo ID";
+    $gl_wifi = "Maimo Wi-fi";
+  else :
+    $gl_path = "plaio";
+    $gl_service = "PLAIO";
+    $gl_service_jp = "プレイオ";
+    $gl_light = "PLAIOひかり";
+    $gl_electric = "Maimoでんき";
+    $gl_id = "PLAIO ID";
+    $gl_wifi = "PLAIO Wi-fi";
+  endif;
+}
+add_action( 'after_setup_theme', 'gl_setup' );
 ?>

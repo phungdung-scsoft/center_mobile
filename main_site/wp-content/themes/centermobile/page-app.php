@@ -13,8 +13,8 @@
         <div class="img_discount top_image2">
         <div class="top_tlt">
         <div class="top_tlt_inner">
-        <h1 class="company_h1">Maimoアプリの使い方</h1>
-        <p>How to use the Maimo app</p>
+        <h1 class="company_h1"><?= $GLOBALS['gl_service']; ?>アプリの使い方</h1>
+        <p>How to use the <?= $GLOBALS['gl_service']; ?> app</p>
         </div>
         </div>
       </div>
@@ -22,7 +22,7 @@
       <div class="systemWrap">
         <div class="wrapper">
           <section class="textWrap">
-            <h2 class="heading">ご契約者様専用アプリ Maimo(マイモ)</h2>
+            <h2 class="heading">ご契約者様専用アプリ <?= $GLOBALS['gl_service']; ?>(<?= $GLOBALS['gl_service_jp']; ?>)</h2>
             <div class="text">
               <p>ご請求額・データ残量の確認、ギガ追加購入、ポイントの確認などを行えるセンターモバイル公式のアプリです。<br>
                 アプリから動画広告を見る事が出来ます。</p>
@@ -33,7 +33,7 @@
 
       <section class="point">
         <div class="wrapper">
-          <h2>Maimoポイントとは</h2>
+          <h2><?= $GLOBALS['gl_service']; ?>ポイントとは</h2>
           <p>CMを見たりアプリをダウンロードしたり、サービスを申し込んだりする事で、ポイントが貯まります。</p>
           <p>貯まったポイントは1ポイント1円相当として、料金の割引に利用できます。 </p>
           <p class="mb-30">ポイントには期限がなく、消滅することはありません。</p>
@@ -145,16 +145,16 @@
 
       <section class="maimo">
         <div class="wrapper">
-          <h2>会員専用アプリ Maimo<span>(マイモ)</span></h2>
+          <h2>会員専用アプリ <?= $GLOBALS['gl_service']; ?><span>(<?= $GLOBALS['gl_service_jp']; ?>)</span></h2>
           <div class="maimo_dl mb-30">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/maimo.png" alt="" width="132" height="122">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/<?= $GLOBALS['gl_path']; ?>.png" alt="" width="132" height="122">
             <ul class="dl_btns">
               <li><a href="//apps.apple.com/us/app/maimo/id1554806667?itsct=apps_box_link&itscg=30200" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_apple.png" alt="" width="148" height="54"></a></li>
               <li><a href="//play.google.com/store/apps/details?id=jp.co.Maimo&hl=ja" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_google.png" alt="" width="182" height="54"></a></li>
             </ul>
           </div>
           <div class="btn_outer btn_blue">
-            <a href="//maimo.app/login">Maimo(WEB) Login</a>
+            <a href="//maimo.app/login"><?= $GLOBALS['gl_service']; ?>(WEB) Login</a>
           </div>
         </div>
       </section>

@@ -101,6 +101,13 @@ h3 span{
   margin: 0 2px 2px -8px;
 }
 
+.type-plaio .login:before{
+  background-image: url(../img/logo_plaio.png);
+  width: 14px;
+  height: 24px;
+  margin: 0 8px 0 -10px;
+}
+
 .login{
   position: relative;
   line-height: 31px;
