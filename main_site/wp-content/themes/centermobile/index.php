@@ -65,90 +65,40 @@
 <!-- <h1>CENTER MOBILE</h1> -->
 	<!-- cover -->
 <div id="cover">
-  <?php if($GLOBALS['gl_path'] != 'plaio'): ?>
-    <ul class="slider pc">
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="1725" height="863">
-  		</li>
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2.png" alt="オリジナルブランドの新電力 <?= $GLOBALS['gl_electric']; ?>" class="pc" width="1725" height="863">
-  		</li>
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="1725" height="863">
-  		</li>
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="1725" height="863">
-  		</li>
-  	</ul>
 
-  	<ul class="thumb pc">
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="327" height="163">
-  		</li>
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2.png" alt="オリジナルブランドの新電力 <?= $GLOBALS['gl_electric']; ?>" class="pc" width="327" height="163">
-  		</li>
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="327" height="163">
-  		</li>
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="327" height="163">
-  		</li>
-  	</ul>
-  <?php else: ?>
-    <ul class="slider pc">
-      <li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" width="1725" height="863">
-  		</li>
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="1725" height="863">
-  		</li>
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="1725" height="863">
-  		</li>
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="1725" height="863">
-  		</li>
-  	</ul>
+  <ul class="slider">
+    <li>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" width="1725" height="863">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" width="780" height="780" class="sp">
+		</li>
+		<li>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="1725" height="863">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_sp.png" alt="携帯料金は自分で決める時代へ！" width="780" height="780" class="sp">
+		</li>
+		<li>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="1725" height="863">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" width="780" height="780" class="sp">
+		</li>
+		<li>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="1725" height="863">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" width="780" height="780" class="sp">
+		</li>
+	</ul>
 
-  	<ul class="thumb pc">
-      <li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" width="327" height="163">
-  		</li>
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="327" height="163">
-  		</li>
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="327" height="163">
-  		</li>
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="327" height="163">
-  		</li>
-  	</ul>
-  <?php endif; ?>
-
-  <?php if($GLOBALS['gl_path'] != 'plaio'): ?>
-  	<ul class="sp">
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_sp.png" alt="携帯料金は自分で決める時代へ！" width="780" height="780">
-  		</li>
-  	</ul>
-  <?php else: ?>
-    <ul class="slider sp">
-      <li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" width="780" height="780">
-  		</li>
-  		<li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_sp.png" alt="携帯料金は自分で決める時代へ！" width="780" height="780">
-  		</li>
-      <li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" width="780" height="780">
-  		</li>
-      <li>
-  			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" width="780" height="780">
-  		</li>
-  	</ul>
-  <?php endif; ?>
+	<ul class="thumb pc">
+    <li>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" width="327" height="163">
+		</li>
+		<li>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="327" height="163">
+		</li>
+		<li>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="327" height="163">
+		</li>
+		<li>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="327" height="163">
+		</li>
+	</ul>
 </div>
 <!-- /cover -->
 
