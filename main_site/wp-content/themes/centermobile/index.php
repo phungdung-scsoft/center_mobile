@@ -490,7 +490,7 @@
 <div class="bNav sp">
 	<ul>
 		<li><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_01.png" alt="WEB申し込み" width="117" height="66" loading="lazy"></a></li>
-		<li><a href="https://maimo.app/login"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_02_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?> Login" width="129" height="72" loading="lazy"></a></li>
+		<li><a href="https://maimo.app/login" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_02_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?> Login" width="129" height="72" loading="lazy"></a></li>
 		<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_03.png" alt="お問い合わせ" width="111" height="62" loading="lazy"></a></li>
 	</ul>
 </div>

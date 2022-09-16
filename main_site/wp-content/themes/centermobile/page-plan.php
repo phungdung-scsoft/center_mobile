@@ -66,7 +66,7 @@
         </ul>
       </div>
       <div class="btn_outer btn_blue btn_pd">
-            <a href="//maimo.app/summary/f0d11b60c874bd4c4ee2">お申し込みはこちら</a>
+            <a href="//maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank">お申し込みはこちら</a>
       </div>
       </section>
 
@@ -177,7 +177,7 @@
     </section>
 
       <div class="btn_outer btn_blue">
-            <a href="//maimo.app/summary/f0d11b60c874bd4c4ee2">お申し込みはこちら</a>
+            <a href="//maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank">お申し込みはこちら</a>
       </div>
 
       <section class="attention">
@@ -195,7 +195,7 @@
       </section>
 
       <div class="btn_outer btn_blue">
-            <a href="//maimo.app/summary/f0d11b60c874bd4c4ee2">お申し込みはこちら</a>
+            <a href="//maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank">お申し込みはこちら</a>
       </div>
 
 

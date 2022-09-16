@@ -3,10 +3,10 @@
           <div class="wrapper">
             <div class="link_btns">
               <ul>
-                <li><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2">WEB申し込み</a></li>
+                <li><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
               </ul>
-            </div>
+            </div>uqi0
             <div class="footer_nav">
               <nav>
                 <ul>
@@ -16,11 +16,11 @@
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/">料金・サービス</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>app/">アプリの使い方</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
-                    <li><a href="//maimo.app/login"><?= $GLOBALS['gl_service']; ?> Login</a></li>
+                    <li><a href="//maimo.app/login" target="_blank"><?=   $GLOBALS['gl_service']; ?> Login</a></li>
                     <!-- <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">採用情報</a></li> -->
                   </div>
                   <div class="footer_nav_m">
-                    <li><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2">WEB申し込み</a></li>
+                    <li><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEMをご検討の方</a></li>
                     <!-- <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">広告出稿をご検討の方</a></li> -->
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>

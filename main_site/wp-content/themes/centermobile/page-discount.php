@@ -259,7 +259,7 @@
             </ul>
           </div>
           <div class="btn_outer btn_blue">
-            <a href="//maimo.app/login"><?= $GLOBALS['gl_service']; ?>(WEB) Login</a>
+            <a href="//maimo.app/login" target="_blank"><?= $GLOBALS['gl_service']; ?>(WEB) Login</a>
           </div>
         </div>
       </section>

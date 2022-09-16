@@ -63,7 +63,6 @@ function gl_setup() {
   global $gl_electric;    // でんきサービス
   global $gl_wifi;        // Wi-Fiサービス
   global $gl_id;          // ID
-  global $gl_domain;      // ドメイン
 
   /*
   date_default_timezone_set('Asia/Tokyo');
@@ -75,7 +74,6 @@ function gl_setup() {
     $gl_electric = "Maimoでんき";
     $gl_wifi = "Maimo Wi-fi";
     $gl_id = "Maimo ID";
-    $gl_domain = "maimo.app";
   else :
     $gl_path = "plaio";
     $gl_service = "PLAIO";
@@ -84,7 +82,6 @@ function gl_setup() {
     $gl_electric = "Maimoでんき";
     $gl_wifi = "PLAIO Wi-fi";
     $gl_id = "会員ID";
-    $gl_domain = "maimo.app";
   endif;
   */
   $gl_path = "plaio";
@@ -94,7 +91,6 @@ function gl_setup() {
   $gl_electric = "Maimoでんき";
   $gl_wifi = "PLAIO Wi-fi";
   $gl_id = "会員ID";
-  $gl_domain = "maimo.app";
 }
 add_action( 'after_setup_theme', 'gl_setup' );
 ?>
