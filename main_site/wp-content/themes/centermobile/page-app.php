@@ -147,7 +147,7 @@
         <div class="wrapper">
           <h2>会員専用アプリ <?= $GLOBALS['gl_service']; ?><span>(<?= $GLOBALS['gl_service_jp']; ?>)</span></h2>
           <div class="maimo_dl mb-30">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/<?= $GLOBALS['gl_path']; ?>.png" alt="" width="132" height="122">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_app_<?= $GLOBALS['gl_path']; ?>.png" alt="" width="132" height="122">
             <ul class="dl_btns">
               <li><a href="//apps.apple.com/us/app/maimo/id1554806667?itsct=apps_box_link&itscg=30200" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_apple.png" alt="" width="148" height="54"></a></li>
               <li><a href="//play.google.com/store/apps/details?id=jp.co.Maimo&hl=ja" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/btn_google.png" alt="" width="182" height="54"></a></li>
