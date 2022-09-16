@@ -6,7 +6,7 @@
                 <li><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
               </ul>
-            </div>uqi0
+            </div>
             <div class="footer_nav">
               <nav>
                 <ul>
