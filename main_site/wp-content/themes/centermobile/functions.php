@@ -56,15 +56,16 @@ add_filter('aioseo_next_link', '__return_empty_string');
  サービス名変更に伴うグローバル変数設定
 **********************************/
 function gl_setup() {
-  global $gl_path;
-  global $gl_service;
-  global $gl_service_jp;
-  global $gl_light;
-  global $gl_electric;
-  global $gl_id;
-  global $gl_wifi;
+  global $gl_path;        // パス等
+  global $gl_service;     // サービス名称
+  global $gl_service_jp;  // サービス名称カナ
+  global $gl_light;       // ひかりサービス
+  global $gl_electric;    // でんきサービス
+  global $gl_wifi;        // Wi-Fiサービス
+  global $gl_id;          // ID
+  global $gl_domain;      // ドメイン
 
-  // 9月5日以降に解除予定
+  /*
   date_default_timezone_set('Asia/Tokyo');
   if (strtotime(date('Y-m-d H:i')) < strtotime('2022-09-04 12:00')) :
     $gl_path = "maimo";
@@ -72,17 +73,28 @@ function gl_setup() {
     $gl_service_jp = "マイモ";
     $gl_light = "Maimoひかり";
     $gl_electric = "Maimoでんき";
-    $gl_id = "Maimo ID";
     $gl_wifi = "Maimo Wi-fi";
+    $gl_id = "Maimo ID";
+    $gl_domain = "maimo.app";
   else :
     $gl_path = "plaio";
     $gl_service = "PLAIO";
     $gl_service_jp = "プレイオ";
     $gl_light = "PLAIOひかり";
     $gl_electric = "Maimoでんき";
-    $gl_id = "PLAIO ID";
     $gl_wifi = "PLAIO Wi-fi";
+    $gl_id = "会員ID";
+    $gl_domain = "maimo.app";
   endif;
+  */
+  $gl_path = "plaio";
+  $gl_service = "PLAIO";
+  $gl_service_jp = "プレイオ";
+  $gl_light = "PLAIOひかり";
+  $gl_electric = "Maimoでんき";
+  $gl_wifi = "PLAIO Wi-fi";
+  $gl_id = "会員ID";
+  $gl_domain = "maimo.app";
 }
 add_action( 'after_setup_theme', 'gl_setup' );
 ?>
