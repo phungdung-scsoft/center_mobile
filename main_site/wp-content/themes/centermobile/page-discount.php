@@ -101,13 +101,13 @@
               </div>
             </li>*/ ?>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_2.png" alt="" width="294" height="529"></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_2.png" alt="" width="294" height="630"></div>
               <div class="detail">
                 <p>「CMを見る！」ボタンを押すと動画広告が再生されます。(※1)</p>
               </div>
             </li>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_3.png" alt="" width="294" height="529"></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_3.png" alt="" width="294" height="630"></div>
               <div class="detail">
                 <p>5〜30秒の動画広告がランダムで再生されます。</p>
                 <?php /*<p>動画広告の長さに関わらず1ポイント獲得できます。</p>
@@ -117,7 +117,7 @@
               </div>
             </li>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_4_2.png" alt="" width="294" height="529"></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_4_2.png" alt="" width="294" height="630"></div>
               <div class="detail">
                 <p>1ポイント獲得となります。</p>
                 <?php /*<p>画面に獲得ポイントが表示されます。</p>
@@ -154,7 +154,7 @@
               </div>
             </li>*/ ?>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_2.png" alt="" width="294" height="529"></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_2.png" alt="" width="294" height="630"></div>
               <div class="detail">
                 <p>「DL・登録で貯める」ボタンを押すとポイント対象のアプリ一覧が表示されます。</p>
                 <p>アプリごとに設定されている条件を達成すると、ポイントを獲得できるサービスです。</p>
