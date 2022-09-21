@@ -54,7 +54,7 @@ $('.slider').slick({
 $('.thumb').slick({
 	asNavFor: '.slider', // スライダを他のスライダのナビゲーションに設定する（class名またはID名）
 	focusOnSelect: true, // クリックでのスライド切り替えを有効にするか
-	slidesToShow: 4, // 表示するスライド数を設定
+	slidesToShow: 5, // 表示するスライド数を設定
 	waitForAnimate: false,
 });
 
