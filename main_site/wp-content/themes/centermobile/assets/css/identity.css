@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/*identity*/
+.img_identity{
+  padding-bottom: calc(100%*250/1186);
+  background: url(../img/oem_bg.png);
+}
+
+.content_txt p{
+  font-size: 12px;
+}
+
+.content .attention{
+  color: #ff0000;
+}
+
+.content .attention_box{
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin: 15px auto;
+  text-align: center;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  box-sizing: border-box;
+}
+
+/*.content ul li{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}*/
+
+.content ul li img{
+  max-width: 50%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.content .claim {
+  display: flex;
+  margin: 2rem 0 2rem 1rem;
+}
+
+.content .claim dl {
+  width: calc(960px/12);
+  text-align: center;
+}
+
+.content .claim dl dt {
+  background: #f7f7f7;
+  border: 1px solid #ccc;
+}
+
+.content .claim dl dd {
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.content .list li {
+    list-style-type: disc;
+    margin-left: 24px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.content .list li a {
+  color: #5893ce
+}
+
+.content .sub {
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.content .sub_text {
+  font-size: 12px;
+  margin-left: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 1180px) {
+  /* 1024px以下に適用されるCSS（タブレット用） */
+  .img_telephonerelay {
+    padding-bottom: calc(100%*375/1186);
+    background-size: cover!important;
+  }
+
+}
+
+@media screen and (max-width: 599px) {
+  /* 599px以下に適用されるCSS（スマホ用） */
+
+  /*.content ul li{
+    display: block;
+    margin-bottom: 40px;
+  }*/
+
+  .content ul li img{
+    width: 100%;
+    max-width: none;
+    margin: 0 0 10px;
+  }
+
+  .claim {
+    margin-left: 0;
+    flex-wrap: wrap;
+  }
+
+  .claim dl {
+    width: calc(960px/16);
+    text-align: center;
+  }
+
+}
