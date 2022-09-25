@@ -76,13 +76,17 @@
 }
 
 .capList > li {
-  width: 32%;
-  margin: 0 1% 0 0;
+  width: calc((100% - 20px) / 3);
+  margin: 0 10px 0 0;
   background: #fff;
   box-sizing: border-box;
     /*display: flex;
     width: 100%;
     margin: 0 0 10px;*/
+}
+
+.capList > li:nth-child(3n) {
+  margin-right: 0;
 }
 
 .capList > li .cap {
@@ -356,7 +360,7 @@
   }
 
   .capList > li {
-    margin: 0 0 0.7vw;
+    /*margin: 0 0 0.7vw;*/
   }
 
   .capList > li .cap {
