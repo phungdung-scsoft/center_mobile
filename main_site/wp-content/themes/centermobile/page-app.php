@@ -43,13 +43,13 @@
           <p class="mb-20">また、過去に貯めたポイントの履歴も確認できます。</p>
           <ul class="capList mb-30">
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_1.png" alt="" width="294" height="630"></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_1.png" alt="" width="300" height="643"></div>
               <div class="detail">
                 <p>貯めたポイント数が確認できます。</p>
               </div>
             </li>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_2.png" alt="" width="294" height="630"></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_2.png" alt="" width="300" height="643"></div>
               <div class="detail">
                 <p>ポイントの履歴が確認できます。</p>
               </div>
@@ -63,14 +63,14 @@
           <ul class="capList mb-30">
             <li>
               <div class="cap">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_3_2.png" alt="" width="294" height="630">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_3_2.png" alt="" width="300" height="643">
               </div>
               <div class="detail">
                 <p>今月のご利用料金が確認できます。</p>
               </div>
             </li>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_4.png" alt="" width="294" height="630"></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_4.png" alt="" width="300" height="643"></div>
               <div class="detail">
                 <p>過去のご利用料金が確認できます。</p>
               </div>
@@ -82,13 +82,13 @@
           <p class="mb-20">また、ギガの追加購入もアプリから行う事が出来ます</p>
           <ul class="capList">
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_5.png" alt="" width="294" height="630"></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_5.png" alt="" width="300" height="643"></div>
               <div class="detail">
                 <p>今月のデータが確認できます。</p>
               </div>
             </li>
             <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_6.png" alt="" width="294" height="630"></div>
+              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_6.png" alt="" width="300" height="643"></div>
               <div class="detail">
                 <p>ギガの追加購入ができます。</p>
               </div>
