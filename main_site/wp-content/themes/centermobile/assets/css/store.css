@@ -249,6 +249,34 @@
   /* 599px以下に適用されるCSS（スマホ用） */
 
   /*store*/
+  .store_anchor ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .store_anchor ul > li {
+    display: flex;
+    width: calc((100% - 40px) / 3);
+    margin: 20px 0 0 20px;
+  }
+
+  .store_anchor ul > li:nth-child(3n+1) {
+    margin-left: 0;
+  }
+
+  .store_anchor ul > li:nth-child(-n+3) {
+    margin-top: 0;
+  }
+
+  .store_anchor ul > li a {
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
   .store_list > li {
     width: 100%;
   }

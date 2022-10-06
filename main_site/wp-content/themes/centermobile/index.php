@@ -73,19 +73,19 @@
 		</li>
 		<li>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="1725" height="863">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_sp.png" alt="携帯料金は自分で決める時代へ！" width="780" height="780" class="sp">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_sp.png" alt="携帯料金は自分で決める時代へ！" width="780" height="780" class="sp" loading="lazy">
 		</li>
 		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="1725" height="863">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" width="780" height="780" class="sp">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="1725" height="863" loading="lazy">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" width="780" height="780" class="sp" loading="lazy">
 		</li>
 		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="1725" height="863">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" width="780" height="780" class="sp">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="1725" height="863" loading="lazy">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" width="780" height="780" class="sp" loading="lazy">
 		</li>
     <li>
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>.png" alt="CHARGE SPOT どこでも借りれて、いつでも充電し放題！全国30,000台以上設置！通常よりもお得なプランでご利用いただけます。" class="pc" width="1725" height="863">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="CHARGE SPOT どこでも借りれて、いつでも充電し放題！全国30,000台以上設置！通常よりもお得なプランでご利用いただけます。" width="780" height="780" class="sp">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="CHARGE SPOT どこでも借りれて、いつでも充電し放題！全国30,000台以上設置！通常よりもお得なプランでご利用いただけます。" width="780" height="780" class="sp" loading="lazy">
     </li>
 	</ul>
 
