@@ -9,8 +9,8 @@
 	<!-- header -->
 	<header>
 		<div class="hLogo">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_logo.png" alt="CENTER MOBILE" class="pc" width="138" height="75">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_logo_sp.png" alt="CENTER MOBILE" class="sp" width="292" height="28"></a>
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_logo.png" alt="CENTER MOBILE" class="pc" width="138" height="75" loading="lazy">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_logo_sp.png" alt="CENTER MOBILE" class="sp" width="292" height="28" loading="lazy"></a>
 		</div>
 		<ul class="headerUl">
 			<li class="sp"><a href="https://maimo.app/login" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_bnr_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?> Login" width="151" height="38"></a></li>
@@ -68,42 +68,52 @@
 
   <ul class="slider">
     <li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" width="1725" height="863">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" width="780" height="780" class="sp">
+      <picture>
+        <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" width="2400" height="1200">
+      </picture>
 		</li>
 		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="1725" height="863">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_sp.png" alt="携帯料金は自分で決める時代へ！" width="780" height="780" class="sp" loading="lazy">
+      <picture>
+        <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_sp.png" media="(max-width: 768px)">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" loading="lazy" width="2400" height="1200">
+      </picture>
 		</li>
 		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="1725" height="863" loading="lazy">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" width="780" height="780" class="sp" loading="lazy">
+      <picture>
+        <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" loading="lazy" width="2400" height="1200">
+      </picture>
 		</li>
 		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="1725" height="863" loading="lazy">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" width="780" height="780" class="sp" loading="lazy">
+      <picture>
+        <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" loading="lazy" width="2400" height="1200">
+      </picture>
 		</li>
     <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>.png" alt="CHARGE SPOT どこでも借りれて、いつでも充電し放題！全国30,000台以上設置！通常よりもお得なプランでご利用いただけます。" class="pc" width="1725" height="863">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>_sp.png" alt="CHARGE SPOT どこでも借りれて、いつでも充電し放題！全国30,000台以上設置！通常よりもお得なプランでご利用いただけます。" width="780" height="780" class="sp" loading="lazy">
+      <picture>
+        <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>.png" alt="CHARGE SPOT どこでも借りれて、いつでも充電し放題！全国30,000台以上設置！通常よりもお得なプランでご利用いただけます。" loading="lazy" width="2400" height="1200">
+      </picture>
     </li>
 	</ul>
 
 	<ul class="thumb pc">
     <li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" width="327" height="163">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" loading="lazy" width="258" height="129">
 		</li>
 		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" width="327" height="163">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" loading="lazy" width="258" height="129">
 		</li>
 		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" width="327" height="163">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" loading="lazy" width="258" height="129">
 		</li>
 		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" width="327" height="163">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" loading="lazy" width="258" height="129">
 		</li>
     <li>
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>.png" alt="CHARGE SPOT どこでも借りれて、いつでも充電し放題！全国30,000台以上設置！通常よりもお得なプランでご利用いただけます。" class="pc" width="327" height="163">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>.png" alt="CHARGE SPOT どこでも借りれて、いつでも充電し放題！全国30,000台以上設置！通常よりもお得なプランでご利用いただけます。" class="pc" loading="lazy" width="258" height="129">
     </li>
 	</ul>
 </div>
@@ -118,18 +128,18 @@
 			</h2>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/" class="btn03">割引の仕組みはこちら</a>
 
-			<div class="titImg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con01_tit02.png" alt="プランは簡単に大きく2つの料金プラン" width="826" height="154"></div>
+			<div class="titImg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con01_tit02.png" alt="プランは簡単に大きく2つの料金プラン" width="826" height="154" loading="lazy"></div>
 
 			<ul>
-				<li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con01_img01.png" alt="電話もインターネットも使える音声SIMプラン　通話付きのプランです" width="516" height="297"></li>
-				<li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con01_img02.png" alt="インターネットのみ使えるデータSIMプラン　連絡はLINE等のみ、電話番号は必要ないという方にオススメ！通話アプリによる通話は可能です" width="516" height="298"></li>
+				<li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con01_img01.png" alt="電話もインターネットも使える音声SIMプラン　通話付きのプランです" width="516" height="297" loading="lazy"></li>
+				<li><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con01_img02.png" alt="インターネットのみ使えるデータSIMプラン　連絡はLINE等のみ、電話番号は必要ないという方にオススメ！通話アプリによる通話は可能です" width="516" height="298" loading="lazy"></li>
 			</ul>
 		</div>
 	</section>
 
 	<section class="content02">
 		<h2>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con2_tit02.png" alt="使う容量を選ぶだけ" width="616" height="116">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con2_tit02.png" alt="使う容量を選ぶだけ" width="616" height="116" loading="lazy">
 		</h2>
 		<div class="inner">
       <ul class="capacityList">
@@ -244,7 +254,7 @@
       </ul>
 		</div>
 		<a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" class="cvBtn" target="_blank">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png" alt="どのプランでどれだけ使っても最大割引で０円！お申し込みはこちら" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png'" width="917" height="235">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png" alt="どのプランでどれだけ使っても最大割引で０円！お申し込みはこちら" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png'" width="917" height="235" loading="lazy">
 		</a>
 	</section>
 
@@ -272,28 +282,40 @@
 		<div class="inner">
 			<ul>
 				<li>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img01.png" alt="特徴01 毎月の携帯料金が最大割引で0円" class="pc" width="1040" height="420" loading="lazy">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img01_sp.png" alt="特徴01 毎月の携帯料金が最大割引で0円" class="sp" width="632" height="1163" loading="lazy">
+          <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img01_sp.png" media="(max-width: 768px)">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img01.png" alt="特徴01 毎月の携帯料金が最大割引で0円" loading="lazy" width="1040" height="420">
+          </picture>
 				</li>
 				<li>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img02.png" alt="特徴02 快適な高速通信環境" class="pc" width="1040" height="386" loading="lazy">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img02_sp.png" alt="特徴02 快適な高速通信環境" class="sp" width="632" height="1053" loading="lazy">
+          <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img02_sp.png" media="(max-width: 768px)">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img02.png" alt="特徴02 快適な高速通信環境" loading="lazy" width="1040" height="386">
+          </picture>
 				</li>
 				<li>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img03.png" alt="特徴03 通話量がお得" class="pc" width="496" height="478" loading="lazy">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img03_sp.png" alt="特徴03 通話量がお得" class="sp" width="621" height="755" loading="lazy">
+          <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img03_sp.png" media="(max-width: 768px)">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img03.png" alt="特徴03 通話量がお得" loading="lazy" width="496" height="478">
+          </picture>
 				</li>
 				<li>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img04.png" alt="特徴04 安心・安全のdocomo回線" class="pc" width="496" height="478" loading="lazy">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img04_sp.png" alt="特徴04 安心・安全のdocomo回線" class="sp" width="621" height="755" loading="lazy">
+          <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img04_sp.png" media="(max-width: 768px)">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img04.png" alt="特徴04 安心・安全のdocomo回線" loading="lazy" width="496" height="478">
+          </picture>
 				</li>
 				<li>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img05.png" alt="特徴05 業界初技術特許出願中" class="pc" width="496" height="478" loading="lazy">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img05_sp.png" alt="特徴05 業界初技術特許出願中" class="sp" width="621" height="755" loading="lazy">
+          <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img05_sp.png" media="(max-width: 768px)">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img05.png" alt="特徴05 業界初技術特許出願中" loading="lazy" width="496" height="478">
+          </picture>
 				</li>
 				<li>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img06.png" alt="特徴06 新しい端末を買う必要無し！今のスマホをそのまま使える" class="pc" width="496" height="478" loading="lazy">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img06_sp.png" alt="特徴06 新しい端末を買う必要無し！今のスマホをそのまま使える" class="sp" width="621" height="755" loading="lazy">
+          <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img06_sp.png" media="(max-width: 768px)">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img06.png" alt="特徴06 新しい端末を買う必要無し！今のスマホをそのまま使える" loading="lazy" width="496" height="478">
+          </picture>
 					<p>
 						※APN設定が必要になります。<br>
 						※対応していない機種もございます。
@@ -310,8 +332,10 @@
 			<h2><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con6_tit.png" alt="センターモバイルでは携帯料金を最大割引で0円にすることを可能にしました" width="1040" height="255" loading="lazy"></h2>
 			<dl>
 				<dt>
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con6_img.png" alt="携帯料金最大割引で0円が可能に！" class="pc" width="1045" height="664" loading="lazy">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con6_img_sp.png" alt="携帯料金最大割引で0円が可能に！" class="sp" width="679" height="1210" loading="lazy">
+          <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con6_img_sp.png" media="(max-width: 768px)">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con6_img.png" alt="携帯料金最大割引で0円が可能に！" loading="lazy" width="1045" height="664">
+          </picture>
 				</dt>
 				<dd>
 					<span>スポンサーの広告をみたり、サービスを利用</span>することで<span>ポイントが還元</span>されます。ポイントを<span>携帯料金に充てることで最大割引で0円</span>にすることが可能になります！

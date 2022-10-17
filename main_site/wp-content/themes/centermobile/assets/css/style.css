@@ -326,6 +326,10 @@ footer nav ul li:before{
   padding-right: 20px;
 }
 
+.footer_nav_m > li:not(:last-child) {
+  margin: 0 0 5px;
+}
+
 .footer_logo{
   display: flex;
   justify-content: flex-end;
