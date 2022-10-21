@@ -5,7 +5,7 @@
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/">割引の仕組み</a></li>
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/">料金・サービス</a></li>
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>app/">アプリの使い方</a></li>
-            <li><a href="//maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
+            <li><a href="//maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
@@ -36,7 +36,7 @@
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/">割引の仕組み</a></li>
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/">料金・サービス</a></li>
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>app/">アプリの使い方</a></li>
-              <li><a href="//maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
+              <li><a href="//maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
               <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
