@@ -9,8 +9,8 @@
             </div>
             <div class="footer_nav">
               <nav>
-                <ul>
-                  <div class="footer_nav_m">
+                <div class="footer_nav_m">
+                  <ul>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">TOP</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/">割引の仕組み</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/">料金・サービス</a></li>
@@ -18,8 +18,8 @@
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
                     <li><a href="//maimo.app/login" target="_blank"><?=   $GLOBALS['gl_service']; ?> Login</a></li>
                     <!-- <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">採用情報</a></li> -->
-                  </div>
-                  <div class="footer_nav_m">
+                  </ul>
+                  <ul>
                     <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEMをご検討の方</a></li>
                     <!-- <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">広告出稿をご検討の方</a></li> -->
@@ -27,8 +27,8 @@
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>policy/">プライバシーポリシー</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
-                  </div>
-                </ul>
+                  </ul>
+                </div>
               </nav>
               <div class="footer_logo">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo1.png" alt="CENTER MOBILE" width="194" height="91">

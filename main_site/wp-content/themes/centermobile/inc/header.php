@@ -32,23 +32,25 @@
         </div>
         <nav id="g-nav">
           <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
-            <ul>
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/">割引の仕組み</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/">料金・サービス</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>app/">アプリの使い方</a></li>
-              <li><a href="//maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
-              <!--
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">広告出稿をご検討の方</a></li>
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">採用情報</a></li> -->
-              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
+            <div class="g-nav-list-inner">
+              <ul>
+                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/">割引の仕組み</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/">料金・サービス</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>app/">アプリの使い方</a></li>
+                <li><a href="//maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
+                <!--
+                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">広告出稿をご検討の方</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">採用情報</a></li> -->
+                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
+              </ul>
               <div class="btn_area btn_area_nav">
                 <a class="login_btn" href="//maimo.app/login" target="_blank"><p class="login"><?= $GLOBALS['gl_service']; ?> Login</p></a>
               </div>
-            </ul>
+            </div>
           </div>
         </nav>
       </div>

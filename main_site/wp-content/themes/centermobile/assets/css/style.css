@@ -317,16 +317,16 @@ footer nav ul li:before{
   justify-content: space-between;
 }
 
-.footer_nav ul{
+.footer_nav .footer_nav_m {
   display: flex;
   width: 100%;
 }
 
-.footer_nav_m{
+.footer_nav_m > ul {
   padding-right: 20px;
 }
 
-.footer_nav_m > li:not(:last-child) {
+.footer_nav_m > ul > li:not(:last-child) {
   margin: 0 0 5px;
 }
 
@@ -397,7 +397,7 @@ footer nav ul li:before{
   }
 
   /*ナビゲーション*/
-  #g-nav ul {
+  #g-nav .g-nav-list-inner {
     /*ナビゲーション天地中央揃え*/
     position: absolute;
     z-index: 999;
@@ -765,14 +765,14 @@ footer nav ul li:before{
     width: auto;
   }
 
-  .footer_nav ul{
+  .footer_nav .footer_nav_m {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     width: 100%;
   }
 
-  .footer_nav_m{
+  .footer_nav_m > ul {
     width: 50%;
     margin: 0 0 40px;
     padding-right: 0;
