@@ -79,33 +79,6 @@
               </li>
             </ul>
 
-            <ul class="pr_lists mslider">
-              <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_1.png" alt="" width="202" height="202">
-                <p>生活にかかせない携帯を事業とし、販売しやすく早い段階からの収入の獲得が見込めます。<br><br>
-                また高いリピート率を実現し、継続した収入として計画が立くなっています。
-                </p>
-              </li>
-              <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_2.png" alt="" width="202" height="202">
-                <p>スマホの使用感はユーザーのストレスに直結します。<br><br>
-                安心で快適な通信速度の為に、docomo回線を使用し、さらに独自帯域を採用することで、ストレスなく使用できる格安SIMを実現。
-                </p>
-              </li>
-              <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_3.png" alt="" width="202" height="202">
-                <p>格安SIMの使用に特に重要な料金。<br><br>
-                センターモバイルは他社には真似できない技術で毎月携帯料金を最大割引で0円まで下げる提案が可能。
-                </p>
-              </li>
-              <li>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/fc2_4.png" alt="" width="202" height="202">
-                <p>センターモバイルのビジネスモデルは他社が真似できないように特許を出願しています。<br><br>
-                通信業界で他社が真似できない差別化を図る事ができるオンリーワンのビジネスです。
-                </p>
-              </li>
-            </ul>
-
             </div>
 
               <div class="wrapper youtube">
@@ -234,12 +207,25 @@
           });
         }
 
-        $('.mslider').slick({
-          autoplay: true,
-          autoplaySpeed: 2500,
-          speed: 800,
-          dots: true,
-          arrows: false,
+        $(function(){
+          function sliderSetting(){
+            var width = $(window).width();
+            if(width <= 599){
+              $('.pr_lists').not('.slick-initialized').slick({
+                autoplay: true,
+                autoplaySpeed: 2500,
+                speed: 800,
+                dots: true,
+                arrows: false,
+              });
+            } else {
+              $('.pr_lists.slick-initialized').slick('unslick');
+            }
+          }
+          sliderSetting();
+          $(window).resize(function(){
+            sliderSetting();
+          });
         });
         </script>
       </footer>
