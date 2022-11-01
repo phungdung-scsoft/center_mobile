@@ -552,37 +552,38 @@ nav li a:hover {
 	left: 16vw;
 }
 
-.content02 ul{
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
-
-.content02 li{
-	width: 31%;
-}
-
 .content02 .capacityList {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	flex-direction: row;
+	margin: -2% 0 0;
 }
 
 .content02 .capacityList > li {
-	width: 31%;
+	width: 49%;
 	border: solid 1px #1c9dd9;
 	background: #e9f8fe;
 	text-align: left;
-	margin: 0;
+	margin: 2% 0 0;
+}
+
+.content02 .capacityList > li:first-child:nth-last-child(3),
+.content02 .capacityList > li:first-child:nth-last-child(3) ~ li {
+	width: 31%;
 }
 
 .content02 .capacityList > li.type2 {
+	border-color: #f9a52c;
+	background: #fceed9;
+}
+
+.content02 .capacityList > li.type3 {
 	border-color: #80b133;
 	background: #f8ffe8;
 }
 
-.content02 .capacityList > li.type3 {
+.content02 .capacityList > li.type4 {
 	border-color: #e4247d;
 	background: #fedeed;
 }
@@ -597,10 +598,14 @@ nav li a:hover {
 }
 
 .content02 .capacityList > li.type2 > .heading {
-	background: #80b133;
+	background: #f9a52c;
 }
 
 .content02 .capacityList > li.type3 > .heading {
+	background: #80b133;
+}
+
+.content02 .capacityList > li.type4 > .heading {
 	background: #e4247d;
 }
 
@@ -616,10 +621,14 @@ nav li a:hover {
 }
 
 .content02 .capacityList > li.type2 .capacityContent .capacity {
-	color: #628f24;
+	color: #f9a52c;
 }
 
 .content02 .capacityList > li.type3 .capacityContent .capacity {
+	color: #628f24;
+}
+
+.content02 .capacityList > li.type4 .capacityContent .capacity {
 	color: #e4247d;
 }
 
@@ -682,6 +691,8 @@ nav li a:hover {
 .content02 .capacityList > li .capacityContent .planWrap .plan .planContent {
 	padding: 1vw 0.8vw 0.4vw 0.4vw;
 	background: #fff3f8;
+	display: flex;
+	justify-content: center;
 }
 
 .content02 .capacityList > li .capacityContent .planWrap .plan.data .planContent {
@@ -711,6 +722,7 @@ nav li a:hover {
 }
 
 .content02 .capacityList > li .capacityContent .planWrap .plan .planContent .monthly .price {
+	padding: 0 0 0 5px;
 	text-align: right;
 	color: #ff005a;
 	font-size: 1vw;
@@ -2620,6 +2632,11 @@ footer
 	text-align: left;
 }
 
+.content02 .capacityList > li:first-child:nth-last-child(3),
+.content02 .capacityList > li:first-child:nth-last-child(3) ~ li {
+	width: 49%;
+}
+
 .content02 .capacityList > li:nth-child(n+3) {
 	margin: 2.1vw 0 0;
 }
@@ -3385,6 +3402,11 @@ th, td {
 	width: auto;
 	margin: 0 0 5.1vw;
 	text-align: left;
+}
+
+.content02 .capacityList > li:first-child:nth-last-child(3),
+.content02 .capacityList > li:first-child:nth-last-child(3) ~ li {
+	width: auto;
 }
 
 .content02 .capacityList > li:nth-child(n+3) {

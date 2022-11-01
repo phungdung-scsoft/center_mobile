@@ -34,6 +34,10 @@
                 <td class="price"><span>0〜1,280</span>円/月(税込 1,408円)</td>
               </tr>
               <tr>
+                <td class="GB"><span>12</span>GB</td>
+                <td class="price"><span>0〜1,780</span>円/月(税込 1,958円)</td>
+              </tr>
+              <tr>
                 <td class="GB"><span>20</span>GB</td>
                 <td class="price"><span>0〜2,480</span>円/月(税込 2,728円)</td>
               </tr>
@@ -54,6 +58,10 @@
                 <td class="price"><span>0〜1,180</span>円/月(税込 1,298円)</td>
               </tr>
               <tr>
+                <td class="GB"><span>12</span>GB</td>
+                <td class="price"><span>0〜1,680</span>円/月(税込 1,848円)</td>
+              </tr>
+              <tr>
                 <td class="GB"><span>20</span>GB</td>
                 <td class="price"><span>0〜2,280</span>円/月(税込 2,508円)</td>
               </tr>
@@ -66,7 +74,7 @@
         </ul>
       </div>
       <div class="btn_outer btn_blue btn_pd">
-            <a href="//maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank">お申し込みはこちら</a>
+            <a href="//maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">お申し込みはこちら</a>
       </div>
       </section>
 
@@ -89,9 +97,9 @@
               </li>
               <li>
                 <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option1.png" alt="" width="61" height="61">
-                15分かけ放題</h4>
-                <p>1,200円<br>
-                  <span>(税込 1,320円)</span></p>
+                10分かけ放題</h4>
+                <p>1,000円<br>
+                  <span>(税込 1,100円)</span></p>
               </li>
               <li>
                 <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option2.png" alt="" width="61" height="61">
@@ -159,7 +167,7 @@
             </table>
           </li>
         </ul>
-        <p class="sub">※15分かけ放題は15分超過後は11円/30秒の通話料が発生します。<br><span class="mgr-10">※緊急通報：110、118、119</span><span class="mgr-10">電話番号案内：104</span>
+        <p class="sub">※10分かけ放題は10分超過後は11円/30秒の通話料が発生します。<br><span class="mgr-10">※緊急通報：110、118、119</span><span class="mgr-10">電話番号案内：104</span>
         <span class="mgr-10">発信者番号通知：184、186</span>クイックダイヤル：＃ダイヤル<br>
         <span class="mgr-10">ガスコンロダイヤル：1416他</span>
         <span class="mgr-10">フリーダイヤル：0120、0800</span>
@@ -177,7 +185,7 @@
       </section>
 
       <div class="btn_outer btn_blue">
-        <a href="//maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank">お申し込みはこちら</a>
+        <a href="//maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">お申し込みはこちら</a>
       </div>
 
       <section class="attention">
@@ -195,7 +203,7 @@
       </section>
 
       <div class="btn_outer btn_blue">
-            <a href="//maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank">お申し込みはこちら</a>
+            <a href="//maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">お申し込みはこちら</a>
       </div>
 
 

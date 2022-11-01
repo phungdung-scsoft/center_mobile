@@ -10,7 +10,7 @@
 	<header>
 		<div class="hLogo">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_logo.png" alt="CENTER MOBILE" class="pc" width="138" height="75" loading="lazy">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_logo_sp.png" alt="CENTER MOBILE" class="sp" width="292" height="28" loading="lazy"></a>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="sp"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_logo_sp.png" alt="CENTER MOBILE" width="292" height="28" loading="lazy"></a>
 		</div>
 		<ul class="headerUl">
 			<li class="sp"><a href="https://maimo.app/login" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_bnr_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?> Login" width="151" height="38"></a></li>
@@ -27,7 +27,7 @@
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/">割引の仕組み</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/">料金・サービス</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>app/">アプリの使い方</a></li>
-						<li class="gnav__menu__item"><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
+						<li class="gnav__menu__item"><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
@@ -49,7 +49,7 @@
             <li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/">割引の仕組み</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/">料金・サービス</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>app/">アプリの使い方</a></li>
-						<li class="gnav__menu__item"><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
+						<li class="gnav__menu__item"><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
@@ -75,8 +75,8 @@
 		</li>
 		<li>
       <picture>
-        <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_sp.png" media="(max-width: 768px)">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" loading="lazy" width="2400" height="1200">
+        <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>.png" alt="携帯料金は自分で決める時代へ！" loading="lazy" width="2400" height="1200">
       </picture>
 		</li>
 		<li>
@@ -104,7 +104,7 @@
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" loading="lazy" width="258" height="129">
 		</li>
 		<li>
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_pc.png" alt="携帯料金は自分で決める時代へ！" class="pc" loading="lazy" width="258" height="129">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>.png" alt="携帯料金は自分で決める時代へ！" class="pc" loading="lazy" width="258" height="129">
 		</li>
 		<li>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" loading="lazy" width="258" height="129">
@@ -151,28 +151,32 @@
               <div class="plan voice">
                 <h4 class="heading"><span>音声SIMプラン</span></h4>
                 <div class="planContent">
-                  <div class="monthly">
-                    <div class="th"><span>月</span><span>額</span></div>
-                    <div class="price">
-                      <p class="max"><span>1,280</span>円</p>
-                      <p class="min">〜<span>0</span>円</p>
+                  <div class="planContentInner">
+                    <div class="monthly">
+                      <div class="th"><span>月</span><span>額</span></div>
+                      <div class="price">
+                        <p class="max"><span>1,280</span>円</p>
+                        <p class="min">〜<span>0</span>円</p>
+                      </div>
                     </div>
+                    <p class="tax">税込 1,408円</p>
                   </div>
-                  <p class="tax">税込 1,408円</p>
                 </div>
                 <p class="notes">通話付きのプランです</p>
               </div>
               <div class="plan data">
                 <h4 class="heading"><span>データSIMプラン</span></h4>
                 <div class="planContent">
-                  <div class="monthly">
-                    <div class="th"><span>月</span><span>額</span></div>
-                    <div class="price">
-                      <p class="max"><span>1,180</span>円</p>
-                      <p class="min">〜<span>0</span>円</p>
+                  <div class="planContentInner">
+                    <div class="monthly">
+                      <div class="th"><span>月</span><span>額</span></div>
+                      <div class="price">
+                        <p class="max"><span>1,180</span>円</p>
+                        <p class="min">〜<span>0</span>円</p>
+                      </div>
                     </div>
+                    <p class="tax">税込 1,298円</p>
                   </div>
-                  <p class="tax">税込 1,298円</p>
                 </div>
                 <p class="notes">通話アプリによる通話は可能です</p>
               </div>
@@ -180,35 +184,39 @@
           </div>
         </li>
         <li class="type2">
-          <h3 class="heading">普段使いにピッタリ！</h3>
+          <h3 class="heading">ヤスク使える！</h3>
           <div class="capacityContent">
-            <p class="capacity"><span>20</span>GB</p>
+            <p class="capacity"><span>12</span>GB</p>
             <div class="planWrap">
               <div class="plan voice">
                 <h4 class="heading"><span>音声SIMプラン</span></h4>
                 <div class="planContent">
-                  <div class="monthly">
-                    <div class="th"><span>月</span><span>額</span></div>
-                    <div class="price">
-                      <p class="max"><span>2,480</span>円</p>
-                      <p class="min">〜<span>0</span>円</p>
+                  <div class="planContentInner">
+                    <div class="monthly">
+                      <div class="th"><span>月</span><span>額</span></div>
+                      <div class="price">
+                        <p class="max"><span>1,780</span>円</p>
+                        <p class="min">〜<span>0</span>円</p>
+                      </div>
                     </div>
+                    <p class="tax">税込 1,958円</p>
                   </div>
-                  <p class="tax">税込 2,728円</p>
                 </div>
                 <p class="notes">通話付きのプランです</p>
               </div>
               <div class="plan data">
                 <h4 class="heading"><span>データSIMプラン</span></h4>
                 <div class="planContent">
-                  <div class="monthly">
-                    <div class="th"><span>月</span><span>額</span></div>
-                    <div class="price">
-                      <p class="max"><span>2,280</span>円</p>
-                      <p class="min">〜<span>0</span>円</p>
+                  <div class="planContentInner">
+                    <div class="monthly">
+                      <div class="th"><span>月</span><span>額</span></div>
+                      <div class="price">
+                        <p class="max"><span>1,680</span>円</p>
+                        <p class="min">〜<span>0</span>円</p>
+                      </div>
                     </div>
+                    <p class="tax">税込 1,848円</p>
                   </div>
-                  <p class="tax">税込 2,508円</p>
                 </div>
                 <p class="notes">通話アプリによる通話は可能です</p>
               </div>
@@ -216,6 +224,46 @@
           </div>
         </li>
         <li class="type3">
+          <h3 class="heading">普段使いにピッタリ！</h3>
+          <div class="capacityContent">
+            <p class="capacity"><span>20</span>GB</p>
+            <div class="planWrap">
+              <div class="plan voice">
+                <h4 class="heading"><span>音声SIMプラン</span></h4>
+                <div class="planContent">
+                  <div class="planContentInner">
+                    <div class="monthly">
+                      <div class="th"><span>月</span><span>額</span></div>
+                      <div class="price">
+                        <p class="max"><span>2,480</span>円</p>
+                        <p class="min">〜<span>0</span>円</p>
+                      </div>
+                    </div>
+                    <p class="tax">税込 2,728円</p>
+                  </div>
+                </div>
+                <p class="notes">通話付きのプランです</p>
+              </div>
+              <div class="plan data">
+                <h4 class="heading"><span>データSIMプラン</span></h4>
+                <div class="planContent">
+                  <div class="planContentInner">
+                    <div class="monthly">
+                      <div class="th"><span>月</span><span>額</span></div>
+                      <div class="price">
+                        <p class="max"><span>2,280</span>円</p>
+                        <p class="min">〜<span>0</span>円</p>
+                      </div>
+                    </div>
+                    <p class="tax">税込 2,508円</p>
+                  </div>
+                </div>
+                <p class="notes">通話アプリによる通話は可能です</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="type4">
           <h3 class="heading">タップリ使いたい！</h3>
           <div class="capacityContent">
             <p class="capacity"><span>50</span>GB</p>
@@ -223,28 +271,32 @@
               <div class="plan voice">
                 <h4 class="heading"><span>音声SIMプラン</span></h4>
                 <div class="planContent">
-                  <div class="monthly">
-                    <div class="th"><span>月</span><span>額</span></div>
-                    <div class="price">
-                      <p class="max"><span>3,980</span>円</p>
-                      <p class="min">〜<span>0</span>円</p>
+                  <div class="planContentInner">
+                    <div class="monthly">
+                      <div class="th"><span>月</span><span>額</span></div>
+                      <div class="price">
+                        <p class="max"><span>3,980</span>円</p>
+                        <p class="min">〜<span>0</span>円</p>
+                      </div>
                     </div>
+                    <p class="tax">税込 4,378円</p>
                   </div>
-                  <p class="tax">税込 4,378円</p>
                 </div>
                 <p class="notes">通話付きのプランです</p>
               </div>
               <div class="plan data">
                 <h4 class="heading"><span>データSIMプラン</span></h4>
                 <div class="planContent">
-                  <div class="monthly">
-                    <div class="th"><span>月</span><span>額</span></div>
-                    <div class="price">
-                      <p class="max"><span>3,780</span>円</p>
-                      <p class="min">〜<span>0</span>円</p>
+                  <div class="planContentInner">
+                    <div class="monthly">
+                      <div class="th"><span>月</span><span>額</span></div>
+                      <div class="price">
+                        <p class="max"><span>3,780</span>円</p>
+                        <p class="min">〜<span>0</span>円</p>
+                      </div>
                     </div>
+                    <p class="tax">税込 4,158円</p>
                   </div>
-                  <p class="tax">税込 4,158円</p>
                 </div>
                 <p class="notes">通話アプリによる通話は可能です</p>
               </div>
@@ -253,7 +305,7 @@
         </li>
       </ul>
 		</div>
-		<a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" class="cvBtn" target="_blank">
+		<a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" class="cvBtn" target="_blank">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png" alt="どのプランでどれだけ使っても最大割引で０円！お申し込みはこちら" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png'" width="917" height="235" loading="lazy">
 		</a>
 	</section>
@@ -322,7 +374,7 @@
 					</p>
 				</li>
 			</ul>
-			<a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" class="cvBtn" target="_blank">
+			<a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" class="cvBtn" target="_blank">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png" alt="どのプランでどれだけ使っても最大割引で０円！お申し込みはこちら" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png'" width="917" height="235" loading="lazy">
 			</a>
 		</div>
@@ -486,8 +538,10 @@
 
 	<section class="content12">
 		<div class="inCon01">
-			<a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr.png" alt="お使いのスマホですぐに切り替え カンタンお申し込みはこちら" class="pc" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr.png'" width="1160" height="380" loading="lazy"></a>
-			<a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr_sp.png" alt="お使いのスマホですぐに切り替え カンタンお申し込みはこちら" class="sp" width="623" height="872" loading="lazy"></a>
+			<a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr.png" alt="お使いのスマホですぐに切り替え カンタンお申し込みはこちら" class="pc" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr.png'" width="1160" height="380" loading="lazy">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr_sp.png" alt="お使いのスマホですぐに切り替え カンタンお申し込みはこちら" class="sp" width="623" height="872" loading="lazy">
+      </a>
 		</div>
 
 		<div class="inCon02">
@@ -511,7 +565,7 @@
 
 	<div class="bnrArea">
 		<ul class="inner">
-			<li><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02.png" alt="どれだけ使っても最大割引で0円 WEB申し込み"  onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02.png'" width="312" height="91" loading="lazy"></a></li>
+			<li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02.png" alt="どれだけ使っても最大割引で0円 WEB申し込み"  onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02.png'" width="312" height="91" loading="lazy"></a></li>
 			<li><a href="https://maimo.app/login" target="_blank" class="maiBtn"><?= $GLOBALS['gl_service']; ?> Login</a></li>
 			<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/" class="conBtn">お問い合わせ</a></li>
 		</ul>
@@ -520,7 +574,7 @@
 
 <div class="bNav sp">
 	<ul>
-		<li><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_01.png" alt="WEB申し込み" width="117" height="66" loading="lazy"></a></li>
+		<li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_01.png" alt="WEB申し込み" width="117" height="66" loading="lazy"></a></li>
 		<li><a href="https://maimo.app/login" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_02_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?> Login" width="129" height="72" loading="lazy"></a></li>
 		<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_03.png" alt="お問い合わせ" width="111" height="62" loading="lazy"></a></li>
 	</ul>
@@ -544,7 +598,7 @@
 			</ul>
 
 			<ul>
-        <li><a href="https://maimo.app/summary/f0d11b60c874bd4c4ee2" target="_blank" >WEB申し込み</a></li>
+        <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank" >WEB申し込み</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEMをご検討中の方</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
