@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/top.css?<?php echo date('Ymd-Hi'); ?>" media="screen,print">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick-theme.css?<?php echo date('Ymd-Hi'); ?>" media="screen,print">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick.css?<?php echo date('Ymd-Hi'); ?>" media="screen,print">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js?<?php echo date('Ymd-Hi'); ?>"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/slick.min.js?<?php echo date('Ymd-Hi'); ?>"></script>
   <?php else : ?>
     <?php //topページ以外に出力 ?>
@@ -41,6 +40,5 @@
     ?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/lower.css?<?php echo date('Ymd-Hi'); ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/<?php echo $slug; ?>.css?<?php echo date('Ymd-Hi'); ?>">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js?<?php echo date('Ymd-Hi'); ?>"></script>
   <?php endif; ?>
   <!-- フォント -->

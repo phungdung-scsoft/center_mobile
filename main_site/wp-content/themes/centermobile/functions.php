@@ -8,6 +8,20 @@ function new_excerpt_mblength($length) {
 }
 add_filter('excerpt_mblength', 'new_excerpt_mblength');
 
+
+/*********************************
+ WPデフォルトのjQueryを解除、Google CDNのものを読み込む
+**********************************/
+function load_google_cdn() {
+  if ( !is_admin() ){
+    //jQueryを登録解除
+    wp_deregister_script( 'jquery' );
+    //Google CDNのjQueryを出力
+    wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js', array(), NULL, false );
+  }
+}
+add_action( 'init', 'load_google_cdn' );
+
 /*********************************
  404のとき、トップページへリダイレクト
 **********************************/
