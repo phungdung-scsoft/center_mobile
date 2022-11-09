@@ -15,7 +15,7 @@
 		<ul class="headerUl">
 			<li class="sp"><a href="https://maimo.app/login" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_bnr_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?> Login" width="151" height="38"></a></li>
 			<li class="menuBtn sp">
-				<button class="menu-trigger" href="#">
+				<button class="menu-trigger">
 					<span></span>
 					<span></span>
 					<span></span>
