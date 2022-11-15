@@ -15,11 +15,11 @@
 		<ul class="headerUl">
 			<li class="sp"><a href="https://maimo.app/login" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_bnr_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?> Login" width="151" height="38"></a></li>
 			<li class="menuBtn sp">
-				<button class="menu-trigger">
+				<div class="menu-trigger">
 					<span></span>
 					<span></span>
 					<span></span>
-				</button>
+				</div>
 
 			<nav class="gnav">
 				<div class="gnav__wrap">
@@ -66,56 +66,56 @@
 	<!-- cover -->
 <div id="cover">
 
-  <ul class="slider">
-    <li>
+  <div class="slider">
+    <div class="slider-item">
       <picture>
         <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" width="2400" height="1200">
       </picture>
-		</li>
-		<li>
+		</div>
+		<div class="slider-item">
       <picture>
         <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>.png" alt="携帯料金は自分で決める時代へ！" loading="lazy" width="2400" height="1200">
       </picture>
-		</li>
-		<li>
+		</div>
+		<div class="slider-item">
       <picture>
         <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" loading="lazy" width="2400" height="1200">
       </picture>
-		</li>
-		<li>
+		</div>
+		<div class="slider-item">
       <picture>
         <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" loading="lazy" width="2400" height="1200">
       </picture>
-		</li>
-    <li>
+		</div>
+    <div class="slider-item">
       <picture>
         <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>.png" alt="CHARGE SPOT どこでも借りれて、いつでも充電し放題！全国30,000台以上設置！通常よりもお得なプランでご利用いただけます。" loading="lazy" width="2400" height="1200">
       </picture>
-    </li>
-	</ul>
+    </div>
+	</div>
 
-	<ul class="thumb pc">
-    <li>
+	<div class="thumb pc">
+    <div class="slider-item">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" loading="lazy" width="258" height="129">
-		</li>
-		<li>
+		</div>
+		<div class="slider-item">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>.png" alt="携帯料金は自分で決める時代へ！" class="pc" loading="lazy" width="258" height="129">
-		</li>
-		<li>
+		</div>
+		<div class="slider-item">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" loading="lazy" width="258" height="129">
-		</li>
-		<li>
+		</div>
+		<div class="slider-item">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" loading="lazy" width="258" height="129">
-		</li>
-    <li>
+		</div>
+    <div class="slider-item">
       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>.png" alt="CHARGE SPOT どこでも借りれて、いつでも充電し放題！全国30,000台以上設置！通常よりもお得なプランでご利用いただけます。" class="pc" loading="lazy" width="258" height="129">
-    </li>
-	</ul>
+    </div>
+	</div>
 </div>
 <!-- /cover -->
 

@@ -47,7 +47,7 @@ $(function(){
 		]
 	});
 
-	var slidesToshow_leng = $('.thumb li').length;
+	var slidesToshow_leng = $('.thumb .slider-item').length;
 	$('.thumb').slick({
 		asNavFor: '.slider', // スライダを他のスライダのナビゲーションに設定する（class名またはID名）
 		focusOnSelect: true, // クリックでのスライド切り替えを有効にするか
