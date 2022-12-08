@@ -21,61 +21,84 @@
 
       <section class="plan">
         <div class="wrapper">
-        <h2>料金プラン</h2>
-        <ul class="plan_lists">
-          <li>
+          <h2>料金プラン</h2>
+          <ul class="plan_lists">
+            <li>
+              <div class="plan_title">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80">
+              <h3 class="h3_1"><span>電話もインターネットも使える<br></span>音声SIMプラン</h3></div>
+              <hr class="plan_hr">
+              <table class="price_list">
+                <tr>
+                  <td class="GB"><span>3</span>GB</td>
+                  <td class="price"><span>0〜1,280</span>円/月(税込 1,408円)</td>
+                </tr>
+                <tr>
+                  <td class="GB"><span>12</span>GB</td>
+                  <td class="price"><span>0〜1,780</span>円/月(税込 1,958円)</td>
+                </tr>
+                <tr>
+                  <td class="GB"><span>20</span>GB</td>
+                  <td class="price"><span>0〜2,480</span>円/月(税込 2,728円)</td>
+                </tr>
+                <tr>
+                  <td class="GB"><span>50</span>GB</td>
+                  <td class="price"><span>0〜3,980</span>円/月(税込 4,378円)</td>
+                </tr>
+              </table>
+            </li>
+            <li>
+              <div class="plan_title">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80">
+              <h3 class="h3_1"><span>インターネットだけ利用<br></span>データSIMプラン</h3></div>
+              <hr class="plan_hr">
+              <table class="price_list">
+                <tr>
+                  <td class="GB"><span>3</span>GB</td>
+                  <td class="price"><span>0〜1,180</span>円/月(税込 1,298円)</td>
+                </tr>
+                <tr>
+                  <td class="GB"><span>12</span>GB</td>
+                  <td class="price"><span>0〜1,680</span>円/月(税込 1,848円)</td>
+                </tr>
+                <tr>
+                  <td class="GB"><span>20</span>GB</td>
+                  <td class="price"><span>0〜2,280</span>円/月(税込 2,508円)</td>
+                </tr>
+                <tr>
+                  <td class="GB"><span>50</span>GB</td>
+                  <td class="price"><span>0〜3,780</span>円/月(税込 4,158円)</td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+
+          <div class="setplan_wrap">
             <div class="plan_title">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80">
-            <h3 class="h3_1"><span>電話もインターネットも使える<br></span>音声SIMプラン</h3></div>
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80">
+              <h3 class="h3_1">お得なかけ放題<br class="sp_only">セットプラン</h3>
+            </div>
             <hr class="plan_hr">
-            <table class="price_list">
-              <tr>
-                <td class="GB"><span>3</span>GB</td>
-                <td class="price"><span>0〜1,280</span>円/月(税込 1,408円)</td>
-              </tr>
-              <tr>
-                <td class="GB"><span>12</span>GB</td>
-                <td class="price"><span>0〜1,780</span>円/月(税込 1,958円)</td>
-              </tr>
-              <tr>
-                <td class="GB"><span>20</span>GB</td>
-                <td class="price"><span>0〜2,480</span>円/月(税込 2,728円)</td>
-              </tr>
-              <tr>
-                <td class="GB"><span>50</span>GB</td>
-                <td class="price"><span>0〜3,980</span>円/月(税込 4,378円)</td>
-              </tr>
-            </table>
-          </li>
-          <li>
-            <div class="plan_title">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80">
-            <h3 class="h3_1"><span>インターネットだけ利用<br></span>データSIMプラン</h3></div>
-            <hr class="plan_hr">
-            <table class="price_list">
-              <tr>
-                <td class="GB"><span>3</span>GB</td>
-                <td class="price"><span>0〜1,180</span>円/月(税込 1,298円)</td>
-              </tr>
-              <tr>
-                <td class="GB"><span>12</span>GB</td>
-                <td class="price"><span>0〜1,680</span>円/月(税込 1,848円)</td>
-              </tr>
-              <tr>
-                <td class="GB"><span>20</span>GB</td>
-                <td class="price"><span>0〜2,280</span>円/月(税込 2,508円)</td>
-              </tr>
-              <tr>
-                <td class="GB"><span>50</span>GB</td>
-                <td class="price"><span>0〜3,780</span>円/月(税込 4,158円)</td>
-              </tr>
-            </table>
-          </li>
-        </ul>
-      </div>
-      <div class="btn_outer btn_blue btn_pd">
-            <a href="//maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">お申し込みはこちら</a>
-      </div>
+            <div class="setplan_price_wrap">
+              <table class="price_list">
+                <tr>
+                  <td class="GB"><span>20</span>GB<br><span class="option">＋<br>5分<br class="sp_only">かけ放題</span></td>
+                  <td class="price"><span>0〜2,700</span>円/月(税込 2,970円)</td>
+                </tr>
+              </table>
+
+              <table class="price_list">
+                <tr>
+                  <td class="GB"><span>20</span>GB<br><span class="option">＋<br>10分<br class="sp_only">かけ放題</span></td>
+                  <td class="price"><span>0〜3,000</span>円/月(税込 3,300円)</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="btn_outer btn_blue btn_pd">
+          <a href="//maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">お申し込みはこちら</a>
+        </div>
       </section>
 
 

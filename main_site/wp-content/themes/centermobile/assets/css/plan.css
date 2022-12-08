@@ -55,6 +55,25 @@
   background-color: white;
 }
 
+.setplan_wrap {
+  margin: 30px 15px 0;
+  padding: 20px;
+  background: #fff;
+}
+
+.setplan_price_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.setplan_price_wrap .price_list {
+  margin: 0;
+}
+
+.setplan_price_wrap .price_list .GB {
+  width: 120px;
+}
+
 .option .plan_lists li{
   padding-bottom: 20px;
 }
@@ -188,6 +207,23 @@
 
   .plan_lists > li{
     width: 48%;
+  }
+
+  .setplan_wrap {
+    margin: 0;
+    padding: 20px 3vw;
+  }
+
+  .setplan_price_wrap {
+    display: block;
+  }
+
+  .setplan_price_wrap .price_list {
+    margin: 0 auto;
+  }
+
+  .setplan_price_wrap .price_list .GB {
+    width: 80px;
   }
 
   .sub{

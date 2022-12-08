@@ -138,6 +138,10 @@ h3 span{
   margin-right: 10px;
 }
 
+.plan_title .h3_1{
+  margin: 0;
+}
+
 .plan_lists li{
   width: 460px;
   background-color:rgb(15,33,52,0.6);
@@ -160,11 +164,17 @@ h3 span{
   font-size: 20px;
   text-align: center;
   margin-right: 20px;
+  padding: 10px 0;
+  line-height: 1.2;
 }
 
 .GB span{
   color: white;
   font-size: 30px;
+}
+
+.GB span.option{
+  font-size: 16px;
 }
 
 .price_list{
