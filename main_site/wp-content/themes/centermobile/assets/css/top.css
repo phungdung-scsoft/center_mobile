@@ -588,6 +588,12 @@ nav li a:hover {
 	background: #fedeed;
 }
 
+.content02 .capacityList > li.type5 {
+	width: 100%;
+	border-color: #fecb5e;
+	background: #f6f2cd;
+}
+
 .content02 .capacityList > li > .heading {
 	padding: 0.5vw;
 	text-align: center;
@@ -609,8 +615,16 @@ nav li a:hover {
 	background: #e4247d;
 }
 
+.content02 .capacityList > li.type5 > .heading {
+	background: #ea0b2a;
+}
+
 .content02 .capacityList > li .capacityContent {
 	padding: 0 0.9vw 0.9vw;
+}
+
+.content02 .capacityList > li.type5 .capacityContent {
+	padding: 0.9vw;
 }
 
 .content02 .capacityList > li .capacityContent .capacity {
@@ -661,17 +675,26 @@ nav li a:hover {
 	background: #1d79bb;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan > .heading span {
+.content02 .capacityList > li.type5 .capacityContent .planWrap .plan > .heading {
+	background: #ea0b2a;
+	font-size: 1.4vw;
+}
+
+.content02 .capacityList > li .capacityContent .planWrap .plan > .heading > span {
 	position: relative;
 	display: inline-block;
 	padding: 0 0 0 2.6vw;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading span {
+.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading > span {
 	padding: 0 0 0 1.7vw;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan > .heading span::before {
+.content02 .capacityList > li.type5 .capacityContent .planWrap .plan > .heading > span > span {
+	font-size: 1.8vw;
+}
+
+.content02 .capacityList > li .capacityContent .planWrap .plan > .heading > span::before {
 	position: absolute;
 	left: 0;
 	top: 50%;
@@ -682,7 +705,7 @@ nav li a:hover {
 	content: "";
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading span::before {
+.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading > span::before {
 	width: 1.3vw;
 	height: 1.3vw;
 	background-image: url(../img/top/con2_icon02.png);
@@ -697,6 +720,10 @@ nav li a:hover {
 
 .content02 .capacityList > li .capacityContent .planWrap .plan.data .planContent {
 	background: #fff;
+}
+
+.content02 .capacityList > li.type5 .capacityContent .planWrap .plan .planContent {
+	background: #f9f8ee;
 }
 
 .content02 .capacityList > li .capacityContent .planWrap .plan .planContent .monthly {
@@ -721,6 +748,11 @@ nav li a:hover {
 	color: #1d79bb;
 }
 
+.content02 .capacityList > li.type5 .capacityContent .planWrap .plan .planContent .monthly .th {
+	border-color: #ea0b2a;
+	color: #ea0b2a;
+}
+
 .content02 .capacityList > li .capacityContent .planWrap .plan .planContent .monthly .price {
 	padding: 0 0 0 5px;
 	text-align: right;
@@ -732,6 +764,10 @@ nav li a:hover {
 
 .content02 .capacityList > li .capacityContent .planWrap .plan.data .planContent .monthly .price {
 	color: #1d79bb;
+}
+
+.content02 .capacityList > li.type5 .capacityContent .planWrap .plan .planContent .monthly .price {
+	color: #ea0b2a;
 }
 
 .content02 .capacityList > li .capacityContent .planWrap .plan .planContent .monthly .price .max span {
@@ -2189,22 +2225,30 @@ button {
 	font-size: 18px;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan > .heading span {
+.content02 .capacityList > li.type .capacityContent .planWrap .plan > .heading {
+	font-size: 24px;
+}
+
+.content02 .capacityList > li .capacityContent .planWrap .plan > .heading > span {
 	padding: 0 0 0 51px;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading span {
+.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading > span {
 	padding: 0 0 0 34px;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan > .heading span::before {
+.content02 .capacityList > li .capacityContent .planWrap .plan > .heading > span::before {
 	width: 37px;
 	height: 25px;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading span::before {
+.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading > span::before {
 	width: 25px;
 	height: 25px;
+}
+
+.content02 .capacityList > li .capacityContent .planWrap .plan > .heading > span > span {
+	font-size: 30px;
 }
 
 .content02 .capacityList > li .capacityContent .planWrap .plan .planContent {
@@ -2670,22 +2714,30 @@ footer
 	font-size: 1.6vw;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan > .heading span {
+.content02 .capacityList > li.type5 .capacityContent .planWrap .plan > .heading {
+	font-size: 2.2vw;
+}
+
+.content02 .capacityList > li .capacityContent .planWrap .plan > .heading > span {
 	padding: 0 0 0 3.4vw;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading span {
+.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading > span {
 	padding: 0 0 0 2.4vw;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan > .heading span::before {
+.content02 .capacityList > li .capacityContent .planWrap .plan > .heading > span::before {
 	width: 3.1vw;
 	height: 2.1vw;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading span::before {
+.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading > span::before {
 	width: 2.1vw;
 	height: 2.1vw;
+}
+
+.content02 .capacityList > li.type5 .capacityContent .planWrap .plan > .heading > span > span {
+	font-size: 2.8vw;
 }
 
 .content02 .capacityList > li .capacityContent .planWrap .plan .planContent {
@@ -3428,6 +3480,10 @@ th, td {
 	padding: 0 3.3vw 3.3vw;
 }
 
+.content02 .capacityList > li.type5 .capacityContent {
+	padding: 3.3vw;
+}
+
 .content02 .capacityList > li .capacityContent .capacity {
 	font-size: 8.2vw;
 }
@@ -3446,22 +3502,30 @@ th, td {
 	font-size: 3.3vw;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan > .heading span {
+.content02 .capacityList > li.type5 .capacityContent .planWrap .plan > .heading {
+	font-size: 3.6vw;
+}
+
+.content02 .capacityList > li .capacityContent .planWrap .plan > .heading > span {
 	padding: 0 0 0 9.4vw;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading span {
+.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading > span {
 	padding: 0 0 0 6.4vw;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan > .heading span::before {
+.content02 .capacityList > li .capacityContent .planWrap .plan > .heading > span::before {
 	width: 7.1vw;
 	height: 5.1vw;
 }
 
-.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading span::before {
+.content02 .capacityList > li .capacityContent .planWrap .plan.data > .heading > span::before {
 	width: 5.1vw;
 	height: 5.1vw;
+}
+
+.content02 .capacityList > li.type5 .capacityContent .planWrap .plan > .heading > span > span {
+	font-size: 4.4vw;
 }
 
 .content02 .capacityList > li .capacityContent .planWrap .plan .planContent {

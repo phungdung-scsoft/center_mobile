@@ -303,6 +303,45 @@
             </div>
           </div>
         </li>
+        <li class="type5">
+          <h3 class="heading">お得なかけ放題セットプラン</h3>
+          <div class="capacityContent">
+            <div class="planWrap">
+              <div class="plan voice">
+                <h4 class="heading"><span><span>20</span>GB＋<br class="sp"><span>5</span>分かけ放題</span></h4>
+                <div class="planContent">
+                  <div class="planContentInner">
+                    <div class="monthly">
+                      <div class="th"><span>月</span><span>額</span></div>
+                      <div class="price">
+                        <p class="max"><span>2,700</span>円</p>
+                        <p class="min">〜<span>0</span>円</p>
+                      </div>
+                    </div>
+                    <p class="tax">税込 2,970円</p>
+                  </div>
+                </div>
+                <p class="notes">通話付きのプランです</p>
+              </div>
+              <div class="plan voice">
+                <h4 class="heading"><span><span>20</span>GB＋<br class="sp"><span>10</span>分かけ放題</span></h4>
+                <div class="planContent">
+                  <div class="planContentInner">
+                    <div class="monthly">
+                      <div class="th"><span>月</span><span>額</span></div>
+                      <div class="price">
+                        <p class="max"><span>3,000</span>円</p>
+                        <p class="min">〜<span>0</span>円</p>
+                      </div>
+                    </div>
+                    <p class="tax">税込 3,300円</p>
+                  </div>
+                </div>
+                <p class="notes">通話付きのプランです</p>
+              </div>
+            </div>
+          </div>
+        </li>
       </ul>
 		</div>
 		<a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" class="cvBtn" target="_blank">

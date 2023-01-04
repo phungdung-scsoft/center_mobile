@@ -22,7 +22,7 @@
 }
 
 .h4_1{
-  font-size: 14px;
+  font-size: 16px;
   color: white;
   margin-bottom: 10px;
   text-align: center;
@@ -88,7 +88,7 @@
 }
 
 .option_lists li {
-  width: 100px;
+  width: calc((100% - 34px) / 4);
   text-align: center;
   background-color: #5893ce;
   padding: 10px 0;
@@ -101,7 +101,7 @@
 }
 
 .option_lists p{
-  font-size: 14px;
+  font-size: 16px;
   color: white;
 }
 
@@ -112,11 +112,11 @@
 
 .option_list {
   justify-content: flex-start;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .sub{
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 20px;
   margin-top: 20px;
 }
@@ -150,7 +150,7 @@
 }
 
 .price_reason p {
-    font-size: 14px;
+    font-size: 16px;
     padding: 40px 0 20px 0;
 }
 
@@ -165,7 +165,7 @@
   list-style-type: disc;
   margin-left: 24px;
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .attention_inner h4{
@@ -185,7 +185,7 @@
   }
 
   .h3_1 span {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .img_plan {
