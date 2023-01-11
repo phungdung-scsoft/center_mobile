@@ -360,7 +360,7 @@ footer nav ul li:before{
   width: 100%;
   padding-top: 56.25%;
   text-align: center;
-  background: #000 url(../img/btn_youtube.png) no-repeat 50% 50% / contain;
+  background: #000 url(../img/btn_youtube.png) no-repeat 50% 50%;
 }
 .youtube .video_wrapper iframe {
   position: absolute;
