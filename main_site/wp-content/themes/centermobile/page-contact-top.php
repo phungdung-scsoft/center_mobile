@@ -54,6 +54,11 @@
               メディア取材についてはこちら
             </a>
           </li>
+          <li>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-outside/">
+              PLAIOサービスに関する<br>お問い合わせ
+            </a>
+          </li>
         </ul>
       </div>
     </section>
