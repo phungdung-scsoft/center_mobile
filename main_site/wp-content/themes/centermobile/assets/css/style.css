@@ -32,6 +32,11 @@ a{
   text-decoration: none;
 }
 
+a[href*="tel:"] {
+  pointer-events: none;
+  cursor: text;
+}
+
 ul{
   padding: 0;
   margin: 0;
@@ -737,6 +742,11 @@ footer nav ul li:before{
 
   .pc_only{
     display: none!important;
+  }
+
+  a[href*="tel:"] {
+    pointer-events: auto;
+    cursor: auto;
   }
 
   .wrapper {
