@@ -70,7 +70,8 @@
 		<?php /* 2月27日〜5月31日まで出しておく。その後消す。 */ ?>
 		<?php
 		date_default_timezone_set('Asia/Tokyo');
-		if (strtotime(date('Y-m-d H:i')) >= strtotime('2023-02-27 00:00') && strtotime(date('Y-m-d H:i')) < strtotime('2023-06-01 00:00')) :
+		//if (strtotime(date('Y-m-d H:i')) >= strtotime('2023-02-27 00:00') && strtotime(date('Y-m-d H:i')) < strtotime('2023-06-01 00:00')) :
+		if (false) :
 		?>
 		<div class="slider-item">
 			<a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">
@@ -116,7 +117,10 @@
 
 	<div class="thumb pc">
 		<?php /* 2月27日〜5月31日まで出しておく。その後消す。 */ ?>
-		<?php if (strtotime(date('Y-m-d H:i')) >= strtotime('2023-02-27 00:00') && strtotime(date('Y-m-d H:i')) < strtotime('2023-06-01 00:00')) : ?>
+		<?php
+			//if (strtotime(date('Y-m-d H:i')) >= strtotime('2023-02-27 00:00') && strtotime(date('Y-m-d H:i')) < strtotime('2023-06-01 00:00')) :
+			if (false) :
+		?>
 		<div class="slider-item">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_6_<?= $GLOBALS['gl_path']; ?>.png" alt="春の新生活応援キャンペーン" class="pc" loading="lazy" width="258" height="129">
 		</div>
@@ -143,6 +147,48 @@
 
 
 <div id="main">
+	<section class="content11">
+		<div class="inner">
+			<h2><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con11_tit.png" alt="Topics" width="236" height="72" loading="lazy"></h2>
+      <?php $args = array(
+      'posts_per_page' => 3,
+      'category' => 10 );
+      $posts = get_posts( $args );
+      if( !empty( $posts ) ) :
+      ?>
+			<ul>
+        <?php
+        foreach ( $posts as $post ): // ループの開始
+        setup_postdata( $post ); // 記事データの取得
+        ?>
+				<li>
+          <a href="<?php the_permalink(); ?>">
+  					<dl>
+              <?php if ( has_post_thumbnail() ): ?><!-- if文による条件分岐 アイキャッチが有る時-->
+          			<dt><?php the_post_thumbnail(array(193,193), array('class' => 'left')); ?></dt>
+          			<?php else: ?><!-- アイキャッチが無い時-->
+          			<dt><img src="<?php echo get_template_directory_uri(); ?>/assets/img/thumb_topics.png" alt="" width="193" height="193" loading="lazy"></dt>
+          		<?php endif; ?>
+  						<dd>
+  							<span class="date"><?php the_time('Y年m月d日') ?></span>
+  							<p>
+  								<?php the_title(); ?>
+  							</p>
+  						</dd>
+  					</dl>
+          </a>
+				</li>
+        <?php endforeach; // ループの終了
+        wp_reset_postdata(); // 直前のクエリを復元する
+        ?>
+			</ul>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01.png" alt="もっと詳しく" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01.png'" width="600" height="87" loading="lazy"></a>
+      <?php elseif( empty( $posts ) ):  //もし記事が空だったら　?>
+      <?php endif; ?>
+      <?php wp_reset_query(); ?>
+		</div>
+	</section>
+
 	<section class="content01 fuki">
 		<div class="inner">
 			<h2 class="mainTit">
@@ -551,49 +597,6 @@
 				</li>
 			</ul>
 			<!-- <a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01.png" alt=""></a> -->
-		</div>
-	</section>
-
-
-	<section class="content11">
-		<div class="inner">
-			<h2><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con11_tit.png" alt="Topics" width="236" height="72" loading="lazy"></h2>
-      <?php $args = array(
-      'posts_per_page' => 3,
-      'category' => 10 );
-      $posts = get_posts( $args );
-      if( !empty( $posts ) ) :
-      ?>
-			<ul>
-        <?php
-        foreach ( $posts as $post ): // ループの開始
-        setup_postdata( $post ); // 記事データの取得
-        ?>
-				<li>
-          <a href="<?php the_permalink(); ?>">
-  					<dl>
-              <?php if ( has_post_thumbnail() ): ?><!-- if文による条件分岐 アイキャッチが有る時-->
-          			<dt><?php the_post_thumbnail(array(193,193), array('class' => 'left')); ?></dt>
-          			<?php else: ?><!-- アイキャッチが無い時-->
-          			<dt><img src="<?php echo get_template_directory_uri(); ?>/assets/img/thumb_topics.png" alt="" width="193" height="193" loading="lazy"></dt>
-          		<?php endif; ?>
-  						<dd>
-  							<span class="date"><?php the_time('Y年m月d日') ?></span>
-  							<p>
-  								<?php the_title(); ?>
-  							</p>
-  						</dd>
-  					</dl>
-          </a>
-				</li>
-        <?php endforeach; // ループの終了
-        wp_reset_postdata(); // 直前のクエリを復元する
-        ?>
-			</ul>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01.png" alt="もっと詳しく" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01.png'" width="600" height="87" loading="lazy"></a>
-      <?php elseif( empty( $posts ) ):  //もし記事が空だったら　?>
-      <?php endif; ?>
-      <?php wp_reset_query(); ?>
 		</div>
 	</section>
 
