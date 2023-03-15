@@ -151,7 +151,7 @@
 		<div class="inner">
 			<h2><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con11_tit.png" alt="Topics" width="236" height="72" loading="lazy"></h2>
       <?php $args = array(
-      'posts_per_page' => 3,
+      'posts_per_page' => 4,
       'category' => 10 );
       $posts = get_posts( $args );
       if( !empty( $posts ) ) :

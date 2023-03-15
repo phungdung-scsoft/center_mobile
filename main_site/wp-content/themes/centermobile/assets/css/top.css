@@ -1263,11 +1263,11 @@ margin: 15px 0 35px 0;
 }
 
 .content11 li{
-	width: 30%;
-	margin: 0 6% 0 0;
+	width: 22%;
+	margin: 0 4% 0 0;
 }
 
-.content11 li:nth-of-type(3n){
+.content11 li:nth-of-type(4n){
 	margin: 0;
 }
 
