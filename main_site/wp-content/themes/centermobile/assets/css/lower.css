@@ -4,7 +4,7 @@ h2{
   font-size:16px;
   text-align: left;
   background-image: url(../img/parts1.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size:auto 25px;
   line-height: 25px;
   margin-bottom: 20px;
