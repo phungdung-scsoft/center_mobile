@@ -30,15 +30,26 @@
 .topics_list > li a img {
   width: 100%;
   height: auto;
+  aspect-ratio: 1.41 / 1;
+  object-fit: cover;
+  margin: 0 0 15px;
+}
+
+.topics_list > li a img.logo {
+  object-fit: contain;
 }
 
 .topics_list > li a h3 {
   margin: 0;
-  font-weight: normal;
+  font-weight: bold;
+}
+
+.topics_list > li a h3::before {
+  display: none;
 }
 
 .topics_list > li a .date {
-  margin: 0 0 15px;
+  margin: 0 0 5px;
   font-size: 12px;
 }
 

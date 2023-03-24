@@ -151,8 +151,7 @@
 		<div class="inner">
 			<h2><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con11_tit.png" alt="Topics" width="236" height="72" loading="lazy"></h2>
       <?php $args = array(
-      'posts_per_page' => 4,
-      'category' => 10 );
+      'posts_per_page' => 4 );
       $posts = get_posts( $args );
       if( !empty( $posts ) ) :
       ?>
@@ -166,8 +165,8 @@
   					<dl>
               <?php if ( has_post_thumbnail() ): ?><!-- if文による条件分岐 アイキャッチが有る時-->
           			<dt><?php the_post_thumbnail(array(193,193), array('class' => 'left')); ?></dt>
-          			<?php else: ?><!-- アイキャッチが無い時-->
-          			<dt><img src="<?php echo get_template_directory_uri(); ?>/assets/img/thumb_topics.png" alt="" width="193" height="193" loading="lazy"></dt>
+          		<?php else: ?><!-- アイキャッチが無い時-->
+          			<dt><img src="<?php echo get_template_directory_uri(); ?>/assets/img/thumb_topics.png" alt="" width="193" height="193" loading="lazy" class="logo"></dt>
           		<?php endif; ?>
   						<dd>
   							<span class="date"><?php the_time('Y年m月d日') ?></span>

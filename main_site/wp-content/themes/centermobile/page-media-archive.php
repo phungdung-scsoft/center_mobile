@@ -43,13 +43,13 @@
               <li>
                 <a href="<?php the_permalink(); ?>">
                   <div class="posts_inner">
-                    <h3><?php the_title(); ?></h3>
-                    <p class="date"><?php the_date(); ?></p>
                     <?php if(has_post_thumbnail()): ?>
                       <img src="<?php the_post_thumbnail_url("medium"); ?>" alt="">
                     <?php else: ?>
-                      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/thumb_topics.png" alt="" width="240" height="240">
+                      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/thumb_topics.png" alt="" width="240" height="240" class="logo">
                     <?php endif; ?>
+                    <p class="date"><?php the_date(); ?></p>
+                    <h3><?php the_title(); ?></h3>
                   </div>
                 </a>
               </li>
