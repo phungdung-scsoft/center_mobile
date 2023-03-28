@@ -245,6 +245,10 @@ input.wpcf7-form-control.wpcf7-submit:after{
   transform: translateY(-50%);
 }
 
+input.wpcf7-form-control.wpcf7-submit:disabled{
+  background: #aaa;
+}
+
 form p {
   font-size: 14px;
   margin-bottom: 10px;
@@ -330,6 +334,94 @@ img.attachment-full.size-full.wp-post-image {
   margin: 0 10px;
 }
 
+/*お問い合わせフォーム*/
+.scroll-area {
+  overflow: auto;
+  width: 100%;
+  height: 400px;
+  margin: 0 0 20px;
+  padding: 40px 70px;
+  border: 1px solid #e3e3e3;
+  background: #fff;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+
+#pdfjs_view canvas {
+  width: 100%;
+  display: block;
+}
+
+.scroll-area img {
+  width: 100%;
+  height: auto;
+}
+
+.btn-pdf-download {
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+.btn-pdf-download a {
+  max-width: 235px;
+  padding: 0 0 0 0;
+  font-size: 16px;
+  background-color: #1f58a7;
+  display: block;
+  justify-content: center;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+}
+
+#agreement-check {
+  display: none;
+}
+
+#agreement-check + label {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px 0 0;
+  padding: 0 0 0 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#agreement-check + label::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background: #fff;
+  box-sizing: border-box;
+  content: "";
+}
+
+#agreement-check:checked + label {
+  color: #1f58a7;
+}
+
+#agreement-check:checked + label::after {
+  display: block;
+  position: absolute;
+  top: -3px;
+  left: 5px;
+  width: 9px;
+  height: 18px;
+  transform: rotate(40deg);
+  border-bottom: 4px solid #1f58a7;
+  border-right: 4px solid #1f58a7;
+  box-sizing: border-box;
+  content: "";
+}
+
 @media screen and (max-width: 1180px) {
 
   .top_image2{
@@ -370,4 +462,12 @@ img.attachment-full.size-full.wp-post-image {
   h2{
     background-position: center;
   }
+}
+
+@media screen and (max-width: 599px) {
+  /* 599px以下に適用されるCSS（スマホ用） */
+  .scroll-area {
+    padding: 0;
+  }
+
 }
