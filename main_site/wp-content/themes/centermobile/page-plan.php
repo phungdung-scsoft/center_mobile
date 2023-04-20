@@ -190,7 +190,7 @@
             </table>
           </li>
         </ul>
-        <p class="sub">※10分かけ放題は10分超過後は11円/30秒の通話料が発生します。<br><span class="mgr-10">※緊急通報：110、118、119</span><span class="mgr-10">電話番号案内：104</span>
+        <p class="sub">※かけ放題は超過後11円/30秒の通話料が発生します。<br><span class="mgr-10">※緊急通報：110、118、119</span><span class="mgr-10">電話番号案内：104</span>
         <span class="mgr-10">発信者番号通知：184、186</span>クイックダイヤル：＃ダイヤル<br>
         <span class="mgr-10">ガスコンロダイヤル：1416他</span>
         <span class="mgr-10">フリーダイヤル：0120、0800</span>
