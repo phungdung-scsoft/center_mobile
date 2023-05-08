@@ -107,4 +107,16 @@ function gl_setup() {
   $gl_id = "会員ID";
 }
 add_action( 'after_setup_theme', 'gl_setup' );
+
+/*********************************
+ お問い合わせに同意書を読み込むコードを出力
+**********************************/
+function add_scripts() {
+  if ( is_page('contact-2') || is_page('contact-business') || is_page('contact-contractor') || is_page('documentrequest') || is_page('coverage') || is_page('contact-outside') ) {
+    wp_enqueue_style( 'pdf-css', get_template_directory_uri() . '/assets/css/imgchecksupport.css', '', '20230412', false );
+    //wp_enqueue_script( 'pdf-js', 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js', '', '20230412', false );
+    wp_enqueue_script( 'pdf-check-support', get_template_directory_uri() . '/assets/js/imgchecksupport.js', '', '20230412', false );
+  }
+}
+add_action('wp_print_scripts', 'add_scripts');
 ?>
