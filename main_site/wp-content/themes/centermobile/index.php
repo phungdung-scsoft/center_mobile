@@ -32,6 +32,7 @@
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
+						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-appearances/">掲載メディア一覧</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
 					</ul>
 					<!-- <a href=""><?= $GLOBALS['gl_service']; ?> Login</a> -->
@@ -54,6 +55,7 @@
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
+            <li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-appearances/">掲載メディア一覧</a></li>
 						<li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
 		</ul>
 		<a href="https://maimo.app/login" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_bnr_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?> Login" width="151" height="38"></a>
@@ -658,13 +660,14 @@
 				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>app/">アプリの使い方</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
 				<li><a href="https://maimo.app/login" target="_blank" ><?= $GLOBALS['gl_service']; ?> Login</a></li>
+        <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank" >WEB申し込み</a></li>
 			</ul>
 
 			<ul>
-        <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank" >WEB申し込み</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEMをご検討中の方</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
+				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-appearances/">掲載メディア一覧</a></li>
         <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>policy/">プライバシーポリシー</a></li>
 				<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/">お問い合わせ</a></li>
 			</ul>
