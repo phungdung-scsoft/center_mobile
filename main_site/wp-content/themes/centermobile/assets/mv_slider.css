@@ -39,8 +39,8 @@
 
 #bx-wrapper{
    overflow:hidden; /* 画面幅からでないように */
-   width:100%;　　　/* 幅100％の場合 */
-   height:250px;　　/* 画像の高さと同じ */
+   width:100%;      /* 幅100％の場合 */
+   height:250px;    /* 画像の高さと同じ */
 }
 
 .slider #bx-viewport{
