@@ -49,6 +49,7 @@
               FC・OEMについてはこちら
             </a>
           </li>
+          <? /*
           <li>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>coverage/">
               メディア取材についてはこちら
@@ -59,6 +60,7 @@
               PLAIOサービスに関する<br>お問い合わせ
             </a>
           </li>
+          */ ?>
         </ul>
       </div>
     </section>

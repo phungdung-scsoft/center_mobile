@@ -25,7 +25,7 @@
       <div class="wrapper">
       <div>
         <p class="mb-20">株式会社センターモバイル(以下、「当社」といいます)では、当社サービスを提供するにあたって、ご利用者様(当社サービスのユーザーの皆様)の当社ウェブサイトの閲覧や当社提供のアプリの利用を通して、ご利用者様に関する情報を、当社または当社が提携する事業者(以下、「送信先事業者」といいます)に送信しています(以下、「外部送信」といいます)。この外部送信ポリシー(以下、「当ポリシー」といいます)は、ご利用者様に関するどのような情報が、どこに、どのような目的で送信されるのかを、公表することを目的としています。</p>
-        <p class="mb-20">なお、外部送信した情報は、当ポリシーおよび送信先事業者のプライバシーポリシー等に基づいて管理・利用されています。尚、情報の外部送信を停止されたい場合は、以下に記載のとおり、各社のオプトアウトページや、利用者様のブラウザやスマートフォンなどの設定 を通じて停止することが可能です。</p>
+        <p class="mb-20">尚、外部送信した情報は、当ポリシーおよび送信先事業者のプライバシーポリシー等に基づいて管理・利用されています。尚、情報の外部送信を停止されたい場合は、以下に記載のとおり、各社のオプトアウトページや、利用者様のブラウザやスマートフォンなどの設定 を通じて停止することが可能です。</p>
         <p class="mb-20">※ 個人情報保護法に定める個人情報(例えば、氏名、氏名とメールアドレスやクレジットカード番号の組み合わせなど、特定の個人を識別できる情報)に該当する情報の取り扱いについては、当社プライバシーポリシー(<a href="<?php echo esc_url( home_url( '/' ) ); ?>policy/"><?php echo esc_url( home_url( '/' ) ); ?>policy/</a>)にて定めていますので、そちらをご覧ください。</p>
         <p class="mb-20">※ 当ページは、2023年6月16日施行の、改正電気通信事業法に基づく外部送信規律(電気通信事業法第27条の12、電気通信事業法施行規則第22条の2の28)における、ご利用者様の情報の外部送信における「確認付与の機会の提供」(利用者様情報の外部送信に関して、容易に知り得る状態に置くこと(公表))に対応するものです。</p>
 
@@ -98,7 +98,21 @@
         <p class="mb-20">「Google のサービスを使用するサイトやアプリから収集した情報の Google による使用」: <a href="https://policies.google.com/technologies/partner-sites" target="_blank">https://policies.google.com/technologies/partner-sites</a></p>
 
         <p>【オプトアウトページ】</p>
-        <p><a href="https://tools.google.com/dlpage/gaoptout/" target="_blank">https://tools.google.com/dlpage/gaoptout/</a></p>
+        <p class="mb-20"><a href="https://tools.google.com/dlpage/gaoptout/" target="_blank">https://tools.google.com/dlpage/gaoptout/</a></p>
+
+        <p>【広告配信を目的としたタグの利用】</p>
+        <p>広告名：AppLovin</p>
+        <p>提携企業：AppLovin corporation</p>
+        <p class="mb-20">プライバシーポリシー：<a href="https://www.applovin.com/privacy-jp/" target="_blank">https://www.applovin.com/privacy-jp/</a></p>
+
+        <p>広告名：AdMob</p>
+        <p>提携企業：Google LLC</p>
+        <p class="mb-20">プライバシーポリシー：<a href="https://policies.google.com/privacy?hl=ja" target="_blank">https://policies.google.com/privacy?hl=ja</a></p>
+
+        <p>広告名：SKYFLAG</p>
+        <p>提携企業：株式会社Skyfall</p>
+        <p class="mb-20">プライバシーポリシー：<a href="https://skyfall.co.jp/privacy-policy/" target="_blank">https://skyfall.co.jp/privacy-policy/</a></p>
+
         <p>※ 定期的に調査を行い本ポリシーへ反映を行っておりますが、Webサイト・アプリの更新タイミングにより、記載内容と実態との差が発生する場合がございます。予めご了承ください。</p>
       </div>
 

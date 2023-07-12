@@ -149,46 +149,47 @@
 
 
 <div id="main">
+	<?php $args = array(
+		'posts_per_page' => 4 );
+		$posts = get_posts( $args );
+		if( !empty( $posts ) ) :
+	?>
 	<section class="content11">
 		<div class="inner">
 			<h2><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con11_tit.png" alt="Topics" width="236" height="72" loading="lazy"></h2>
-      <?php $args = array(
-      'posts_per_page' => 4 );
-      $posts = get_posts( $args );
-      if( !empty( $posts ) ) :
-      ?>
 			<ul>
-        <?php
-        foreach ( $posts as $post ): // ループの開始
-        setup_postdata( $post ); // 記事データの取得
-        ?>
+				<?php
+				foreach ( $posts as $post ): // ループの開始
+				setup_postdata( $post ); // 記事データの取得
+				?>
 				<li>
-          <a href="<?php the_permalink(); ?>">
-  					<dl>
-              <?php if ( has_post_thumbnail() ): ?><!-- if文による条件分岐 アイキャッチが有る時-->
-          			<dt><?php the_post_thumbnail(array(193,193), array('class' => 'left')); ?></dt>
-          		<?php else: ?><!-- アイキャッチが無い時-->
-          			<dt><img src="<?php echo get_template_directory_uri(); ?>/assets/img/thumb_topics.png" alt="" width="193" height="193" loading="lazy" class="logo"></dt>
-          		<?php endif; ?>
-  						<dd>
-  							<span class="date"><?php the_time('Y年m月d日') ?></span>
-  							<p>
-  								<?php the_title(); ?>
-  							</p>
-  						</dd>
-  					</dl>
-          </a>
+					<a href="<?php the_permalink(); ?>">
+						<dl>
+							<?php if ( has_post_thumbnail() ): ?><!-- if文による条件分岐 アイキャッチが有る時-->
+								<dt><?php the_post_thumbnail(array(193,193), array('class' => 'left')); ?></dt>
+							<?php else: ?><!-- アイキャッチが無い時-->
+								<dt><img src="<?php echo get_template_directory_uri(); ?>/assets/img/thumb_topics.png" alt="" width="193" height="193" loading="lazy" class="logo"></dt>
+							<?php endif; ?>
+							<dd>
+								<span class="date"><?php the_time('Y年m月d日') ?></span>
+								<p>
+									<?php the_title(); ?>
+								</p>
+							</dd>
+						</dl>
+					</a>
 				</li>
-        <?php endforeach; // ループの終了
-        wp_reset_postdata(); // 直前のクエリを復元する
-        ?>
+				<?php
+				endforeach; // ループの終了
+				wp_reset_postdata(); // 直前のクエリを復元する
+				?>
 			</ul>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01.png" alt="もっと詳しく" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01.png'" width="600" height="87" loading="lazy"></a>
-      <?php elseif( empty( $posts ) ):  //もし記事が空だったら　?>
-      <?php endif; ?>
-      <?php wp_reset_query(); ?>
 		</div>
 	</section>
+	<?php elseif( empty( $posts ) ):  //もし記事が空だったら　?>
+	<?php endif; ?>
+	<?php wp_reset_query(); ?>
 
 	<section class="content01 fuki">
 		<div class="inner">
