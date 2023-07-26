@@ -8,7 +8,13 @@
             <li><a href="//maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
-            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
+            <?php
+              $count_posts = wp_count_posts();
+              $post_number = $count_posts->publish;
+              if($post_number > 0):
+            ?>
+              <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
+            <?php endif; ?>
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-appearances/">掲載メディア一覧</a></li>
             <!-- <li><a href="">広告出稿をご検討の方</a></li>
@@ -41,7 +47,13 @@
                 <li><a href="//maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
-                <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
+                <?php
+                  $count_posts = wp_count_posts();
+                  $post_number = $count_posts->publish;
+                  if($post_number > 0):
+                ?>
+                  <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-archive/">トピックス</a></li>
+                <?php endif; ?>
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>store/">店舗一覧</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>media-appearances/">掲載メディア一覧</a></li>
                 <!--
