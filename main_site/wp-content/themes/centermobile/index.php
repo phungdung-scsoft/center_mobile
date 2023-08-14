@@ -110,12 +110,6 @@
       </div>
       <div class="slider-item">
         <picture>
-          <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" loading="lazy" width="2400" height="1200">
-        </picture>
-      </div>
-      <div class="slider-item">
-        <picture>
           <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" loading="lazy" width="2400" height="1200">
         </picture>
@@ -144,9 +138,6 @@
       </div>
       <div class="slider-item">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>.png" alt="携帯料金は自分で決める時代へ！" class="pc" loading="lazy" width="258" height="129">
-      </div>
-      <div class="slider-item">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_3_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_wifi']; ?> -世界中のどこでもつながる-" class="pc" loading="lazy" width="258" height="129">
       </div>
       <div class="slider-item">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" loading="lazy" width="258" height="129">

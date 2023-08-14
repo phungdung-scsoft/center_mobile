@@ -187,17 +187,6 @@
                 <p>光ファイバー回線とプロバイダーがひとつになって、お得に使えます。</p>*/ ?>
               </div>
             </li>
-            <li>
-              <div class="cap"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_4_2_<?= $GLOBALS['gl_path']; ?>.png" alt="" width="294" height="147"></div>
-              <div class="detail">
-                <h4><?= $GLOBALS['gl_wifi']; ?></h4>
-                <p>世界中のどこでも繋がるWi-Fi！毎月300ポイント獲得</p>
-                <?php /*<p>超軽量で持ち運びの負担が気にならない！</p>
-                <p>快適に繋がる回線をすぐに見つけて自動接続！</p>
-                <p>電波が弱くなりやすい地域や場所でも繋がりやすいクラウドSIM！</p>
-                <p>外出先でも最大12時間の連続使用可能！</p>*/ ?>
-              </div>
-            </li>
           </ul>
         </div>
       </section>
