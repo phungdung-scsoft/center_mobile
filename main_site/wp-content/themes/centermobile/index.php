@@ -80,28 +80,26 @@
   <!-- cover -->
   <div id="cover">
     <div class="slider">
-      <?php /* 2月27日〜5月31日まで出しておく。その後消す。 */ ?>
+      <?php /* 9月1日11時にバナー切り替え */ ?>
       <?php
       date_default_timezone_set('Asia/Tokyo');
-      //if (strtotime(date('Y-m-d H:i')) >= strtotime('2023-02-27 00:00') && strtotime(date('Y-m-d H:i')) < strtotime('2023-06-01 00:00')) :
-      if (false) :
+      if (strtotime(date('Y-m-d H:i')) < strtotime('2023-09-01 11:00')) :
       ?>
-      <div class="slider-item">
-        <a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">
+        <div class="slider-item">
           <picture>
-            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_6_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_6_<?= $GLOBALS['gl_path']; ?>.png" alt="春の新生活応援キャンペーン" loading="lazy" width="2400" height="1200">
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" width="2400" height="1200">
           </picture>
-        </a>
-      </div>
+        </div>
+      <?php else: ?>
+        <div class="slider-item">
+          <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>.png" alt="PLAIO WiMAX 持ち運び型・置き型どちらを選んでもデータ容量無制限" width="2400" height="1200">
+          </picture>
+        </div>
       <?php endif; ?>
-      <?php /* 2月27日〜5月31日まで出しておく。その後消す。 */ ?>
-      <div class="slider-item">
-        <picture>
-          <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" width="2400" height="1200">
-        </picture>
-      </div>
+      <?php /* 9月1日11時にバナー切り替え */ ?>
       <div class="slider-item">
         <picture>
           <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
@@ -123,19 +121,20 @@
     </div>
 
     <div class="thumb pc">
-      <?php /* 2月27日〜5月31日まで出しておく。その後消す。 */ ?>
+      <?php /* 9月1日11時にバナー切り替え */ ?>
       <?php
-        //if (strtotime(date('Y-m-d H:i')) >= strtotime('2023-02-27 00:00') && strtotime(date('Y-m-d H:i')) < strtotime('2023-06-01 00:00')) :
-        if (false) :
+      date_default_timezone_set('Asia/Tokyo');
+      if (strtotime(date('Y-m-d H:i')) < strtotime('2023-09-01 11:00')) :
       ?>
-      <div class="slider-item">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_6_<?= $GLOBALS['gl_path']; ?>.png" alt="春の新生活応援キャンペーン" class="pc" loading="lazy" width="258" height="129">
-      </div>
+        <div class="slider-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" loading="lazy" width="258" height="129">
+        </div>
+      <?php else: ?>
+        <div class="slider-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>.png" alt="PLAIO WiMAX 持ち運び型・置き型どちらを選んでもデータ容量無制限" class="pc" loading="lazy" width="258" height="129">
+        </div>
       <?php endif; ?>
-      <?php /* 2月27日〜5月31日まで出しておく。その後消す。 */ ?>
-      <div class="slider-item">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" loading="lazy" width="258" height="129">
-      </div>
+      <?php /* 9月1日11時にバナー切り替え */ ?>
       <div class="slider-item">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>.png" alt="携帯料金は自分で決める時代へ！" class="pc" loading="lazy" width="258" height="129">
       </div>
