@@ -82,8 +82,9 @@
     <div class="slider">
       <?php /* 9月1日11時にバナー切り替え */ ?>
       <?php
-      date_default_timezone_set('Asia/Tokyo');
-      if (strtotime(date('Y-m-d H:i')) < strtotime('2023-09-01 11:00')) :
+      //date_default_timezone_set('Asia/Tokyo');
+      //if (strtotime(date('Y-m-d H:i')) < strtotime('2023-09-01 11:00')) :
+      if( false ):
       ?>
         <div class="slider-item">
           <picture>
@@ -123,8 +124,9 @@
     <div class="thumb pc">
       <?php /* 9月1日11時にバナー切り替え */ ?>
       <?php
-      date_default_timezone_set('Asia/Tokyo');
-      if (strtotime(date('Y-m-d H:i')) < strtotime('2023-09-01 11:00')) :
+      //date_default_timezone_set('Asia/Tokyo');
+      //if (strtotime(date('Y-m-d H:i')) < strtotime('2023-09-01 11:00')) :
+      if( false ):
       ?>
         <div class="slider-item">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" loading="lazy" width="258" height="129">
