@@ -48,7 +48,7 @@
                     <?php else: ?>
                       <img src="<?php echo get_template_directory_uri(); ?>/assets/img/thumb_topics.png" alt="" width="240" height="240" class="logo">
                     <?php endif; ?>
-                    <p class="date"><?php the_date(); ?></p>
+                    <p class="date"><?php the_time('Y年m月d日'); ?></p>
                     <h3><?php the_title(); ?></h3>
                   </div>
                 </a>
