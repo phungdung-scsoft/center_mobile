@@ -80,31 +80,16 @@
   <!-- cover -->
   <div id="cover">
     <div class="slider">
-      <?php /* 9月1日11時にバナー切り替え */ ?>
-      <?php
-      //date_default_timezone_set('Asia/Tokyo');
-      //if (strtotime(date('Y-m-d H:i')) < strtotime('2023-09-01 11:00')) :
-      if( false ):
-      ?>
-        <div class="slider-item">
-          <picture>
-            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" width="2400" height="1200">
-          </picture>
-        </div>
-      <?php else: ?>
-        <div class="slider-item">
-          <picture>
-            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>.png" alt="PLAIO WiMAX 持ち運び型・置き型どちらを選んでもデータ容量無制限" width="2400" height="1200">
-          </picture>
-        </div>
-      <?php endif; ?>
-      <?php /* 9月1日11時にバナー切り替え */ ?>
       <div class="slider-item">
         <picture>
-          <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>.png" alt="携帯料金は自分で決める時代へ！" loading="lazy" width="2400" height="1200">
+          <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>.png" alt="PLAIO WiMAX 持ち運び型・置き型どちらを選んでもデータ容量無制限" width="2400" height="1200">
+        </picture>
+      </div>
+      <div class="slider-item">
+        <picture>
+          <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>_sp.png?1" media="(max-width: 768px)">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>.png?1" alt="携帯料金は自分で決める時代へ！" loading="lazy" width="2400" height="1200">
         </picture>
       </div>
       <div class="slider-item">
@@ -122,21 +107,9 @@
     </div>
 
     <div class="thumb pc">
-      <?php /* 9月1日11時にバナー切り替え */ ?>
-      <?php
-      //date_default_timezone_set('Asia/Tokyo');
-      //if (strtotime(date('Y-m-d H:i')) < strtotime('2023-09-01 11:00')) :
-      if( false ):
-      ?>
-        <div class="slider-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_1_<?= $GLOBALS['gl_path']; ?>.png" alt="マイモアプリがリニューアル　新アプリ　<?= $GLOBALS['gl_service_jp']; ?>" class="pc" loading="lazy" width="258" height="129">
-        </div>
-      <?php else: ?>
-        <div class="slider-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>.png" alt="PLAIO WiMAX 持ち運び型・置き型どちらを選んでもデータ容量無制限" class="pc" loading="lazy" width="258" height="129">
-        </div>
-      <?php endif; ?>
-      <?php /* 9月1日11時にバナー切り替え */ ?>
+      <div class="slider-item">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>.png" alt="PLAIO WiMAX 持ち運び型・置き型どちらを選んでもデータ容量無制限" class="pc" loading="lazy" width="258" height="129">
+      </div>
       <div class="slider-item">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>.png" alt="携帯料金は自分で決める時代へ！" class="pc" loading="lazy" width="258" height="129">
       </div>
@@ -197,7 +170,7 @@
     <section class="content01 fuki">
       <div class="inner">
         <h2 class="mainTit">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con01_tit01.png" alt="携帯料金最大割引で０円！" width="822" height="124">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con01_tit01.png" alt="携帯料金最大で０円まで割引！" width="822" height="124">
         </h2>
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/" class="btn03">割引の仕組みはこちら</a>
 
@@ -418,7 +391,7 @@
         </ul>
       </div>
       <a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" class="cvBtn" target="_blank">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png" alt="どのプランでどれだけ使っても最大割引で０円！お申し込みはこちら" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png'" width="917" height="235" loading="lazy">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png" alt="どのプランでどれだけ使っても最大で０円まで割引！お申込みはこちら" width="917" height="235" loading="lazy">
       </a>
     </section>
 
@@ -448,7 +421,7 @@
           <li>
             <picture>
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img01_sp.png" media="(max-width: 768px)">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img01.png" alt="特徴01 毎月の携帯料金が最大割引で0円" loading="lazy" width="1040" height="420">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con5_img01.png" alt="特徴01 毎月の携帯料金が最大で0円まで割引" loading="lazy" width="1040" height="420">
             </picture>
           </li>
           <li>
@@ -487,22 +460,22 @@
           </li>
         </ul>
         <a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" class="cvBtn" target="_blank">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png" alt="どのプランでどれだけ使っても最大割引で０円！お申し込みはこちら" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png'" width="917" height="235" loading="lazy">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png" alt="どのプランでどれだけ使っても最大で０円まで割引！お申込みはこちら" width="917" height="235" loading="lazy">
         </a>
       </div>
     </section>
     <section class="content06">
       <div class="inner">
-        <h2><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con6_tit.png" alt="センターモバイルでは携帯料金を最大割引で0円にすることを可能にしました" width="1040" height="255" loading="lazy"></h2>
+        <h2><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con6_tit.png" alt="センターモバイルでは携帯料金を最大で0円まで割引できます。※0円にするためには条件があります。" width="1040" height="255" loading="lazy"></h2>
         <dl>
           <dt>
             <picture>
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con6_img_sp.png" media="(max-width: 768px)">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con6_img.png" alt="携帯料金最大割引で0円が可能に！" loading="lazy" width="1045" height="664">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con6_img.png" alt="" loading="lazy" width="1045" height="664">
             </picture>
           </dt>
           <dd>
-            <span>スポンサーの広告をみたり、サービスを利用</span>することで<span>ポイントが還元</span>されます。ポイントを<span>携帯料金に充てることで最大割引で0円</span>にすることが可能になります！
+            <span>スポンサーの広告をみたり、サービスを利用</span>することで<span>ポイントが還元</span>されます。ポイントを<span>携帯料金に充てることで最大で0円まで割引</span>にすることが可能になります！
           </dd>
         </dl>
 
@@ -513,7 +486,7 @@
     <section class="content07">
       <div class="inner">
         <dl>
-          <dt><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con7_img01.png" alt="データ量がひとめで" width="275" height="403" loading="lazy"></dt>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con7_img01.png" alt="" width="275" height="403" loading="lazy"></dt>
           <dd>
             <h3>
               TVや動画配信サイトが無料なのは、視聴者に広告を配信することで、スポンサーから広告料を受け取れるからです。
@@ -564,14 +537,14 @@
         <h2><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con09_tit.png" alt="よくある質問" width="417" height="80" loading="lazy"></h2>
         <ul>
           <li>
-            <div class="que">最大割引で0円ってどういうこと？</div>
+            <div class="que">最大で0円まで割引ってどういうこと？</div>
             <div class="ans">
               <div class="txtAera">
                 ユーザーが会員専用アプリから<span>スポンサーの広告をみたり、サービスを利用</span>することで、センターモバイルに<span>広告収入が発生</span>します。<br>
-                その広告収入を<span>ポイントとしてユーザーに還元。</span>ユーザーはポイントを携帯料金に利用することで、<span>最大割引で0円にすることが可能</span>です。
+                その広告収入を<span>ポイントとしてユーザーに還元。</span>ユーザーはポイントを携帯料金に利用することで、<span>最大で0円まで割引にすることが可能</span>です。
               </div>
               <div class="imgArea">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con9_img01.png" alt="携帯料金最大割引で0円が可能に！" width="333" height="238" loading="lazy">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con9_img01.png" alt="携帯料金最大で0円まで割引が可能に！" width="333" height="238" loading="lazy">
               </div>
             </div>
           </li>
@@ -608,7 +581,7 @@
     <section class="content12">
       <div class="inCon01">
         <a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr.png" alt="お使いのスマホですぐに切り替え カンタンお申し込みはこちら" class="pc" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr.png'" width="1160" height="380" loading="lazy">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr.png" alt="お使いのスマホですぐに切り替え カンタンお申し込みはこちら" class="pc" width="1160" height="380" loading="lazy">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr_sp.png" alt="お使いのスマホですぐに切り替え カンタンお申し込みはこちら" class="sp" width="623" height="872" loading="lazy">
         </a>
       </div>
@@ -634,7 +607,7 @@
 
     <div class="bnrArea">
       <ul class="inner">
-        <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02.png" alt="どれだけ使っても最大割引で0円 WEB申し込み"  onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02.png'" width="312" height="91" loading="lazy"></a></li>
+        <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02.png" alt="どれだけ使っても最大で0円まで割引！ WEB申し込み" width="312" height="91" loading="lazy"></a></li>
         <li><a href="https://maimo.app/login" target="_blank" class="maiBtn"><?= $GLOBALS['gl_service']; ?> Login</a></li>
         <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/" class="conBtn">お問い合わせ</a></li>
       </ul>
