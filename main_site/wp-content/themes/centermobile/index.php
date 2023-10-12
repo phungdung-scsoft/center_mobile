@@ -83,7 +83,7 @@
       <div class="slider-item">
         <picture>
           <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>.png" alt="PLAIO WiMAX 持ち運び型・置き型どちらを選んでもデータ容量無制限" width="2400" height="1200">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>.png" alt="PLAIO WiMAX データ容量無制限 5G対応最新端末 月額1,180円〜 （税込1,298円〜） 乗り換えで最大40,000円キャッシュバック" width="2400" height="1200">
         </picture>
       </div>
       <div class="slider-item">
