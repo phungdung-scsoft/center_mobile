@@ -188,4 +188,12 @@ function remove_admin_bar_menus( $wp_admin_bar ) {
   }
 }
 add_action( 'admin_bar_menu', 'remove_admin_bar_menus', 999 );
+
+/*********************************
+ ダッシュボードのクイックドラフト機能の停止
+**********************************/
+function disable_quickpress() {
+  remove_meta_box('dashboard_quick_press', 'dashboard', 'side');
+}
+add_action('wp_dashboard_setup', 'disable_quickpress');
 ?>
