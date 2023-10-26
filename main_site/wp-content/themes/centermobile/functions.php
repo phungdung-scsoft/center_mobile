@@ -190,10 +190,20 @@ function remove_admin_bar_menus( $wp_admin_bar ) {
 add_action( 'admin_bar_menu', 'remove_admin_bar_menus', 999 );
 
 /*********************************
- ダッシュボードのクイックドラフト機能の停止
+ ダッシュボードのクイックドラフト機能の停止（ダッシュボードを開くたびに、投稿に記事が勝手に追加されてしまうため）
 **********************************/
 function disable_quickpress() {
   remove_meta_box('dashboard_quick_press', 'dashboard', 'side');
 }
 add_action('wp_dashboard_setup', 'disable_quickpress');
+
+/*********************************
+ 自動更新メール通知の停止
+**********************************/
+//「Wordpress本体」の自動更新メール通知を停止する
+add_filter('auto_core_update_send_email' , '__return_false');
+// 「プラグイン」の自動更新メール通知を停止する
+add_filter( 'auto_plugin_update_send_email', '__return_false' );
+// 「テーマ」の自動更新メール通知を停止する
+add_filter( 'auto_theme_update_send_email', '__return_false' );
 ?>
