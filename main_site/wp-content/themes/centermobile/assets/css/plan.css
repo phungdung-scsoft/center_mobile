@@ -85,14 +85,15 @@
 .option_lists {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .option_lists li {
-  width: calc((100% - 34px) / 4);
+  width: calc((100% - 30px) / 3);
   text-align: center;
   background-color: #5893ce;
   padding: 10px 0;
-  margin:0px 4px;
+  margin:0px 4px 10px;
 }
 
 .option_lists img{

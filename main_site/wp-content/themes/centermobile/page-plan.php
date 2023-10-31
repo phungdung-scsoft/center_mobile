@@ -125,6 +125,12 @@
                   <span>(税込 1,100円)</span></p>
               </li>
               <li>
+                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option1.png" alt="" width="61" height="61">
+                24時間かけ放題</h4>
+                <p>2,400円<br>
+                  <span>(税込 2,640円)</span></p>
+              </li>
+              <li>
                 <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option2.png" alt="" width="61" height="61">
                 留守番電話</h4>
                 <p>300円<br>
@@ -136,9 +142,6 @@
                 <p>300円<br>
                   <span>(税込 330円)</span></p>
               </li>
-            </ul>
-            <br class="pc_only">
-            <ul class="option_lists option_list">
               <li>
                 <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option4.png" alt="" width="61" height="61">
                 ギガ購入</h4>
@@ -146,9 +149,8 @@
                   <span>(税込 550円)</span></p>
               </li>
             </ul>
-            </li>
-
-            <li>
+          </li>
+          <li>
             <div class="plan_title">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" alt="" width="57" height="80">
             <h3 class="h3_1">データSIMプラン<br>オプション</h3></div>
