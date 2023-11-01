@@ -21,9 +21,11 @@
 
       <section>
         <div class="wrapper">
+          <?php if(false): ?>
           <div class="btn_outer btn_blue btn_pd2">
               <a href="<?php echo esc_url( home_url( '/' ) ); ?>coverage/">メディア取材依頼フォーム</a>
           </div>
+          <?php endif; ?>
           <h2><?php the_title(); ?></h2>
 
           <ul class="topics_list">
