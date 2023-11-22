@@ -18,7 +18,13 @@
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
                     <li><a href="//maimo.app/login" target="_blank"><?=   $GLOBALS['gl_service']; ?> Login</a></li>
                     <!-- <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">採用情報</a></li> -->
-                    <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
+                    <li>
+                      WEB申し込み
+                      <ul>
+                        <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">SIMを申し込む</a></li>
+                        <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
+                      </ul>
+                    </li>
                   </ul>
                   <ul>
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEMをご検討の方</a></li>
@@ -42,7 +48,8 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer_logo2_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?>" width="242" height="91">
               </div>
             </div>
-            <p>Copyright (C) CENTER MOBILE All rights reserved.</p>
+            <p class="recaptchaText">このサイトはreCAPTCHAによって保護されており、Googleの<a href="https://policies.google.com/privacy" target="_blank">プライバシーポリシー</a>と<a href="https://policies.google.com/terms" target="_blank">利用規約</a>が適用されます。</p>
+            <p class="copyright">Copyright (C) CENTER MOBILE All rights reserved.</p>
           </div>
         </div>
 
@@ -51,10 +58,11 @@
           $(this).toggleClass('active');//ボタン自身に activeクラスを付与し
           $("#g-nav").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
         });
-
-        $("#g-nav a").click(function () {//ナビゲーションのリンクがクリックされたら
-          $(".openbtn1").removeClass('active');//ボタンの activeクラスを除去し
-          $("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
+        $(function(){
+          $('.accordion-parent').on('click', function(){
+            $(this).next('.accordion-child').stop().slideToggle();
+            $(this).toggleClass('active');
+          })
         });
         </script>
 

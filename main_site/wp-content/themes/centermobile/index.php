@@ -27,7 +27,13 @@
               <li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/">割引の仕組み</a></li>
               <li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/">料金・サービス</a></li>
               <li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>app/">アプリの使い方</a></li>
-              <li class="gnav__menu__item"><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
+              <li class="gnav__menu__item">
+                <a href="javascript:void(0);" class="accordion-parent">WEB申し込み</a>
+                <ul class="accordion-child">
+                  <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">SIMを申し込む</a></li>
+                  <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
+                </ul>
+              </li>
               <li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
               <li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
               <?php
@@ -56,7 +62,13 @@
       <li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>discount/">割引の仕組み</a></li>
       <li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>plan/">料金・サービス</a></li>
       <li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>app/">アプリの使い方</a></li>
-      <li class="gnav__menu__item"><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">WEB申し込み</a></li>
+      <li class="gnav__menu__item">
+      <a href="javascript:void(0);" class="accordion-parent">WEB申し込み</a>
+        <ul class="accordion-child">
+          <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">SIMを申し込む</a></li>
+          <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを<br>申し込む</a></li>
+        </ul>
+      </li>
       <li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
       <li class="gnav__menu__item"><a href="<?php echo esc_url( home_url( '/' ) ); ?>fc/">FC・OEM</a></li>
       <?php
@@ -81,10 +93,12 @@
   <div id="cover">
     <div class="slider">
       <div class="slider-item">
-        <picture>
-          <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>.png" alt="PLAIO WiMAX データ容量無制限 5G対応最新端末 月額1,180円〜 （税込1,298円〜） 乗り換えで最大40,000円キャッシュバック" width="2400" height="1200">
-        </picture>
+        <a href="https://wimax.plaio.jp/" target="_blank">
+          <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>.png" alt="PLAIO WiMAX データ容量無制限 5G対応最新端末 月額1,180円〜 （税込1,298円〜） 乗り換えで最大40,000円キャッシュバック" width="2400" height="1200">
+          </picture>
+        </a>
       </div>
       <div class="slider-item">
         <picture>
@@ -614,9 +628,17 @@
     </div>
   </div><!-- /#main -->
 
+  <div class="bNavMask"></div>
+  <div class="bNavWebBalloon">
+    <ul>
+      <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">SIMを申し込む</a></li>
+      <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
+    </ul>
+  </div>
+
   <div class="bNav sp">
     <ul>
-      <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank" ><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_01.png" alt="WEB申し込み" width="117" height="66" loading="lazy"></a></li>
+      <li><a href="javascript:void(0);" class="webRequestBtn"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_01.png" alt="WEB申し込み" width="117" height="66" loading="lazy"></a></li>
       <li><a href="https://maimo.app/login" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_02_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?> Login" width="129" height="72" loading="lazy"></a></li>
       <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-top/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/bnav_03.png" alt="お問い合わせ" width="111" height="62" loading="lazy"></a></li>
     </ul>
@@ -637,7 +659,13 @@
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>app/">アプリの使い方</a></li>
             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>company/">企業情報</a></li>
             <li><a href="https://maimo.app/login" target="_blank" ><?= $GLOBALS['gl_service']; ?> Login</a></li>
-            <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank" >WEB申し込み</a></li>
+            <li>
+              WEB申し込み
+              <ul>
+                <li><a href="https://maimo.app/app_member/f0d11b60c874bd4c4ee2" target="_blank">SIMを申し込む</a></li>
+                <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
+              </ul>
+            </li>
           </ul>
 
           <ul>
@@ -664,6 +692,7 @@
         </div>
       </div>
     </div>
+    <p class="recaptchaText">このサイトはreCAPTCHAによって保護されており、Googleの<a href="https://policies.google.com/privacy" target="_blank">プライバシーポリシー</a>と<a href="https://policies.google.com/terms" target="_blank">利用規約</a>が適用されます。</p>
     <p class="copyright"><small>Copyright (C) CENTER MOBILE All rights reserved.</small></p>
   </footer>
   <!-- /footer -->

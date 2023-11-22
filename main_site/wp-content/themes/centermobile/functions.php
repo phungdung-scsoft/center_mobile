@@ -206,4 +206,14 @@ add_filter('auto_core_update_send_email' , '__return_false');
 add_filter( 'auto_plugin_update_send_email', '__return_false' );
 // 「テーマ」の自動更新メール通知を停止する
 add_filter( 'auto_theme_update_send_email', '__return_false' );
+
+/*********************************
+ お問い合わせページを除き、「reCAPTCHA」を読み込ませない
+**********************************/
+function load_recaptcha_js() {
+  if ( !is_page('contact-2') && !is_page('contact-business') && !is_page('contact-contractor') && !is_page('documentrequest') && !is_page('documentrequest') ) {
+    wp_deregister_script( 'google-recaptcha' );
+  }
+}
+add_action( 'wp_enqueue_scripts', 'load_recaptcha_js',100 );
 ?>

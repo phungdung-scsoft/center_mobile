@@ -84,3 +84,20 @@ function youtubeDef(){
 		}
 	});
 }
+
+
+//menu
+$(function(){
+  $('.accordion-parent').on('click', function(){
+    $(this).next('.accordion-child').stop().slideToggle();
+    $(this).toggleClass('active');
+  })
+});
+
+//webRequestBtn
+$(function(){
+  $('.webRequestBtn, .bNavMask, .bNavWebBalloon ul li a').on('click', function(){
+    $('.bNavMask').toggle();
+    $('.bNavWebBalloon').fadeToggle(200).toggleClass('active');
+  })
+});

@@ -304,13 +304,15 @@ h3 span{
   margin: 40px 0 0;
 }
 
+footer nav ul li,
 footer nav ul li a{
   color:white;
   font-size:13px;
+  position: relative;
 }
 
-footer nav ul li:before{
-  content:"";
+footer nav ul > li:before{
+  content: "";
   background: url(../img/arrow_white.png) no-repeat;
   display: inline-block;
   width: 9px;
@@ -319,11 +321,50 @@ footer nav ul li:before{
   margin: 0 8px 2px 0;
 }
 
-.footer_menu p{
+footer nav ul > li > ul{
+  margin: 10px 0 0 17px;
+}
+
+footer nav ul > li > ul > li{
+  padding: 0 0 0 1.5em;
+}
+
+footer nav ul > li > ul > li:not(:first-child){
+  margin: 10px 0 0 0;
+}
+
+footer nav ul > li > ul > li::before{
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+  background: none;
+  content: "-";
+}
+
+.footer_menu .recaptchaText{
   color: white;
   font-size: 11px;
   text-align: center;
   padding-top: 40px;
+}
+
+.footer_menu .recaptchaText a{
+  color: white;
+  text-decoration: underline;
+}
+
+.footer_menu .recaptchaText a:hover{
+  text-decoration: none;
+}
+
+.footer_menu .copyright{
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .footer_nav{
@@ -375,6 +416,16 @@ footer nav ul li:before{
   height: 100%;
 }
 
+/* reCAPTCHAバッジの位置調整 */
+.grecaptcha-badge {
+  bottom: 80px !important;
+}
+
+/* ナビの子要素 */
+.accordion-child{
+  display: none;
+}
+
 
 @media screen and (max-width: 1180px) {
   /* 1180px以下に適用されるCSS（スマホ・タブレット用） */
@@ -403,22 +454,61 @@ footer nav ul li:before{
   #g-nav.panelactive #g-nav-list{
     /*ナビの数が増えた場合縦スクロール*/
     position: fixed;
-    margin-top: 60px;
+    padding-top: 60px;
     z-index: 999;
     width: 100%;
     height: 100vh;/*表示する高さ*/
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+    box-sizing: border-box;
   }
 
   /*ナビゲーション*/
   #g-nav .g-nav-list-inner {
-    /*ナビゲーション天地中央揃え*/
+    margin: 0 auto;
+    padding: 5vw 0;
+    width: 95%;
+  }
+
+  #g-nav .g-nav-list-inner li a {
+    display: block;
+    position: relative;
+    font-size: 1rem;
+    margin: 0;
+    text-align: left;
+    padding: 2vw 17px;
+    color: #333;
+    font-weight: 700;
+    text-decoration: none;
+    transition: .5s;
+    background: none;
+    border-bottom: 1px solid #ccc;
+  }
+
+  #g-nav .g-nav-list-inner li a.active {
+    color: #e62219;
+  }
+
+  #g-nav .g-nav-list-inner li a::before {
     position: absolute;
-    z-index: 999;
-    top:35%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    left: 0;
+    top: 50%;
+    width: 7px;
+    height: 11px;
+    background: url(../img/f_aroow.png) no-repeat left center / contain;
+    text-align: revert;
+    content: "";
+    transform: translateY(-50%);
+    transition: all 0.5s;
+  }
+
+  #g-nav .g-nav-list-inner li a.active::before {
+    transform: translateY(-50%) rotate(90deg);
+  }
+
+  #g-nav .g-nav-list-inner li ul {
+    margin: 0 0 15px 0;
+    padding: 0 0 0 17px;
   }
 
   /*リストのレイアウト設定*/
@@ -493,7 +583,7 @@ footer nav ul li:before{
   }
 
   .btn_area_nav{
-    margin: 0 auto;
+    margin: 20px auto 0;
   }
 
   /*========= レイアウトのためのCSS ===============*/
@@ -634,6 +724,10 @@ footer nav ul li:before{
   .youtube {
     max-width: none;
   }
+
+  .grecaptcha-badge {
+    bottom: 350px !important;
+  }
 }
 
 @media screen and (min-width: 1181px) {
@@ -679,17 +773,31 @@ footer nav ul li:before{
   }
 
   .side_menu nav ul li a{
+    position: relative;
+    display: block;
+    padding: 0 0 0 17px;
     font-size: 14px;
   }
 
-  nav ul li:before{
+  .side_menu nav ul li ul{
+    margin: 10px 0 0;
+    padding: 0 0 0 7px;
+  }
+
+  .side_menu nav ul li a:before{
+    position: absolute;
+    left: 0;
+    top: 4px;
     content:"";
     background: url(../img/arrow_gray.png) no-repeat;
     display: inline-block;
     width: 9px;
     height: 11px;
-    vertical-align: middle;
-    margin: 0 8px 2px 0;
+    transition: all 0.5s;
+  }
+
+  .side_menu nav ul li a.active:before{
+    transform: rotate(90deg);
   }
 
   .side_menu .btn_area{
@@ -809,5 +917,9 @@ footer nav ul li:before{
     align-self: auto;
     width: auto;
     height: 65px;
+  }
+
+  .grecaptcha-badge {
+    bottom: 200px !important;
   }
 }

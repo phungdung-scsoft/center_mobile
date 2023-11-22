@@ -315,11 +315,39 @@ nav li a {
 }
 
 .hArea nav li a{
+  position: relative;
 	font-size: 1.4rem;
 	margin: 0 0 0px;
-	background: url(../img/f_aroow.png) no-repeat left center;
 	padding: 10px 0 10px 17px;
 	text-align: revert;
+}
+
+.hArea nav li a::before{
+  position: absolute;
+  left: 0;
+  top: 15px;
+  width: 7px;
+  height: 11px;
+	background: url(../img/f_aroow.png) no-repeat left center / contain;
+	text-align: revert;
+  content: "";
+  transition: all 0.5s;
+}
+
+.hArea nav li a.active {
+  color: #e62219;
+}
+
+.hArea nav li a.active::before {
+  transform: rotate(90deg);
+}
+
+.hArea nav li ul{
+	padding: 0 0 0 17px;
+}
+
+.accordion-child {
+  display: none;
 }
 
 nav li a:hover {
@@ -1643,16 +1671,51 @@ footer .navArea ul + ul{
 }
 
 footer .navArea li{
-
-margin: 0 0 15px 0;
-}
-
-footer .navArea a {
-	text-decoration: none;
+  margin: 0 0 15px 0;
 	font-size: 1.4rem;
 	position: relative;
 	padding: 0 0 0 17px;
-	background: url(../img/f_aroow.png) left center no-repeat;
+}
+
+footer .navArea li::before{
+	position: absolute;
+  left: 0;
+  top: 5px;
+  width: 7px;
+  height: 11px;
+	background: url(../img/f_aroow.png) no-repeat 0 0 / contain;
+  content: "";
+}
+
+footer .navArea li a{
+  text-decoration: none;
+}
+
+footer .navArea li ul{
+  margin: 10px 0 0;
+}
+
+footer .navArea li ul li{
+  margin: 10px 0 0;
+  padding: 0 0 0 1.5em;
+}
+
+footer .navArea li ul li:first-child{
+  margin: 0;
+}
+
+footer .navArea li ul li::before{
+  top: 0;
+  width: auto;
+  height: auto;
+	background: none;
+  content: "-";
+}
+
+.recaptchaText {
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 1.3rem;
 }
 
 .copyright {
@@ -2455,7 +2518,7 @@ header {width: 100%;background: #fff;margin: 0;justify-content: space-between;}
 	line-height: 1.6;
 }
 
-.headerUl li:first-child{
+.headerUl > li:first-child{
 	margin: 0 5% 0 0;
 }
 
@@ -2588,6 +2651,10 @@ nav .gnav__menu__item{
 
 .hArea nav .gnav__menu__item a{
 	padding: 2vw 17px;
+}
+
+.hArea nav li a::before{
+  top: 2.5vw;
 }
 
 .headerUl  nav .gnav__menu__item:first-child{
@@ -2941,6 +3008,27 @@ footer
 /* ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆ */
 
 
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+@media screen and (min-width: 769px) {
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+.bNavMask {
+  display: none !important;
+}
+
+.bNavWebBalloon {
+  display: none !important;
+}
+
+/* ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆ */
+
+} /* min-width: 769px ここまで */
+
+/* ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆ */
 
 
 /* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
@@ -2995,6 +3083,75 @@ nav li a {
 }
 
 .bNav ul li img{width: 60%;}
+
+.bNavMask {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.bNavWebBalloon {
+  display: none;
+  position: fixed;
+  z-index: 101;
+  bottom: 16vw;
+  left: 10px;
+  padding: 12px 20px;
+  background: #fff;
+  border-radius: 5px;
+  filter: drop-shadow(0px 0px 5px #666);
+  transition: all 0.2s;
+  transform: translateY(5px);
+}
+
+.bNavWebBalloon::before {
+  position: absolute;
+  z-index: 102;
+  bottom: -14px;
+  left: 13.5vw;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  clip-path: polygon(0 0, 100% 0%, 50% 100%);
+  content: "";
+}
+
+.bNavWebBalloon.active {
+  transform: translateY(0);
+}
+
+.bNavWebBalloon ul > li {
+  margin: 0 0 10px;
+  padding: 0 0 10px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.bNavWebBalloon ul > li:last-child {
+  margin: 0;
+  padding: 0;
+  border-bottom: none;
+}
+
+.bNavWebBalloon ul > li > a {
+  position: relative;
+  font-size: 14px;
+  padding: 0 0 0 15px;
+  text-decoration: none;
+}
+
+.bNavWebBalloon ul > li > a::before {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 7px;
+  height: 11px;
+  background: url(../img/f_aroow.png) no-repeat left center / contain;
+  content: "";
+}
 
 .slider {
 	height: 100vw;	/* CLS */
@@ -3283,6 +3440,9 @@ th, td {
 	display: block !important;
 }
 
+.hArea nav li a::before{
+  top: 3.3vw;
+}
 
 .content02 li {
     width: 100%;
@@ -3729,6 +3889,14 @@ margin: 10vw 0 45px 0;
 .bNav ul li:last-child img{
 	width: 87%;
 	padding: 3px 0 0 0;
+}
+
+.bNavWebBalloon {
+  bottom: 25vw;
+}
+
+.bNavWebBalloon::before {
+  left: 12vw;
 }
 
 .logoArea .inner {
