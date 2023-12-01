@@ -25,7 +25,7 @@
 
     <section class="media_appearances">
       <div class="wrapper">
-        <p class="lead">センターモバイルを<br class="sp_only">ご紹介いただきました</p>
+        <p class="lead">センターモバイル<br class="sp_only">紹介記事一覧</p>
         <ul class="media_appearances_list">
           <li>
             <p class="name">ぴかまろ</p>
