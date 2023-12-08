@@ -28,6 +28,11 @@
         <p class="lead">センターモバイル<br class="sp_only">紹介記事一覧</p>
         <ul class="media_appearances_list">
           <li>
+            <p class="name">プロバイダー・ワン</p>
+            <p class="title"><a href="https://www.crepas.co.jp/provider1/wimax/wimax-hikaku-52/" target="_blank">元プロバイダー社員がWiMAXを徹底比較＆解説!!2023年12月おすすめランキング</a></p>
+            <p class="url"><a href="https://www.crepas.co.jp/provider1/wimax/wimax-hikaku-52/" target="_blank">https://www.crepas.co.jp/provider1/wimax/wimax-hikaku-52/</a></p>
+          </li>
+          <li>
             <p class="name">ぴかまろ</p>
             <p class="title"><a href="https://iot-consulting.co.jp/pikamaro/erabikata/netosusume/mobilerooterosusume/wimax" target="_blank">おすすめWiMAXプロバイダ厳選8選を徹底比較！</a></p>
             <p class="url"><a href="https://iot-consulting.co.jp/pikamaro/erabikata/netosusume/mobilerooterosusume/wimax" target="_blank">https://iot-consulting.co.jp/pikamaro/erabikata/netosusume/mobilerooterosusume/wimax</a></p>
