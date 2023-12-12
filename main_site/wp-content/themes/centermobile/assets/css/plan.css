@@ -1,57 +1,57 @@
 @charset "UTF-8";
 
 /*plan*/
-.img_plan{
+.img_plan {
   padding-bottom: calc(100%*250/1186);
   background: url(../img/plan_bg.png);
 }
 
-.h3_1{
+.h3_1 {
   color: #1f58a7;
   font-size: 30px;
   text-align: center;
   font-weight: normal;
 }
 
-.h3_1 span{
+.h3_1 span {
   color: #1f58a7;
 }
 
-.h3_1::before{
+.h3_1::before {
   content: none;
 }
 
-.h4_1{
+.h4_1 {
   font-size: 16px;
   color: white;
   margin-bottom: 10px;
   text-align: center;
 }
 
-.h4_1::before{
+.h4_1::before {
   content: none;
 }
 
-.price span , .price{
-  color:#1f58a7;
+.price span, .price {
+  color: #1f58a7;
 }
 
-.plan_hr{
+.plan_hr {
   border-color: #1f58a7;
 }
 
-.plan_lists{
+.plan_lists {
   flex-wrap: wrap;
 }
 
 .plan_lists:after {
-    content: "";
-    display: block;
-    width:460px;
-    height: 0;
+  content: "";
+  display: block;
+  width: 460px;
+  height: 0;
 }
 
-.plan_lists li{
+.plan_lists li {
   background-color: white;
 }
 
@@ -66,6 +66,44 @@
   justify-content: space-between;
 }
 
+.setplan_price_wrap .setplan_price .markerTxtWrap {
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.setplan_price_wrap .setplan_price .markerTxtWrap .markerTxt {
+  display: inline-block;
+  position: relative;
+  padding: 0 18px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.setplan_price_wrap .setplan_price .markerTxtWrap .markerTxt::before,
+.setplan_price_wrap .setplan_price .markerTxtWrap .markerTxt::after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 1.1em;
+  width: 2px;
+  background: #333;
+  transform-origin: 0 0;
+  transform: translateY(-50%) rotate(-30deg);
+  content: "";
+}
+
+.setplan_price_wrap .setplan_price .markerTxtWrap .markerTxt::after {
+  left: auto;
+  right: 0;
+  transform: translateY(-50%) rotate(30deg);
+}
+
+.setplan_price_wrap .setplan_price .markerTxtWrap .markerTxt span {
+  display: inline;
+  padding: 0 6px 4px;
+  background: linear-gradient(transparent 60%, #f9ee5c 0%);
+}
+
 .setplan_price_wrap .price_list {
   margin: 0;
 }
@@ -74,7 +112,30 @@
   width: 120px;
 }
 
-.option .plan_lists li{
+.setplan_wrap.type2 .plan_title .h3_1 {
+  /*color: #5893ce;*/
+}
+
+.setplan_wrap.type2 .plan_title .h3_1 .term {
+  display: block;
+  /*color: #5893ce;*/
+  font-size: 20px;
+}
+
+.setplan_wrap.type2 .plan_hr {
+  /*border-color: #5893ce;*/
+}
+
+.setplan_wrap.type2 .setplan_price_wrap .price_list .GB {
+  /*background: #5893ce;*/
+}
+
+.setplan_wrap.type2 .price,
+.setplan_wrap.type2 .price span {
+  /*color: #5893ce;*/
+}
+
+.option .plan_lists li {
   padding-bottom: 20px;
 }
 
@@ -93,20 +154,20 @@
   text-align: center;
   background-color: #5893ce;
   padding: 10px 0;
-  margin:0px 4px 10px;
+  margin: 0px 4px 10px;
 }
 
-.option_lists img{
+.option_lists img {
   display: block;
-  margin:0 auto 10px auto;
+  margin: 0 auto 10px auto;
 }
 
-.option_lists p{
+.option_lists p {
   font-size: 16px;
   color: white;
 }
 
-.option_lists p span{
+.option_lists p span {
   font-size: 14px;
   color: white;
 }
@@ -116,70 +177,71 @@
   margin-left: 5px;
 }
 
-.sub{
+.sub {
   font-size: 16px;
   margin-left: 20px;
   margin-top: 20px;
 }
 
-.option_list2{
-  padding: 0!important;
+.option_list2 {
+  padding: 0 !important;
   margin-top: 20px;
 }
 
-.option_list2 table{
+.option_list2 table {
   height: 51px;
 }
 
-.option_list2 td{
+.option_list2 td {
   width: 134px;
   text-align: center;
 }
 
-.name{
+.name {
   height: 51px;
   width: 174px;
   color: white;
-  background-color:#5893ce;
+  background-color: #5893ce;
 }
 
-.price_reason img{
+.price_reason img {
   width: 100%;
   height: auto;
-  margin:0 auto;
+  margin: 0 auto;
   display: block;
 }
 
 .price_reason p {
-    font-size: 16px;
-    padding: 40px 0 20px 0;
+  font-size: 16px;
+  padding: 40px 0 20px 0;
 }
 
-.attention_inner{
+.attention_inner {
   width: 800px;
   background-color: #dedede;
   padding: 20px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
-.attention li{
+.attention li {
   list-style-type: disc;
   margin-left: 24px;
   margin-top: 10px;
   font-size: 16px;
 }
 
-.attention_inner h4{
+.attention_inner h4 {
   font-weight: bold;
 }
 
-.mgr-10{
+.mgr-10 {
   margin-right: 10px;
 }
 
 @media screen and (max-width: 1180px) {
+
   /* 1024px以下に適用されるCSS（タブレット用） */
-  .h3_1{
+  .h3_1 {
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 0;
@@ -191,28 +253,36 @@
 
   .img_plan {
     padding-bottom: calc(100%*375/1186);
-    background-size: cover!important;
+    background-size: cover !important;
   }
 
-  .plan_lists{
+  .plan_lists {
     display: flex;
     justify-content: space-around;
   }
 
   .plan_lists:after {
-      content: "";
-      display: block;
-      width: 48%;
-      height: 0;
+    content: "";
+    display: block;
+    width: 48%;
+    height: 0;
   }
 
-  .plan_lists > li{
+  .plan_lists>li {
     width: 48%;
   }
 
   .setplan_wrap {
     margin: 0;
     padding: 20px 3vw;
+  }
+
+  .setplan_wrap.type2 {
+    margin-bottom: 20px;
+  }
+
+  .setplan_wrap.type2 .plan_title .h3_1 .term {
+    font-size: 16px;
   }
 
   .setplan_price_wrap {
@@ -227,26 +297,26 @@
     width: 80px;
   }
 
-  .sub{
+  .sub {
     margin-left: 0;
   }
 
-  .attention_inner{
+  .attention_inner {
     width: 100%;
     box-sizing: border-box;
   }
 
-  .option_lists{
+  .option_lists {
     max-width: 500px;
     margin: 0 auto;
     flex-wrap: wrap;
   }
 
-  .option_lists li{
-    width: calc((100% - 16px ) / 2);
+  .option_lists li {
+    width: calc((100% - 16px) / 2);
   }
 
-  .option .plan_lists li{
+  .option .plan_lists li {
     margin-bottom: 10px;
   }
 }
@@ -254,12 +324,20 @@
 @media screen and (max-width: 599px) {
   /* 599px以下に適用されるCSS（スマホ用） */
 
-  .plan_lists{
+  .plan_lists {
     display: block;
   }
 
-  .plan_lists > li{
+  .plan_lists>li {
     width: auto;
+  }
+
+  .setplan_price_wrap .setplan_price .markerTxtWrap {
+    margin: 0 0 5px;
+  }
+
+  .setplan_price_wrap .setplan_price .markerTxtWrap .markerTxt {
+    font-size: 18px;
   }
 
 }
