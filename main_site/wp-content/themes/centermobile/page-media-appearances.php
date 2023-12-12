@@ -28,6 +28,11 @@
         <p class="lead">センターモバイル<br class="sp_only">紹介記事一覧</p>
         <ul class="media_appearances_list">
           <li>
+            <p class="name">エリスグッド</p>
+            <p class="title"><a href="https://starcraft-n.co.jp/erisgood/wimax-campaign/" target="_blank">【2023年最新版】WiMAX各社のお得なキャンペーン一覧（毎月更新）</a></p>
+            <p class="url"><a href="https://starcraft-n.co.jp/erisgood/wimax-campaign/" target="_blank">https://starcraft-n.co.jp/erisgood/wimax-campaign/</a></p>
+          </li>
+          <li>
             <p class="name">プロバイダー・ワン</p>
             <p class="title"><a href="https://www.crepas.co.jp/provider1/wimax/wimax-hikaku-52/" target="_blank">元プロバイダー社員がWiMAXを徹底比較＆解説!!2023年12月おすすめランキング</a></p>
             <p class="url"><a href="https://www.crepas.co.jp/provider1/wimax/wimax-hikaku-52/" target="_blank">https://www.crepas.co.jp/provider1/wimax/wimax-hikaku-52/</a></p>
