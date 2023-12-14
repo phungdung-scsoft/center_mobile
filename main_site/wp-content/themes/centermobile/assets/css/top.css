@@ -3855,6 +3855,7 @@ footer
 
   .content02 .capacityList>li.type5 .capacityContent .planWrap .plan .planContent .markerTxt {
     font-size: 2.8vw;
+    text-align: center;
   }
 
   .content02 .capacityList>li .capacityContent .planWrap .plan .planContent .monthly .th {
