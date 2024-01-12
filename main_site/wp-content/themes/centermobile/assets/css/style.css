@@ -315,18 +315,24 @@ footer nav ul li a {
   position: relative;
 }
 
+footer nav ul>li {
+  padding: 0 0 0 17px;
+}
+
 footer nav ul>li:before {
+  position: absolute;
+  left: 0;
+  top: 3px;
   content: "";
   background: url(../img/arrow_white.png) no-repeat;
   display: inline-block;
   width: 9px;
   height: 11px;
   vertical-align: middle;
-  margin: 0 8px 2px 0;
 }
 
 footer nav ul>li>ul {
-  margin: 10px 0 0 17px;
+  margin: 10px 0 0 0;
 }
 
 footer nav ul>li>ul>li {
