@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*contact-app*/
+.address-anchor {
+  margin: 30px 0 0;
+}
+
+.address-anchor a {
+  color: #00f;
+}
+
+.address-anchor a:hover {
+  text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 1180px) {
+  /* 1024px以下に適用されるCSS（タブレット用） */
+
+
+}
+
+@media screen and (max-width: 599px) {
+  /* 599px以下に適用されるCSS（スマホ用） */
+
+
+
+}
