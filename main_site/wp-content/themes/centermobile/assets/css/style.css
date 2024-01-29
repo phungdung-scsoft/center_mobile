@@ -110,7 +110,8 @@ h3 span {
   margin: 0 2px 2px -8px;
 }
 
-.type-plaio .login:before {
+.type-plaio .login:before,
+.type-plaio+.sp_tab_only .login:before {
   background-image: url(../img/logo_plaio.png);
   width: 14px;
   height: 24px;
