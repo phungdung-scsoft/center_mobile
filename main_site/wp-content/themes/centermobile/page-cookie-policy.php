@@ -111,18 +111,9 @@
           <p>提携企業：Google LLC</p>
           <p class="mb-20">プライバシーポリシー：<a href="https://policies.google.com/privacy?hl=ja" target="_blank">https://policies.google.com/privacy?hl=ja</a></p>
 
-          <?php
-          date_default_timezone_set('Asia/Tokyo');
-          if (strtotime(date('Y-m-d H:i')) < strtotime('2024-02-01 00:00')) :
-          ?>
-            <p>広告名：SKYFLAG</p>
-            <p>提携企業：株式会社Skyfall</p>
-            <p class="mb-20">プライバシーポリシー：<a href="https://skyfall.co.jp/privacy-policy/" target="_blank">https://skyfall.co.jp/privacy-policy/</a></p>
-          <?php else : ?>
-            <p>広告名：AppDriver</p>
-            <p>提携企業：株式会社アドウェイズ</p>
-            <p class="mb-20">プライバシーポリシー：<a href="https://www.adways.net/privacy.html" target="_blank">https://www.adways.net/privacy.html</a></p>
-          <?php endif; ?>
+          <p>広告名：AppDriver</p>
+          <p>提携企業：株式会社アドウェイズ</p>
+          <p class="mb-20">プライバシーポリシー：<a href="https://www.adways.net/privacy.html" target="_blank">https://www.adways.net/privacy.html</a></p>
 
           <p>※ 定期的に調査を行い本ポリシーへ反映を行っておりますが、Webサイト・アプリの更新タイミングにより、記載内容と実態との差が発生する場合がございます。予めご了承ください。</p>
         </div>
@@ -161,6 +152,7 @@
         </div>
 
         <div class="date">2023年6月16日制定</div>
+        <div class="date">2024年2月1日改定</div>
 
     </section>
 
