@@ -108,6 +108,20 @@
               </table>
             </div>
           </div>
+
+          <div class="setplan_price_wrap">
+            <div class="setplan_price">
+              <div class="markerTxtWrap">
+                <p class="markerTxt"><span>定価より1,540円OFF</span></p>
+              </div>
+              <table class="price_list">
+                <tr>
+                  <td class="GB"><span>50</span>GB<br><span class="option">＋<br>24時間<br class="sp_only">かけ放題</span></td>
+                  <td class="price"><span>0〜4,980</span>円/月(税込 5,478円)</td>
+                </tr>
+              </table>
+            </div>
+          </div>
         </div>
 
         <div class="setplan_wrap">

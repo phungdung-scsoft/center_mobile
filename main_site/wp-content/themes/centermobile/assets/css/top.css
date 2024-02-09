@@ -702,6 +702,14 @@ nav li a:hover {
   justify-content: space-between;
 }
 
+.content02 .capacityList>li .capacityContent .planWrap.jc-center {
+  justify-content: center;
+}
+
+.content02 .capacityList>li .capacityContent .planWrap+.planWrap {
+  margin: 0.6vw 0 0;
+}
+
 .content02 .capacityList>li .capacityContent .planWrap .plan {
   width: calc((100% - 0.6vw) / 2);
 }
@@ -1808,7 +1816,7 @@ footer .navArea li ul li::before {
 
 .logoArea .inner {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   margin: 32px auto;
@@ -3388,6 +3396,12 @@ footer
   }
 
   .content04 .chArea .sp, .content04 .pnArea .sp {
+    display: block;
+    position: static;
+    margin: 0 auto;
+  }
+
+  .content04 .pnArea div {
     display: block;
     position: static;
     margin: 0 auto;

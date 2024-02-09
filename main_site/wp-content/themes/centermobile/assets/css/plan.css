@@ -66,6 +66,10 @@
   justify-content: space-between;
 }
 
+.setplan_price_wrap+.setplan_price_wrap {
+  margin: 10px 0 0;
+}
+
 .setplan_price_wrap .setplan_price .markerTxtWrap {
   margin: 0 0 10px;
   text-align: center;
@@ -287,6 +291,10 @@
 
   .setplan_price_wrap {
     display: block;
+  }
+
+  .setplan_price_wrap+.setplan_price_wrap {
+    margin: 0;
   }
 
   .setplan_price_wrap .price_list {
