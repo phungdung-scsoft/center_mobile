@@ -194,9 +194,11 @@
                 <li>
                   <a href="<?php the_permalink(); ?>">
                     <dl>
-                      <?php if (has_post_thumbnail()) : ?><!-- if文による条件分岐 アイキャッチが有る時-->
+                      <?php if (has_post_thumbnail()) : //if文による条件分岐 アイキャッチが有る時 
+                      ?>
                         <dt><?php the_post_thumbnail(array(193, 193), array('class' => 'left')); ?></dt>
-                      <?php else : ?><!-- アイキャッチが無い時-->
+                      <?php else : // アイキャッチが無い時 
+                      ?>
                         <dt>
                           <picture>
                             <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/thumb_topics.webp" type="image/webp">
@@ -219,7 +221,10 @@
               ?>
             </ul>
             <a href="<?php echo esc_url(home_url('/')); ?>media-archive/">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01.png" alt="もっと詳しく" onmouseover="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01_on.png'" onmouseout="this.src='<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01.png'" width="600" height="87" loading="lazy">
+              <picture>
+                <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01.webp" type="image/webp">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/btn01.png" alt="もっと詳しく" width="600" height="87" loading="lazy">
+              </picture>
             </a>
           </div>
         </section>
