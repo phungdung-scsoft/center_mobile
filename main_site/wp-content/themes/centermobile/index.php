@@ -116,26 +116,34 @@
         <div class="slider-item">
           <a href="https://wimax.plaio.jp/" target="_blank">
             <picture>
+              <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>_sp.webp" media="(max-width: 768px)" type="image/webp">
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
+              <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>.webp" type="image/webp">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_7_<?= $GLOBALS['gl_path']; ?>.png" alt="PLAIO WiMAX データ容量無制限 5G対応最新端末 月額1,180円〜 （税込1,298円〜） 乗り換えで最大40,000円キャッシュバック" width="2400" height="1200">
             </picture>
           </a>
         </div>
         <div class="slider-item">
           <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>_sp.webp?1" media="(max-width: 768px)" type="image/webp">
             <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>_sp.png?1" media="(max-width: 768px)">
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>.webp?1" type="image/webp">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_2_<?= $GLOBALS['gl_path']; ?>.png?1" alt="携帯料金は自分で決める時代へ！" loading="lazy" width="2400" height="1200">
           </picture>
         </div>
         <div class="slider-item">
           <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>_sp.webp" media="(max-width: 768px)" type="image/webp">
             <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.webp" type="image/webp">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" loading="lazy" width="2400" height="1200">
           </picture>
         </div>
         <div class="slider-item">
           <picture>
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>_sp.webp" media="(max-width: 768px)" type="image/webp">
             <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>.webp" type="image/webp">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>.png" alt="CHARGE SPOT どこでも借りれて、いつでも充電し放題！全国30,000台以上設置！通常よりもお得なプランでご利用いただけます。" loading="lazy" width="2400" height="1200">
           </picture>
         </div>
