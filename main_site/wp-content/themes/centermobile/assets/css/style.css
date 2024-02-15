@@ -400,11 +400,11 @@ footer nav ul>li>ul>li::before {
 .footer_logo {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .footer_logo img {
-  margin-right: 60px;
-  align-self: center;
+  margin-right: 30px;
 }
 
 /* YouTube */
@@ -712,14 +712,6 @@ footer nav ul>li>ul>li::before {
   .footer_menu {
     padding: 40px 20px 20px 20px;
     background-color: #303030;
-  }
-
-  .footer_logo img {
-    margin-right: 20px;
-  }
-
-  .footer_logo img:last-child {
-    margin-right: 0;
   }
 
   .nav_btn {
