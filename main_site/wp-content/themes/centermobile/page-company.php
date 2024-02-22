@@ -39,7 +39,7 @@
         <h2>事業内容</h2>
         <ul>
           <li>
-            <picture>
+            <picture class="image">
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/content1.webp" type="image/webp">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/content1.png" alt="" width="490" height="156">
             </picture>
@@ -54,7 +54,7 @@
             </div>
           </li>
           <li>
-            <picture>
+            <picture class="image">
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/content2.webp" type="image/webp">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/content2.png" alt="" width="490" height="156">
             </picture>
@@ -68,7 +68,7 @@
             </div>
           </li>
           <li>
-            <picture>
+            <picture class="image">
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/content3.webp" type="image/webp">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/content3.png" alt="" width="490" height="156">
             </picture>
@@ -82,7 +82,7 @@
             </div>
           </li>
           <li>
-            <picture>
+            <picture class="image">
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/content4.webp" type="image/webp">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/content4.png" alt="" width="490" height="156">
             </picture>
