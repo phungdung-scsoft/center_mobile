@@ -27,7 +27,10 @@
         <ul class="plan_lists">
           <li>
             <div class="plan_title">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80">
+              <picture>
+                <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.webp" type="image/webp">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80" alt="">
+              </picture>
               <h3 class="h3_1"><span>電話もインターネットも使える<br></span>音声SIMプラン</h3>
             </div>
             <hr class="plan_hr">
@@ -52,7 +55,10 @@
           </li>
           <li>
             <div class="plan_title">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80">
+              <picture>
+                <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.webp" type="image/webp">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80" alt="">
+              </picture>
               <h3 class="h3_1"><span>インターネットだけ利用<br></span>データSIMプラン</h3>
             </div>
             <hr class="plan_hr">
@@ -79,7 +85,10 @@
 
         <div class="setplan_wrap type2">
           <div class="plan_title">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80">
+            <picture>
+              <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.webp" type="image/webp">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80" alt="">
+            </picture>
             <h3 class="h3_1">期間限定！<br class="sp_only">24時間かけ放題<br class="sp_only">セットプラン<span class="term">※2023年12月1日〜<br class="sp_only">2024年2月29日まで</span></h3>
           </div>
           <hr class="plan_hr">
@@ -126,7 +135,10 @@
 
         <div class="setplan_wrap">
           <div class="plan_title">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80">
+            <picture>
+              <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.webp" type="image/webp">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80" alt="">
+            </picture>
             <h3 class="h3_1">お得なかけ放題<br class="sp_only">セットプラン</h3>
           </div>
           <hr class="plan_hr">
@@ -169,49 +181,82 @@
         <ul class="plan_lists">
           <li>
             <div class="plan_title">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" alt="" width="57" height="80">
+              <picture>
+                <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.webp" type="image/webp">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80" alt="">
+              </picture>
               <h3 class="h3_1">音声SIMプラン<br>オプション</h3>
             </div>
             <hr class="plan_hr">
             <ul class="option_lists option_list">
               <li>
-                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option1.png" alt="" width="61" height="61">
-                  5分かけ放題</h4>
+                <h4 class="h4_1">
+                  <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/option1.webp" type="image/webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/option1.png" alt="" width="61" height="61">
+                  </picture>
+                  5分かけ放題
+                </h4>
                 <p>900円<br>
                   <span>(税込 990円)</span>
                 </p>
               </li>
               <li>
-                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option1.png" alt="" width="61" height="61">
-                  10分かけ放題</h4>
+                <h4 class="h4_1">
+                  <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/option1.webp" type="image/webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/option1.png" alt="" width="61" height="61">
+                  </picture>
+                  10分かけ放題
+                </h4>
                 <p>1,000円<br>
                   <span>(税込 1,100円)</span>
                 </p>
               </li>
               <li>
-                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option1.png" alt="" width="61" height="61">
-                  24時間かけ放題</h4>
+                <h4 class="h4_1">
+                  <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/option1.webp" type="image/webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/option1.png" alt="" width="61" height="61">
+                  </picture>
+                  24時間かけ放題
+                </h4>
                 <p>2,400円<br>
                   <span>(税込 2,640円)</span>
                 </p>
               </li>
               <li>
-                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option2.png" alt="" width="61" height="61">
-                  留守番電話</h4>
+                <h4 class="h4_1">
+                  <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/option2.webp" type="image/webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/option2.png" alt="" width="61" height="61">
+                  </picture>
+                  留守番電話
+                </h4>
                 <p>300円<br>
                   <span>(税込 330円)</span>
                 </p>
               </li>
               <li>
-                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option3.png" alt="" width="61" height="61">
-                  割り込み通話</h4>
+                <h4 class="h4_1">
+                  <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/option3.webp" type="image/webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/option3.png" alt="" width="61" height="61">
+                  </picture>
+                  割り込み通話
+                </h4>
                 <p>300円<br>
                   <span>(税込 330円)</span>
                 </p>
               </li>
               <li>
-                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option4.png" alt="" width="61" height="61">
-                  ギガ購入</h4>
+                <h4 class="h4_1">
+                  <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/option4.webp" type="image/webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/option4.png" alt="" width="61" height="61">
+                  </picture>
+                  ギガ購入
+                </h4>
                 <p>500円 / 1GB<br>
                   <span>(税込 550円)</span>
                 </p>
@@ -220,14 +265,22 @@
           </li>
           <li>
             <div class="plan_title">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" alt="" width="57" height="80">
+              <picture>
+                <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.webp" type="image/webp">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" alt="" width="57" height="80">
+              </picture>
               <h3 class="h3_1">データSIMプラン<br>オプション</h3>
             </div>
             <hr class="plan_hr">
             <ul class="option_lists option_list">
               <li>
-                <h4 class="h4_1"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/option4.png" alt="" width="61" height="61">
-                  ギガ購入</h4>
+                <h4 class="h4_1">
+                  <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/option4.webp" type="image/webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/option4.png" alt="" width="61" height="61">
+                  </picture>
+                  ギガ購入
+                </h4>
                 <p>500円 / 1GB<br>
                   <span>(税込 550円)</span>
                 </p>
@@ -274,9 +327,15 @@
     <section class="price_reason">
       <div class="wrapper">
         <h2>料金が下がる仕組み</h2>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan1.png" alt="" width="980" height="252" loading="lazy">
+        <picture>
+          <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/plan1.webp" type="image/webp">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan1.png" alt="" width="980" height="252" loading="lazy">
+        </picture>
         <p>センターモバイルは広告スポンサーからの収益をユーザーに還元することで、携帯料金を下げ、最大割引で0円で使える携帯を実現</p>
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan3.png" alt="" width="980" height="358" loading="lazy">
+        <picture>
+          <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/plan3.webp" type="image/webp">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/plan3.png" alt="" width="980" height="358" loading="lazy">
+        </picture>
       </div>
     </section>
 
