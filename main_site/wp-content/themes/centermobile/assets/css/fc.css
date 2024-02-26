@@ -1,66 +1,70 @@
 @charset "UTF-8";
 
 /*fc*/
-.img_fc{
+.img_fc {
   padding-bottom: calc(100%*250/1186);
   background: url(../img/fc_bg.png);
 }
 
-.partner img{
+.partner img {
   width: 100%;
   height: auto;
 }
 
-.partner p{
+.partner p {
   font-size: 14px;
 }
 
-.about_cm{
+.about_cm {
   font-size: 14px;
   text-align: center;
   margin: 40px;
 }
 
-.about_cm span{
+.about_cm span {
   font-weight: bold;
   font-size: 16px;
 }
 
-.link_btns2 ul{
-  justify-content: center!important;
+.link_btns2 ul {
+  justify-content: center !important;
 }
 
-.link_btns2 li{
-  margin:0 10px;
+.link_btns2 li {
+  margin: 0 10px;
 }
 
-.partner_inner{
+.partner_inner {
   width: 100%;
   margin-bottom: 40px;
 }
 
-img.fc1{
+.fc1 {
   width: 50%;
+}
+
+.fc1 img {
+  width: 100%;
   height: auto;
 }
 
-.partner_content{
+.partner_content {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
 }
 
-.partner_txt{
+.partner_txt {
   padding: 0 20px;
 }
 
-.info_list{
+.info_list {
   display: flex;
   flex-wrap: wrap;
-  margin:20px 0;
+  margin: 20px 0;
 }
 
-.info_list li{
+.info_list li {
   background-color: white;
   margin: 10px;
   padding: 20px;
@@ -76,7 +80,7 @@ img.fc1{
   display: flex;
 }
 
-.pr_lists li{
+.pr_lists li {
   width: calc((100% - 80px) / 4);
   box-shadow: 0 0 8px #ddd;
   margin: 10px;
@@ -86,11 +90,15 @@ img.fc1{
   box-sizing: border-box;
 }
 
-.pr_lists img {
-  width: 70%!important;
-  height: auto;
+.pr_lists .image {
+  width: 70%;
   margin: 0 auto 20px;
   display: block;
+}
+
+.pr_lists .image img {
+  width: 100%;
+  height: auto;
 }
 
 
@@ -99,14 +107,14 @@ img.fc1{
 
   .img_fc {
     padding-bottom: calc(100%*375/1186);
-    background-size: cover!important;
+    background-size: cover !important;
   }
 
   .pr_lists {
     flex-wrap: wrap;
   }
 
-  .pr_lists li{
+  .pr_lists li {
     width: calc((100% - 40px) / 2);
   }
 
@@ -115,11 +123,11 @@ img.fc1{
 @media screen and (max-width: 599px) {
   /* 599px以下に適用されるCSS（スマホ用） */
 
-  .partner_content{
+  .partner_content {
     display: block;
   }
 
-  img.fc1{
+  .fc1 {
     width: 100%;
   }
 
@@ -140,10 +148,10 @@ img.fc1{
   }
 
   ul.slick-dots {
-    display: none!important;
+    display: none !important;
   }
 
-  .partner_txt{
+  .partner_txt {
     padding: 10px 0;
   }
 
@@ -151,7 +159,7 @@ img.fc1{
     display: block;
   }
 
-  .info_list > li{
+  .info_list>li {
     width: auto;
     margin: 0 0 20px;
     box-sizing: border-box;
