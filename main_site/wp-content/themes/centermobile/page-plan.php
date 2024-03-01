@@ -89,7 +89,7 @@
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.webp" type="image/webp">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon2.png" width="57" height="80" alt="">
             </picture>
-            <h3 class="h3_1">期間限定！<br class="sp_only">24時間かけ放題<br class="sp_only">セットプラン<span class="term">※2023年12月1日〜<br class="sp_only">2024年2月29日まで</span></h3>
+            <h3 class="h3_1">期間限定！<br class="sp_only">24時間かけ放題<br class="sp_only">セットプラン<span class="term">※2023年12月1日〜<br class="sp_only">2024年5月31日まで</span></h3>
           </div>
           <hr class="plan_hr">
           <div class="setplan_price_wrap">

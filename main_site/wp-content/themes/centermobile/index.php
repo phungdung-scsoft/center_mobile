@@ -445,7 +445,7 @@
               </div>
             </li>
             <li class="type5">
-              <h3 class="heading">期間限定！<br class="sp">24時間かけ放題セットプラン<span class="term">※2023年12月1日〜2024年2月29日まで</span></h3>
+              <h3 class="heading">期間限定！<br class="sp">24時間かけ放題セットプラン<span class="term">※2023年12月1日〜2024年5月31日まで</span></h3>
               <div class="capacityContent">
                 <div class="planWrap">
                   <div class="plan voice">
