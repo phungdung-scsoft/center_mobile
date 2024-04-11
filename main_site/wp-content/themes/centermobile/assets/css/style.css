@@ -237,6 +237,22 @@ h3 span {
   margin: 40px auto 0;
 }
 
+/*notes_list*/
+.notes_list {
+  margin: 1.5em 0 0;
+  font-size: 12px;
+}
+
+.notes_list>li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.notes_list>li::before {
+  content: "\203B";
+}
+
 /*media*/
 .date {
   font-size: 12px;
