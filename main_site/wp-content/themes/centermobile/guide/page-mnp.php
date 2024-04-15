@@ -29,7 +29,7 @@
           <article class="guide_article">
             <div class="guide_article_inner">
               <h1 class="page_title"><?php the_title(); ?></h1>
-              <p class="page_date">掲載日：2024年4月9日<?php /*the_time('Y年n月j日');*/ ?>　更新日：2024年4月9日<?php /*the_modified_date('Y年n月j日');*/ ?></p>
+              <p class="page_date">掲載日：2024年4月12日<?php /*the_time('Y年n月j日');*/ ?>　更新日：2024年4月12日<?php /*the_modified_date('Y年n月j日');*/ ?></p>
 
               <div class="guide_mv">
                 <picture>
