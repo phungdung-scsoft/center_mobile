@@ -357,9 +357,9 @@
                 </section>
                 <section class="guide_section">
                   <h3 class="guide_heading3">キャリアメールは引き継ぐことができない</h3>
-                  <p>MNPはあくまでも、電話番号を引き継ぐことができるサービスです。<br>
-                    契約中の携帯電話会社でご使用されていたメールアドレスにつきましては、引き継ぐことができないので注意が必要です。</p>
-                  <p>キャリアメールにつきましては、各社ごとに持ち運びができるサービスがありますので、各社ホームページにてご確認ください。</p>
+                  <p>MNPでは電話番号を引き継ぐことはできますが、MNPを利用してMNP前の携帯電話会社で使用されていたキャリアメール（例：○○＠docomo.ne.jp）については、引き継ぐことはできません。</p>
+                  <p>ただし、キャリアメールをMNP後も引き続き利用されたい場合には、各社毎に「持ち運びサービス」というものがあり、そちらをご利用されることでキャリアメールを引き続きご利用することが可能です。</p>
+                  <p>各社のサイトにてご確認ください。</p>
                   <p>ドコモ：<a href="https://www.docomo.ne.jp/service/docomo_mail_portability/" target="_blank">https://www.docomo.ne.jp/service/docomo_mail_portability/</a><br>
                     KDDI：<a href="https://www.au.com/mobile/service/aumail_portability/" target="_blank">https://www.au.com/mobile/service/aumail_portability/</a><br>
                     ソフトバンク：<a href="https://www.softbank.jp/mobile/service/mail-address-portability/" target="_blank">https://www.softbank.jp/mobile/service/mail-address-portability/</a></p>
@@ -402,12 +402,13 @@
                 </section>
                 <section class="guide_section">
                   <h3 class="guide_heading3">契約していた携帯電話会社の割引やキャリア決済は不可になる</h3>
-                  <p>回線を乗り換えた後は、契約していた携帯電話会社での割引を受けることはできません。</p>
+                  <p>回線を乗り換えた後は、契約していた携帯電話会社でのセット割などの割引を受けることはできません。</p>
                   <p>例えば、以下のような割引を受けられていた場合は割引の適用がなくなってしまいます。<br>
                     ・家族割<br>
                     ・Wi-Fi等のネット回線のセット割<br>
                     ・電気のセット割</p>
                   <p>また携帯電話のご利用料金と一緒に商品の購入金額やサービスのご利用料金をお支払いする「キャリア決済」も使用できなくなるので、注意が必要です。</p>
+                  <p>ただし、格安SIMに乗り換えすることによって、トータルでの通信費を安くする場合がございますので、これを機にご検討いただくことをおすすめいたします。</p>
                 </section>
               </section>
 
