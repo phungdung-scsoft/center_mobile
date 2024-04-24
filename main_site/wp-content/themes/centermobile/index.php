@@ -268,7 +268,7 @@
             <li>
               <picture>
                 <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con01_img02.webp" type="image/webp">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con01_img02.png" alt="インターネットのみ使えるデータSIMプラン　連絡はLINE等のみ、電話番号は必要ないという方にオススメ！通話アプリによる通話は可能です" width="516" height="298" loading="lazy">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/con01_img02.png" alt="インターネットのみ使えるデータSIMプラン　テザリングやWiFiなしでノートPC PCやタブレットなどのデータ通信向けとして使いたい方にオススメ！" width="516" height="298" loading="lazy">
               </picture>
             </li>
           </ul>
