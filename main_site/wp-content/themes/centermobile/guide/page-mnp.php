@@ -111,8 +111,8 @@
                     <h4 class="step_heading"><span class="number">STEP1</span>転入先で手続き</h4>
                     <p>本人確認書類、支払いに使用するクレジットカードまたは銀行口座情報をご用意の上、新しくご契約する携帯電話会社のホームページ上で契約の手続きを行います。<br>
                       センターモバイルでご契約をご希望であればこちら※2をご確認ください。</p>
-                    <p><a href="https://sim.centermobile.co.jp/?direct=1" target="_blank">※2 商品・契約の選択</a></p>
-                    <a href="https://sim.centermobile.co.jp/?direct=1" target="_blank" class="quote_anchor">
+                    <p><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">※2 商品・契約の選択</a></p>
+                    <a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank" class="quote_anchor">
                       <section class="text_wrap">
                         <h4 class="quote_heading">商品・契約の選択｜センターモバイル</h4>
                         <div class="text">
@@ -120,7 +120,7 @@
                             【ご本人さま確認書類】<br>
                             以下のいずれかがご契約に必要です。<br>運転免許証、住民基本台帳カード、マイナンバーカード、健康保険証＋補助書類、在留カード、日本国パスポート＋補助書類</p>
                         </div>
-                        <p class="url">https://sim.centermobile.co.jp/?direct=1</p>
+                        <p class="url">https://hakaku.centermobile.co.jp/?direct=1</p>
                       </section>
                       <picture class="image_wrap">
                         <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/guide/img_quote_thumbnail.webp" type="image/webp">
@@ -214,8 +214,8 @@
                     <h4 class="step_heading"><span class="number">STEP2</span>新しくご契約予定の携帯電話会社での契約手続き</h4>
                     <p>本人確認書類、支払いに使用するクレジットカード、銀行口座情報とMNP予約番号をご準備の上、店頭もしくはホームページにてご契約手続きを行います。<br>
                       センターモバイルでご契約をご希望であればこちら※2をご確認ください。</p>
-                    <p><a href="https://sim.centermobile.co.jp/?direct=1" target="_blank">※2 商品・契約の選択</a></p>
-                    <a href="https://sim.centermobile.co.jp/?direct=1" target="_blank" class="quote_anchor">
+                    <p><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">※2 商品・契約の選択</a></p>
+                    <a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank" class="quote_anchor">
                       <section class="text_wrap">
                         <h4 class="quote_heading">商品・契約の選択｜センターモバイル</h4>
                         <div class="text">
@@ -223,7 +223,7 @@
                             【ご本人さま確認書類】<br>
                             以下のいずれかがご契約に必要です。<br>運転免許証、住民基本台帳カード、マイナンバーカード、健康保険証＋補助書類、在留カード、日本国パスポート＋補助書類</p>
                         </div>
-                        <p class="url">https://sim.centermobile.co.jp/?direct=1</p>
+                        <p class="url">https://hakaku.centermobile.co.jp/?direct=1</p>
                       </section>
                       <picture class="image_wrap">
                         <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/guide/img_quote_thumbnail.webp" type="image/webp">
@@ -485,7 +485,7 @@
     </div>
 
     <div class="floating_btn">
-      <a href="https://sim.centermobile.co.jp/?direct=1" target="_blank">センターモバイルに<br>MNPで転入する方はこちら</a>
+      <a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">センターモバイルに<br>MNPで転入する方はこちら</a>
     </div>
 
     <footer>

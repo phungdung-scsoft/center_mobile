@@ -3,7 +3,7 @@
   <div class="wrapper">
     <div class="link_btns">
       <ul>
-        <li><a href="https://sim.centermobile.co.jp/?direct=1" target="_blank">WEB申し込み</a></li>
+        <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">WEB申し込み</a></li>
         <li><a href="<?php echo esc_url(home_url('/')); ?>contact-top/">お問い合わせ</a></li>
       </ul>
     </div>
@@ -21,7 +21,7 @@
             <li>
               WEB申し込み
               <ul>
-                <li><a href="https://sim.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+                <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
                 <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
               </ul>
             </li>

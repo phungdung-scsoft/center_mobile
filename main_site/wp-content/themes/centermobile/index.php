@@ -46,7 +46,7 @@
                 <li class="gnav__menu__item">
                   <a href="javascript:void(0);" class="accordion-parent">WEB申し込み</a>
                   <ul class="accordion-child">
-                    <li><a href="https://sim.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+                    <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
                     <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
                   </ul>
                 </li>
@@ -81,7 +81,7 @@
         <li class="gnav__menu__item">
           <a href="javascript:void(0);" class="accordion-parent">WEB申し込み</a>
           <ul class="accordion-child">
-            <li><a href="https://sim.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+            <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
             <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを<br>申し込む</a></li>
           </ul>
         </li>
@@ -557,7 +557,7 @@
             </li>
           </ul>
         </div>
-        <a href="https://sim.centermobile.co.jp/?direct=1" class="cvBtn" target="_blank">
+        <a href="https://hakaku.centermobile.co.jp/?direct=1" class="cvBtn" target="_blank">
           <picture>
             <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.webp" type="image/webp">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png" alt="どのプランでどれだけ使っても最大で０円まで割引！お申込みはこちら" width="917" height="235" loading="lazy">
@@ -659,7 +659,7 @@
               </p>
             </li>
           </ul>
-          <a href="https://sim.centermobile.co.jp/?direct=1" class="cvBtn" target="_blank">
+          <a href="https://hakaku.centermobile.co.jp/?direct=1" class="cvBtn" target="_blank">
             <picture>
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.webp" type="image/webp">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png" alt="どのプランでどれだけ使っても最大で０円まで割引！お申込みはこちら" width="917" height="235" loading="lazy">
@@ -824,7 +824,7 @@
 
       <section class="content12">
         <div class="inCon01">
-          <a href="https://sim.centermobile.co.jp/?direct=1" target="_blank">
+          <a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">
             <picture>
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr_sp.webp" media="(max-width: 768px)" type="image/webp">
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr_sp.png" media="(max-width: 768px)">
@@ -866,7 +866,7 @@
       <div class="bnrArea">
         <ul class="inner">
           <li>
-            <a href="https://sim.centermobile.co.jp/?direct=1" target="_blank">
+            <a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">
               <picture>
                 <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02.webp" type="image/webp">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02.png" alt="どれだけ使っても最大で0円まで割引！ WEB申し込み" width="312" height="91" loading="lazy">
@@ -882,7 +882,7 @@
     <div class="bNavMask"></div>
     <div class="bNavWebBalloon">
       <ul>
-        <li><a href="https://sim.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+        <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
         <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
       </ul>
     </div>
@@ -934,7 +934,7 @@
               <li>
                 WEB申し込み
                 <ul>
-                  <li><a href="https://sim.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+                  <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
                   <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
                 </ul>
               </li>

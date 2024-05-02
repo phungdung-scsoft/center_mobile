@@ -13,7 +13,7 @@
       <li>
         <a href="javascript:void(0);" class="accordion-parent">WEB申し込み</a>
         <ul class="accordion-child">
-          <li><a href="https://sim.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+          <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
           <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを<br>申し込む</a></li>
         </ul>
       </li>
@@ -67,7 +67,7 @@
           <li>
             <a href="javascript:void(0);" class="accordion-parent">WEB申し込み</a>
             <ul class="accordion-child">
-              <li><a href="https://sim.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+              <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
               <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
             </ul>
           </li>
