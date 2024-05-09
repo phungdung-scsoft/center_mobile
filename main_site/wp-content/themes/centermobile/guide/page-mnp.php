@@ -29,7 +29,7 @@
           <article class="guide_article">
             <div class="guide_article_inner">
               <h1 class="page_title"><?php the_title(); ?></h1>
-              <p class="page_date">掲載日：2024年4月12日<?php /*the_time('Y年n月j日');*/ ?>　更新日：2024年4月12日<?php /*the_modified_date('Y年n月j日');*/ ?></p>
+              <p class="page_date">掲載日：2024年4月12日<?php /*the_time('Y年n月j日');*/ ?>　更新日：2024年5月9日<?php /*the_modified_date('Y年n月j日');*/ ?></p>
 
               <div class="guide_mv">
                 <picture>
@@ -47,7 +47,8 @@
                     <li><a href="#agenda3">MNPのメリット</a></li>
                     <li><a href="#agenda4">MNPの注意点</a></li>
                     <li><a href="#agenda5">MNP手続きの準備チェックリスト</a></li>
-                    <li><a href="#agenda6">まとめ</a></li>
+                    <?php if (false) : ?><li><a href="#agenda6">MNPワンストップ方式でセンターモバイルに乗り換える方法</a></li><?php endif; ?>
+                    <li><a href="#agenda7">まとめ</a></li>
                   </ul>
                 </section>
               </div>
@@ -60,20 +61,17 @@
                     <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/guide/mnp/img_mnp_01.webp" type="image/webp">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guide/mnp/img_mnp_01.png" alt="" width="800" height="335">
                   </picture>
-                  <p>MNPとは、電話番号を変えずにスマホのキャリアを他社に乗り換えられる制度のことです。</p>
-                  <p>MNPという名称は「Mobile Number Portability」の略で「携帯電話番号ポータビリティ」と呼ばれる制度です。</p>
-                  <p>MNPを利用すれば、今お使いの携帯電話番号を変更することなく、他社キャリアに乗り換えることができます。</p>
+                  <p>MNPとは「携帯電話番号ポータビリティ(Mobile Number Portability)」と呼ばれ、今お使いの携帯電話番号そのまま他社キャリアに乗り換えることができる制度を指します。</p>
                   <p>MNPを利用せずに現在の携帯電話会社を解約し、他社キャリアで契約をすると、今お使いの電話番号は使用できなくなってしまいます。</p>
-                  <p>携帯電話会社を他社に変えたいが電話番号を変更したくないという方が、気軽に携帯電話会社を変更することができる制度のことが「MNP」です。</p>
-                </section>
-
-                <section class="guide_section">
-                  <h3 class="guide_heading3">MNPワンストップ方式について</h3>
-                  <p>MNPはこれまでの制度が改善されたことにより、手軽に行うことが可能です。<br>
-                    今までは、MNPの利用には手数料が必要でしたが、現在では手数料なしでMNPを利用することが可能です。</p>
-                  <p>2023年5月からは、「MNPワンストップ方式」が開始されました。</p>
-                  <p>今までは現在契約している携帯電話会社で「MNP予約番号」を取得し、新しく契約する携帯電話会社に提出し、契約の手続きを行うことが必要でしたが、現在は新しく契約する携帯電話会社での手続きだけで完結することができるようになりました。<br>
-                    この仕組みを「MNPワンストップ方式」といいます。</p>
+                  <p>「携帯電話会社を他社に変えたいが、電話番号は変更したくない…」という方におすすめの制度です。</p>
+                  <p>MNPは無料でご利用いただくことが可能です。<br>
+                    ※これまではMNPのご利用に手数料が必要でしたが、制度が改善されました。<br>
+                    ※一部のキャリアによっては、お電話での転出手続きの際に手数料が発生する場合がございます。<br>
+                    webでのお申し込みの場合は無料です。<br>
+                    ※詳しくは、各サービス提供会社の情報をご確認ください。</p>
+                  <p>2023年5月からは、さらに便利で手軽な「MNPワンストップ方式」が開始されました。</p>
+                  <p>・従来の「MNPツーストップ方式」・・・現在契約している携帯電話会社で「MNP予約番号」を取得し、新しく契約する携帯電話会社に提出して契約の手続きを行う必要がある</p>
+                  <p>・新たな「MNPワンストップ方式」・・・新しく契約する携帯電話会社での手続きのみで完結！</p>
                   <picture>
                     <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/guide/mnp/img_mnp_02.webp" type="image/webp">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guide/mnp/img_mnp_02.png" alt="" width="800" height="664">
@@ -131,7 +129,7 @@
                   </section>
                   <section class="guide_section">
                     <h4 class="step_heading"><span class="number">STEP2</span>回線の開通</h4>
-                    <p>SIMカードの場合<br>
+                    <p>【SIMカード(物理SIM)の場合】<br>
                       新しく契約する携帯電会社からSIMカードが届いたら、SIMカードを今お使いのSIMカードと入れ替えて、「SIMの有効化」「APN設定」を行ってください。<br>
                       詳細につきましては、SIMカード同梱の書類をご確認ください。<br>
                       センターモバイルでのご契約の方は以下をご確認ください。<br>
@@ -181,7 +179,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guide/img_quote_thumbnail.png" alt="" width="262" height="200">
                       </picture>
                     </a>
-                    <p>eSIMをご利用の場合<br>
+                    <p>【eSIMの場合】<br>
                       回線開通の受付時間内なら即日回線を切り替えることができます。<br>
                       回線開通作業につきましては、各携帯電話会社様のご案内に従って行ってください。<br>
                       センターモバイルでの開通手順につきましては、こちら※5をご確認ください。</p>
@@ -199,11 +197,11 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guide/img_quote_thumbnail.png" alt="" width="262" height="200">
                       </picture>
                     </a>
-                    <p>「MNPワンストップ方式」ではSTEP2まで完了され、新しい回線が開通した時点で、休回線につきましては、自動的にご解約となります。</p>
+                    <p>「MNPワンストップ方式」ではSTEP2まで完了され、新しい回線が開通した時点で、旧回線につきましては、自動的にご解約となります。</p>
                   </section>
                 </section>
                 <section class="guide_section" id="agenda2_2">
-                  <h3 class="guide_heading3">ツーストップ方式の手順につきまして</h3>
+                  <h3 class="guide_heading3">MNPツーストップ方式の手順</h3>
                   <p>現在ご契約中の携帯電話会社、新しくご契約予定の携帯電話会社のどちらか一方でも「MNPワンストップ方式」に対応していない場合は、以下の乗り換え手順です。</p>
                   <section class="guide_section">
                     <h4 class="step_heading"><span class="number">STEP1</span>現在ご契約中の携帯電話会社にてMNP予約番号を取得する</h4>
@@ -302,7 +300,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guide/img_quote_thumbnail.png" alt="" width="262" height="200">
                       </picture>
                     </a>
-                    <p>「MNPツーストップ方式」ではSTEP3まで完了され、新しい回線が開通した時点で、休回線につきましては、自動的にご解約となります。</p>
+                    <p>「MNPツーストップ方式」ではSTEP3まで完了され、新しい回線が開通した時点で、旧回線につきましては、自動的にご解約となります。</p>
                   </section>
                 </section>
               </section>
@@ -311,8 +309,8 @@
                 <h2 class="guide_heading2">MNPのメリット</h2>
                 <section class="guide_section">
                   <h3 class="guide_heading3">電話番号の変更なしで、携帯会社を変えることができる</h3>
-                  <p>MNPは電話番号を変えることなく携帯電話会社を変更することができます。<br>
-                    そのため、「料金プランを変更したいから乗り換えたいけど、電話番号を変えたくない」「携帯電話会社を変えて家族や友人、会社に新しい電話番号を連絡するのが面倒」「携帯電話会社を変えて、電話番号を登録しているサービス等に新しい電話番号を登録するのが面倒」といったお悩みを解決することができるサービスです。</p>
+                  <p>MNPは、電話番号を変えることなく携帯電話会社を変更することができる制度です。</p>
+                  <p>そのため、「料金プランを変更したいから乗り換えたいけど、電話番号を変えたくない」「家族や友人、会社に新しい電話番号を連絡するのが大変」「携帯電話会社を変えて、電話番号を登録しているサービス等に新しい電話番号を登録するのが面倒」といったお悩みを全て解決することができます。</p>
                 </section>
                 <section class="guide_section">
                   <h3 class="guide_heading3">MNPでの乗り換えでお得な特典を受けることができる</h3>
@@ -417,8 +415,10 @@
                 <ol class="check_list">
                   <li>
                     <p class="check">MNP予約番号取得後に何日以内に手続きが必要か確認する</p>
-                    <p>ご契約予定の携帯電話会社にて、MNP予約番号を取得してから何日以内に契約手続きが必要がどうか確認しておく必要があります。<br>
-                      センターモバイルの場合は、「有効期限は有効期限日当日を含めて11日以上残してご提出」していただく必要があります。</p>
+                    <p>MNP予約番号には有効期限があります。<br>
+                      ご契約予定の携帯電話会社にて、予約番号の取得から何日以内に契約手続きが必要か確認しておきましょう。</p>
+                    <p>センターモバイルの場合、有効期限は期限日当日を含めて11日です。<br>
+                      期限日までに契約手続きを行い、予約番号を提出する必要があります。</p>
                   </li>
                   <li>
                     <p class="check">契約中の携帯電話会社を解約する前にMNPの手続きを行う必要がある</p>
@@ -448,7 +448,32 @@
                 <p>上記を確認しておくことで、手続き時の不備を防ぐことができたり、何か損をすることを防ぐことができます。</p>
               </section>
 
-              <section class="guide_section" id="agenda6">
+              <?php if (false) : ?>
+                <section class="guide_section" id="agenda6">
+                  <h2 class="guide_heading2">MNPワンストップ方式でセンターモバイルに乗り換える方法</h2>
+                  <p>実際に、MNPワンストップ方式を利用して電話番号を変えずにセンターモバイルのSIMを契約する方法をご紹介します。</p>
+                  <p>①お申し込みページに進み、「今の電話番号をそのまま使う(MNP)」を選択。<br>
+                    お申し込み方式は「ワンストップ方式」を選択してください。</p>
+                  <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/guide/mnp/img_mnp_03.webp" type="image/webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guide/mnp/img_mnp_03.png" alt="お申し込みページ1" width="422" height="813">
+                  </picture>
+                  <p>②現在お使いになられているキャリアを選択し、ご利用中の携帯電話番号を入力してください。</p>
+                  <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/guide/mnp/img_mnp_04.webp" type="image/webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guide/mnp/img_mnp_04.png" alt="お申し込みページ2" width="427" height="813">
+                  </picture>
+                  <p>③「転入元でのお手続きを開始する」を選択し、現在ご契約中の携帯電話会社(キャリア)のページへと遷移します。<br>
+                    ※実際の画面表示はキャリアごとに異なるので、表示に従って手続きを進めてください。</p>
+                  <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/guide/mnp/img_mnp_05.webp" type="image/webp">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/guide/mnp/img_mnp_05.png" alt="お申し込みページ3" width="425" height="813">
+                  </picture>
+                  <p>現在のキャリアでのお手続きが完了したら、再度センターモバイルの申し込みページに戻って契約手続きを進めます。</p>
+                </section>
+              <?php endif; ?>
+
+              <section class="guide_section" id="agenda7">
                 <h2 class="guide_heading2">まとめ</h2>
                 <p>MNPとは、電話番号を変えずに他社キャリアに変更できる制度のことです。<br>
                   以下に今回のポイントをまとめております。<br>

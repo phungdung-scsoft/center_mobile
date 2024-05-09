@@ -17,8 +17,10 @@
 }
 
 .guide_article img {
+  display: block;
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 
 .guide_article a {
@@ -261,7 +263,7 @@
   transform: rotate(-45deg);
 }
 
-.guide_article .check_list>li .check+* {
+.guide_article .check_list>li *:not(.check) {
   margin: 15px 0 0;
 }
 
