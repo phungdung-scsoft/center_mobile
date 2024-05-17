@@ -31,6 +31,12 @@
       <!-- <li><a href="">広告出稿をご検討の方</a></li>
             <li><a href="">採用情報</a></li> -->
       <li><a href="<?php echo esc_url(home_url('/')); ?>contact-top/">お問い合わせ</a></li>
+      <li>
+        <a href="javascript:void(0);" class="accordion-parent">お役立ちガイド</a>
+        <ul class="accordion-child">
+          <li><a href="<?php echo esc_url(home_url('/')); ?>guide/mnp/">MNPとは？</a></li>
+        </ul>
+      </li>
     </ul>
     <div class="btn_area">
       <a class="login_btn" href="//maimo.app/login" target="_blank">
@@ -86,6 +92,12 @@
                 <li><a href="<?php echo esc_url(home_url('/')); ?>">広告出稿をご検討の方</a></li>
                 <li><a href="<?php echo esc_url(home_url('/')); ?>">採用情報</a></li> -->
           <li><a href="<?php echo esc_url(home_url('/')); ?>contact-top/">お問い合わせ</a></li>
+          <li>
+            <a href="javascript:void(0);" class="accordion-parent">お役立ちガイド</a>
+            <ul class="accordion-child">
+              <li><a href="<?php echo esc_url(home_url('/')); ?>guide/mnp/">MNPとは？</a></li>
+            </ul>
+          </li>
         </ul>
         <div class="btn_area btn_area_nav">
           <a class="login_btn" href="//maimo.app/login" target="_blank">

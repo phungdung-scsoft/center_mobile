@@ -40,6 +40,12 @@
             <li><a href="<?php echo esc_url(home_url('/')); ?>media-appearances/">掲載メディア一覧</a></li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>policy/">プライバシーポリシー</a></li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>contact-top/">お問い合わせ</a></li>
+            <li>
+              お役立ちガイド
+              <ul>
+                <li><a href="<?php echo esc_url(home_url('/')); ?>guide/mnp/">MNPとは？</a></li>
+              </ul>
+            </li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>net/">インターネット回線ニュース</a></li>
           </ul>
         </div>
