@@ -143,8 +143,8 @@ add_action('wp_print_scripts', 'add_scripts');
  **********************************/
 function remove_menus()
 {
-  // 編集者
-  if (current_user_can('editor')) {
+  $user_id = get_current_user_id();
+  if ($user_id == '2') {   // 事務側で店舗情報編集用アカウント
     // サイドメニュー項目の削除
     remove_submenu_page('index.php', 'update-core.php'); // ダッシュボード / 更新
     remove_submenu_page('index.php', 'admin.php?page=monsterinsights_reports'); // ダッシュボード / Monster Insights
@@ -156,6 +156,32 @@ function remove_menus()
     remove_menu_page('edit.php?post_type=ufaq'); // FAQs
     remove_menu_page('edit.php?post_type=videoplayer'); // HTML5 Video Player
     remove_menu_page('edit.php?post_type=wp_show_posts'); // WP Show Posts
+    remove_menu_page('edit.php?post_type=column'); // インターネット回線ニュース
+    remove_menu_page('monsterinsights_reports'); // Monster Insights
+    remove_menu_page('edit-comments.php'); // コメント
+    remove_menu_page('themes.php'); // 外観
+    remove_menu_page('plugins.php'); // プラグイン
+    remove_menu_page('users.php'); // ユーザー
+    remove_menu_page('profile.php'); // プロフィール
+    remove_menu_page('tools.php'); // ツール
+    remove_menu_page('options-general.php'); // 設定
+    remove_menu_page('wpcf7'); // Contact Form 7
+
+    // WordPress更新通知
+    remove_action('admin_notices', 'update_nag', 3);
+  } else if ($user_id == '4') {   // インターネット回線ニュース記事編集用アカウント
+    // サイドメニュー項目の削除
+    remove_submenu_page('index.php', 'update-core.php'); // ダッシュボード / 更新
+    remove_submenu_page('index.php', 'admin.php?page=monsterinsights_reports'); // ダッシュボード / Monster Insights
+    remove_submenu_page('edit.php?post_type=store', 'edit-tags.php?taxonomy=pref&amp;post_type=store'); // 店舗 / 都道府県
+    remove_menu_page('edit.php'); // 投稿
+    remove_menu_page('upload.php'); // メディア
+    remove_menu_page('edit.php?post_type=page'); // 固定
+    remove_menu_page('edit.php?post_type=store-blog'); // 店舗ブログ
+    remove_menu_page('edit.php?post_type=ufaq'); // FAQs
+    remove_menu_page('edit.php?post_type=videoplayer'); // HTML5 Video Player
+    remove_menu_page('edit.php?post_type=wp_show_posts'); // WP Show Posts
+    remove_menu_page('edit.php?post_type=store'); // 店舗
     remove_menu_page('monsterinsights_reports'); // Monster Insights
     remove_menu_page('edit-comments.php'); // コメント
     remove_menu_page('themes.php'); // 外観
@@ -174,8 +200,8 @@ add_action('admin_menu', 'remove_menus', 999);
 
 function remove_admin_bar_menus($wp_admin_bar)
 {
-  // 編集者
-  if (current_user_can('editor')) {
+  $user_id = get_current_user_id();
+  if ($user_id == '2' || $user_id == '4') {   // 事務側で店舗情報編集用アカウントとインターネット回線ニュース記事編集用アカウント
     // アドミンバー(WordPress上部のバー)項目の削除
     //$wp_admin_bar->remove_menu( 'my-account' ); // こんにちは、[ユーザー名]さん
     $wp_admin_bar->remove_menu('user-info'); // ユーザー / [ユーザー名]
