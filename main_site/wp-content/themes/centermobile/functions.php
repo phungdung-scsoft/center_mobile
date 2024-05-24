@@ -173,6 +173,7 @@ function remove_menus()
     // サイドメニュー項目の削除
     remove_submenu_page('index.php', 'update-core.php'); // ダッシュボード / 更新
     remove_submenu_page('index.php', 'admin.php?page=monsterinsights_reports'); // ダッシュボード / Monster Insights
+    remove_submenu_page('index.php', 'https://centermobile.co.jp/wp-admin/admin.php?page=aioseo-search-statistics'); // ダッシュボード / SEO統計
     remove_submenu_page('edit.php?post_type=store', 'edit-tags.php?taxonomy=pref&amp;post_type=store'); // 店舗 / 都道府県
     remove_menu_page('edit.php'); // 投稿
     remove_menu_page('upload.php'); // メディア
@@ -184,13 +185,20 @@ function remove_menus()
     remove_menu_page('edit.php?post_type=store'); // 店舗
     remove_menu_page('monsterinsights_reports'); // Monster Insights
     remove_menu_page('edit-comments.php'); // コメント
-    remove_menu_page('themes.php'); // 外観
+    //remove_menu_page('themes.php'); // 外観
     remove_menu_page('plugins.php'); // プラグイン
     remove_menu_page('users.php'); // ユーザー
     remove_menu_page('profile.php'); // プロフィール
     remove_menu_page('tools.php'); // ツール
     remove_menu_page('options-general.php'); // 設定
     remove_menu_page('wpcf7'); // Contact Form 7
+    remove_menu_page('publishpress-future'); // PublishPress Future
+    remove_menu_page('aioseo'); // All in one seo
+    remove_menu_page('edit.php?post_type=acf-field-group'); // Advanced Custom Field
+    remove_menu_page('wp-mail-smtp'); // WP Mail SMTP
+    remove_menu_page('wp-maintenance-mode'); // LightStart
+    remove_menu_page('cptui_main_menu'); // CPT UI
+    remove_menu_page('duplicator'); // Duplicator
 
     // WordPress更新通知
     remove_action('admin_notices', 'update_nag', 3);
@@ -226,7 +234,7 @@ function remove_admin_bar_menus($wp_admin_bar)
     $wp_admin_bar->remove_menu('new-post'); // 新規投稿 / 投稿
     $wp_admin_bar->remove_menu('new-media'); // 新規投稿 / メディア
     $wp_admin_bar->remove_menu('new-page'); // 新規投稿 / 固定
-    $wp_admin_bar->remove_menu('new-user'); // 新規投稿 / ユーザー
+    //$wp_admin_bar->remove_menu('new-user'); // 新規投稿 / ユーザー
 
     $wp_admin_bar->remove_menu('menu-toggle'); // メニュー
 
@@ -234,6 +242,44 @@ function remove_admin_bar_menus($wp_admin_bar)
   }
 }
 add_action('admin_bar_menu', 'remove_admin_bar_menus', 999);
+
+function remove_adminbar_plugin()
+{
+  $user_id = get_current_user_id();
+  if ($user_id == '2' || $user_id == '4') {   // 事務側で店舗情報編集用アカウントとインターネット回線ニュース記事編集用アカウント
+    global $wp_admin_bar;
+    $wp_admin_bar->remove_menu('aioseo-main');  // All in one SEO admin bar
+  }
+}
+add_action('admin_bar_menu', 'remove_adminbar_plugin', 1000);
+
+function updraftplus_remove_toolbar_menu()
+{
+  $user_id = get_current_user_id();
+  if ($user_id == '2' || $user_id == '4') {   // 事務側で店舗情報編集用アカウントとインターネット回線ニュース記事編集用アカウント
+    global $wp_admin_bar;
+    $wp_admin_bar->remove_menu('updraft_admin_node');  // Updraft plus admin bar
+  }
+}
+add_action('wp_before_admin_bar_render', 'updraftplus_remove_toolbar_menu', 999);
+
+function remove_dashboard_widgets()
+{
+  $user_id = get_current_user_id();
+  if ($user_id == '2' || $user_id == '4') {   // 事務側で店舗情報編集用アカウントとインターネット回線ニュース記事編集用アカウント
+    global $wp_meta_boxes;
+    unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now']); // 現在の状況
+    unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_comments']); // 最近のコメント
+    unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']); // 被リンク
+    unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']); // プラグイン
+    unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']); // クイック投稿
+    unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_recent_drafts']); // 最近の下書き
+    unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']); // WordPressブログ
+    unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']); // WordPressフォーラム
+    unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_activity']); // アクティビティ
+  }
+}
+add_action('wp_dashboard_setup', 'remove_dashboard_widgets');
 
 /*********************************
  ダッシュボードのクイックドラフト機能の停止（ダッシュボードを開くたびに、投稿に記事が勝手に追加されてしまうため）
