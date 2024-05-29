@@ -53,6 +53,8 @@
     $slug = 'store';  /* 店舗一覧、詳細 */
   elseif (strstr($url, 'guide') == true) :
     $slug = 'guide';  /* ガイド */
+  elseif (strstr($url, 'column') == true) :
+    $slug = 'post-type-column';  /* インターネット回線ニュース */
   elseif (is_single()) :
     $slug = 'media-archive';  /* トピックス詳細 */
   endif;
