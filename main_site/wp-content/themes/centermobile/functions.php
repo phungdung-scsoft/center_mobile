@@ -186,7 +186,7 @@ function remove_menus()
     remove_menu_page('monsterinsights_reports'); // Monster Insights
     remove_menu_page('edit-comments.php'); // コメント
     //remove_menu_page('themes.php'); // 外観
-    remove_menu_page('plugins.php'); // プラグイン
+    //remove_menu_page('plugins.php'); // プラグイン
     remove_menu_page('users.php'); // ユーザー
     remove_menu_page('profile.php'); // プロフィール
     remove_menu_page('tools.php'); // ツール
