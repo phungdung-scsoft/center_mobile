@@ -28,6 +28,21 @@
         <p class="lead">センターモバイル<br class="sp_only">紹介記事一覧</p>
         <ul class="media_appearances_list">
           <li>
+            <p class="name">なるほどスマホ</p>
+            <p class="title"><a href="https://mobile.hamic.ai/sim-really-good/" target="_blank">【2024年最新】本当に使える格安スマホランキング｜おすすめの失敗しない格安SIMはこれ！</a></p>
+            <p class="url"><a href="https://mobile.hamic.ai/sim-really-good/" target="_blank">https://mobile.hamic.ai/sim-really-good/</a></p>
+          </li>
+          <li>
+            <p class="name">なるほどスマホ</p>
+            <p class="title"><a href="https://mobile.hamic.ai/sim-unlimited/" target="_blank">データ通信無制限の格安SIMおすすめ13選【徹底比較】</a></p>
+            <p class="url"><a href="https://mobile.hamic.ai/sim-unlimited/" target="_blank">https://mobile.hamic.ai/sim-unlimited/</a></p>
+          </li>
+          <li>
+            <p class="name">ひかりチョイス</p>
+            <p class="title"><a href="https://www.reyuu-japan.com/media/sim-unlimited/" target="_blank">格安SIMデータ無制限13社を比較｜使い放題のおすすめを紹介</a></p>
+            <p class="url"><a href="https://www.reyuu-japan.com/media/sim-unlimited/" target="_blank">https://www.reyuu-japan.com/media/sim-unlimited/</a></p>
+          </li>
+          <li>
             <p class="name">エリスグッド</p>
             <p class="title"><a href="https://starcraft-n.co.jp/erisgood/wimax-campaign/" target="_blank">【2023年最新版】WiMAX各社のお得なキャンペーン一覧（毎月更新）</a></p>
             <p class="url"><a href="https://starcraft-n.co.jp/erisgood/wimax-campaign/" target="_blank">https://starcraft-n.co.jp/erisgood/wimax-campaign/</a></p>
