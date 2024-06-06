@@ -117,7 +117,7 @@ function gl_setup()
   global $gl_point;
 
   date_default_timezone_set('Asia/Tokyo');
-  if (strtotime(date('Y-m-d H:i')) < strtotime('2025-03-31 12:00')) :
+  if (strtotime(date('Y-m-d H:i')) < strtotime('2024-06-17 11:00')) :
     $gl_point = true;
   else :
     $gl_point = false;
@@ -189,7 +189,7 @@ function remove_menus()
     //remove_menu_page('plugins.php'); // プラグイン
     remove_menu_page('users.php'); // ユーザー
     remove_menu_page('profile.php'); // プロフィール
-    remove_menu_page('tools.php'); // ツール
+    //remove_menu_page('tools.php'); // ツール
     remove_menu_page('options-general.php'); // 設定
     remove_menu_page('wpcf7'); // Contact Form 7
     remove_menu_page('publishpress-future'); // PublishPress Future
