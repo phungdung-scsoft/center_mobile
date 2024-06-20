@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 :root {
   --swl-font_family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   --swl-font_weight: 400;
@@ -125,7 +127,7 @@
 .news_contents img {
   border-style: none;
   height: auto;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 .news_contents video {
@@ -136,6 +138,26 @@
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
+}
+.news_contents li {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.news_contents .rtoc-mokuji li {
+  display: block;
+}
+.news_contents .is-style-check_list li:before {
+  content:'';
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--color_main);
+  border-radius: 50%;
+  top: 23%;
+}
+.news_contents ul {
+  margin: 2em 0
 }
 
 .news_contents svg:not([fill]) {
@@ -207,7 +229,6 @@
 .news_contents h1 {
   font-size: 2em
 }
-
 .news_contents h2 {
   font-size: 1.2em;
   line-height: 1.4;
@@ -259,7 +280,6 @@
   position: relative;
   text-align: center
 }
-
 .news_contents .is-style-section_ttl:after,.news_contents .is-style-section_ttl:before {
   border: none;
   content: none
@@ -278,14 +298,19 @@
   font-size: .6em;
   padding-top: .25em
 }
-
-.news_contents table {
+.news_contents .wp-block-table {
+  overflow-x: scroll;
+}
+.news_contents .wp-block-table table {
   border: none;
   border-spacing: 0;
   line-height: 1.5;
-  max-width: 100%;
+  max-width: 980px;
   text-align: left;
-  width: 100%
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+  white-space: nowrap;
 }
 
 .news_contents table caption {
@@ -2652,6 +2677,9 @@ table .swl-inline-btn {
 
   .twitter-tweet>iframe {
       width: 100%!important
+  }
+  .news_contents .wp-block-buttons>.wp-block-button.wp-block-button__width-50.wp-block-button__width-50 {
+    width: 100%;
   }
 }
 
@@ -6387,4 +6415,198 @@ a.c-bannerLink.-blur-on:hover .c-bannerLink__img {
     font-size: 24px;
   } 
 }
+.wp-block-image.is-style-photo_frame img, .wp-block-video.is-style-photo_frame video, img.photo_frame {
+  max-width: 100% !important;
+  height: auto !important;
+}
 
+@charset "UTF-8";
+
+/*media-archive*/
+.topics_list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.topics_list > li {
+  display: flex;
+  width: calc((100% - 60px) / 3);
+  margin: 0 30px 30px 0;
+}
+
+.topics_list > li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.topics_list > li a {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 8px #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.topics_list > li a img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0 0 15px;
+}
+
+.topics_list > li a img.logo {
+  object-fit: contain;
+  max-height: 165px;
+}
+
+.topics_list > li a h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.topics_list > li a h3::before {
+  display: none;
+}
+
+.topics_list > li a .date {
+  margin: 0 0 5px;
+  font-size: 12px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pagination > .page-numbers {
+  margin: 0 10px;
+}
+
+.pagination > .page-numbers.current {
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 1180px) {
+  /* 1024px以下に適用されるCSS（タブレット用） */
+
+}
+
+@media screen and (max-width: 599px) {
+  /* 599px以下に適用されるCSS（スマホ用） */
+  .topics_list {
+    display: block;
+    padding: 20px;
+  }
+
+  .topics_list > li {
+    display: block;
+    width: auto;
+    margin: 0 0 20px;
+  }
+
+  .topics_list > li:last-child {
+    margin-bottom: 0;
+  }
+
+  .topics_list > li a {
+    padding: 10px;
+  }
+
+  .pagination {
+    margin: 20px 0 0;
+  }
+
+}
+
+/* ページャー全体のスタイル */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ナビゲーションリンクのスタイル */
+.pagination .nav-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* 各ページ番号のスタイル */
+.pagination .page-numbers {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* 現在のページ番号のスタイル */
+.pagination .page-numbers.current {
+  background-color: #0073aa;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* 前へ、次へのリンクのスタイル */
+.pagination .prev,
+.pagination .next {
+  background-color: #0073aa;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* ホバー時のスタイル */
+.pagination .page-numbers:hover,
+.pagination .prev:hover,
+.pagination .next:hover {
+  background-color: #005177;
+  color: #fff;
+}
+
+/* ドットのスタイル */
+.pagination .dots {
+  padding: 10px 15px;
+  color: #999;
+}
+
+/* スマホ用のスタイル調整 */
+@media (max-width: 599px) {
+  .pagination .nav-links {
+    gap: 5px;
+    font-size: 11px;
+  }
+
+  .pagination .page-numbers,
+  .pagination .prev,
+  .pagination .next {
+    padding: 8px 6px;
+    margin: 0 3px;
+  }
+
+  .pagination .dots {
+    padding: 8px 10px;
+  }
+}
+.post-thumbnail {
+  margin-bottom: 20px;
+}
+
+.post-thumbnail img{
+  width: 100%;
+  height: auto;
+}
+
+.news_inner .promotion {
+  margin-bottom: 10px;
+  font-size: 12px;
+}

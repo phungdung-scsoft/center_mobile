@@ -86,8 +86,7 @@ function gl_setup()
   global $gl_id;          // ID
 
   /*
-  date_default_timezone_set('Asia/Tokyo');
-  if (strtotime(date('Y-m-d H:i')) < strtotime('2022-09-04 12:00')) :
+  if (strtotime(date_i18n('Y-m-d H:i')) < strtotime('2022-09-04 12:00')) :
     $gl_path = "maimo";
     $gl_service = "Maimo";
     $gl_service_jp = "マイモ";
@@ -116,8 +115,7 @@ function gl_setup()
   // ポイント改定
   global $gl_point;
 
-  date_default_timezone_set('Asia/Tokyo');
-  if (strtotime(date('Y-m-d H:i')) < strtotime('2024-06-17 11:00')) :
+  if (strtotime(date_i18n('Y-m-d H:i')) < strtotime('2024-06-24 11:00')) :
     $gl_point = true;
   else :
     $gl_point = false;
