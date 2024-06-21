@@ -164,6 +164,7 @@ function remove_menus()
     remove_menu_page('tools.php'); // ツール
     remove_menu_page('options-general.php'); // 設定
     remove_menu_page('wpcf7'); // Contact Form 7
+    remove_menu_page('tablepress'); // TablePress
 
     // WordPress更新通知
     remove_action('admin_notices', 'update_nag', 3);
