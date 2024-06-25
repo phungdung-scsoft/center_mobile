@@ -82,11 +82,11 @@
             <p class="title"><a href="https://www.watching-review.com/323/" target="_blank">センターモバイルの格安SIMは料金が安いし無料も！口コミや評判は？</a></p>
             <p class="url"><a href="https://www.watching-review.com/323/" target="_blank">https://www.watching-review.com/323/</a></p>
           </li>
-          <li>
+          <!--<li>
             <p class="name">センターモバイル インターネット回線ニュース</p>
             <p class="title"><a href="https://centermobile.co.jp/net/center-mobile-review/" target="_blank">センターモバイルの口コミ評判は実際どう？メリットデメリットまとめ</a></p>
             <p class="url"><a href="https://centermobile.co.jp/net/center-mobile-review/" target="_blank">https://centermobile.co.jp/net/center-mobile-review/</a></p>
-          </li>
+          </li>-->
           <li>
             <p class="name">格安SIM劇場</p>
             <p class="title"><a href="https://www.fami-geki.com/sim/centermobile/" target="_blank">センターモバイルの口コミ評判とは？月額0円の仕組みや料金・解約について解説</a></p>

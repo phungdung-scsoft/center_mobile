@@ -115,7 +115,7 @@ function gl_setup()
   // ポイント改定
   global $gl_point;
 
-  if (strtotime(date_i18n('Y-m-d H:i')) < strtotime('2024-06-24 11:00')) :
+  if (strtotime(date_i18n('Y-m-d H:i')) < strtotime('2024-06-24 10:00')) :
     $gl_point = true;
   else :
     $gl_point = false;

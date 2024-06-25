@@ -36,6 +36,7 @@
             ?>
               <li><a href="<?php echo esc_url(home_url('/')); ?>media-archive/">トピックス</a></li>
             <?php endif; ?>
+            <li><a href="<?php echo esc_url(home_url('/')); ?>column/">コラム</a></li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>store/">店舗一覧</a></li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>media-appearances/">掲載メディア一覧</a></li>
             <li><a href="<?php echo esc_url(home_url('/')); ?>policy/">プライバシーポリシー</a></li>
@@ -46,7 +47,6 @@
                 <li><a href="<?php echo esc_url(home_url('/')); ?>guide/mnp/">MNPとは？</a></li>
               </ul>
             </li>
-            <li><a href="<?php echo esc_url(home_url('/')); ?>net/">インターネット回線ニュース</a></li>
           </ul>
         </div>
       </nav>
