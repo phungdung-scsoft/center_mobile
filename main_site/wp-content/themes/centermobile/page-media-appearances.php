@@ -28,6 +28,11 @@
         <p class="lead">センターモバイル<br class="sp_only">紹介記事一覧</p>
         <ul class="media_appearances_list">
           <li>
+            <p class="name">X-mobile通信</p>
+            <p class="title"><a href="https://xmobile.ne.jp/media/12671/" target="_blank">格安SIMのおすすめ18選！iPhoneを一緒に購入できる格安SIMや人気ポイントも比較解説！</a></p>
+            <p class="url"><a href="https://xmobile.ne.jp/media/12671/" target="_blank">https://xmobile.ne.jp/media/12671/</a></p>
+          </li>
+          <li>
             <p class="name">なるほどスマホ</p>
             <p class="title"><a href="https://mobile.hamic.ai/sim-really-good/" target="_blank">【2024年最新】本当に使える格安スマホランキング｜おすすめの失敗しない格安SIMはこれ！</a></p>
             <p class="url"><a href="https://mobile.hamic.ai/sim-really-good/" target="_blank">https://mobile.hamic.ai/sim-really-good/</a></p>
