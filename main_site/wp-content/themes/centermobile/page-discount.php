@@ -27,9 +27,14 @@
           <h2 class="heading">なぜ、携帯電話の利用料金が最大割引で0円になるのか</h2>
           <div class="text">
             <p>広告スポンサーからの収益を利用者にポイントで還元。<br>
-              1ポイント/1円相当として扱います。<br>
+              <?php echo ($gl_point) ? '1' : '10'; ?>ポイント/1円相当として扱います。<br>
               ご契約者様は携帯電話の利用料金にポイントを割引利用ができ、携帯電話の利用料金を下げることができます。</p>
           </div>
+          <?php if (!$gl_point) : ?>
+            <ul class="notes_list">
+              <li>ご利用ポイント数は10ポイント単位でご利用いただけます。11ポイントや12ポイントではご利用いただけませんのでご注意ください。</li>
+            </ul>
+          <?php endif; ?>
         </section>
         <div class="imageWrap mb-30">
           <picture>
@@ -49,7 +54,7 @@
               </div>
               <div class="cell">
                 <p>ポイント利用</p>
-                <p class="low">1,408pt</p>
+                <p class="low"><?php echo ($gl_point) ? '1,408' : '14,080'; ?>pt</p>
               </div>
               <div class="cell">
                 <p class="low">=</p>
@@ -63,8 +68,8 @@
         </div>
         <div class="imageWrap">
           <picture>
-            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_1.webp" type="image/webp">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_1.png" alt="1ポイント＝1円　センターモバイルでポイント還元できる広告は多岐に渡ります。" width="812" height="268">
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_1<?php echo ($gl_point) ? '' : '_point'; ?>.webp" type="image/webp">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/img_discount_1<?php echo ($gl_point) ? '' : '_point'; ?>.png" alt="<?php echo ($gl_point) ? '1' : '10'; ?>ポイント＝1円　センターモバイルでポイント還元できる広告は多岐に渡ります。" width="812" height="268">
           </picture>
         </div>
       </div>
@@ -154,12 +159,12 @@
           <li>
             <div class="cap">
               <picture>
-                <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_4_2.webp" type="image/webp">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_4_2.png" alt="" width="300" height="643">
+                <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_4_<?php echo ($gl_point) ? '2' : '2'; ?>.webp" type="image/webp">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_4_<?php echo ($gl_point) ? '2' : '2'; ?>.png" alt="" width="300" height="643">
               </picture>
             </div>
             <div class="detail">
-              <p>1ポイント獲得となります。</p>
+              <p><?php echo ($gl_point) ? '1' : '5'; ?>ポイント獲得となります。</p>
               <?php /*<p>画面に獲得ポイントが表示されます。</p>
                 <p class="mb-20">ポイントが獲得でき、保有ポイントに加算されます。</p>
                 <p>ご案内した動画広告以外にもポイントが貯まるとくな商品やサービスがございます。</p>
@@ -232,7 +237,7 @@
             </div>
             <div class="detail">
               <h4><?= $GLOBALS['gl_light']; ?></h4>
-              <p>NTTフレッツ光の回線環境は変わらず、お得に使える！切替後、毎月300ポイント獲得</p>
+              <p>NTTフレッツ光の回線環境は変わらず、お得に使える！切替後、毎月<?php echo ($gl_point) ? '300' : '3,000'; ?>ポイント獲得</p>
               <?php /*<p><?= $GLOBALS['gl_light']; ?>コラボレーションは、NTT 東日本・NTT 西日本の光ファイバー回線を使ってお安く提供する、インターネットサービスです。</p>
                 <p>光ファイバー回線とプロバイダーがひとつになって、お得に使えます。</p>*/ ?>
             </div>

@@ -37,8 +37,13 @@
       <div class="wrapper">
         <h2><?= $GLOBALS['gl_service']; ?>ポイントとは</h2>
         <p>CMを見たりアプリをダウンロードしたり、サービスを申し込んだりする事で、ポイントが貯まります。</p>
-        <p>貯まったポイントは1ポイント1円相当として、料金の割引に利用できます。 </p>
-        <p class="mb-30">ポイントには期限がなく、消滅することはありません。</p>
+        <p>貯まったポイントは<?php echo ($gl_point) ? '1' : '10'; ?>ポイント1円相当として、料金の割引に利用できます。 </p>
+        <p class="mb-20">ポイントには期限がなく、消滅することはありません。</p>
+        <?php if (!$gl_point) : ?>
+          <ul class="notes_list mb-30">
+            <li>ご利用ポイント数は10ポイント単位でご利用いただけます。11ポイントや12ポイントではご利用いただけませんのでご注意ください。</li>
+          </ul>
+        <?php endif; ?>
 
         <h3>保有ポイント</h3>
         <p>貯めたポイント数が確認できます。</p>
@@ -58,8 +63,8 @@
           <li>
             <div class="cap">
               <picture>
-                <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_2.webp" type="image/webp">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_2.png" alt="" width="300" height="643">
+                <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_2<?php echo ($gl_point) ? '' : ''; ?>.webp" type="image/webp">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_app_2<?php echo ($gl_point) ? '' : ''; ?>.png" alt="" width="300" height="643">
               </picture>
             </div>
             <div class="detail">
