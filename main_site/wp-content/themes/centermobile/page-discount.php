@@ -134,7 +134,7 @@
             <div class="cap">
               <picture>
                 <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_2.webp" type="image/webp">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_2.png" alt="" width="300" height="643">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_2.png" alt="" width="300" height="628">
               </picture>
             </div>
             <div class="detail">
@@ -145,7 +145,7 @@
             <div class="cap">
               <picture>
                 <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_3.webp" type="image/webp">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_3.png" alt="" width="300" height="643">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_3.png" alt="" width="300" height="628">
               </picture>
             </div>
             <div class="detail">
@@ -160,7 +160,7 @@
             <div class="cap">
               <picture>
                 <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_4_<?php echo ($gl_point) ? '2' : '2'; ?>.webp" type="image/webp">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_4_<?php echo ($gl_point) ? '2' : '2'; ?>.png" alt="" width="300" height="643">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_4_<?php echo ($gl_point) ? '2' : '2'; ?>.png" alt="" width="300" height="628">
               </picture>
             </div>
             <div class="detail">
@@ -201,8 +201,8 @@
           <li>
             <div class="cap">
               <picture>
-                <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_2.webp" type="image/webp">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_2.png" alt="" width="300" height="643">
+                <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_5.webp" type="image/webp">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/cap_discount_5.png" alt="" width="300" height="628">
               </picture>
             </div>
             <div class="detail">
