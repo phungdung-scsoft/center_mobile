@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="pc" <?php language_attributes(); ?>>
+
 <head>
   <meta charset="UTF-8">
   <meta name="robots" content=”noindex,nofollow”>
@@ -9,29 +10,32 @@
   <title>利用規約</title>
   <meta name="description" content="">
   <style type="text/css">
-  body{
+    body {
       font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-      font-size:12px;
-      background-color:#eaeaea;
-  }
-  #content {
-      background-color:white;
-      line-height:1.5;
+      font-size: 14px;
+      background-color: #eaeaea;
+    }
+
+    #content {
+      background-color: white;
+      line-height: 1.5;
       width: 100%;
-      max-width:540px;
-      padding:20px;
-      margin:30px auto;
+      max-width: 540px;
+      padding: 20px;
+      margin: 30px auto;
       box-sizing: border-box;
-  }
-  h2{
+    }
+
+    h2 {
       margin-top: 30px;
       margin-bottom: 10px;
-  }
+    }
   </style>
   <?php wp_head(); ?>
 </head>
+
 <body>
-<div id="content">
+  <div id="content">
     <h1>利用規約</h1>
     <p>本利用規約(以下，「本規約」と言います。)には、本サービスの提供条件及び当社と登録ユーザーの皆様との間の権利義務関係が定められています。</p>
     <P>本サービスの利用に関しては、本規約の全文をお読みいただいたうえで、本規約に同意いただく必要があります。</p>
@@ -128,4 +132,5 @@
   </div>
   <?php wp_footer(); ?>
 </body>
+
 </html>

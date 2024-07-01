@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="pc" <?php language_attributes(); ?>>
+
 <head>
   <meta charset="UTF-8">
   <meta name="robots" content=”noindex,nofollow”>
@@ -9,27 +10,30 @@
   <title>プライバシーポリシー</title>
   <meta name="description" content="">
   <style type="text/css">
-  body{
+    body {
       font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-      font-size:12px;
-      background-color:#eaeaea;
-  }
-  #content {
-      background-color:white;
-      line-height:1.5;
+      font-size: 14px;
+      background-color: #eaeaea;
+    }
+
+    #content {
+      background-color: white;
+      line-height: 1.5;
       width: 100%;
-      max-width:540px;
-      padding:20px;
-      margin:30px auto;
+      max-width: 540px;
+      padding: 20px;
+      margin: 30px auto;
       box-sizing: border-box;
-  }
-  h2{
+    }
+
+    h2 {
       margin-top: 30px;
       margin-bottom: 10px;
-  }
+    }
   </style>
   <?php wp_head(); ?>
 </head>
+
 <body>
   <div id="content">
     <h1>プライバシー・ポリシー</h1>
@@ -107,4 +111,5 @@
   </div>
   <?php wp_footer(); ?>
 </body>
+
 </html>
