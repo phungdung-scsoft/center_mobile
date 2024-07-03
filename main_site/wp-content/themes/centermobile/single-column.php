@@ -92,7 +92,12 @@
                           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/default-thumbnail.png" alt="No Image">
                         <?php endif; ?>
                         <p class="related-post-title"><?php the_title(); ?></p>
-                        <p class="related-post-date"><?php echo get_the_date('Y年m月d日'); ?></p>
+                        <p class="related-post-date">
+                          <?php
+                          $display_date = get_the_modified_date('Y年m月d日') ?: get_the_date('Y年m月d日');
+                          echo esc_html($display_date);
+                          ?>
+                        </p>
                       </a>
                     </li>
                 <?php
