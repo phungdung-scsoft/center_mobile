@@ -26,7 +26,12 @@
       ?>
         <li><a href="<?php echo esc_url(home_url('/')); ?>media-archive/">トピックス</a></li>
       <?php endif; ?>
-      <li><a href="<?php echo esc_url(home_url('/')); ?>column/">コラム</a></li>
+      <?php
+      $count_custom_post = wp_count_posts('column')->publish;
+      if ($count_custom_post > 0) :
+      ?>
+        <li><a href="<?php echo esc_url(home_url('/')); ?>column/">コラム</a></li>
+      <?php endif; ?>
       <li><a href="<?php echo esc_url(home_url('/')); ?>store/">店舗一覧</a></li>
       <li><a href="<?php echo esc_url(home_url('/')); ?>media-appearances/">掲載メディア一覧</a></li>
       <!-- <li><a href="">広告出稿をご検討の方</a></li>
@@ -87,7 +92,12 @@
           ?>
             <li><a href="<?php echo esc_url(home_url('/')); ?>media-archive/">トピックス</a></li>
           <?php endif; ?>
-          <li><a href="<?php echo esc_url(home_url('/')); ?>column/">コラム</a></li>
+          <?php
+          $count_custom_post = wp_count_posts('column')->publish;
+          if ($count_custom_post > 0) :
+          ?>
+            <li><a href="<?php echo esc_url(home_url('/')); ?>column/">コラム</a></li>
+          <?php endif; ?>
           <li><a href="<?php echo esc_url(home_url('/')); ?>store/">店舗一覧</a></li>
           <li><a href="<?php echo esc_url(home_url('/')); ?>media-appearances/">掲載メディア一覧</a></li>
           <!--
