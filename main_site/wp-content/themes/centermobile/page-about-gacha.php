@@ -1,3 +1,7 @@
+<?php
+$sourceType = isset($_GET['source-type']) ? $_GET['source-type'] : 'SIM';
+$isNotSIM = $sourceType !== 'SIM';
+?>
 <!DOCTYPE html>
 <html class="pc" <?php language_attributes(); ?>>
 
@@ -35,10 +39,15 @@
     <p>動画広告を2回見る事で、ガチャを回し景品を獲得することができます。</p>
     <p>まずトップの「ガチャを回す」を押すと1回目の動画広告が流れます。広告視聴後ガチャを回し、「ガチャの中身を確認する」のボタンを押すと2回目の動画広告が流れます。2回目視聴後にカプセルが開き、当たりハズレの結果が表示されます。</p>
     <p>当たりの場合、下記が景品として当たります。</p>
-    <p>＜景品＞<br>
-      ・PLAIOで利用できるポイント　1pt〜1,000pt<br>
-      ・通信容量　100MB〜1GB<br>
-      ・3日5GB制限による低速解除チケット</p>
+    <?php if ($isNotSIM) : ?>
+      <p>＜景品＞<br>
+        ・PLAIOで利用できるポイント　10pt〜10,000pt</p>
+    <?php else : ?>
+      <p>＜景品＞<br>
+        ・PLAIOで利用できるポイント　10pt〜10,000pt<br>
+        ・通信容量　100MB〜1GB<br>
+        ・3日5GB制限による低速解除チケット</p>
+    <?php endif; ?>
     <p>当ガチャ機能とガチャのルールについて、Appleはスポンサーではありません。</p>
   </div>
   <?php wp_footer(); ?>
