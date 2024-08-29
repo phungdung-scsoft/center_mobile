@@ -28,6 +28,11 @@
         <p class="lead">センターモバイル<br class="sp_only">紹介記事一覧</p>
         <ul class="media_appearances_list">
           <li>
+            <p class="name">ひかりチョイス</p>
+            <p class="title"><a href="https://www.reyuu-japan.com/media/museigen-wifi/" target="_blank">[2024年8月]無制限のポケット型WiFiおすすめランキング7選</a></p>
+            <p class="url"><a href="https://www.reyuu-japan.com/media/museigen-wifi/" target="_blank">https://www.reyuu-japan.com/media/museigen-wifi/</a></p>
+          </li>
+          <li>
             <p class="name">モバイルDASH</p>
             <p class="title"><a href="https://pixela.co.jp/mobiledash/center-mobile-campaign/" target="_blank">【2024年8月】センターモバイルのキャンペーン最新情報まとめ</a></p>
             <p class="url"><a href="https://pixela.co.jp/mobiledash/center-mobile-campaign/" target="_blank">https://pixela.co.jp/mobiledash/center-mobile-campaign/</a></p>
