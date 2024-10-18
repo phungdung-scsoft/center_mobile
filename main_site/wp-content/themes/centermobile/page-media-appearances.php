@@ -28,6 +28,16 @@
         <p class="lead">センターモバイル<br class="sp_only">紹介記事一覧</p>
         <ul class="media_appearances_list">
           <li>
+            <p class="name">ラクシム</p>
+            <p class="title"><a href="https://mobiles-sim.com/center-mobile/" target="_blank">【ポイ活におすすめ】センターモバイルは広告視聴でスマホが最大月額0円</a></p>
+            <p class="url"><a href="https://mobiles-sim.com/center-mobile/" target="_blank">https://mobiles-sim.com/center-mobile/</a></p>
+          </li>
+          <li>
+            <p class="name">モバイルWi-Fiのリアル</p>
+            <p class="title"><a href="https://mobile.access-network.jp/best-wimax/" target="_blank">【徹底比較】現役通信技術者が選ぶWiMAXおすすめプロバイダーランキング【2024年9月】</a></p>
+            <p class="url"><a href="https://mobile.access-network.jp/best-wimax/" target="_blank">https://mobile.access-network.jp/best-wimax/</a></p>
+          </li>
+          <li>
             <p class="name">ひかりチョイス</p>
             <p class="title"><a href="https://www.reyuu-japan.com/media/museigen-wifi/" target="_blank">[2024年8月]無制限のポケット型WiFiおすすめランキング7選</a></p>
             <p class="url"><a href="https://www.reyuu-japan.com/media/museigen-wifi/" target="_blank">https://www.reyuu-japan.com/media/museigen-wifi/</a></p>
