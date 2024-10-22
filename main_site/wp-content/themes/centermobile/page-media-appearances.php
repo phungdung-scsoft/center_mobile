@@ -28,6 +28,11 @@
         <p class="lead">センターモバイル<br class="sp_only">紹介記事一覧</p>
         <ul class="media_appearances_list">
           <li>
+            <p class="name">スマモバ</p>
+            <p class="title"><a href="https://www.smamoba.jp/sim/" target="_blank">【2024年10月】格安SIM（スマホ）おすすめ19選比較ランキング！料金が最安なのは？</a></p>
+            <p class="url"><a href="https://www.smamoba.jp/sim/" target="_blank">https://www.smamoba.jp/sim/</a></p>
+          </li>
+          <li>
             <p class="name">ラクシム</p>
             <p class="title"><a href="https://mobiles-sim.com/center-mobile/" target="_blank">【ポイ活におすすめ】センターモバイルは広告視聴でスマホが最大月額0円</a></p>
             <p class="url"><a href="https://mobiles-sim.com/center-mobile/" target="_blank">https://mobiles-sim.com/center-mobile/</a></p>
