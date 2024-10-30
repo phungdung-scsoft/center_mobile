@@ -3,7 +3,7 @@
   <div class="wrapper">
     <div class="link_btns">
       <ul>
-        <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">WEB申し込み</a></li>
+        <li><a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" target="_blank">WEB申し込み</a></li>
         <li><a href="<?php echo esc_url(home_url('/')); ?>contact-top/">お問い合わせ</a></li>
       </ul>
     </div>
@@ -21,7 +21,7 @@
             <li>
               WEB申し込み
               <ul>
-                <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+                <li><a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" target="_blank">SIMを申し込む</a></li>
                 <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
               </ul>
             </li>
@@ -52,6 +52,12 @@
                 <li><a href="<?php echo esc_url(home_url('/')); ?>guide/mnp/">MNPとは？</a></li>
               </ul>
             </li>
+            <?php
+            $count_custom_post = wp_count_posts('ir')->publish;
+            if ($count_custom_post > 0) :
+            ?>
+              <li><a href="<?php echo esc_url(home_url('/')); ?>ir/">IRニュース</a></li>
+            <?php endif; ?>
           </ul>
         </div>
       </nav>
@@ -81,6 +87,20 @@
       $(this).next('.accordion-child').stop().slideToggle();
       $(this).toggleClass('active');
     })
+  });
+
+  //language_btn
+  $(function() {
+    let path = location.pathname;
+    $('.language_btn').on('click', function() {
+      if (path.match(new RegExp('/en/'))) {
+        path = path.replace('/en/', '/');
+      } else {
+        path = path.replace(path, '/en' + path);
+      }
+      window.location.href = path;
+      return false;
+    });
   });
 </script>
 

@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/*media-archive*/
+.img_ir {
+  padding-bottom: calc(100%*250/1186);
+  background: url(../img/ir_bg.png);
+}
+
+.language_wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 20px;
+}
+
+.language_wrap .language_btn {
+  padding: 4px;
+  min-width: 110px;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  border: 2px solid #1f58a7;
+  border-radius: 100vh;
+}
+
+.language_wrap .language_btn span {
+  display: inline-block;
+  position: relative;
+  padding: 0 0 0 1.5em;
+  color: #1f58a7;
+}
+
+.language_wrap .language_btn span::after {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1.3em;
+  height: 1.3em;
+  background: url(../img/ico_language.svg) no-repeat 0 0 / contain;
+  transform: translateY(-50%);
+  content: "";
+}
+
+.topics_list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.topics_list>li {
+  display: flex;
+  width: calc((100% - 60px) / 3);
+  margin: 0 30px 30px 0;
+}
+
+.topics_list>li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.topics_list>li a {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 8px #ddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.topics_list>li a img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.41 / 1;
+  object-fit: cover;
+  margin: 0 0 15px;
+}
+
+.topics_list>li a img.logo {
+  object-fit: contain;
+}
+
+.topics_list>li a h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.topics_list>li a h3::before {
+  display: none;
+}
+
+.topics_list>li a .date {
+  margin: 0 0 5px;
+  font-size: 12px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pagination>.page-numbers {
+  margin: 0 10px;
+}
+
+.pagination>.page-numbers.current {
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 1180px) {
+  /* 1024px以下に適用されるCSS（タブレット用） */
+
+  .img_ir {
+    padding-bottom: calc(100%*375/1186);
+    background-size: cover !important;
+  }
+
+}
+
+@media screen and (max-width: 599px) {
+
+  /* 599px以下に適用されるCSS（スマホ用） */
+  .topics_list {
+    display: block;
+    padding: 20px;
+  }
+
+  .topics_list>li {
+    display: block;
+    width: auto;
+    margin: 0 0 20px;
+  }
+
+  .topics_list>li:last-child {
+    margin-bottom: 0;
+  }
+
+  .topics_list>li a {
+    padding: 10px;
+  }
+
+  .pagination {
+    margin: 20px 0 0;
+  }
+
+}

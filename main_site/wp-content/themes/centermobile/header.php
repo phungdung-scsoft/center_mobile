@@ -33,8 +33,7 @@
   <meta name="robots" content="noindex">
 <?php endif; ?>
 <!--cssの読み込み-->
-<?php if (is_home() || is_front_page()) : ?>
-  <title>株式会社センターモバイル | 新世代格安SIMのセンターモバイル。ケータイ料金が最大割引で0円。通常利用でも3GB 1,280円/月〜でお得にご利用いただけます。</title>
+<?php if (is_home() || is_front_page() || is_page('en')) : ?>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/top.css?<?php echo date('Ymd-Hi'); ?>" media="screen,print">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick-theme.css?<?php echo date('Ymd-Hi'); ?>" media="screen,print">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick.css?<?php echo date('Ymd-Hi'); ?>" media="screen,print">
@@ -55,6 +54,8 @@
     $slug = 'guide';  /* ガイド */
   elseif (strstr($url, 'column') == true) :
     $slug = 'post-type-column';  /* インターネット回線ニュース */
+  elseif (strstr($url, 'ir') == true) :
+    $slug = 'ir';  /* IRニュース */
   elseif (is_single()) :
     $slug = 'media-archive';  /* トピックス詳細 */
   endif;

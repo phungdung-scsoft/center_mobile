@@ -253,6 +253,10 @@ h3 span {
   content: "\203B";
 }
 
+.en-page .notes_list>li::before {
+  content: "*";
+}
+
 /*media*/
 .date {
   font-size: 12px;
@@ -542,6 +546,36 @@ footer nav ul>li>ul>li::before {
     padding: 0 0 0 17px;
   }
 
+  #g-nav .g-nav-list-inner .language_btn {
+    display: block;
+    margin: 20px auto 0;
+    padding: 4px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    border: 2px solid #1f58a7;
+    border-radius: 100vh;
+    max-width: 170px;
+  }
+
+  #g-nav .g-nav-list-inner .language_btn span {
+    display: inline-block;
+    position: relative;
+    padding: 0 0 0 1.5em;
+    color: #1f58a7;
+  }
+
+  #g-nav .g-nav-list-inner .language_btn span::after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 1.3em;
+    height: 1.3em;
+    background: url(../img/ico_language.svg) no-repeat 0 0 / contain;
+    transform: translateY(-50%);
+    content: "";
+  }
+
   /*リストのレイアウト設定*/
   #g-nav li {
     list-style: none;
@@ -827,6 +861,36 @@ footer nav ul>li>ul>li::before {
 
   .side_menu .btn_area {
     margin-top: 20px;
+  }
+
+  .side_menu .btn_area .language_btn {
+    display: block;
+    margin: 20px auto 0;
+    padding: 4px;
+    width: 136px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    border: 2px solid #1f58a7;
+    border-radius: 100vh;
+  }
+
+  .side_menu .btn_area .language_btn span {
+    display: inline-block;
+    position: relative;
+    padding: 0 0 0 1.5em;
+    color: #1f58a7;
+  }
+
+  .side_menu .btn_area .language_btn span::after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 1.3em;
+    height: 1.3em;
+    background: url(../img/ico_language.svg) no-repeat 0 0 / contain;
+    transform: translateY(-50%);
+    content: "";
   }
 
   /*plan*/

@@ -46,7 +46,7 @@
                 <li class="gnav__menu__item">
                   <a href="javascript:void(0);" class="accordion-parent">WEB申し込み</a>
                   <ul class="accordion-child">
-                    <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+                    <li><a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" target="_blank">SIMを申し込む</a></li>
                     <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
                   </ul>
                 </li>
@@ -74,8 +74,17 @@
                     <li><a href="<?php echo esc_url(home_url('/')); ?>guide/mnp/">MNPとは？</a></li>
                   </ul>
                 </li>
+                <?php
+                $count_custom_post = wp_count_posts('ir')->publish;
+                if ($count_custom_post > 0) :
+                ?>
+                  <li class="gnav__menu__item"><a href="<?php echo esc_url(home_url('/')); ?>ir/">IRニュース</a></li>
+                <?php endif; ?>
               </ul>
               <!-- <a href=""><?= $GLOBALS['gl_service']; ?> Login</a> -->
+              <a href="javascript:void(0);" class="language_btn">
+                <span>English</span>
+              </a>
             </div><!--gnav-wrap-->
           </nav>
         </li>
@@ -93,7 +102,7 @@
         <li class="gnav__menu__item">
           <a href="javascript:void(0);" class="accordion-parent">WEB申し込み</a>
           <ul class="accordion-child">
-            <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+            <li><a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" target="_blank">SIMを申し込む</a></li>
             <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを<br>申し込む</a></li>
           </ul>
         </li>
@@ -121,12 +130,21 @@
             <li><a href="<?php echo esc_url(home_url('/')); ?>guide/mnp/">MNPとは？</a></li>
           </ul>
         </li>
+        <?php
+        $count_custom_post = wp_count_posts('ir')->publish;
+        if ($count_custom_post > 0) :
+        ?>
+          <li class="gnav__menu__item"><a href="<?php echo esc_url(home_url('/')); ?>ir/">IRニュース</a></li>
+        <?php endif; ?>
       </ul>
       <a href="https://maimo.app/login" target="_blank">
         <picture>
           <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_bnr_<?= $GLOBALS['gl_path']; ?>.webp" type="image/webp">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_bnr_<?= $GLOBALS['gl_path']; ?>.png" alt="<?= $GLOBALS['gl_service']; ?> Login" width="151" height="38">
         </picture>
+      </a>
+      <a href="javascript:void(0);" class="language_btn">
+        <span>English</span>
       </a>
     </nav>
     <!-- /nav -->
@@ -163,14 +181,6 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" loading="lazy" width="2400" height="1200">
           </picture>
         </div>
-        <div class="slider-item">
-          <picture>
-            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>_sp.webp" media="(max-width: 768px)" type="image/webp">
-            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>_sp.png" media="(max-width: 768px)">
-            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>.webp" type="image/webp">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>.png" alt="CHARGE SPOT どこでも借りれて、いつでも充電し放題！全国30,000台以上設置！通常よりもお得なプランでご利用いただけます。" loading="lazy" width="2400" height="1200">
-          </picture>
-        </div>
       </div>
 
       <div class="thumb pc">
@@ -190,12 +200,6 @@
           <picture>
             <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.webp" type="image/webp">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_4_<?= $GLOBALS['gl_path']; ?>.png" alt="インターネット無制限！新規も切り替えもとってもお得！<?= $GLOBALS['gl_light']; ?>" class="pc" loading="lazy" width="258" height="129">
-          </picture>
-        </div>
-        <div class="slider-item">
-          <picture>
-            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>.webp" type="image/webp">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/img_mv_5_<?= $GLOBALS['gl_path']; ?>.png" alt="CHARGE SPOT どこでも借りれて、いつでも充電し放題！全国30,000台以上設置！通常よりもお得なプランでご利用いただけます。" class="pc" loading="lazy" width="258" height="129">
           </picture>
         </div>
       </div>
@@ -581,7 +585,7 @@
             </li>
           </ul>
         </div>
-        <a href="https://hakaku.centermobile.co.jp/?direct=1" class="cvBtn" target="_blank">
+        <a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" class="cvBtn" target="_blank">
           <picture>
             <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.webp" type="image/webp">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png" alt="どのプランでどれだけ使っても最大で０円まで割引！お申込みはこちら" width="917" height="235" loading="lazy">
@@ -683,7 +687,7 @@
               </p>
             </li>
           </ul>
-          <a href="https://hakaku.centermobile.co.jp/?direct=1" class="cvBtn" target="_blank">
+          <a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" class="cvBtn" target="_blank">
             <picture>
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.webp" type="image/webp">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_btn.png" alt="どのプランでどれだけ使っても最大で０円まで割引！お申込みはこちら" width="917" height="235" loading="lazy">
@@ -848,7 +852,7 @@
 
       <section class="content12">
         <div class="inCon01">
-          <a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">
+          <a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" target="_blank">
             <picture>
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr_sp.webp" media="(max-width: 768px)" type="image/webp">
               <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/con12_bnr_sp.png" media="(max-width: 768px)">
@@ -890,7 +894,7 @@
       <div class="bnrArea">
         <ul class="inner">
           <li>
-            <a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">
+            <a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" target="_blank">
               <picture>
                 <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02.webp" type="image/webp">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/cv_bnr02.png" alt="どれだけ使っても最大で0円まで割引！ WEB申し込み" width="312" height="91" loading="lazy">
@@ -906,7 +910,7 @@
     <div class="bNavMask"></div>
     <div class="bNavWebBalloon">
       <ul>
-        <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+        <li><a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" target="_blank">SIMを申し込む</a></li>
         <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
       </ul>
     </div>
@@ -958,7 +962,7 @@
               <li>
                 WEB申し込み
                 <ul>
-                  <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+                  <li><a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" target="_blank">SIMを申し込む</a></li>
                   <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
                 </ul>
               </li>
@@ -989,6 +993,12 @@
                   <li><a href="<?php echo esc_url(home_url('/')); ?>guide/mnp/">MNPとは？</a></li>
                 </ul>
               </li>
+              <?php
+              $count_custom_post = wp_count_posts('ir')->publish;
+              if ($count_custom_post > 0) :
+              ?>
+                <li><a href="<?php echo esc_url(home_url('/')); ?>ir/">IRニュース</a></li>
+              <?php endif; ?>
             </ul>
           </div>
         </div>

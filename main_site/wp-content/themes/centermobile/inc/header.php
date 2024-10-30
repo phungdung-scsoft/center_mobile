@@ -13,7 +13,7 @@
       <li>
         <a href="javascript:void(0);" class="accordion-parent">WEB申し込み</a>
         <ul class="accordion-child">
-          <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+          <li><a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" target="_blank">SIMを申し込む</a></li>
           <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを<br>申し込む</a></li>
         </ul>
       </li>
@@ -43,10 +43,19 @@
           <li><a href="<?php echo esc_url(home_url('/')); ?>guide/mnp/">MNPとは？</a></li>
         </ul>
       </li>
+      <?php
+      $count_custom_post = wp_count_posts('ir')->publish;
+      if ($count_custom_post > 0) :
+      ?>
+        <li><a href="<?php echo esc_url(home_url('/')); ?>ir/">IRニュース</a></li>
+      <?php endif; ?>
     </ul>
     <div class="btn_area">
       <a class="login_btn" href="//maimo.app/login" target="_blank">
         <p class="login"><?= $GLOBALS['gl_service']; ?> Login</p>
+      </a>
+      <a href="javascript:void(0);" class="language_btn">
+        <span>English</span>
       </a>
     </div>
   </nav>
@@ -79,7 +88,7 @@
           <li>
             <a href="javascript:void(0);" class="accordion-parent">WEB申し込み</a>
             <ul class="accordion-child">
-              <li><a href="https://hakaku.centermobile.co.jp/?direct=1" target="_blank">SIMを申し込む</a></li>
+              <li><a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" target="_blank">SIMを申し込む</a></li>
               <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
             </ul>
           </li>
@@ -110,10 +119,19 @@
               <li><a href="<?php echo esc_url(home_url('/')); ?>guide/mnp/">MNPとは？</a></li>
             </ul>
           </li>
+          <?php
+          $count_custom_post = wp_count_posts('ir')->publish;
+          if ($count_custom_post > 0) :
+          ?>
+            <li><a href="<?php echo esc_url(home_url('/')); ?>ir/">IRニュース</a></li>
+          <?php endif; ?>
         </ul>
         <div class="btn_area btn_area_nav">
           <a class="login_btn" href="//maimo.app/login" target="_blank">
             <p class="login"><?= $GLOBALS['gl_service']; ?> Login</p>
+          </a>
+          <a href="javascript:void(0);" class="language_btn">
+            <span>English</span>
           </a>
         </div>
       </div>

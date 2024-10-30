@@ -353,6 +353,35 @@ nav li a:hover {
   color: #e22c8a;
 }
 
+.hArea nav .language_btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 4px;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  border: 2px solid #1f58a7;
+  border-radius: 100vh;
+}
+
+.hArea nav .language_btn span {
+  display: inline-block;
+  position: relative;
+  padding: 0 0 0 1.5em;
+  color: #1f58a7;
+}
+
+.hArea nav .language_btn span::after {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1.3em;
+  height: 1.3em;
+  background: url(../img/ico_language.svg) no-repeat 0 0 / contain;
+  transform: translateY(-50%);
+  content: "";
+}
+
 
 /*-----------------------------------------------------------
 #slide
@@ -581,6 +610,11 @@ nav li a:hover {
   background-size: contain;
   top: -84px;
   left: 16vw;
+}
+
+.en-page .content02 h2:before {
+  background-image: url(../../en/assets/img/top/con2_tit01.png);
+  top: -110px;
 }
 
 .content02 .capacityList {
@@ -836,6 +870,10 @@ nav li a:hover {
   justify-content: space-between;
 }
 
+.en-page .content02 .capacityList>li .capacityContent .planWrap .plan .planContent .monthly {
+  display: block;
+}
+
 .content02 .capacityList>li .capacityContent .planWrap .plan .planContent .monthly .th {
   display: flex;
   flex-direction: column;
@@ -846,6 +884,14 @@ nav li a:hover {
   color: #ff005a;
   font-size: 0.8vw;
   font-weight: bold;
+}
+
+.en-page .content02 .capacityList>li .capacityContent .planWrap .plan .planContent .monthly .th {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 0 0 10px;
+  padding: 2px 5px;
 }
 
 .content02 .capacityList>li .capacityContent .planWrap .plan.data .planContent .monthly .th {
@@ -1187,7 +1233,7 @@ nav li a:hover {
 
 .content07 .maimo .ap a {
   display: block;
-  margin: 0 1% 0 0;
+  margin: 0 5% 0 0;
 }
 
 .content07 .txtArea>a.btn03 {
@@ -2505,6 +2551,11 @@ button {
     left: 37%;
   }
 
+  .en-page .content02 h2:before {
+    background-image: url(../../en/assets/img/top/con2_tit01.png);
+    top: -110px;
+  }
+
   .thumb {
     width: 70%;
     margin: 10px auto 0;
@@ -2803,6 +2854,36 @@ header
 
   .gnav__menu__item a:hover {
     color: #e62219;
+  }
+
+  .gnav__wrap a.language_btn {
+    display: block;
+    margin: 30px auto 0;
+    padding: 7px 4px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    border: 2px solid #1f58a7;
+    border-radius: 100vh;
+    background: none;
+  }
+
+  .gnav__wrap .language_btn span {
+    display: inline-block;
+    position: relative;
+    padding: 0 0 0 1.5em;
+    color: #1f58a7;
+  }
+
+  .gnav__wrap .language_btn span::after {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 1.3em;
+    height: 1.3em;
+    background: url(../img/ico_language.svg) no-repeat 0 0 / contain;
+    transform: translateY(-50%);
+    content: "";
   }
 
   /*-----------------------------------------------------------
@@ -3348,6 +3429,11 @@ footer
     left: 1vw;
   }
 
+  .en-page .content02 h2:before {
+    background-image: url(../../en/assets/img/top/con2_tit01.png);
+    top: -110px;
+  }
+
 
   .content05 ul .sp {
     display: block;
@@ -3770,6 +3856,11 @@ footer
     left: 1vw;
   }
 
+  .en-page .content02 h2:before {
+    background-image: url(../../en/assets/img/top/con2_tit01.png);
+    top: -85px;
+  }
+
   .content02 {
     background: #FBE100;
     padding: 15vw 0 9vw;
@@ -3983,7 +4074,7 @@ footer
 
   .content07 .maimo .ap a {
     display: block;
-    margin: 0 1%;
+    margin: 0 3%;
   }
 
   .content07 .maimo .txtArea {

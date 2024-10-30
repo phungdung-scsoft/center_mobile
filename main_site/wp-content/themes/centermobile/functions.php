@@ -155,6 +155,8 @@ function remove_menus()
     remove_menu_page('edit.php?post_type=videoplayer'); // HTML5 Video Player
     remove_menu_page('edit.php?post_type=wp_show_posts'); // WP Show Posts
     remove_menu_page('edit.php?post_type=column'); // インターネット回線ニュース
+    remove_menu_page('edit.php?post_type=ir'); // IRニュース
+    remove_menu_page('edit.php?post_type=ir-en'); // IRニュース-en
     remove_menu_page('monsterinsights_reports'); // Monster Insights
     remove_menu_page('edit-comments.php'); // コメント
     remove_menu_page('themes.php'); // 外観
@@ -182,6 +184,8 @@ function remove_menus()
     remove_menu_page('edit.php?post_type=videoplayer'); // HTML5 Video Player
     remove_menu_page('edit.php?post_type=wp_show_posts'); // WP Show Posts
     remove_menu_page('edit.php?post_type=store'); // 店舗
+    remove_menu_page('edit.php?post_type=ir'); // IRニュース
+    remove_menu_page('edit.php?post_type=ir-en'); // IRニュース-en
     remove_menu_page('monsterinsights_reports'); // Monster Insights
     remove_menu_page('edit-comments.php'); // コメント
     //remove_menu_page('themes.php'); // 外観
@@ -319,8 +323,11 @@ function custom_page_template($template)
 
   $page_templates = array(
     //'テンプレート名' => '作った任意のフォルダ名/固定ページテンプレートファイル名',
-    'guide_mnp_template' => 'guide/page-mnp',
     // 複数ある場合は以下に追加していく
+    'guide_mnp_template' => 'guide/page-mnp',
+    'en_index_template' => 'en/page-index',
+    'en_discount_template' => 'en/page-discount',
+    'en_plan_template' => 'en/page-plan',
   );
 
   foreach ($page_templates as $page_slug => $template_path) {

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
+
 <head>
   <?php get_header(); ?>
 </head>
+
 <body>
 
   <!--ここから共通部分-->
@@ -30,26 +32,26 @@
         </div>
         <ul class="contact-list">
           <li>
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-2/">
+            <a href="<?php echo esc_url(home_url('/')); ?>contact-2/">
               個人のお客さまはこちら
             </a>
           </li>
           <li>
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-business/">
+            <a href="<?php echo esc_url(home_url('/')); ?>contact-business/">
               法人のお客さまはこちら
             </a>
           </li>
           <li>
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact-contractor/">
+            <a href="<?php echo esc_url(home_url('/')); ?>contact-contractor/">
               ご契約者さまはこちら
             </a>
           </li>
           <li>
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>documentrequest/">
+            <a href="<?php echo esc_url(home_url('/')); ?>documentrequest/">
               FC・OEMについてはこちら
             </a>
           </li>
-          <? /*
+          <?php /*
           <li>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>coverage/">
               メディア取材についてはこちら
