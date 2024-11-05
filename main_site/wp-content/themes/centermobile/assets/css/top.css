@@ -130,20 +130,13 @@ body {
 }
 
 body.open {
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 /*リンク表示方法*/
 
 a {
   text-decoration: none;
-}
-
-a:link {
-  color: #333;
-}
-
-a:active {
   color: #333;
 }
 
