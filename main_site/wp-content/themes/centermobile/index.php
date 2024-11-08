@@ -103,6 +103,10 @@
             <option value="japanese">Japanese</option>
             <option value="english">English</option>
             <option value="korean">Korean</option>
+            <option value="chinese">Chinese</option>
+            <option value="thai">Thai</option>
+            <option value="french">French</option>
+            <option value="spanish">Spanish</option>
           </select>
         </div>
         <a href="<?php echo esc_url(home_url('/')); ?>contact-top/" class="hBtn">お問い合わせ</a>
@@ -228,6 +232,22 @@
               </a>
               <a href="#" class="nav-child">
                 Korean
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
+              </a>
+              <a href="#" class="nav-child">
+              Chinese
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
+              </a>
+              <a href="#" class="nav-child">
+              Thai
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
+              </a>
+              <a href="#" class="nav-child">
+              French
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
+              </a>
+              <a href="#" class="nav-child">
+              Spanish
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
               </a>
             </div>
@@ -389,19 +409,19 @@
                 <li class="news-item">
                   <a href="#">
                     <div class="news-item-info">
-                      <div class="date">2023年5月24日</div>
-                      <div class="tag">お知らせ</div>
+                      <div class="date">2023年8月1日</div>
+                      <div class="tag">プレスリリース</div>
                     </div>
-                    <p class="news-item-title">重要事項説明書の改定に伴うお知らせ</p>
+                    <p class="news-item-title">【携帯料金最大0円まで割引】岡山初出店！格安SIMサービスの「センターモバイル　大安寺店」をオープン</p>
                   </a>
                 </li>
                 <li class="news-item">
                   <a href="#">
                     <div class="news-item-info">
-                      <div class="date">2023年5月24日</div>
+                      <div class="date">2023年10月24日</div>
                       <div class="tag">お知らせ</div>
                     </div>
-                    <p class="news-item-title">重要事項説明書の改定に伴うお知らせ</p>
+                    <p class="news-item-title">メンテナンス実施のお知らせ</p>
                   </a>
                 </li>
               </ul>
@@ -442,19 +462,19 @@
                 <li class="news-item">
                   <a href="#">
                     <div class="news-item-info">
-                      <div class="date">2024年5月12日</div>
+                      <div class="date">2024年8月12日</div>
                       <div class="tag">決算関連</div>
                     </div>
-                    <p class="news-item-title">2024年12月期第2四半期決算説明会　配信動画</p>
+                    <p class="news-item-title">2024年12月期第2四半期決算説明会　配信動画   ※外部サイトに遷移します</p>
                   </a>
                 </li>
                 <li class="news-item">
                   <a href="#">
                     <div class="news-item-info">
-                      <div class="date">2024年5月12日</div>
-                      <div class="tag">決算関連</div>
+                      <div class="date">2024年9月12日</div>
+                      <div class="tag">有報</div>
                     </div>
-                    <p class="news-item-title">2024年12月期第2四半期決算説明会　配信動画</p>
+                    <p class="news-item-title">2024年12月期半期報告書（246KB）</p>
                   </a>
                 </li>
               </ul>
@@ -561,11 +581,9 @@
           </ul>
         </div>
         <div class="footer-col">
-          <div class="footer-label">FC・OEM<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle"></div>
-          <ul class="footer-list">
-            <li><a href="#">採用情報<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle"></a></li>
-            <li><a href="#">店舗情報<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle"></a></li>
-          </ul>
+          <a class="footer-label">FC・OEM<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle"></a>
+          <a class="footer-label">採用情報<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle"></a>
+          <a class="footer-label">店舗情報<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle"></a>
         </div>
       </div>
       <div class="footer-middle">
