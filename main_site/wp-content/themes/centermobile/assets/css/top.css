@@ -329,7 +329,7 @@ PCサイズ
 .select-lang select{
   background: transparent;
   padding: 5px;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1;
   border: 0;
   outline:0px;
@@ -1051,6 +1051,7 @@ footer {
   }
   .mv-text .mv-title{
     font-size: 5.58vw;
+    margin-bottom: 5px;
   }
   .mv-text .mv-subtitle{
     font-size: 3.72vw;
