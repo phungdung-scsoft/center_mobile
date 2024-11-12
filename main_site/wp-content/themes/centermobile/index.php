@@ -256,6 +256,7 @@
           <a href="<?php echo esc_url(home_url('/')); ?>contact-top/" class="hBtn">お問い合わせ</a>
           <button class="closeBtn"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/close_icon.svg" alt="close">閉じる</button>
         </div>
+        <div class="gnav__overlay"></div>
       </div>
 
     </div>

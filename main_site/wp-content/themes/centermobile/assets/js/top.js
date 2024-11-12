@@ -38,6 +38,11 @@ $(function () {
     $(".gnav").removeClass("active");
     $(".menu-trigger").removeClass("active");
   });
+  $(".gnav__overlay").on("click", function () {
+    $("body").removeClass("open");
+    $(".gnav").removeClass("active");
+    $(".menu-trigger").removeClass("active");
+  });
 
   // topic slider
   $(".topic-slider").slick({

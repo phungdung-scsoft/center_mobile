@@ -129,10 +129,6 @@ body {
   margin: 0 auto;
 }
 
-body.open {
-  height: 100vh;
-}
-
 /*リンク表示方法*/
 
 a {
@@ -892,10 +888,9 @@ footer {
 
   /*gnav*/
   .gnav {
-    background: rgba(0, 0, 0, .5);
     /* display: none; */
-    height: 100vh;
-    position: fixed;
+    height: 1000vh;
+    position: absolute;
     width: 100%;
     z-index: 999;
     transition: .5s;
@@ -905,6 +900,16 @@ footer {
     /* display: none; */
     transform: translateY(-100vh);
     overflow: auto;
+  }
+
+  .gnav__overlay {
+    background: rgba(0, 0, 0, .5);
+    /* display: none; */
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    transition: .5s;
+    inset: 0;
   }
 
   .gnav.active {
@@ -923,7 +928,8 @@ footer {
     align-items: baseline;
     height: auto;
     justify-content: center;
-    position: fixed;
+    position: absolute;
+    z-index: 2;
     width: 100%;
     top: 0;
     background: #fff;
