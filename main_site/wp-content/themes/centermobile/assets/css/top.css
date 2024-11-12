@@ -129,6 +129,10 @@ body {
   margin: 0 auto;
 }
 
+body.open {
+  height: 150vh;
+}
+
 /*リンク表示方法*/
 
 a {
@@ -889,31 +893,31 @@ footer {
   /*gnav*/
   .gnav {
     /* display: none; */
-    height: 1000vh;
+    height: 150vh;
     position: absolute;
     width: 100%;
     z-index: 999;
     transition: .5s;
     left: 0;
     top: 0;
-    opacity: 0;
+    /* opacity: 0; */
     /* display: none; */
-    transform: translateY(-1000vh);
+    transform: translateY(-150vh);
     overflow: auto;
   }
 
   .gnav__overlay {
     background: rgba(0, 0, 0, .5);
+    /* display: none; */
     position: absolute;
     width: 100%;
     z-index: 1;
-    transition: .5s;
     inset: 0;
   }
 
   .gnav.active {
     width: 100%;
-    opacity: 1;
+    /* opacity: 1; */
     transform: translateY(0);
   }
 
