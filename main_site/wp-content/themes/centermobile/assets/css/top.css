@@ -898,13 +898,12 @@ footer {
     top: 0;
     opacity: 0;
     /* display: none; */
-    transform: translateY(-100vh);
+    transform: translateY(-1000vh);
     overflow: auto;
   }
 
   .gnav__overlay {
     background: rgba(0, 0, 0, .5);
-    /* display: none; */
     position: absolute;
     width: 100%;
     z-index: 1;
