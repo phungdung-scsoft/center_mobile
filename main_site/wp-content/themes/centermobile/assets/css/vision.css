@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+h2::before, h3::before, h4::before, h5::before, h6::before {
+    content: none
+}
+.section-introduce {
+    margin-bottom: 72px;
+}
+.vision-title {
+    text-align: center;
+    margin-bottom: 56px;
+}
+.vision-title h3 {
+    font-size: 40px;
+    line-height: 1.375;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #1F58A6;
+    text-align: center;
+}
+.vision-title p {
+    font-size: 20px;
+    line-height: 1.448;
+}
+.introduce-desc {
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 1.6667;
+    font-weight: 500;
+}
+
+.introduce-desc.note{
+    color: #1F58A6;
+    font-weight: bold;
+}
+.line {
+    margin-top: 72px;
+    width: 100%;
+    height: 1px;
+    background-color: #1F58A6;
+}
+
+.philo-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.philo-heading h2 {
+    font-size: 56px;
+    line-height: 1.448;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #1F58A6;
+}
+.philo-heading p {
+    font-size: 32px;
+    line-height: 1.448;
+    color: #1F58A6;
+    font-weight: bold;
+}
+
+.vision-title.philo {
+    margin-bottom: 72px;
+}
+
+.philo-block {
+    margin-bottom: 80px;
+    padding-bottom: 52px;
+    position: relative;
+}
+
+.philo-block:last-child{
+    margin-bottom: 0!important;
+}
+
+.philo-block::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 448px;
+    background-color: #EFF4FF;
+}
+
+.philo-img {
+    width: 100%;
+    height: 460px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 76px;
+}
+.philo-text {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+}
+
+.philo-text span {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: DIN Alternate;
+    color: #1F58A6;
+    line-height: 1.125;
+    position: relative;
+}
+.philo-text span::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #1F58A6;
+    transform: rotate(120deg);
+    top: 40%;
+    left: 10px;
+}
+.philo-text p {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5625;
+}
+
+.philo-text.reverse {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.philo-text.reverse span::before {
+    top: 40%;
+    left: -75px;
+}
+
+@media screen and (max-width: 1024px) {
+    .section-introduce {
+        margin-bottom: 5.625vw;
+    }
+    .vision-title {
+        margin-bottom: 4.375vw;
+    }
+    .vision-title h3 {
+        font-size: max(3.125vw,16px);
+        margin-bottom: 1.25vw;
+    }
+    .vision-title p {
+        font-size: max(1.5625vw,12px);
+    }
+    .introduce-desc {
+        margin-bottom: 1.875vw;
+        font-size: max(1.875vw,14px);
+    }
+    
+    .line {
+        margin-top: 5.625vw;
+    }
+    
+    .philo-heading {
+        text-align: center;
+        margin-bottom: 3.125vw;
+    }
+    .philo-heading h2 {
+        font-size: max(4.375vw,18px);
+        margin-bottom: 1.25vw;
+    }
+    .philo-heading p {
+        font-size: max(2.5vw,14px);
+    }
+    
+    .vision-title.philo {
+        margin-bottom: 5.625vw;
+    }
+    
+    .philo-block {
+        margin-bottom: 6.25vw;
+        padding-bottom: 4.0625vw;
+        position: relative;
+    }
+    
+    .philo-block::before {
+        height: 35vw;
+    }
+    
+    .philo-img {
+        height: 35.9375vw;
+        margin-bottom: 5.9375vw;
+    }
+    .philo-text {
+        gap: 4.84vw;
+    }
+    
+    .philo-text span {
+        font-size: max(6.25vw,14px);
+    }
+    .philo-text span::before {
+        position: absolute;
+        width: 7.8125vw;
+        height: 4px;
+        left: 0.78125vw;
+    }
+    .philo-text p {
+        font-size: max(2.5vw,14px);
+    }
+    
+    .philo-text.reverse span::before {
+        left: -5.86vw;
+    }
+}
+

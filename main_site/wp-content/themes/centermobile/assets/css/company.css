@@ -1,147 +1,70 @@
 @charset "UTF-8";
 
 /*company*/
-.img_company {
-  padding-bottom: calc(100%*250/1186);
-  background: url(../img/company_bg.png);
+.company {
+  margin-bottom: 80px;
+}
+.company table {
+  display: table;
+  width: 960px;
+  margin: 0 auto 32px;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-.content_txt p {
-  font-size: 12px;
-}
-
-.content ul li {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin-bottom: 40px;
-}
-
-.content ul li .image {
-  max-width: 50%;
-  margin-right: 20px;
-}
-
-.content ul li .image img {
-  width: 100%;
-  height: auto;
-}
-
-.content ul li .content_txt {
-  width: calc(50% - 20px);
-}
-
-.mission_txt {
-  padding: 20px 0;
-  background: url(../img/mission.png) no-repeat center top / cover;
-}
-
-.mission ol {
-  margin-bottom: 20px;
-}
-
-.mission ol li {
-  text-align: center;
-  list-style-type: decimal;
-  list-style-position: inside;
-  margin-top: 10px;
-  font-size: 20px;
-  text-shadow: 2px 2px 3px #000000;
-  color: white;
-}
-
-.mission_txt p {
-  font-size: 14px;
-  text-shadow: 2px 2px 3px #000000;
-  color: white;
-  text-align: center;
-}
-
-.about table {
-  border: 1px solid #e2e2e2;
-  width: 800px;
-  margin: 0 auto 20px;
-}
-
-.about table:last-child {
+.company table:last-child {
   margin-bottom: 0;
 }
 
-.about th {
-  background-color: #e3f0fb;
-  padding: 5px;
-  width: 25%;
+.company th {
+  background-color: #EFF4FF;
+  padding: 24px 32px;
+  width: 356px;
+  text-align: start;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.about td {
+.company td {
   padding: 5px;
+  padding: 24px 32px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.about tr {
+.company tr {
   background-color: white;
+  border-bottom: 1px solid #D5D5D5;
+}
+.company tr:first-child {
+  border-top: 1px solid #D5D5D5;
 }
 
 
-@media screen and (max-width: 1180px) {
-
-  /* 1024px以下に適用されるCSS（タブレット用） */
-  .img_company {
-    padding-bottom: calc(100%*375/1186);
-    background-size: cover !important;
+@media screen and (max-width: 1024px) {
+  .company table {
+    width: 100%;
   }
-
-  .mission_txt {
-    padding: 20px 10px;
+  .company th {
+    width: 37%;
   }
-
-  .mission ol li {
-    font-size: 16px;
-  }
-
-  .mission_txt p {
-    font-size: 12px;
-  }
-
-  .mission ol li {}
-
-  .about table {
-    width: 80%;
-  }
-
 }
 
 @media screen and (max-width: 599px) {
-  /* 599px以下に適用されるCSS（スマホ用） */
+  .company table {
+    border: 1px solid #D5D5D5;
+  }
 
-  .content ul li {
+  .company table th {
     display: block;
-    margin-bottom: 40px;
-  }
-
-  .content ul li .image {
-    width: 100%;
-    max-width: none;
-    margin: 0 0 10px;
-  }
-
-  .content ul li .content_txt {
-    width: 100%;
-  }
-
-  .about table {
-    width: 100%;
-  }
-
-  .about table th {
-    display: block;
-    font-size: 12px;
-    text-align: left;
+    font-size: 14px;
     width: auto;
+    padding: 5px;
   }
-
-  .about table td {
+  
+  .company table td {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
+    padding: 5px;
   }
-
 }

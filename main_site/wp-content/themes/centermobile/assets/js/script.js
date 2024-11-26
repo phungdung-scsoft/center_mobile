@@ -1,30 +1,57 @@
 //modal
-$(function () {
-  $('.menu-trigger').on("click", function () {
-    if ($('.menu-trigger').hasClass('active')) {
-      $('.menu-trigger').removeClass('active');
-    } else {
-      $('.menu-trigger').addClass('active');
-    }
-  });
 
-  $('.menu-trigger').on("click", function () {
-    if ($('.gnav').hasClass('active')) {
-      $('.gnav').removeClass('active');
-    } else {
-      $('.gnav').addClass('active');
-    }
-  });
-
-  $('.menu-trigger').on("click", function () {
-    if ($('body').hasClass('open')) {
-      $('body').removeClass('open');
-    } else {
-      $('body').addClass('open');
-    }
-  });
+// header desktop
+$(".nav-item").click(function () {
+  if ($(this).hasClass("active")) {
+    $(this).removeClass("active");
+    $(".subHead").removeClass("active");
+  } else {
+    $(".nav-item").removeClass("active");
+    $(this).addClass("active");
+    $(".subHead").addClass("active");
+  }
 });
 
+// header mobile
+$(".menu-trigger").on("click", function () {
+  if ($(".menu-trigger").hasClass("active")) {
+    $(".menu-trigger").removeClass("active");
+  } else {
+    $(".menu-trigger").addClass("active");
+  }
+});
+$(".menu-trigger").on("click", function () {
+  if ($(".gnav").hasClass("active")) {
+    $(".gnav").removeClass("active");
+  } else {
+    $(".gnav").addClass("active");
+  }
+});
+$(".menu-trigger").on("click", function () {
+  if ($("body").hasClass("open")) {
+    $("body").removeClass("open");
+  } else {
+    $("body").addClass("open");
+  }
+});
+$(".closeBtn").on("click", function () {
+  $("body").removeClass("open");
+  $(".gnav").removeClass("active");
+  $(".menu-trigger").removeClass("active");
+});
+$(".gnav__overlay").on("click", function () {
+  $("body").removeClass("open");
+  $(".gnav").removeClass("active");
+  $(".menu-trigger").removeClass("active");
+});
+
+ // scroll to top
+ 
+$("#toTop").click(function () {
+  console.log("click");
+  
+  $("html, body").animate({scrollTop: 0}, 1000);
+});
 
 //slider
 $(function () {
@@ -65,6 +92,11 @@ $(window).on('load', function () {
 $(function () {
   $(window).scroll(function () {
     youtubeDef();
+    if ($(this).scrollTop() > 100 ) {
+        $('#toTop').fadeIn(400);
+    } else {
+        $('#toTop').fadeOut(400);
+    }
   });
 });
 

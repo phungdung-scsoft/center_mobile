@@ -60,7 +60,6 @@
     $slug = 'media-archive';  /* トピックス詳細 */
   endif;
   ?>
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/lower.css?<?php echo date('Ymd-Hi'); ?>">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/<?php echo $slug; ?>.css?<?php echo date('Ymd-Hi'); ?>">
 <?php endif; ?>
 <!-- フォント -->

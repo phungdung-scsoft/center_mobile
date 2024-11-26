@@ -22,9 +22,8 @@ node_modules/
 *.sql
 *.sqlite
 
-# 画像ファイル
-*.png
-*.jpg
+wp-admin/
+wp-includes/
 
 # エディター設定ファイル
 .ftpconfig
