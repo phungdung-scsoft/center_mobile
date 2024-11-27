@@ -3,6 +3,10 @@
 h2::before, h3::before, h4::before, h5::before, h6::before {
     content: none
 }
+.page-vision {
+    color: #333;
+    line-height: 1.448;
+}
 .section-introduce {
     margin-bottom: 72px;
 }
@@ -111,7 +115,7 @@ h2::before, h3::before, h4::before, h5::before, h6::before {
     height: 4px;
     background-color: #1F58A6;
     transform: rotate(120deg);
-    top: 40%;
+    top: 50%;
     left: 10px;
 }
 .philo-text p {
@@ -193,7 +197,7 @@ h2::before, h3::before, h4::before, h5::before, h6::before {
     .philo-text span::before {
         position: absolute;
         width: 7.8125vw;
-        height: 4px;
+        height: 1px;
         left: 0.78125vw;
     }
     .philo-text p {

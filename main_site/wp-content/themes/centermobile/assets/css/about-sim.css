@@ -197,6 +197,11 @@ h2::before, h3::before, h4::before, h5::before, h6::before {
     color: #fff;
     margin-right: 16px;
 }
+.plan-call.outline {
+    background-color: #fff;
+    border: 1px solid #F67B00;
+    color: #F67B00;
+}
 
 .plan-price .sale {
     position: absolute;
@@ -260,6 +265,9 @@ h2::before, h3::before, h4::before, h5::before, h6::before {
 .section-charge {
     padding: 77px 0;
 }
+.section-charge .introduce-desc {
+    margin-bottom: 56px;
+}
 .charge-title {
     width: 100%;
     background-color: #EFF4FF;
@@ -312,6 +320,7 @@ h2::before, h3::before, h4::before, h5::before, h6::before {
 }
 .charge-desc {
     font-size: 24px;
+    line-height: 1.6667;
     font-weight: 500;
     max-width: 447px;
 }
@@ -320,6 +329,9 @@ h2::before, h3::before, h4::before, h5::before, h6::before {
 }
 .charge-row2 {
     margin-bottom: 48px;
+}
+.charge-row4 .charge-message{
+    text-align: end;
 }
 .charge-app {
     margin-bottom: 64px;
@@ -533,6 +545,9 @@ h2::before, h3::before, h4::before, h5::before, h6::before {
 
     .section-charge {
         padding: 6.125vw 0;
+    }
+    .section-charge .introduce-desc {
+        margin-bottom: 5.375vw;
     }
     .charge-title {
         margin-bottom: 3.125vw;

@@ -2,6 +2,7 @@
 
 /*company*/
 .company {
+  color: #333;
   margin-bottom: 80px;
 }
 .company table {
@@ -42,6 +43,9 @@
 
 
 @media screen and (max-width: 1024px) {
+  .company {
+    margin-bottom: 30px;
+  }
   .company table {
     width: 100%;
   }

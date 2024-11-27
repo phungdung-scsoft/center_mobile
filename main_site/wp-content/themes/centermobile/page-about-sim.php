@@ -15,7 +15,13 @@
 <body>
   <?php get_template_part('inc/header-new'); ?>
   <div class="page-about-sim">
-    <!-- ここからコンテンツ -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">ホーム</a></li>
+        <li class="breadcrumb-item"><a href="/company">会社情報</a></li>
+        <li class="breadcrumb-item active" aria-current="page">ビジョン</li>
+      </ol>
+    </nav>
     <div class="mv-common">
       <div class="mv-img img-wrap">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/mv_sim.png" alt="MV" loading="lazy">
@@ -179,7 +185,7 @@
                   </div>
                 </div>
                 <div class="plan-price-item">
-                  <div class="plan-call">5分かけ放題</div>
+                  <div class="plan-call outline">5分かけ放題</div>
                   <div class="plan-price">
                     <div class="number">0〜2,700</div>
                     <div class="unit">円/月</div>
@@ -188,7 +194,7 @@
                   </div>
                 </div>
                 <div class="plan-price-item">
-                  <div class="plan-call">24時間かけ放題</div>
+                  <div class="plan-call outline">10分かけ放題</div>
                   <div class="plan-price">
                     <div class="number">0〜3,000</div>
                     <div class="unit">円/月</div>
@@ -244,7 +250,7 @@
           <div class="charge-img img-wrap">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge2.png" alt="">
           </div>
-          <p class="charge-desc">30-60秒前後でランダムで流れる動画広<br>告を閲覧することで5ptを獲得できます。</p>
+          <p class="charge-desc">30-60秒前後でランダムで流れる動画広<br class="pc">告を閲覧することで5ptを獲得できます。</p>
         </div>
         <div class="charge-title">
           <span>2</span>
@@ -261,7 +267,7 @@
           <div class="charge-img img-wrap">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge4.png" alt="">
           </div>
-          <p class="charge-desc">30-5秒程度でスキップできる広告を閲覧することで、ガチャが回せ、回したガチャでポイントだけでなく追加ギガや特別なチケットも獲得できます。<br>
+          <p class="charge-desc">5秒程度でスキップできる広告を閲覧することで、ガチャが回せ、回したガチャでポイントだけでなく追加ギガや特別なチケットも獲得できます。<br><br class="pc">
           たくさん追加ギガをゲットすれば、契約した容量の月額でそれ以上にたくさんギガが使えます。</p>
         </div>
         <div class="charge-app">
@@ -310,7 +316,7 @@
           <span>4</span>
           申込系広告でポイントをゲット
         </div>
-        <div class="charge-row charge-row2">
+        <div class="charge-row charge-row4">
           <div class="charge-message">サービスや<br>商品を利用する</div>
           <div class="charge-img-group">
             <div class="charge-img img-wrap">

@@ -1,5 +1,6 @@
 @charset "utf-8";
-
+@font-face { font-family: DIN Alternate; src: url('../fonts/DINAlternate-Bold.ttf'); } 
+@font-face { font-family: Noto Sans JP; src: url('../fonts/NotoSansJP.ttf'); } 
 /*-----------------------------------------------------------
 reset
 -----------------------------------------------------------*/
@@ -10,7 +11,7 @@ reset
 
 html {
   font-size: 62.5%;
-  font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: Noto Sans JP, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
   overflow: auto;
 }
 /* 
