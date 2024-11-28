@@ -1,9 +1,62 @@
 @charset "UTF-8";
 
 /*company*/
+.mv-common {
+  margin-bottom: 46px;
+}
+.message {
+  margin-bottom: 148px;
+}
+.message-row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.message-content {
+  max-width: 504px;
+  margin-top: 90px;
+}
+
+.message-content p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 42px;
+}
+
+.message-name span {
+  font-size: 18px;  
+  line-height: 28px;
+  margin-right: 7px;
+}
+.message-name span:last-child {
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: bold;
+}
+.signature-img {
+  position: absolute;
+  bottom: -62px;
+  left: -90px;
+  transform: rotate(-3.11deg);
+  width: 249px;
+}
+.ceo-img {
+  position: relative;
+  box-shadow: 34px 34px #EFF4FF;
+  margin-right: 34px;
+}
+
 .company {
   color: #333;
   margin-bottom: 80px;
+}
+.company-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1F58A6;
+  margin-bottom: 64px;
+  text-align: center;
 }
 .company table {
   display: table;
@@ -43,8 +96,21 @@
 
 
 @media screen and (max-width: 1024px) {
+  .mv-common {
+    margin-bottom: 4vw;
+  }
+  .message {
+    margin-bottom: 15vw;
+  }
+  .message-content {
+    max-width: 39.375vw;
+  }
   .company {
     margin-bottom: 30px;
+  }
+  .company-title {
+    font-size: max(2.5vw, 18px);
+    margin-bottom: 5vw;
   }
   .company table {
     width: 100%;
@@ -53,8 +119,43 @@
     width: 37%;
   }
 }
+@media screen and (max-width: 768px) {
+  .message-row {
+    flex-direction: column;
+  }
+  .message-content {
+    max-width: 100%;
+    margin-top: 0;
+  }
+  .ceo-img {
+    width: 75%;
+    margin-left: auto;
+  }
+}
 
 @media screen and (max-width: 599px) {
+  .message {
+    margin-bottom: 21vw;
+  }
+  .signature-img {
+    bottom: -60px;
+    left: -62px;
+    width: 210px;
+  }
+  .message-content p {
+    font-size: max(1.4vw,14px);
+    line-height: 20px;
+    margin-bottom: 3.3vw;
+  }
+  
+  .message-name span {
+    font-size: max(1.4vw,14px);  
+    line-height: 20px;
+  }
+  .message-name span:last-child {
+    font-size: max(2.03vw,18px);
+    line-height: 20px;
+  }
   .company table {
     border: 1px solid #D5D5D5;
   }

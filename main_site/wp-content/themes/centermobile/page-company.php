@@ -28,11 +28,29 @@
       </div>
       <div class="mv-tlt">
         <h1>Company Profile</h1>
-        <p>会社概要</p>
+        <p>代表挨拶</p>
       </div>
     </div>
     <div class="main-container">
+      <div class="message">
+        <div class="message-row">
+          <div class="message-content">
+            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+            <div class="message-name">
+              <span>代表取締役社長</span>
+              <span>浅野 遊</span>
+            </div>
+          </div>
+          <div class="ceo-img img-wrap">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_ceo.png" alt="代表取締役社長">
+            <div class="signature-img img-wrap">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_signature.png" alt="代表取締役社長">
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="company" id="company">
+        <div class="company-title">会社概要</div>
         <table>
           <tr>
             <th>法人名</th>

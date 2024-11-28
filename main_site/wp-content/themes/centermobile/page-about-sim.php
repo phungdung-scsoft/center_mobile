@@ -19,7 +19,7 @@
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/">ホーム</a></li>
         <li class="breadcrumb-item"><a href="/company">会社情報</a></li>
-        <li class="breadcrumb-item active" aria-current="page">ビジョン</li>
+        <li class="breadcrumb-item active" aria-current="page">格安SIMについて</li>
       </ol>
     </nav>
     <div class="mv-common">
@@ -241,7 +241,7 @@
         </div>
         <div class="charge-row charge-row1">
           <div class="charge-message">動画広告を<br>見る</div>
-          <div class="charge-img img-wrap">
+          <div class="charge-img charge-img-hightlight img-wrap">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge1.png" alt="">
           </div>
           <div class="next-icon">
@@ -256,18 +256,20 @@
           <span>2</span>
           ゲームしながらポイントを楽しくゲット
         </div>
-        <div class="charge-row charge-row2">
-          <div class="charge-message">広告を閲覧すると<br>ガチャが回せる</div>
-          <div class="charge-img img-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge3.png" alt="">
+        <div class="change-group">
+          <div class="charge-row charge-row2">
+            <div class="charge-message">広告を閲覧すると<br>ガチャが回せる</div>
+            <div class="charge-img img-wrap">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge3.png" alt="">
+            </div>
+            <div class="next-icon">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/icon_next.svg" alt="next">
+            </div>
+            <div class="charge-img img-wrap">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge4.png" alt="">
+            </div>
           </div>
-          <div class="next-icon">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/icon_next.svg" alt="next">
-          </div>
-          <div class="charge-img img-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge4.png" alt="">
-          </div>
-          <p class="charge-desc">5秒程度でスキップできる広告を閲覧することで、ガチャが回せ、回したガチャでポイントだけでなく追加ギガや特別なチケットも獲得できます。<br><br class="pc">
+          <p class="charge-desc">5秒程度でスキップできる広告を閲覧することで、ガチャが回せ、回したガチャでポイントだけでなく追加ギガや特別なチケットも獲得できます。<br><br>
           たくさん追加ギガをゲットすれば、契約した容量の月額でそれ以上にたくさんギガが使えます。</p>
         </div>
         <div class="charge-app">
@@ -301,13 +303,13 @@
           <span>3</span>
           無料登録やダウンロード広告でポイントをゲット
         </div>
-        <div class="charge-row charge-row2">
+        <div class="charge-row charge-row3">
           <div class="charge-message">ダウンロードや<br>会員登録をする</div>
           <div class="charge-img img-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge5.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge6.png" alt="">
           </div>
           <div class="charge-img img-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge6.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge5.png" alt="">
           </div>
           <p class="charge-desc">アプリをダウンロードしたり、会員登録をしたりなど、いろんな条件をクリアすることでポイントを獲得！<br>
           定期的にチャレンジできる内容が更新されます。</p>
