@@ -596,6 +596,7 @@ h2::before, h3::before, h4::before, h5::before, h6::before {
         margin-bottom: 5vw;
     }
     .change-group {
+        align-items: center;
         margin-bottom: 3.75vw;
         gap: 2.5vw;
     }

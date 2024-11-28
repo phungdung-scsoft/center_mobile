@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 /*company*/
+.page-company {
+  color: #333;
+}
 .mv-common {
   margin-bottom: 46px;
 }
