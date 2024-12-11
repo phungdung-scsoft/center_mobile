@@ -152,7 +152,7 @@
                     <li class="news-item">
                       <a href="<?php the_permalink(); ?>">
                         <div class="news-item-info">
-                          <div class="date"><?php the_time('Y年m月d日') ?></div>
+                          <div class="date"><?php the_time('d/m/Y') ?></div>
                           <div class="tag"><?php echo get_the_category()[0]->name; ?></div>
                         </div>
                         <p class="news-item-title"><?php the_title(); ?></p>
