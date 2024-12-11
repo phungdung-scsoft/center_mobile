@@ -25,7 +25,7 @@
         </div>
         <div class="mv_bottom">
           <div class="mv-text">
-            <h1 class="mv-title">Up to 0 yen discount&nbsp;<br class="sp"> on cell phone bill</h1>
+            <h1 class="mv-title">Maximum discount of 0 yen&nbsp;<br class="sp"> for mobile charges</h1>
             <p class="mv-subtitle">Center Mobile's low-cost SIM</p>
           </div>
           <div class="mv-btn-group">
@@ -33,7 +33,7 @@
               Read more
             </a>
             <a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" class="mv-btn btn-common" target="_blank">
-            Apply from Web
+            Apply on the web
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_blue_icon.svg" alt="rectangle">
             </a>
           </div>
@@ -77,8 +77,8 @@
               <img class="pc" src="<?php echo get_template_directory_uri(); ?>/assets/img/top/service_icon_1.png" alt="CENTER MOBILE">
               <img class="sp" src="<?php echo get_template_directory_uri(); ?>/assets/img/top/service_icon_1_sp.png" alt="CENTER MOBILE">
             </div>
-            <p class="service-title">Cheap SIM Service　<br class="sp">Center Mobile</p>
-            <p class="service-subtitle">Discounts up to ¥0 on cell phone bills!</p>
+            <p class="service-title">Low-cost SIM Service　<br class="sp">Center Mobile</p>
+            <p class="service-subtitle">Save up to 0 yen on mobile charges!</p>
             <p class="service-desc">A low-cost SIM service that allows you to save up to 0 yen by using points. You can earn points by watching ads, playing various games, downloading apps, and applying for services.</p>
             <a href="#" class="service-btn btn-common">
               Read more
@@ -96,9 +96,9 @@
             <div class="service-icon img_wrap">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/service_icon_2.png" alt="PLAIO WiMAX">
             </div>
-            <p class="service-title">Cheap Wi-Fi Service　<br class="sp">PLAIO WiMAX</p>
+            <p class="service-title">Low-cost Wi-Fi service　<br class="sp">PLAIO WiMAX</p>
             <p class="service-subtitle">Unlimited data! High-speed communication!</p>
-            <p class="service-desc">Unlimited data capacity and 5G compatible high-speed Wi-Fi &lt;PLAIO WiMAX>!</p>
+            <p class="service-desc">Unlimited data and 5G high-speed Wi-Fi&lt;PLAIO WiMAX>! Get even better deals when you subscribe with a SIM.</p>
             <a href="https://wimax.plaio.jp/" class="service-btn btn-common" target="_blank">
             Read more
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_blue_icon.svg" alt="rectangle">
@@ -117,9 +117,9 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/service_icon_3.png" alt="CENTER MOBILE">
             </div>
             <p class="service-title">Cheap Passport Service　<br class="sp">PLAIO Travel</p>
-            <p class="service-subtitle">Save on travel and business trips! You can play a lot with the money you save!</p>
-            <p class="service-desc">A travel service that allows you to book airline tickets with accommodations and Shinkansen tickets at low prices, making it possible to go on a trip or business trip at a discount. 
-            You can use it for your family and save a lot of money.</p>
+            <p class="service-subtitle">Enjoy travel and business trips at great prices! Enjoy lots of fun with the money you save!</p>
+            <p class="service-desc">A travel service that allows you to book airline tickets with accommodation and Shinkansen tickets at low prices, making it possible to travel or go on business trips at a reasonable price.
+            You can even use it for your family and it is very economical.</p>
             <?php /*
             <a href="https://maimo.app/travel" target="_blank" class="service-btn btn-common">
               詳しく見る
@@ -133,7 +133,7 @@
         <div class="section-title">News</div>
         <div class="news-block">
           <div class="news-tabs" id="newsTabs">
-            <a id="tab1">Notice</a>
+            <a id="tab1">Announcement</a>
             <?php /*
             <a id="tab2">IR News</a>
             */ ?>
@@ -228,8 +228,8 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/about_1.png" alt="about" loading="lazy">
             </div>
             <p class="about-desc">
-            CenterMobile is developing franchise and OEM business.<br>
-            We provide full support and consistent service as a partner that walks together with you.
+            Center Mobile is engaged in FC and OEM business.<br>
+            As a partner, we provide full support and consistent service.
             </p>
             <a href="<?php echo esc_url(home_url('/')); ?>en/fc/" class="about-btn btn-common">Read more</a>
           </div>
@@ -247,7 +247,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/about_2.png" alt="about" loading="lazy">
             </div>
             <p class="about-desc">
-            Latest IR materials and information for individual investors
+            The latest IR materials and information for individual investors are posted.
             </p>
             <?php /*
             <a href="<?php echo esc_url(home_url('/')); ?>en/ir/" class="about-btn btn-common">詳しく見る</a>
@@ -266,7 +266,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/about_3.png" alt="about" loading="lazy">
             </div>
             <p class="about-desc">
-            CenterMobile is looking for new graduates/graduates for a variety of positions.
+            At Center Mobile, we are looking for new graduates and graduates in a variety of positions.
             </p>
             <?php /*
             <a href="#" class="about-btn btn-common">詳しく見る</a>

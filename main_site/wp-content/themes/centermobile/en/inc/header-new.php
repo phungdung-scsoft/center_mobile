@@ -19,7 +19,7 @@
           </a>
           <?php /*
             <a href="https://maimo.app/travel" target="_blank" class="nav-child">
-              PLAIO トラベル
+              PLAIO Travel
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
             </a>
             */ ?>
@@ -38,11 +38,11 @@
           </a>
           <?php /*
             <a href="#" class="nav-child">
-              役員紹介
+              Board of Directors and Executive Officers
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             <a href="#" class="nav-child">
-              沿革
+              History
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             */ ?>
@@ -52,12 +52,12 @@
         <div class="nav-trigger">News</div>
         <div class="nav-child-list">
           <a href="<?php echo esc_url(home_url('/')); ?>en/media-archive/" class="nav-child">
-          Notice
+          Announcement
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
           </a>
           <?php /*
             <a href="<?php echo esc_url(home_url('/')); ?>en/ir/" class="nav-child">
-              IRニュース
+              IR News
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             */ ?>
@@ -65,32 +65,32 @@
       </div>
       <?php /*
         <div class="nav-item">
-          <div class="nav-trigger">IR情報</div>
+          <div class="nav-trigger">IR Information</div>
           <div class="nav-child-list nav-last">
             <a href="#" class="nav-child">
-              株主・投資家の皆様へ
+              To Our Shareholders and Investors
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             <a href="#" class="nav-child">
-              業績ハイライト
+              Financial Highlights
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             <a href="<?php echo esc_url(home_url('/')); ?>en/ir/" class="nav-child">
-              IRライブラリ
+              IR Library
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             <a href="#" class="nav-child">
-              IRカレンダー
+              IR Calendar
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             <a href="#" class="nav-child">
-              株式情報
+              Stock Information
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
           </div>
         </div>
         <a href="#" class="nav-item-last">
-          採用情報
+          Careers
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_blue_icon.svg" alt="rectangle">
         </a>
         */ ?>
@@ -146,7 +146,7 @@
             </a>
             <?php /*
               <a href="https://maimo.app/travel" target="_blank" class="nav-child">
-                PLAIO トラベル
+                PLAIO Travel
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
               </a>
               */ ?>
@@ -165,11 +165,11 @@
             </a>
             <?php /*
               <a href="#" class="nav-child">
-                役員紹介
+                Board of Directors and Executive Officers
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
               </a>
               <a href="#" class="nav-child">
-                沿革
+                History
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
               </a>
               */ ?>
@@ -179,12 +179,12 @@
           <div class="nav-trigger">News<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_down_icon.svg" alt="arrow"></div>
           <div class="nav-child-list">
             <a href="<?php echo esc_url(home_url('/')); ?>en/media-archive/" class="nav-child">
-            Notice
+            Announcement
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             <?php /*
               <a href="<?php echo esc_url(home_url('/')); ?>en/ir/" class="nav-child">
-                IRニュース
+                IR News
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
               </a>
               */ ?>
@@ -192,32 +192,32 @@
         </div>
         <?php /*
           <div class="nav-item">
-            <div class="nav-trigger">IR情報<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_down_icon.svg" alt="arrow"></div>
+            <div class="nav-trigger">IR Information<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_down_icon.svg" alt="arrow"></div>
             <div class="nav-child-list nav-last">
               <a href="#" class="nav-child">
-                株主・投資家の皆様へ
+                To Our Shareholders and Investors
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
               </a>
               <a href="#" class="nav-child">
-                業績ハイライト
+                Financial Highlights
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
               </a>
               <a href="<?php echo esc_url(home_url('/')); ?>en/ir/" class="nav-child">
-                IRライブラリ
+                IR Library
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
               </a>
               <a href="#" class="nav-child">
-                IRカレンダー
+                IR Calendar
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
               </a>
               <a href="#" class="nav-child">
-                株式情報
+                Stock Information
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
               </a>
             </div>
           </div>
           <a href="#" class="nav-item-last">
-            採用情報
+            Careers
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_blue_icon.svg" alt="rectangle">
           </a>
           */ ?>
