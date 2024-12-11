@@ -1,5 +1,3 @@
-//modal
-
 // header desktop
 $(".nav-item").click(function () {
   if ($(this).hasClass("active")) {
@@ -45,13 +43,18 @@ $(".gnav__overlay").on("click", function () {
   $(".menu-trigger").removeClass("active");
 });
 
- // scroll to top
- 
-$("#toTop").click(function () {
-  console.log("click");
-  
-  $("html, body").animate({scrollTop: 0}, 1000);
+// scroll to top
+$(window).on("scroll", function () {
+  if ($(this).scrollTop() > 100) {
+    $('#toTop').fadeIn(400);
+  } else {
+    $('#toTop').fadeOut(400);
+  }
 });
+$("#toTop").click(function () {
+  $("html, body").animate({ scrollTop: 0 }, 1000);
+});
+
 
 //slider
 $(function () {
@@ -92,11 +95,6 @@ $(window).on('load', function () {
 $(function () {
   $(window).scroll(function () {
     youtubeDef();
-    if ($(this).scrollTop() > 100 ) {
-        $('#toTop').fadeIn(400);
-    } else {
-        $('#toTop').fadeOut(400);
-    }
   });
 });
 
@@ -133,16 +131,104 @@ $(function () {
   })
 });
 
-//language_btn
+//select-lang
 $(function () {
-  let path = location.pathname;
-  $('.language_btn').on('click', function () {
-    if (path.match(new RegExp('/en/'))) {
-      path = path.replace('/en/', '/');
-    } else {
-      path = path.replace(path, '/en' + path);
+  let locationPath = '';
+  let path = location.pathname; //現在のパス
+  let selectItem = 'jp';
+  var langAry = [];
+
+  $('.select-lang select option').each(function (key, value) {
+    langAry.push($(value).attr('value'));
+  });
+
+  $.each(langAry, function (index, value) {
+    var regexp = '/' + value + '/';
+    if (path.match(new RegExp(regexp))) {
+      selectItem = value;
     }
-    window.location.href = path;
+  });
+
+  $('.select-lang select option[value=' + selectItem + ']').prop('selected', true);
+
+  $('.select-lang select').on('change', function () {
+    var selectLng = $(this).val();
+
+    $.each(langAry, function (index, value) {
+      var regexp = '/' + value + '/';
+      if (path.match(new RegExp(regexp)) && (selectLng !== 'jp')) {
+        locationPath = path.replace(regexp, '/' + selectLng + '/');
+      } else if (path.match(new RegExp(regexp)) && (selectLng === 'jp')) {
+        locationPath = path.replace(regexp, '/');
+      }
+    });
+
+    if (locationPath === '') {
+      locationPath = path.replace(path, '/' + selectLng + path);
+    }
+
+    window.location.href = locationPath;
+    return false;
+  });
+});
+
+//select-lang ブラウザバック対策
+$(window).on('pageshow', function () {
+  let path = location.pathname; //現在のパス
+  let selectItem = 'jp';
+  var langAry = [];
+
+  $('.select-lang select option').each(function (key, value) {
+    langAry.push($(value).attr('value'));
+  });
+
+  $.each(langAry, function (index, value) {
+    var regexp = '/' + value + '/';
+    if (path.match(new RegExp(regexp))) {
+      selectItem = value;
+    }
+  });
+
+  $('.select-lang select option[value=' + selectItem + ']').prop('selected', true);
+});
+
+//header-sp select-lang
+$(function () {
+  let path = location.pathname; //現在のパス
+  let locationPath = '';
+  let selectItem = 'jp';
+  var langAry = [];
+
+  $('.header-sp .select-lang a').each(function (key, value) {
+    langAry.push($(value).attr('data-lang'));
+  });
+
+  $.each(langAry, function (index, value) {
+    var regexp = '/' + value + '/';
+    if (path.match(new RegExp(regexp))) {
+      selectItem = value;
+    }
+  });
+
+  $('.header-sp .select-lang a[data-lang=' + selectItem + ']').hide();
+
+  $('.header-sp .select-lang a').on('click', function () {
+    var selectLng = $(this).attr('data-lang');
+
+    $.each(langAry, function (index, value) {
+      var regexp = '/' + value + '/';
+      if (path.match(new RegExp(regexp)) && (selectLng !== 'jp')) {
+        locationPath = path.replace(regexp, '/' + selectLng + '/');
+      } else if (path.match(new RegExp(regexp)) && (selectLng === 'jp')) {
+        locationPath = path.replace(regexp, '/');
+      }
+    });
+
+    if (locationPath === '') {
+      locationPath = path.replace(path, '/' + selectLng + path);
+    }
+
+    window.location.href = locationPath;
     return false;
   });
 });

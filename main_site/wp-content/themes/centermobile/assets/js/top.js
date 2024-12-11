@@ -21,14 +21,14 @@ $(function () {
   $('#newsTabs a:not(:first)').addClass('inactive');
   $('.container').hide();
   $('.container:first').show();
-  $('#newsTabs a').click(function(){
+  $('#newsTabs a').click(function () {
     var t = $(this).attr('id');
-    if($(this).hasClass('inactive')){ //this is the start of our condition 
-      $('#newsTabs a').addClass('inactive');           
+    if ($(this).hasClass('inactive')) { //this is the start of our condition 
+      $('#newsTabs a').addClass('inactive');
       $(this).removeClass('inactive');
-      
+
       $('.container').hide();
-      $('#'+ t + 'C').fadeIn('slow');
+      $('#' + t + 'C').fadeIn('slow');
     }
   });
 

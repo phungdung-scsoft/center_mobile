@@ -41,7 +41,6 @@
 <?php else : ?>
   <?php //topページ以外に出力 
   ?>
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css?<?php echo date('Ymd-Hi'); ?>">
   <?php
   $page = get_post(get_the_ID());
   $slug = $page->post_name;
@@ -60,6 +59,23 @@
     $slug = 'media-archive';  /* トピックス詳細 */
   endif;
   ?>
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/<?php echo $slug; ?>.css?<?php echo date('Ymd-Hi'); ?>">
+  <?php
+  // リニューアル前後のページのcss切り替え
+  if ((strstr($url, 'company') && !strstr($url, 'en')) || (strstr($url, 'vision')) || (strstr($url, 'about-sim'))) :
+  ?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css?<?php echo date('Ymd-Hi'); ?>">
+  <?php else : ?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/old_style.css?<?php echo date('Ymd-Hi'); ?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/lower.css?<?php echo date('Ymd-Hi'); ?>">
+  <?php endif; ?>
+
+  <?php
+  // enのみ旧レイアウトの場合は出し分け
+  if (strstr($url, 'en/company')) :
+  ?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/en/assets/css/<?php echo $slug; ?>.css?<?php echo date('Ymd-Hi'); ?>">
+  <?php else : ?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/<?php echo $slug; ?>.css?<?php echo date('Ymd-Hi'); ?>">
+  <?php endif; ?>
 <?php endif; ?>
 <!-- フォント -->

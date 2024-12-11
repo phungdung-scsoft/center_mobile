@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
@@ -6,10 +5,10 @@
   <?php
   /**
 
- * Template Name: about-sim
+   * Template Name: about-sim
 
- */
-   get_header(); ?>
+   */
+  get_header(); ?>
 </head>
 
 <body>
@@ -37,7 +36,7 @@
         <p>A new system that allows you to lower your mobile phone bill by yourself.</p>
       </div>
       <p class="introduce-desc">
-      テレビやインターネットなど、多くのサービスが無料で使えてるのであれば毎月の携帯料金も無料にできるはず！という発想から、広告収益によってユーザーが自分で料金を下げれるサービスを考案しました。
+        テレビやインターネットなど、多くのサービスが無料で使えてるのであれば毎月の携帯料金も無料にできるはず！という発想から、広告収益によってユーザーが自分で料金を下げれるサービスを考案しました。
       </p>
     </div>
     <div class="banner-sim">
@@ -46,12 +45,12 @@
         <p class="banner-subtitle">センターモバイルの格安SIM</p>
       </div>
       <div class="banner-btn-group">
-        <a href="#" class="banner-btn btn-common">
-        詳しく見る
+        <a href="https://sim.centermobile.co.jp/?utm_source=corporate" class="banner-btn btn-common" target="_blank">
+          詳しく見る
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_blue_icon.svg" alt="rectangle">
         </a>
-        <a href="#" class="banner-btn btn-common">
-        WEBから申し込む
+        <a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" class="banner-btn btn-common" target="_blank">
+          WEBから申し込む
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_blue_icon.svg" alt="rectangle">
         </a>
       </div>
@@ -217,13 +216,13 @@
             </div>
           </div>
         </div>
-        <a href="#" class="plan-btn btn-common">
-        WEBから申し込む
+        <a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" class="plan-btn btn-common" target="_blank">
+          WEBから申し込む
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_white_icon.svg" alt="rectangle">
         </a>
       </div>
-  
-  
+
+
     </div>
     <div class="section-charge">
       <div class="main-container">
@@ -232,8 +231,8 @@
           <p>料金を下げる方法</p>
         </div>
         <p class="introduce-desc">
-        色んな方法で、「スキマ時間に」「楽しみながら」など自分のスタイルでポイントを獲得し、そのポイントが10pt＝1円として料金の割引に使用できます。<br>
-        ポイントを貯めれば貯めるほど、携帯料金が0円に近づいていきます。
+          色んな方法で、「スキマ時間に」「楽しみながら」など自分のスタイルでポイントを獲得し、そのポイントが10pt＝1円として料金の割引に使用できます。<br>
+          ポイントを貯めれば貯めるほど、携帯料金が0円に近づいていきます。
         </p>
         <div class="charge-title">
           <span>1</span>
@@ -270,7 +269,7 @@
             </div>
           </div>
           <p class="charge-desc">5秒程度でスキップできる広告を閲覧することで、ガチャが回せ、回したガチャでポイントだけでなく追加ギガや特別なチケットも獲得できます。<br><br>
-          たくさん追加ギガをゲットすれば、契約した容量の月額でそれ以上にたくさんギガが使えます。</p>
+            たくさん追加ギガをゲットすれば、契約した容量の月額でそれ以上にたくさんギガが使えます。</p>
         </div>
         <div class="charge-app">
           <div class="app-title">
@@ -312,7 +311,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge5.png" alt="">
           </div>
           <p class="charge-desc">アプリをダウンロードしたり、会員登録をしたりなど、いろんな条件をクリアすることでポイントを獲得！<br>
-          定期的にチャレンジできる内容が更新されます。</p>
+            定期的にチャレンジできる内容が更新されます。</p>
         </div>
         <div class="charge-title">
           <span>4</span>
@@ -329,13 +328,13 @@
             </div>
           </div>
           <p class="charge-desc">掲載されているサービスや商品を利用することで、ポイントを獲得できます。<br>
-          身の回りのサービスを置き換えていく事で、どんどん携帯代が安くなる仕組みです。</p>
+            身の回りのサービスを置き換えていく事で、どんどん携帯代が安くなる仕組みです。</p>
         </div>
       </div>
     </div>
   </div>
-  
-    <?php get_template_part('inc/footer-new'); ?>
+
+  <?php get_template_part('inc/footer-new'); ?>
 
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
   <?php get_template_part('inc/chat'); ?>
