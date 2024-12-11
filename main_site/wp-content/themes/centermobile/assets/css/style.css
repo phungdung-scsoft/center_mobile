@@ -1689,7 +1689,6 @@ footer {
   position: relative;
   padding: 40px 0;
   background: url("../img/top/mv_bg.png") no-repeat center / cover;
-  height: 208px;
 }
 .banner-sim .banner-text {
   display: flex;
