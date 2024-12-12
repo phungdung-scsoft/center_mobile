@@ -37,7 +37,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_blue_icon.svg" alt="rectangle">
             </a>
           </div>
-          <div class="mv_person img-wrap">
+          <div class="mv_person en img-wrap">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_person.png" alt="person">
           </div>
         </div>
