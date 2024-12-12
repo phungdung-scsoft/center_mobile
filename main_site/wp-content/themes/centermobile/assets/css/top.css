@@ -1329,7 +1329,11 @@ footer {
     bottom: 40px;
   }
 }
-
 /* max-width: 414px ここまで */
+@media screen and (max-width: 414px) {
+  .mv-text .mv-title.en {
+    font-size: 18px;
+  }
+}
 
 /* ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆ */

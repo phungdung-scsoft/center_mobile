@@ -25,7 +25,7 @@
         </div>
         <div class="mv_bottom">
           <div class="mv-text">
-            <h1 class="mv-title">Maximum discount of 0 yen&nbsp;<br> for mobile charges</h1>
+            <h1 class="mv-title en">Maximum discount of 0 yen&nbsp;<br> for mobile charges</h1>
             <p class="mv-subtitle">Center Mobile's low-cost SIM</p>
           </div>
           <div class="mv-btn-group">
