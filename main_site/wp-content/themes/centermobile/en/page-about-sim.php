@@ -1,18 +1,20 @@
+<?php
+/*
+  Template Name: en-about-sim
+  Template Post Type: page
+  Template Path: en/
+  */
+?>
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
 <head>
-  <?php
-  /**
-
-   * Template Name: about-sim
-
-   */
-  get_header(); ?>
+  <?php get_header(); ?>
 </head>
 
-<body>
-  <?php get_template_part('inc/header-new'); ?>
+<body class="en-page">
+  <?php get_template_part('en/inc/header-new'); ?>
   <div class="page-about-sim">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
@@ -27,34 +29,35 @@
       </div>
       <div class="mv-tlt">
         <h1>Budget mobile plan</h1>
-        <p>格安SIMについて</p>
+        <p>About low-cost SIM</p>
       </div>
     </div>
     <div class="section-introduce main-container">
       <div class="sim-title">
-        <h3>携帯料金が自分で下げれる新しい仕組み</h3>
+        <h3>About Our Smart Cost-Control Mobile System - Take Control of Your Mobile Charges</h3>
         <p>A new system that allows you to lower your mobile phone bill by yourself.</p>
       </div>
       <p class="introduce-desc">
-        テレビやインターネットなど、多くのサービスが無料で使えてるのであれば毎月の携帯料金も無料にできるはず！という発想から、広告収益によってユーザーが自分で料金を下げれるサービスを考案しました。
+        If you can use many services like smartphone games and apps for free, you should be able to make your monthly mobile bill free.
+        With this idea in mind, we created a service that allows users to lower their own mobile bill through advertising revenue.
       </p>
     </div>
     <div class="banner-sim">
       <div class="banner-text">
-        <h1 class="banner-title">携帯料金が<br class="sp">最大割引で0円</h1>
-        <p class="banner-subtitle">センターモバイルの格安SIM</p>
+        <h1 class="banner-title en">Maximum discount of 0 yen&nbsp;<br> for mobile charges</h1>
+        <p class="banner-subtitle">Center Mobile's low-cost SIM</p>
       </div>
       <div class="banner-btn-group">
         <a href="https://sim.centermobile.co.jp/?utm_source=corporate" class="banner-btn btn-common" target="_blank">
-          詳しく見る
+          Read more
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_blue_icon.svg" alt="rectangle">
         </a>
         <a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" class="banner-btn btn-common" target="_blank">
-          WEBから申し込む
+          Apply online
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_blue_icon.svg" alt="rectangle">
         </a>
       </div>
-      <div class="banner-person img-wrap">
+      <div class="banner-person en img-wrap">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/mv_person.png" alt="person">
       </div>
     </div>
@@ -65,104 +68,104 @@
       <div class="main-container">
         <div class="sim-heading">
           <h2>Mobile plan</h2>
-          <p>料金プラン</p>
+          <p>Fee Plan</p>
         </div>
         <div class="plan-list-top">
-          <div class="plan-item">
+          <div class="plan-item en">
             <div class="plan-title">
-              <div class="title-big">音声SIM<span>プラン</span></div>
-              <div class="title-small">電話もインターネットも使える</div>
+              <div class="title-big">Voice SIM&nbsp;<span>Plans</span></div>
+              <div class="title-small">You can use both phone and internet</div>
             </div>
             <div class="plan-content">
               <div class="plan-row">
                 <div class="plan-tag">3<span>GB</span></div>
                 <div class="plan-price">
                   <div class="number">0〜1,280</div>
-                  <div class="unit">円/月</div>
-                  <div class="note">(税込 1,408円)</div>
+                  <div class="unit">yen/month</div>
+                  <div class="note">(1,408 yen including tax)</div>
                 </div>
               </div>
               <div class="plan-row">
                 <div class="plan-tag">12<span>GB</span></div>
                 <div class="plan-price">
                   <div class="number">0〜1,780</div>
-                  <div class="unit">円/月</div>
-                  <div class="note">(税込 1,958円)</div>
+                  <div class="unit">yen/month</div>
+                  <div class="note">(1,958 yen including tax)</div>
                 </div>
               </div>
               <div class="plan-row">
                 <div class="plan-tag medium">20<span>GB</span></div>
                 <div class="plan-price">
                   <div class="number">0〜2,480</div>
-                  <div class="unit">円/月</div>
-                  <div class="note">(税込 2,728円)</div>
+                  <div class="unit">yen/month</div>
+                  <div class="note">(2,728 yen including tax)</div>
                 </div>
               </div>
               <div class="plan-row">
                 <div class="plan-tag big">50<span>GB</span></div>
                 <div class="plan-price">
                   <div class="number">0〜3,980</div>
-                  <div class="unit">円/月</div>
-                  <div class="note">(税込 4,378円)</div>
+                  <div class="unit">yen/month</div>
+                  <div class="note">(4,378 yen including tax)</div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="plan-item">
+          <div class="plan-item en">
             <div class="plan-title">
-              <div class="title-big">データSIM<span>プラン</span></div>
-              <div class="title-small">インターネットだけ利用</div>
+              <div class="title-big">Data SIM&nbsp;<span>Plans</span></div>
+              <div class="title-small">Internet only</div>
             </div>
             <div class="plan-content">
               <div class="plan-row">
                 <div class="plan-tag">3<span>GB</span></div>
                 <div class="plan-price">
                   <div class="number">0〜1,180</div>
-                  <div class="unit">円/月</div>
-                  <div class="note">(税込 1,298円)</div>
+                  <div class="unit">yen/month</div>
+                  <div class="note">(1,298 yen including tax) </div>
                 </div>
               </div>
               <div class="plan-row">
                 <div class="plan-tag">12<span>GB</span></div>
                 <div class="plan-price">
                   <div class="number">0〜1,680</div>
-                  <div class="unit">円/月</div>
-                  <div class="note">(税込 1,848円)</div>
+                  <div class="unit">yen/month</div>
+                  <div class="note">(1,848 yen including tax)</div>
                 </div>
               </div>
               <div class="plan-row">
                 <div class="plan-tag medium">20<span>GB</span></div>
                 <div class="plan-price">
                   <div class="number">0〜2,280</div>
-                  <div class="unit">円/月</div>
-                  <div class="note">(税込 2,508円)</div>
+                  <div class="unit">yen/month</div>
+                  <div class="note">(2,508 yen including tax)</div>
                 </div>
               </div>
               <div class="plan-row">
                 <div class="plan-tag big">50<span>GB</span></div>
                 <div class="plan-price">
                   <div class="number">0〜3,780</div>
-                  <div class="unit">円/月</div>
-                  <div class="note">(税込 4,158円)</div>
+                  <div class="unit">yen/month</div>
+                  <div class="note">(4,158 yen including tax)</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="plan-item">
+        <div class="plan-item en">
           <div class="plan-title">
-            <div class="title-big">お得なかけ放題<span>セットプラン</span></div>
+            <div class="title-big">Value-for-money unlimited<span> calling set plan</span></div>
           </div>
           <div class="plan-content bottom">
             <div class="plan-row">
               <div class="plan-tag bottom">3<span>GB</span></div>
               <div class="plan-plus">+</div>
-              <div class="plan-call">24時間かけ放題</div>
+              <div class="plan-call">Unlimited calls for 24 hours</div>
               <div class="plan-price">
                 <div class="number">0〜2,980</div>
-                <div class="unit">円/月</div>
-                <div class="note">(税込 3,278円)</div>
-                <div class="sale">定価より770円OFF</div>
+                <div class="unit">yen/month</div>
+                <div class="note">(3,278 yen including tax)</div>
+                <div class="sale">770 yen off the regular price</div>
               </div>
             </div>
             <div class="plan-row">
@@ -175,30 +178,30 @@
               </div>
               <div class="plan-price-list">
                 <div class="plan-price-item">
-                  <div class="plan-call">24時間かけ放題</div>
+                  <div class="plan-call">Unlimited calls for 24 hours</div>
                   <div class="plan-price">
                     <div class="number">0〜3,700</div>
-                    <div class="unit">円/月</div>
-                    <div class="note">(税込 4,070円)</div>
-                    <div class="sale">定価より1,298円OFF</div>
+                    <div class="unit">yen/month</div>
+                    <div class="note">(4,070 yen including tax)</div>
+                    <div class="sale">1,298 yen off the regular price</div>
                   </div>
                 </div>
                 <div class="plan-price-item">
-                  <div class="plan-call outline">5分かけ放題</div>
+                  <div class="plan-call outline">5 minutes unlimited call</div>
                   <div class="plan-price">
                     <div class="number">0〜2,700</div>
-                    <div class="unit">円/月</div>
-                    <div class="note">(税込 2,970円)</div>
-                    <div class="sale">定価より748円OFF</div>
+                    <div class="unit">yen/month</div>
+                    <div class="note">(2,970 yen including tax)</div>
+                    <div class="sale">748 yen off regular price</div>
                   </div>
                 </div>
                 <div class="plan-price-item">
-                  <div class="plan-call outline">10分かけ放題</div>
+                  <div class="plan-call outline">10 minutes unlimited call</div>
                   <div class="plan-price">
                     <div class="number">0〜3,000</div>
-                    <div class="unit">円/月</div>
-                    <div class="note">(税込 3,300円)</div>
-                    <div class="sale">定価より528円OFF</div>
+                    <div class="unit">yen/month</div>
+                    <div class="note">(3,300 yen including tax)</div>
+                    <div class="sale">528 yen off regular price</div>
                   </div>
                 </div>
               </div>
@@ -206,18 +209,18 @@
             <div class="plan-row">
               <div class="plan-tag big bottom">50<span>GB</span></div>
               <div class="plan-plus">+</div>
-              <div class="plan-call">24時間かけ放題</div>
+              <div class="plan-call">Unlimited calls for 24 hours</div>
               <div class="plan-price">
                 <div class="number">0〜4,980</div>
-                <div class="unit">円/月</div>
-                <div class="note">(税込 5,478円)</div>
-                <div class="sale">定価より1,540円OFF</div>
+                <div class="unit">yen/month</div>
+                <div class="note">(5,478 yen including tax)</div>
+                <div class="sale">1,540 yen off the regular price</div>
               </div>
             </div>
           </div>
         </div>
         <a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" class="plan-btn btn-common" target="_blank">
-          WEBから申し込む
+          Apply online
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_white_icon.svg" alt="rectangle">
         </a>
       </div>
@@ -228,18 +231,19 @@
       <div class="main-container">
         <div class="sim-heading">
           <h2>Methods for lowering charges</h2>
-          <p>料金を下げる方法</p>
+          <p>Way to lower the price</p>
         </div>
         <p class="introduce-desc">
-          色んな方法で、「スキマ時間に」「楽しみながら」など自分のスタイルでポイントを獲得し、そのポイントが10pt＝1円として料金の割引に使用できます。<br>
-          ポイントを貯めれば貯めるほど、携帯料金が0円に近づいていきます。
+          You can earn points in various ways in your own style, such as “in your spare time” or “while having fun,” 
+          and the points can be used as 10 pts = 1 yen for a discount on your bill.<br>
+          The more points you accumulate, the closer your mobile phone bill gets to 0 yen.
         </p>
         <div class="charge-title">
           <span>1</span>
-          動画広告を見てポイントをゲット
+          Get points by watching video ads
         </div>
         <div class="charge-row charge-row1">
-          <div class="charge-message">動画広告を<br>見る</div>
+          <div class="charge-message">Watch Video<br>Ads</div>
           <div class="charge-img charge-img-hightlight img-wrap">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge1.png" alt="">
           </div>
@@ -249,15 +253,15 @@
           <div class="charge-img img-wrap">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge2.png" alt="">
           </div>
-          <p class="charge-desc">30-60秒前後でランダムで流れる動画広<br class="pc">告を閲覧することで5ptを獲得できます。</p>
+          <p class="charge-desc">You can earn 5 points by watching video ads that play randomly for around 30 to 60 seconds.</p>
         </div>
         <div class="charge-title">
           <span>2</span>
-          ゲームしながらポイントを楽しくゲット
+          Enjoy earning points while playing games 
         </div>
         <div class="change-group">
           <div class="charge-row charge-row2">
-            <div class="charge-message">広告を閲覧すると<br>ガチャが回せる</div>
+            <div class="charge-message">You can play gacha <br>by watching ad</div>
             <div class="charge-img img-wrap">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge3.png" alt="">
             </div>
@@ -268,12 +272,12 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge4.png" alt="">
             </div>
           </div>
-          <p class="charge-desc">5秒程度でスキップできる広告を閲覧することで、ガチャが回せ、回したガチャでポイントだけでなく追加ギガや特別なチケットも獲得できます。<br><br>
-            たくさん追加ギガをゲットすれば、契約した容量の月額でそれ以上にたくさんギガが使えます。</p>
+          <p class="charge-desc">You can play gacha by watching ads that can be skipped in about 5 seconds. <br><br>
+          You can earn extra gigs and special tickets as well as points by playing gacha.</p>
         </div>
         <div class="charge-app">
           <div class="app-title">
-            <span>さらにアプリを使って色々プレイ！</span>
+            <span>Plus, use the app to play a variety of games!</span>
             <div class="line"></div>
           </div>
           <div class="app-row">
@@ -281,44 +285,45 @@
               <div class="app-img app-img1 img-wrap">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_app1.png" alt="">
               </div>
-              <p class="app-desc">みんながガチャやCMを見るを使えば使うほど、ジャックポットにポイントが貯まり一気に放出されるジャックポット機能も！当たったユーザーは一気に数か月分の月額が0円になる事も。</p>
+              <p class="app-desc">There is also a jackpot function where the more you use Gacha or Watch CM, the more points you accumulate in one place and are released all at once!
+              If you win, you can get a few months of monthly payments to 0 yen at once.</p>
             </div>
             <div class="app-item">
               <div class="app-img app-img2 img-wrap">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_app2.png" alt="">
               </div>
-              <p class="app-desc">「CMを見る」や「ガチャ」でゲットしたポイントはじゃんけんで倍々に増やすゲームにチャレンジできます。</p>
-              <p class="app-note">※負けると獲得ポイントは0になります。</p>
+              <p class="app-desc">You can play rock-paper-scissors to double your points earned by watching commercials and playing gacha.   </p>
+              <p class="app-note">If you lose, your points will be reduced to zero.</p>
             </div>
             <div class="app-item">
               <div class="app-img app-img3 img-wrap">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_app3.png" alt="">
               </div>
-              <p class="app-desc">毎週一部の方が大量ポイントを獲得。動画広告を見れば見るほど、当選しやすくなります。</p>
+              <p class="app-desc">Some people earn a lot of points every week. The more you watch video ads, the easier it is to win.</p>
             </div>
           </div>
         </div>
         <div class="charge-title">
           <span>3</span>
-          無料登録やダウンロード広告でポイントをゲット
+          Get points for free registration and download ads 
         </div>
         <div class="charge-row charge-row3">
-          <div class="charge-message">ダウンロードや<br>会員登録をする</div>
+          <div class="charge-message">Download or register &nbsp;<br>as a member </div>
           <div class="charge-img img-wrap">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge6.png" alt="">
           </div>
           <div class="charge-img img-wrap">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge5.png" alt="">
           </div>
-          <p class="charge-desc">アプリをダウンロードしたり、会員登録をしたりなど、いろんな条件をクリアすることでポイントを獲得！<br>
-            定期的にチャレンジできる内容が更新されます。</p>
+          <p class="charge-desc">Points are earned by completing various conditions, such as downloading applications, registering as a member, etc!<br>
+          The contents of the challenge will be updated periodically.</p>
         </div>
         <div class="charge-title">
           <span>4</span>
-          申込系広告でポイントをゲット
+          Get points through application ads   
         </div>
         <div class="charge-row charge-row4">
-          <div class="charge-message">サービスや<br>商品を利用する</div>
+          <div class="charge-message">Use services<br>and products</div>
           <div class="charge-img-group">
             <div class="charge-img img-wrap">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge7.png" alt="">
@@ -327,8 +332,8 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge8.png" alt="">
             </div>
           </div>
-          <p class="charge-desc">掲載されているサービスや商品を利用することで、ポイントを獲得できます。<br>
-            身の回りのサービスを置き換えていく事で、どんどん携帯代が安くなる仕組みです。</p>
+          <p class="charge-desc">You can earn points by using listed services and products. <br>
+            By replacing services around you, your mobile phone bill will become cheaper and cheaper.</p>
         </div>
 
         <div class="application-wrap">
@@ -340,24 +345,24 @@
               </picture>
             </h4>
             <div class="txtArea">
-              <h5>会員専用アプリ <br class="sp"><?= $GLOBALS['gl_service']; ?>(<?= $GLOBALS['gl_service_jp']; ?>)</h5>
-              <p>■広告を見ることでポイントを貯めて、携帯料金を節約</p>
-              <p>■毎月の利用料金やデータ残量（ギガ）のチェック、ポイントの利用もアプリからできます。</p>
+              <h5>Member-exclusive app <br class="sp"><?= $GLOBALS['gl_service']; ?></h5>
+              <p>■Earn points by watching ads and save on your mobile charges.</p>
+              <p>■You can check your monthly usage fees, data balance (gigabytes), and use your points all from the app.</p>
               <div class="ap">
                 <a href="//apps.apple.com/jp/app/maimo/id1554806667?itsct=apps_box_link&itscg=30200" target="_blank">
                   <picture>
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/app.webp" type="image/webp">
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/btn_apple_en.webp" type="image/webp">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/app.png" alt="App Storeからダウンロード" width="148" height="54" loading="lazy">
                   </picture>
                 </a>
                 <a href="//play.google.com/store/apps/details?id=jp.co.Maimo&hl=ja" target="_blank">
                   <picture>
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/google.webp" type="image/webp">
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/btn_google_en.webp" type="image/webp">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/google.png" alt="Google Playで手に入れよう" width="182" height="54" loading="lazy">
                   </picture>
                 </a>
               </div>
-              <a href="https://maimo.app/login" target="_blank"><span>会員専用ページへ</span></a>
+              <a href="https://maimo.app/login" target="_blank"><span>To the member-exclusive page</span></a>
             </div>
           </div>
         </div>
@@ -367,7 +372,7 @@
     </div>
   </div>
 
-  <?php get_template_part('inc/footer-new'); ?>
+  <?php get_template_part('en/inc/footer-new'); ?>
 
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
   <?php get_template_part('inc/chat'); ?>

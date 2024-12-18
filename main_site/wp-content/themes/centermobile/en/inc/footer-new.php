@@ -7,8 +7,8 @@
         <li><a href="#">Greetings from the President</a></li>
         <li><a href="<?php echo esc_url(home_url('/')); ?>en/company/">About Us</a></li>
         <?php /*
-            <li><a href="#">Board of Directors and Executive Officers</a></li>
-            <li><a href="#">History</a></li>
+            <li><a href="#">役員紹介</a></li>
+            <li><a href="#">沿革</a></li>
             */ ?>
       </ul>
     </div>

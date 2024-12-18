@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
@@ -6,10 +5,10 @@
   <?php
   /**
 
- * Template Name: company
+   * Template Name: company
 
- */
-   get_header(); ?>
+   */
+  get_header(); ?>
 </head>
 
 <body>
@@ -26,7 +25,7 @@
       <div class="mv-img img-wrap">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/mv_company.png" alt="MV" loading="lazy">
       </div>
-      <div class="mv-tlt">
+      <div class="mv-tlt" id="greeting">
         <h1>Company Profile</h1>
         <p>代表挨拶</p>
       </div>
@@ -86,10 +85,10 @@
           <tr>
             <th>事業内容</th>
             <td>・個人向け通信サービス（移動通信サービスの提供、固定通信サービスの提供、インターネット接続サービスの提供）<br>
-            ・通信フランチャイズ、OEM事業<br>
-            ・広告代理店事業<br>
-            ・通信に関するコンサルティング事業<br>
-            ・スマホ、タブレットのサポート及び修理事業
+              ・通信フランチャイズ、OEM事業<br>
+              ・広告代理店事業<br>
+              ・通信に関するコンサルティング事業<br>
+              ・スマホ、タブレットのサポート及び修理事業
             </td>
           </tr>
           <tr>

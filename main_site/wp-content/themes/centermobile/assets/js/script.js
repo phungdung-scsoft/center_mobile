@@ -58,31 +58,33 @@ $("#toTop").click(function () {
 
 //slider
 $(function () {
-  $('.slider').slick({
-    autoplay: true,
-    arrows: false,
-    asNavFor: ".thumb",
-    slidesToShow: 1,
-    centerMode: true,
-    centerPadding: "25%",
-    waitForAnimate: false,
-    responsive: [
-      {
-        breakpoint: 1921,
-        settings: {
-          slidesToShow: 1,
-          centerMode: false,
+  $('.slider').each(function () {
+    $('.slider').slick({
+      autoplay: true,
+      arrows: false,
+      asNavFor: ".thumb",
+      slidesToShow: 1,
+      centerMode: true,
+      centerPadding: "25%",
+      waitForAnimate: false,
+      responsive: [
+        {
+          breakpoint: 1921,
+          settings: {
+            slidesToShow: 1,
+            centerMode: false,
+          }
         }
-      }
-    ]
-  });
+      ]
+    });
 
-  var slidesToshow_leng = $('.thumb .slider-item').length;
-  $('.thumb').slick({
-    asNavFor: '.slider', // スライダを他のスライダのナビゲーションに設定する（class名またはID名）
-    focusOnSelect: true, // クリックでのスライド切り替えを有効にするか
-    slidesToShow: slidesToshow_leng, // 表示するスライド数を設定
-    waitForAnimate: false,
+    var slidesToshow_leng = $('.thumb .slider-item').length;
+    $('.thumb').slick({
+      asNavFor: '.slider', // スライダを他のスライダのナビゲーションに設定する（class名またはID名）
+      focusOnSelect: true, // クリックでのスライド切り替えを有効にするか
+      slidesToShow: slidesToshow_leng, // 表示するスライド数を設定
+      waitForAnimate: false,
+    });
   });
 });
 
@@ -232,3 +234,50 @@ $(function () {
     return false;
   });
 });
+
+//language_btn
+$(function () {
+  let path = location.pathname;
+  $('.language_btn').on('click', function () {
+    if (path.match(new RegExp('/en/'))) {
+      path = path.replace('/en/', '/');
+    } else {
+      path = path.replace(path, '/en' + path);
+    }
+    window.location.href = path;
+    return false;
+  });
+});
+
+// ページ内のスムーススクロール
+$(function () {
+  $('a:not(.nosmooth)[href*="#"]').click(function () {
+    const adjust = $(".hArea").outerHeight();
+    const speed = 700;
+    const target = $(this.hash === '#' || '' ? 'html' : this.hash);
+    if (!target.length) return;
+    const position = target.offset().top - adjust;
+    $('body,html').animate({ scrollTop: position }, speed, 'swing');
+    return false;
+  });
+});
+
+// 別ページ遷移後のスムーススクロール
+const urlHash = location.hash;
+if (urlHash) {
+  const target = jQuery(urlHash);
+  if (target.length) {
+    // ページトップから開始（ブラウザ差異を考慮して併用）
+    history.replaceState(null, '', window.location.pathname);
+    jQuery("html,body").stop().scrollTop(0);
+
+    jQuery(window).on("load", function () {
+      const headerHeight = jQuery(".hArea").outerHeight();
+      const position = target.offset().top - headerHeight;
+      jQuery("html, body").animate({ scrollTop: position }, 500, "swing");
+
+      // ハッシュを再設定
+      history.replaceState(null, '', window.location.pathname + urlHash);
+    });
+  }
+}

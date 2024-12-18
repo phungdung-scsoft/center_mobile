@@ -37,7 +37,9 @@
         <div class="section-title">トピックス</div>
         <div class="topic-slider">
           <div class="slide-item img-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/topic_2.png" alt="topic" loading="lazy">
+            <a href="https://care.plaio.jp" target="_blank">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/topic_4.png" alt="topic" loading="lazy">
+            </a>
           </div>
           <div class="slide-item img-wrap">
             <a href="https://wimax.plaio.jp/" target="_blank">
@@ -45,11 +47,8 @@
             </a>
           </div>
           <div class="slide-item img-wrap">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/topic_2.png" alt="topic" loading="lazy">
-          </div>
-          <div class="slide-item img-wrap">
-            <a href="https://wimax.plaio.jp/" target="_blank">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/topic_3.png" alt="topic" loading="lazy">
+            <a href="https://plaio-hikari.net/lp1/" target="_blank">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/topic_2.png" alt="topic" loading="lazy">
             </a>
           </div>
         </div>
@@ -229,6 +228,7 @@
         </div>
       </section>
 
+      <?php /*
       <section class="section-about about-ir">
         <div class="about-block">
           <div class="about-content">
@@ -239,9 +239,7 @@
             <p class="about-desc">
               最新のIR資料や個人投資家向けの情報を掲載しています。
             </p>
-            <?php /*
             <a href="<?php echo esc_url(home_url('/')); ?>ir/" class="about-btn btn-common">詳しく見る</a>
-            */ ?>
           </div>
           <div class="about-img img-wrap pc">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/about_2.png" alt="about" loading="lazy">
@@ -258,15 +256,14 @@
             <p class="about-desc">
               センターモバイルでは、新卒/既卒を問わず、様々な職種の人材を募集しております。
             </p>
-            <?php /*
             <a href="#" class="about-btn btn-common">詳しく見る</a>
-            */ ?>
           </div>
           <div class="about-img img-wrap pc">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/about_3.png" alt="about" loading="lazy">
           </div>
         </div>
       </section>
+      */ ?>
     </div>
     <!-- /main -->
   </div>

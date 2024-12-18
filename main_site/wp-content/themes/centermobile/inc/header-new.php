@@ -2,7 +2,7 @@
   <!-- header -->
   <div class="header-pc pc-flex">
     <div class="hLogo">
-      <a href="<?php echo esc_url(home_url('/')); ?>en/">
+      <a href="<?php echo esc_url(home_url('/')); ?>">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_logo.png" alt="CENTER MOBILE" loading="lazy">
       </a>
     </div>
@@ -10,8 +10,9 @@
       <div class="nav-item">
         <div class="nav-trigger">サービス</div>
         <div class="nav-child-list">
-          <a href="#" class="nav-child">
+          <a href="<?php echo esc_url(home_url('/')); ?>about-sim/" class="nav-child">
             格安SIM
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
           </a>
           <a href="https://wimax.plaio.jp/" target="_blank" class="nav-child">
             PLAIO WiMAX
@@ -22,18 +23,22 @@
               PLAIO トラベル
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
             </a>
-            */ ?>
+          */ ?>
         </div>
       </div>
       <div class="nav-item">
         <div class="nav-trigger">会社情報</div>
         <div class="nav-child-list">
-          <a href="#" class="nav-child">
+          <a href="<?php echo esc_url(home_url('/')); ?>company/#greeting" class="nav-child">
             代表挨拶
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
           </a>
-          <a href="<?php echo esc_url(home_url('/')); ?>en/company/" class="nav-child">
+          <a href="<?php echo esc_url(home_url('/')); ?>company/#company" class="nav-child">
             会社概要
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
+          </a>
+          <a href="<?php echo esc_url(home_url('/')); ?>vision/" class="nav-child">
+            ビジョン
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
           </a>
           <?php /*
@@ -51,16 +56,20 @@
       <div class="nav-item">
         <div class="nav-trigger">ニュース</div>
         <div class="nav-child-list">
-          <a href="<?php echo esc_url(home_url('/')); ?>en/media-archive/" class="nav-child">
+          <a href="<?php echo esc_url(home_url('/')); ?>media-archive/" class="nav-child">
             お知らせ
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
           </a>
           <?php /*
-            <a href="<?php echo esc_url(home_url('/')); ?>en/ir/" class="nav-child">
+            <a href="<?php echo esc_url(home_url('/')); ?>ir/" class="nav-child">
               IRニュース
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             */ ?>
+          <a href="<?php echo esc_url(home_url('/')); ?>media-appearances/" class="nav-child">
+            掲載メディア一覧
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
+          </a>
         </div>
       </div>
       <?php /*
@@ -75,7 +84,7 @@
               業績ハイライト
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
-            <a href="<?php echo esc_url(home_url('/')); ?>en/ir/" class="nav-child">
+            <a href="<?php echo esc_url(home_url('/')); ?>ir/" class="nav-child">
               IRライブラリ
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
@@ -94,6 +103,12 @@
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_blue_icon.svg" alt="rectangle">
         </a>
         */ ?>
+      <a href="<?php echo esc_url(home_url('/')); ?>fc/" class="nav-item-last">
+        FC・OEM
+      </a>
+      <a href="<?php echo esc_url(home_url('/')); ?>store/" class="nav-item-last">
+        店舗情報
+      </a>
     </div>
     <div class="hFunction">
       <div class="select-lang">
@@ -110,7 +125,8 @@
             */ ?>
         </select>
       </div>
-      <a href="<?php echo esc_url(home_url('/')); ?>en/contact-top/" class="hBtn">お問い合わせ</a>
+      <a href="<?php echo esc_url(home_url('/')); ?>contact-top/" class="hBtn">お問い合わせ</a>
+      <a href="https://maimo.app/login" target="_blank" class="loginBtn">PLAIO Login</a>
     </div>
   </div><!-- /header -->
   <div class="subHead pc"></div>
@@ -118,7 +134,7 @@
   <!-- nav -->
   <div class="header-sp sp">
     <div class="header-main">
-      <a href="<?php echo esc_url(home_url('/')); ?>en/" class="hLogo">
+      <a href="<?php echo esc_url(home_url('/')); ?>" class="hLogo">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/h_logo_sp.png" alt="CENTER MOBILE" loading="lazy">
       </a>
       <div class="menu-trigger">
@@ -137,8 +153,9 @@
         <div class="nav-item">
           <div class="nav-trigger">サービス<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_down_icon.svg" alt="arrow"></div>
           <div class="nav-child-list">
-            <a href="#" class="nav-child">
+            <a href="<?php echo esc_url(home_url('/')); ?>about-sim/" class="nav-child">
               格安SIM
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             <a href="https://wimax.plaio.jp/" target="_blank" class="nav-child">
               PLAIO WiMAX
@@ -155,12 +172,16 @@
         <div class="nav-item">
           <div class="nav-trigger">会社情報<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_down_icon.svg" alt="arrow"></div>
           <div class="nav-child-list">
-            <a href="#" class="nav-child">
+            <a href="<?php echo esc_url(home_url('/')); ?>company/#greeting" class="nav-child">
               代表挨拶
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
-            <a href="<?php echo esc_url(home_url('/')); ?>en/company/" class="nav-child">
+            <a href="<?php echo esc_url(home_url('/')); ?>company/#company" class="nav-child">
               会社概要
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
+            </a>
+            <a href="<?php echo esc_url(home_url('/')); ?>vision/" class="nav-child">
+              ビジョン
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             <?php /*
@@ -178,18 +199,28 @@
         <div class="nav-item">
           <div class="nav-trigger">ニュース<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_down_icon.svg" alt="arrow"></div>
           <div class="nav-child-list">
-            <a href="<?php echo esc_url(home_url('/')); ?>en/media-archive/" class="nav-child">
+            <a href="<?php echo esc_url(home_url('/')); ?>media-archive/" class="nav-child">
               お知らせ
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             <?php /*
-              <a href="<?php echo esc_url(home_url('/')); ?>en/ir/" class="nav-child">
+              <a href="<?php echo esc_url(home_url('/')); ?>ir/" class="nav-child">
                 IRニュース
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
               </a>
               */ ?>
+            <a href="<?php echo esc_url(home_url('/')); ?>media-appearances/" class="nav-child">
+              掲載メディア一覧
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
+            </a>
           </div>
         </div>
+        <a href="<?php echo esc_url(home_url('/')); ?>fc/" class="nav-item-last">
+          FC・OEM
+        </a>
+        <a href="<?php echo esc_url(home_url('/')); ?>store/" class="nav-item-last">
+          店舗情報
+        </a>
         <?php /*
           <div class="nav-item">
             <div class="nav-trigger">IR情報<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_down_icon.svg" alt="arrow"></div>
@@ -202,7 +233,7 @@
                 業績ハイライト
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
               </a>
-              <a href="<?php echo esc_url(home_url('/')); ?>en/ir/" class="nav-child">
+              <a href="<?php echo esc_url(home_url('/')); ?>ir/" class="nav-child">
                 IRライブラリ
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
               </a>
@@ -232,39 +263,33 @@
           <div class="nav-child-list select-lang">
             <a href="javascript:void(0);" class="nav-child" data-lang="jp">
               Japanese
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
             </a>
             <a href="javascript:void(0);" class="nav-child" data-lang="en">
               English
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
             </a>
             <?php
             /*
               <a href="javascript:void(0);" class="nav-child" data-lang="kr">
                 Korean
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
               </a>
               <a href="javascript:void(0);" class="nav-child" data-lang="cn">
                 Chinese
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
               </a>
               <a href="javascript:void(0);" class="nav-child" data-lang="th">
                 Thai
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
               </a>
               <a href="javascript:void(0);" class="nav-child" data-lang="fr">
                 French
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
               </a>
               <a href="javascript:void(0);" class="nav-child" data-lang="sp">
                 Spanish
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_icon.svg" alt="rectangle">
               </a>
               */ ?>
           </div>
         </div>
 
-        <a href="<?php echo esc_url(home_url('/')); ?>en/contact-top/" class="hBtn">お問い合わせ</a>
+        <a href="<?php echo esc_url(home_url('/')); ?>contact-top/" class="hBtn">お問い合わせ</a>
+        <a href="https://maimo.app/login" target="_blank" class="loginBtn">PLAIO Login</a>
         <button class="closeBtn"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/close_icon.svg" alt="close">閉じる</button>
       </div>
       <div class="gnav__overlay"></div>

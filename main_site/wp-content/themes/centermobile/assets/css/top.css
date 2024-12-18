@@ -1139,12 +1139,6 @@ footer {
     top: -8.8vw;
     bottom: unset;
   }
-  .mv_person.en {
-    width: 31.78vw;
-    right: 0.11vw;
-    top: -5.8vw;
-    bottom: unset;
-  }
 
   section {
     padding: 9.3vw 0;
@@ -1333,6 +1327,12 @@ footer {
 @media screen and (max-width: 414px) {
   .mv-text .mv-title.en {
     font-size: 18px;
+  }
+  .mv_person.en {
+    width: 31.78vw;
+    right: 0.11vw;
+    top: -5.8vw;
+    bottom: unset;
   }
 }
 

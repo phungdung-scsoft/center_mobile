@@ -7,9 +7,34 @@
   </a>
   <nav>
     <ul>
-      <li><a href="<?php echo esc_url(home_url('/')); ?>discount/">割引の仕組み</a></li>
-      <li><a href="<?php echo esc_url(home_url('/')); ?>plan/">料金・サービス</a></li>
-      <li><a href="<?php echo esc_url(home_url('/')); ?>app/">アプリの使い方</a></li>
+      <li>
+        <a href="javascript:void(0);" class="accordion-parent">会社情報</a>
+        <ul class="accordion-child">
+          <li><a href="<?php echo esc_url(home_url('/')); ?>company/#greeting">代表挨拶</a></li>
+          <li><a href="<?php echo esc_url(home_url('/')); ?>company/#company">会社概要</a></li>
+          <li><a href="<?php echo esc_url(home_url('/')); ?>vision/">ビジョン</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="javascript:void(0);" class="accordion-parent">サービス</a>
+        <ul class="accordion-child">
+          <li><a href="<?php echo esc_url(home_url('/')); ?>about-sim/">格安SIMについて</a></li>
+          <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAX</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="javascript:void(0);" class="accordion-parent">ニュース</a>
+        <ul class="accordion-child">
+          <?php
+          $count_posts = wp_count_posts();
+          $post_number = $count_posts->publish;
+          if ($post_number > 0) :
+          ?>
+            <li><a href="<?php echo esc_url(home_url('/')); ?>media-archive/">お知らせ</a></li>
+          <?php endif; ?>
+          <li><a href="<?php echo esc_url(home_url('/')); ?>media-appearances/">掲載メディア一覧</a></li>
+        </ul>
+      </li>
       <li>
         <a href="javascript:void(0);" class="accordion-parent">WEB申し込み</a>
         <ul class="accordion-child">
@@ -17,38 +42,14 @@
           <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを<br>申し込む</a></li>
         </ul>
       </li>
-      <li><a href="<?php echo esc_url(home_url('/')); ?>company/">企業情報</a></li>
-      <li><a href="<?php echo esc_url(home_url('/')); ?>fc/">FC・OEM</a></li>
-      <?php
-      $count_posts = wp_count_posts();
-      $post_number = $count_posts->publish;
-      if ($post_number > 0) :
-      ?>
-        <li><a href="<?php echo esc_url(home_url('/')); ?>media-archive/">トピックス</a></li>
-      <?php endif; ?>
-      <?php
-      $count_custom_post = wp_count_posts('column')->publish;
-      if ($count_custom_post > 0) :
-      ?>
-        <li><a href="<?php echo esc_url(home_url('/')); ?>column/">コラム</a></li>
-      <?php endif; ?>
-      <li><a href="<?php echo esc_url(home_url('/')); ?>store/">店舗一覧</a></li>
-      <li><a href="<?php echo esc_url(home_url('/')); ?>media-appearances/">掲載メディア一覧</a></li>
-      <!-- <li><a href="">広告出稿をご検討の方</a></li>
-            <li><a href="">採用情報</a></li> -->
-      <li><a href="<?php echo esc_url(home_url('/')); ?>contact-top/">お問い合わせ</a></li>
       <li>
         <a href="javascript:void(0);" class="accordion-parent">お役立ちガイド</a>
         <ul class="accordion-child">
           <li><a href="<?php echo esc_url(home_url('/')); ?>guide/mnp/">MNPとは？</a></li>
         </ul>
       </li>
-      <?php
-      $count_custom_post = wp_count_posts('ir')->publish;
-      if ($count_custom_post > 0) :
-      ?>
-        <li><a href="<?php echo esc_url(home_url('/')); ?>ir/">IRニュース</a></li>
-      <?php endif; ?>
+      <li><a href="<?php echo esc_url(home_url('/')); ?>fc/">FC・OEM</a></li>
+      <li><a href="<?php echo esc_url(home_url('/')); ?>store/">店舗情報</a></li>
     </ul>
     <div class="btn_area">
       <a class="login_btn" href="//maimo.app/login" target="_blank">
@@ -82,9 +83,34 @@
     <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
       <div class="g-nav-list-inner">
         <ul>
-          <li><a href="<?php echo esc_url(home_url('/')); ?>discount/">割引の仕組み</a></li>
-          <li><a href="<?php echo esc_url(home_url('/')); ?>plan/">料金・サービス</a></li>
-          <li><a href="<?php echo esc_url(home_url('/')); ?>app/">アプリの使い方</a></li>
+          <li>
+            <a href="javascript:void(0);" class="accordion-parent">会社情報</a>
+            <ul class="accordion-child">
+              <li><a href="<?php echo esc_url(home_url('/')); ?>company/#greeting">代表挨拶</a></li>
+              <li><a href="<?php echo esc_url(home_url('/')); ?>company/#company">会社概要</a></li>
+              <li><a href="<?php echo esc_url(home_url('/')); ?>vision/">ビジョン</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0);" class="accordion-parent">サービス</a>
+            <ul class="accordion-child">
+              <li><a href="<?php echo esc_url(home_url('/')); ?>about-sim/">格安SIMについて</a></li>
+              <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAX</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:void(0);" class="accordion-parent">ニュース</a>
+            <ul class="accordion-child">
+              <?php
+              $count_posts = wp_count_posts();
+              $post_number = $count_posts->publish;
+              if ($post_number > 0) :
+              ?>
+                <li><a href="<?php echo esc_url(home_url('/')); ?>media-archive/">お知らせ</a></li>
+              <?php endif; ?>
+              <li><a href="<?php echo esc_url(home_url('/')); ?>media-appearances/">掲載メディア一覧</a></li>
+            </ul>
+          </li>
           <li>
             <a href="javascript:void(0);" class="accordion-parent">WEB申し込み</a>
             <ul class="accordion-child">
@@ -92,39 +118,14 @@
               <li><a href="https://wimax.plaio.jp/" target="_blank">PLAIO WiMAXを申し込む</a></li>
             </ul>
           </li>
-          <li><a href="<?php echo esc_url(home_url('/')); ?>company/">企業情報</a></li>
-          <li><a href="<?php echo esc_url(home_url('/')); ?>fc/">FC・OEM</a></li>
-          <?php
-          $count_posts = wp_count_posts();
-          $post_number = $count_posts->publish;
-          if ($post_number > 0) :
-          ?>
-            <li><a href="<?php echo esc_url(home_url('/')); ?>media-archive/">トピックス</a></li>
-          <?php endif; ?>
-          <?php
-          $count_custom_post = wp_count_posts('column')->publish;
-          if ($count_custom_post > 0) :
-          ?>
-            <li><a href="<?php echo esc_url(home_url('/')); ?>column/">コラム</a></li>
-          <?php endif; ?>
-          <li><a href="<?php echo esc_url(home_url('/')); ?>store/">店舗一覧</a></li>
-          <li><a href="<?php echo esc_url(home_url('/')); ?>media-appearances/">掲載メディア一覧</a></li>
-          <!--
-                <li><a href="<?php echo esc_url(home_url('/')); ?>">広告出稿をご検討の方</a></li>
-                <li><a href="<?php echo esc_url(home_url('/')); ?>">採用情報</a></li> -->
-          <li><a href="<?php echo esc_url(home_url('/')); ?>contact-top/">お問い合わせ</a></li>
           <li>
             <a href="javascript:void(0);" class="accordion-parent">お役立ちガイド</a>
             <ul class="accordion-child">
               <li><a href="<?php echo esc_url(home_url('/')); ?>guide/mnp/">MNPとは？</a></li>
             </ul>
           </li>
-          <?php
-          $count_custom_post = wp_count_posts('ir')->publish;
-          if ($count_custom_post > 0) :
-          ?>
-            <li><a href="<?php echo esc_url(home_url('/')); ?>ir/">IRニュース</a></li>
-          <?php endif; ?>
+          <li><a href="<?php echo esc_url(home_url('/')); ?>fc/">FC・OEM</a></li>
+          <li><a href="<?php echo esc_url(home_url('/')); ?>store/">店舗情報</a></li>
         </ul>
         <div class="btn_area btn_area_nav">
           <a class="login_btn" href="//maimo.app/login" target="_blank">

@@ -33,7 +33,7 @@
               Read more
             </a>
             <a href="https://hakaku.centermobile.co.jp/?direct=1&lang=ja" class="mv-btn btn-common" target="_blank">
-            Apply on the web
+              Apply online
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/rectangle_blue_icon.svg" alt="rectangle">
             </a>
           </div>

@@ -1,8 +1,17 @@
 @charset "UTF-8";
 
 @import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
-@font-face { font-family: "DIN Alternate"; src: url('../fonts/DINAlternate-Bold.ttf'); } 
-@font-face { font-family: "Noto Sans JP"; src: url('../fonts/NotoSansJP.ttf'); } 
+
+@font-face {
+  font-family: "DIN Alternate";
+  src: url('../fonts/DINAlternate-Bold.ttf');
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  src: url('../fonts/NotoSansJP.ttf');
+}
+
 /* A Modern CSS Reset */
 * {
   margin: 0;
@@ -1036,6 +1045,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 /* Header new */
 .pc {
   display: block;
@@ -1058,6 +1068,7 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
 .hArea {
   width: 100%;
   z-index: 999;
@@ -1071,21 +1082,21 @@ img {
   z-index: 9999;
 }
 
-.hLogo img{
+.hLogo img {
   display: block;
 }
 
 .subHead {
-  position: absolute;
+  position: fixed;
   width: 100%;
+  top: 96px;
   left: 0;
-  bottom: 0;
-  transform: translateY(100%);
   background-color: #EFF4FF;
   max-height: 0;
   height: 100%;
   overflow: hidden;
   transition: all .3s ease;
+  z-index: 1;
 }
 
 .subHead.active {
@@ -1093,12 +1104,18 @@ img {
 }
 
 .header-pc {
+  position: fixed;
+  left: 0;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100%;
+  width: 100%;
+  height: 96px;
   padding: 0 48px;
   border-bottom: 1px solid #D5D5D5;
+  background: #fff;
+  z-index: 2;
 }
 
 .nav-pc {
@@ -1129,7 +1146,8 @@ img {
   color: #1F58A6;
   position: relative;
 }
-.nav-pc .nav-trigger:hover{
+
+.nav-pc .nav-trigger:hover {
   cursor: pointer;
 }
 
@@ -1163,10 +1181,12 @@ img {
   gap: 40px;
   pointer-events: none;
 }
+
 .nav-pc .nav-child-list.nav-last {
   left: 0;
   width: 100%;
 }
+
 .nav-pc .nav-item.active .nav-child-list {
   opacity: 1;
   z-index: 2;
@@ -1200,7 +1220,7 @@ img {
   height: 18px;
 }
 
-.hFunction .hBtn{
+.hFunction .hBtn {
   width: 151px;
   height: 48px;
   background-color: #1F58A6;
@@ -1210,15 +1230,53 @@ img {
   color: #fff;
   font-weight: 500;
   border-radius: 30px;
+  margin-right: 20px;
 }
 
-.select-lang select{
+.hFunction .loginBtn {
+  position: relative;
+  width: 151px;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #df2e8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #df2e8b;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.hFunction .loginBtn::before {
+  position: absolute;
+  left: 9px;
+  top: 50%;
+  width: 18px;
+  height: 31px;
+  background: url(../img/ico_plaio.png) no-repeat 0 0 / contain;
+  content: "";
+  transform: translateY(-50%);
+}
+
+.hFunction .loginBtn::after {
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid #df2e8b;
+  border-right: 2px solid #df2e8b;
+  content: "";
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.select-lang select {
   background: transparent;
   padding: 5px;
   font-size: 13px;
   line-height: 1;
   border: 0;
-  outline:0px;
+  outline: 0px;
   border-radius: 0;
   height: 34px;
   color: #333;
@@ -1251,9 +1309,11 @@ footer {
   font-weight: bold;
   margin-bottom: 16px;
 }
+
 .footer-label:last-child {
   margin-bottom: 0;
 }
+
 .footer-col:last-child .footer-label {
   display: flex;
 }
@@ -1291,11 +1351,13 @@ footer {
   margin: 0 auto;
   gap: 53.21px;
 }
+
 .copy-right {
   font-size: 14px;
   line-height: 28px;
   color: #333;
 }
+
 .scroll-to-top {
   height: 56px;
   width: 56px;
@@ -1310,6 +1372,7 @@ footer {
   z-index: 100;
   display: none;
 }
+
 .scroll-to-top:hover {
   cursor: pointer;
 }
@@ -1323,14 +1386,17 @@ footer {
 .mv-common {
   margin-bottom: 64px;
 }
+
 .mv-common .mv-img {
   width: 100%;
   height: 560px;
 }
+
 .mv-common .mv-tlt {
   margin-top: -78px;
   text-align: center;
 }
+
 .mv-common .mv-tlt h1 {
   font-size: 110px;
   line-height: 1.45;
@@ -1338,6 +1404,7 @@ footer {
   color: #1F58A6;
   margin-bottom: 24px;
 }
+
 .mv-common .mv-tlt p {
   font-size: 32px;
   font-weight: bold;
@@ -1358,6 +1425,7 @@ footer {
   border-radius: 7vw;
   transition: all .3s ease;
 }
+
 .btn-common:hover {
   cursor: pointer;
   background-color: #D1DDF8;
@@ -1365,6 +1433,7 @@ footer {
 
 
 @media screen and (max-width: 1024px) {
+
   /* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
   /* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
   .pc {
@@ -1378,7 +1447,7 @@ footer {
   .pc-flex {
     display: none;
   }
-  
+
   .sp-flex {
     display: flex;
   }
@@ -1387,14 +1456,21 @@ footer {
     max-width: 320px;
     width: 100%;
   }
+
   .hArea {
     height: 56px;
     border-bottom: 1px solid #D5D5D5;
   }
 
   .header-sp {
-    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 56px;
+    background: #fff;
   }
+
   .header-main {
     background: #fff;
     padding: 0 32px;
@@ -1477,13 +1553,15 @@ footer {
   .menu-trigger .text.close {
     display: none;
   }
+
   .menu-trigger .text.show {
     display: block;
   }
-  
+
   .menu-trigger.active .text.close {
     display: block;
   }
+
   .menu-trigger.active .text.show {
     display: none;
   }
@@ -1543,7 +1621,7 @@ footer {
     transform: translate(0, 0);
   }
 
-  
+
   .nav-trigger, .nav-child {
     width: 100%;
     height: 58px;
@@ -1579,14 +1657,15 @@ footer {
     font-weight: bold;
     transition: all .3s ease;
   }
-  .nav-trigger .language{
+
+  .nav-trigger .language {
     display: flex;
     align-items: center;
     gap: 4px;
     color: #333;
     font-size: 13px;
   }
-  
+
   .nav-item.active .nav-trigger img {
     transform: rotate(180deg);
   }
@@ -1597,10 +1676,10 @@ footer {
     background-color: #EFF4FF;
     transition: max-height .3s ease-out;
   }
-  
+
   .nav-item.active .nav-child-list {
     max-height: 100vh;
-    transition: max-height .5s ease-in; 
+    transition: max-height .5s ease-in;
   }
 
   .gnav .hBtn {
@@ -1617,6 +1696,44 @@ footer {
     margin-top: 20px;
   }
 
+  .gnav .loginBtn {
+    position: relative;
+    width: 151px;
+    margin: 20px auto 0;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #df2e8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #df2e8b;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .gnav .loginBtn::before {
+    position: absolute;
+    left: 9px;
+    top: 50%;
+    width: 18px;
+    height: 31px;
+    background: url(../img/ico_plaio.png) no-repeat 0 0 / contain;
+    content: "";
+    transform: translateY(-50%);
+  }
+
+  .gnav .loginBtn::after {
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid #df2e8b;
+    border-right: 2px solid #df2e8b;
+    content: "";
+    transform: translateY(-50%) rotate(45deg);
+  }
+
   .closeBtn {
     display: flex;
     justify-content: center;
@@ -1630,56 +1747,64 @@ footer {
     font-weight: bold;
     color: #333;
   }
+
   footer {
     padding: 40px 25px;
   }
-  
+
   .footer-top {
     padding: 0 28px;
     flex-direction: column;
     gap: 40px;
     margin-bottom: 40px;
   }
-  
+
   .footer-label {
     font-size: 18px;
   }
-  
+
   .footer-middle {
     flex-direction: column;
     align-items: flex-start;
     gap: 0;
     padding: 40px 26px;
   }
+
   .footer-middle a {
     color: #333;
     font-size: 16px;
   }
+
   .footer-bottom {
     padding: 48px 0 0;
     flex-direction: column;
     justify-content: center;
     gap: 16px;
   }
+
   .scroll-to-top {
     right: 25px;
     bottom: 40px;
   }
-    
+
   .mv-common {
     margin-bottom: 5vw;
   }
+
   .mv-common .mv-img {
     height: 43.75vw;
   }
+
   .mv-common .mv-tlt {
     margin-top: -6.1vw;
   }
+
   .mv-common .mv-tlt h1 {
     font-size: 8.6vw;
     line-height: 1.45;
     margin-bottom: 1.875vw;
   }
+
   .mv-common .mv-tlt p {
     font-size: max(2.5vw, 18px);
   }
@@ -1690,6 +1815,7 @@ footer {
   padding: 40px 0;
   background: url("../img/top/mv_bg.png") no-repeat center / cover;
 }
+
 .banner-sim .banner-text {
   display: flex;
   justify-content: center;
@@ -1698,12 +1824,14 @@ footer {
   margin-bottom: 32px;
   line-height: 1;
 }
-.banner-sim .banner-text .banner-title{
+
+.banner-sim .banner-text .banner-title {
   color: #fff;
   font-size: 32px;
   font-weight: bold;
 }
-.banner-sim .banner-text .banner-subtitle{
+
+.banner-sim .banner-text .banner-subtitle {
   color: #fff;
   font-size: 24px;
 }
@@ -1721,12 +1849,14 @@ footer {
   right: 60px;
   width: 218px;
 }
+
 @media screen and (max-width: 1024px) {
   .banner-sim {
     height: 50vw;
     padding: 2.8vw 25px;
     background: url("../img/top/mv_bg_top_sp.png") no-repeat center / cover;
   }
+
   .banner-sim::after {
     content: "";
     position: absolute;
@@ -1737,6 +1867,7 @@ footer {
     height: 29vw;
     background: url("../img/top/mv_bg_sp.png") no-repeat center / cover;
   }
+
   .banner-sim .banner-text {
     flex-direction: column;
     align-items: flex-start;
@@ -1746,14 +1877,16 @@ footer {
     z-index: 2;
     line-height: 1.375;
   }
-  .banner-sim .banner-text .banner-title{
+
+  .banner-sim .banner-text .banner-title {
     font-size: 5.58vw;
     margin-bottom: 5px;
   }
-  .banner-sim .banner-text .banner-subtitle{
+
+  .banner-sim .banner-text .banner-subtitle {
     font-size: 3.72vw;
   }
-  
+
   .banner-sim .banner-btn-group {
     gap: 16px;
     position: relative;
@@ -1765,7 +1898,7 @@ footer {
     height: 11.62vw;
     font-size: 3.72vw;
   }
-  
+
   .banner-sim .banner-person {
     width: 31.78vw;
     right: 4.11vw;
@@ -1780,6 +1913,7 @@ footer {
   align-items: center;
   padding: 32px 48px;
 }
+
 .breadcrumb-item {
   font-size: 14px;
   line-height: 28px;
@@ -1795,6 +1929,7 @@ footer {
 .breadcrumb-item+.breadcrumb-item {
   padding-left: 8px;
 }
+
 .breadcrumb-item+.breadcrumb-item::before {
   float: left;
   padding-right: 8px;
@@ -1806,6 +1941,7 @@ footer {
   .breadcrumb {
     padding: 15px 25px;
   }
+
   .breadcrumb-item {
     font-size: 12px;
     line-height: 20px;
@@ -1814,5 +1950,18 @@ footer {
   .breadcrumb-item a {
     font-size: 12px;
     line-height: 20px;
+  }
+}
+
+/* max-width: 414px ここまで */
+@media screen and (max-width: 414px) {
+  .banner-text .banner-title.en {
+    font-size: 18px;
+  }
+  .banner-person.en {
+    width: 31.78vw;
+    right: 0.11vw;
+    top: -5.8vw;
+    bottom: unset;
   }
 }

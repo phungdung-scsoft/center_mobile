@@ -11,7 +11,7 @@
         <div class="nav-trigger">Service</div>
         <div class="nav-child-list">
           <a href="#" class="nav-child">
-          low-cost SIM
+            low-cost SIM
           </a>
           <a href="https://wimax.plaio.jp/" target="_blank" class="nav-child">
             PLAIO WiMAX
@@ -29,11 +29,11 @@
         <div class="nav-trigger">Company Information</div>
         <div class="nav-child-list">
           <a href="#" class="nav-child">
-          Greetings from the President
+            Greetings from the President
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
           </a>
           <a href="<?php echo esc_url(home_url('/')); ?>en/company/" class="nav-child">
-          About Us
+            About Us
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
           </a>
           <?php /*
@@ -52,7 +52,7 @@
         <div class="nav-trigger">News</div>
         <div class="nav-child-list">
           <a href="<?php echo esc_url(home_url('/')); ?>en/media-archive/" class="nav-child">
-          Announcement
+            Announcement
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
           </a>
           <?php /*
@@ -135,10 +135,10 @@
     <div class="gnav">
       <div class="gnav__wrap">
         <div class="nav-item">
-          <div class="nav-trigger">サービス<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_down_icon.svg" alt="arrow"></div>
+          <div class="nav-trigger">Service<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_down_icon.svg" alt="arrow"></div>
           <div class="nav-child-list">
             <a href="#" class="nav-child">
-            low-cost SIM
+              low-cost SIM
             </a>
             <a href="https://wimax.plaio.jp/" target="_blank" class="nav-child">
               PLAIO WiMAX
@@ -156,11 +156,11 @@
           <div class="nav-trigger">Company Information<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_down_icon.svg" alt="arrow"></div>
           <div class="nav-child-list">
             <a href="#" class="nav-child">
-            Greetings from the President
+              Greetings from the President
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             <a href="<?php echo esc_url(home_url('/')); ?>en/company/" class="nav-child">
-            About Us
+              About Us
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             <?php /*
@@ -179,7 +179,7 @@
           <div class="nav-trigger">News<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_down_icon.svg" alt="arrow"></div>
           <div class="nav-child-list">
             <a href="<?php echo esc_url(home_url('/')); ?>en/media-archive/" class="nav-child">
-            Announcement
+              Announcement
               <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/arrow_icon.svg" alt="arrow">
             </a>
             <?php /*
