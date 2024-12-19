@@ -74,7 +74,7 @@
           </tr>
           <tr>
             <th>Capital</th>
-            <td>¥30.7 million (including capital reserve)</td>
+            <td>¥30.7 million (including additional paid-in capital)</td>
           </tr>
           <tr>
             <th>Head Office</th>
