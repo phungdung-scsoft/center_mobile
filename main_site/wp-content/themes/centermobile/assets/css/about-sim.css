@@ -1006,7 +1006,9 @@ h2::before, h3::before, h4::before, h5::before, h6::before {
   .plan-price-list {
     height: 36vw;
   }
-
+  .charge-message {
+    max-width: 24.5vw;
+  }
   .charge-message::after {
     background-image: url("data:image/svg+xml,%3Csvg width='7' height='9' viewBox='0 0 18 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18 10.5L0.749999 20.4593L0.75 0.540707L18 10.5Z' fill='%23F9D2E3'/%3E%3C/svg%3E%0A");
   }

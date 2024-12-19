@@ -18,9 +18,9 @@
   <div class="page-company">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/">ホーム</a></li>
-        <li class="breadcrumb-item"><a href="/company">会社情報</a></li>
-        <li class="breadcrumb-item active" aria-current="page">会社概要</li>
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/company">Company Information</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Corporate Profile</li>
       </ol>
     </nav>
     <div class="mv-common">

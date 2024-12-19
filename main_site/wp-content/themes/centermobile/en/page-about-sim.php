@@ -18,9 +18,9 @@
   <div class="page-about-sim">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/">ホーム</a></li>
-        <li class="breadcrumb-item"><a href="/company">会社情報</a></li>
-        <li class="breadcrumb-item active" aria-current="page">格安SIMについて</li>
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/company">Company Information</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Budget mobile plan</li>
       </ol>
     </nav>
     <div class="mv-common">
@@ -308,7 +308,7 @@
           Get points for free registration and download ads 
         </div>
         <div class="charge-row charge-row3">
-          <div class="charge-message">Download or register &nbsp;<br>as a member </div>
+          <div class="charge-message">Download or register &nbsp;<br class="pc">as a member </div>
           <div class="charge-img img-wrap">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/company/img_charge6.png" alt="">
           </div>
@@ -345,7 +345,7 @@
               </picture>
             </h4>
             <div class="txtArea">
-              <h5>Member-exclusive app <br class="sp"><?= $GLOBALS['gl_service']; ?></h5>
+              <h5>Member-exclusive app <?= $GLOBALS['gl_service']; ?></h5>
               <p>■Earn points by watching ads and save on your mobile charges.</p>
               <p>■You can check your monthly usage fees, data balance (gigabytes), and use your points all from the app.</p>
               <div class="ap">
