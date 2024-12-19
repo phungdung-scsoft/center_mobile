@@ -41,9 +41,9 @@
         In addition to the current system of "making it fun to lower your mobile bill whenever you want"
       </p>
       <p class="introduce-desc note">
-        ・Create an environment where you can passively watch video ads without actively going to watch videos<br>
-        ・Create a system where you can receive useful ads that match your interests<br>
-        ・Create a system where you can earn more points
+        ・Create an environment where users can passively watch video advertisements without actively going to watch them themselves.<br>
+        ・Create a mechanism to deliver useful advertisements that better match the user's interests.<br>
+        ・Create a system that allows users to earn more points.
       </p>
       <p class="introduce-desc">We aim to create a system that allows users to lower their cell phone bills to free of charge simply by using their phones as usual every day.
         We will continue to work hard to help stimulate consumption, savings, and investment by reducing cell phone bills to zero yen, which many people spend tens of thousands of yen a year on a daily basis.
@@ -90,7 +90,7 @@
           </div>
           <h4 class="philo-text">
             <span>3</span>
-            <p>Expanding the possibilities of social infrastructure<br class="pc">and creating new value through forward-looking services</p>
+            <p>Expanding the possibilities of social infrastructure and creating new value through forward-looking services</p>
           </h4>
         </div>
       </div>

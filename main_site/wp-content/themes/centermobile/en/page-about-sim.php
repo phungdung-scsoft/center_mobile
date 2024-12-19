@@ -38,8 +38,8 @@
         <p>A new system that allows you to lower your mobile phone bill by yourself.</p>
       </div>
       <p class="introduce-desc">
-        If you can use many services like smartphone games and apps for free, you should be able to make your monthly mobile bill free.
-        With this idea in mind, we created a service that allows users to lower their own mobile bill through advertising revenue.
+        If many services, such as TV and Internet, are available for free, then it should be possible to make monthly cell phone charges free as well! 
+        With this idea in mind, we devised a service that allows users to lower their own bills through advertising revenue.
       </p>
     </div>
     <div class="banner-sim">

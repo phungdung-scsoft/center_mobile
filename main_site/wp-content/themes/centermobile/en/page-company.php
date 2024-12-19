@@ -29,20 +29,20 @@
       </div>
       <div class="mv-tlt" id="greeting">
         <h1>Company Profile</h1>
-        <p>代表挨拶</p>
+        <p>Message from the President</p>
       </div>
     </div>
     <div class="main-container">
       <div class="message">
         <div class="message-row">
           <div class="message-content">
-            <p>私たちのビジョンは、携帯電話の料金を無料にすることで、誰もがより自由に、そしてより豊かに好きなことにお金を使える社会を実現することです。通信は現代社会の基盤であり、それを無料化することで、世界中の人々の生活の質を向上させると信じています。<br><br>
-              私たちは新しい仕組みや技術の開発に挑戦し、革新的なスマートフォン端末や通信サービスを提供することで、これを実現します。この取り組みは単なる夢ではなく、私たちが目指す新しいスタンダードです。<br><br>
-              常に先進的な技術と斬新なアイデアで世界をリードし、挑戦し続ける企業でありたいと考えています。この目標に向けて、社員一人ひとりが力を合わせ、皆様と共に明るい未来を築いていけることを心から願っています。<br><br>
-              これからも変わらぬご支援とご期待を賜りますよう、よろしくお願い申し上げます。</p>
+            <p>Our vision is to create a society where everyone can spend their money more freely and richly on what they love by eliminating mobile phone charges. We believe that communication is the foundation of modern society, and by making it free, we can enhance the quality of life for people worldwide.<br><br>
+              We aim to achieve this by striving to develop new systems and technologies, and by providing innovative smartphone devices and communication services. This effort is not just a dream, but a new standard we aim to achieve.<br><br>
+              We aspire to be a company that leads the world with cutting-edge technology and bold ideas, continually pushing boundaries and embracing new challenges. We earnestly hope that every one of our employees will unite their efforts to achieve this goal and work hand in hand with you to build a bright future.<br><br>
+              We sincerely request your continued support and trust.</p>
             <div class="message-name">
-              <span>代表取締役社長</span>
-              <span>浅野 遊</span>
+              <span>For Detailed Clarification</span>
+              <span>Yu Asano</span>
             </div>
           </div>
           <div class="ceo-img img-wrap">
@@ -74,11 +74,11 @@
           </tr>
           <tr>
             <th>Capital</th>
-            <td>¥30.7 million yen (including capital reserve)</td>
+            <td>¥30.7 million (including capital reserve)</td>
           </tr>
           <tr>
             <th>Head Office</th>
-            <td>〒541-0056<br>1-5-31 Kyutaro-cho, Chuo-ku, Osaka<br>Realize Sakaisuji Honmachi Building 507</td>
+            <td>541-0056<br>507, Realize Sakaisuji-Honmachi Building, 1-5-31, Kyutaromachi, Chuo-ku, Osaka-shi, Osaka</td>
           </tr>
           <tr>
             <th>Business Category</th>
@@ -102,8 +102,8 @@
           <tr>
             <th rowspan="2">Advisors</th>
             <td>Odin Co.<br>
-              〒663-8166<br>
-              Koshien Bldg. 5F, 1-25 Koshien-Takashio-cho, Nishinomiya-shi, Hyogo, Japan<br>
+              663-8166<br>
+              Koshien Bldg. 5th floor, 1-25 Koshien-Takashio-cho, Nishinomiya-shi, Hyogo<br>
               Chairman Itsuo Hakozaki<br>
               Former Chief of Police, Thatchiai Police Station, Hyogo Prefecture<br>
               Representative Director Mitsuru Sato<br>
@@ -114,23 +114,20 @@
           <tr>
             <th rowspan="4">Advisor Attorney at Law</th>
             <td>Iwamura, Muramoto & Yamaguchi Law Office<br>
-              〒530-0005<br>
-              2-3-18 Nakanoshima, Kita-ku, Osaka City, Osaka Prefecture<br>
-              Nakanoshima Festival Tower 19th Floor<br>
+              530-0005<br>
+              Nakanoshima Festival Tower, 19th Floor, 2-3-18 Nakanoshima, Kita-ku, Osaka<br>
               Attorney at Law Yosuke Yamaguchi</td>
           </tr>
           <tr>
             <td>Yodoyabashi-Yamagami Godo<br>
-              〒541-0046<br>
-              4-2-3 Hiranomachi, Chuo-ku, Osaka-shi, Osaka<br>
-              Obic Midosuji Building 9F<br>
+              541-0046<br>
+              9th floor, OBIC Midosuji Building, 4-2-3 Hiranomachi, Chuo-ku, Osaka City, Osaka<br>
               Attorney Yasuro Minami</td>
           </tr>
           <tr>
             <td>TMI Sogo Law Office<br>
-              〒106-6123<br>
-              6-10-1 Roppongi, Minato-ku, Tokyo<br>
-              Roppongi Hills Mori Tower 23F<br>
+              106-6123<br>
+              Roppongi Hills Mori Tower 23th floor, 6-10-1 Roppongi, Minato-ku, Tokyo<br>
               Attorney Kozo Abe</td>
           </tr>
         </table>
